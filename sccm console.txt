@@ -1,2 +1,0 @@
-C:\Windows\System32\runas.exe /user:surrey\scs1nj /netonly /noprofile “C:\Program Files (x86)\Mi
-crosoft Configuration Manager\AdminConsole\bin\Microsoft.ConfigurationManagement.exe”
