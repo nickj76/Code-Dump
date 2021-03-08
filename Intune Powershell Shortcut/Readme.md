@@ -1,5 +1,5 @@
 
-Create Desktop shortcuts with Microsoft Intune. [Find a full post and desciption on my blog](https://tech.nicolonsky.ch/intune-create-desktop-shortcut/)
+Create Desktop shortcuts with Microsoft Intune. 
 
 Create and remediate desktop and start menu shortcuts with Microsoft Intune using Win32 app deployment. Because with OneDrive Known Folder Move the Desktop is not stored in the default user profile location we need to resolve it with the ```[Environment]::GetFolderPath("Desktop")``` method.
 
