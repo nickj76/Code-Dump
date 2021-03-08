@@ -1,3 +1,6 @@
+Use this powershell script below to completely uninstall Flash from your computer.
+It runs Adobe Uninstaller and removes all other plug-ins/files that may be lingering even after uninstaller run
+
 How it works
 
 This script:
