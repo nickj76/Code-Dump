@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ToastContent>
-    <ToastTitle>We want to bring to your attention some important information. Please review the details below</ToastTitle>
+    <ToastTitle>We want to bring to your attention some important information. Please review the details below;</ToastTitle>
     <Signature>Sent on behalf of the IT Services</Signature>
     <EventTitle>Using Global Protect VPN</EventTitle>
-    <EventText>In order for your device to operate efficiently please make sure you connect to the university via Global Protect VPN on a weekly basis. For more information Click on Details.</EventText>
+    <EventText>In order for your device to operate efficiently please make sure you connect to the university via the Global Protect VPN on a weekly basis. For more information click on Details.</EventText>
     <ButtonTitle>Details</ButtonTitle>
     <ButtonAction>https://www.surrey.ac.uk/information-university-surrey-staff</ButtonAction>
 	<SnoozeTitle>Snooze</SnoozeTitle>
