@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToastContent>
+    <ToastTitle>We want to bring to your attention some important information. Please review the details below before contacting the Service Desk</ToastTitle>
+    <Signature>Sent on behalf of the IT Services</Signature>
+    <EventTitle>Global Protect VPN</EventTitle>
+    <EventText>In order for your device to operate efficiently please make sure you connect to the university via Global Protect VPN on a weekly basis. Thank you for your patience</EventText>
+    <ButtonTitle>Details</ButtonTitle>
+    <ButtonAction>Instructions on how to connect to the university network via your university provided computer or a personal device can be found here: https://www.surrey.ac.uk/information-university-surrey-staff</ButtonAction>
+	<SnoozeTitle>Snooze</SnoozeTitle>
+</ToastContent>
