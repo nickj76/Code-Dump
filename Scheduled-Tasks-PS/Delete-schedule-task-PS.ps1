@@ -1,0 +1,1 @@
+Unregister-ScheduledTask -TaskName "GP-Reminder" -Confirm:$false
