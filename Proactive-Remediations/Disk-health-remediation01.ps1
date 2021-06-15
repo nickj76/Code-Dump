@@ -30,8 +30,8 @@ $SnoozeTitle = "Snooze"
 $ToastDuration = "long"
 
 #Images
-$BadgeImageUri = "https://github.com/nickj76/Scripts/blob/master/Toast-Notifications/badgeimage.jpg"
-$HeroImageUri = "https://github.com/nickj76/Scripts/blob/master/Toast-Notifications/heroimage.jpg"
+$BadgeImageUri = "https://rawcdn.githack.com/nickj76/Scripts/5ac042ca6c273499a3d99badf0489b22514a07ec/Toast-Notifications/badgeimage.jpg"
+$HeroImageUri = "https://rawcdn.githack.com/nickj76/Scripts/5ac042ca6c273499a3d99badf0489b22514a07ec/Toast-Notifications/heroimage.jpg"
 $BadgeImage = Join-Path $ENV:Windir -ChildPath "Temp\badgeimage.jpg"
 $HeroImage = Join-Path $ENV:Windir -ChildPath "Temp\heroimage.jpg"
 
