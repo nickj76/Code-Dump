@@ -1,26 +1,23 @@
 ﻿<#
 .SYNOPSIS
-    Create a WIndows 10 toast notification for the purpose on checking the wellbeing of remote working employees.
+    Create a WIndows 10 toast notification.
 
 .DESCRIPTION
-    Everything is customisable through config.xml.
-    Config.xml can be locally or set to an UNC path with the -Config parameter.
+    Everything is customisable through custom-message.xml.
+    custom-message.xml can be locally or set to an UNC path with the -Config parameter.
     This way you can quickly modify the configuration without the need to push new files to the computer running the toast.
     
 .PARAMETER Config
     Specify the path for the custom-message.xml. If none is specified, the script uses the local custom-message.xml
 
 .NOTES
-    Filename: New-CoronaToast.ps1
-    Version: 1.0
-    Author: Peter Egerton
-    Twitter: @PeterEgerton
-
-    Inspired by, excerpts and structure taken from Martin Bengtsson's popular toast notification scripts
-    https://www.imab.dk/windows-10-toast-notification-script/
-
+    Filename: Toast.ps1
+    Version: 1.2
+    
     Version history:
 
+    1.1   -   Added links to required images
+    1.0.1 -   Add Synopsis, Description, Paramenter, notes etc
     1.0   -   Script created
 
 .LINK
