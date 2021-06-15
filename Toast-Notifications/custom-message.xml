@@ -9,7 +9,7 @@
 	<Option Name="Scenario" Type="reminder" />	<!-- Possible values are: reminder | short | long -->
 	<Option Name="Action" Value="YOUR URL HERE" />	<!-- Action taken when using the Action button. Can be link to SoftwareCenter if used with UpgradeOS -->
 	<Text Option="GreetGivenName" Enabled="False" />	<!-- Displays the toast with a personal greeting using the users given name retrieved from AD. Will try retrieval from WMI of no local AD -->
-	<Text Name="AttributionText"></Text>
+	<Text Name="AttributionText">IT Services</Text>
 	<Text Name="HeaderText">Low Disk Space Warning!</Text>
 	<Text Name="TitleText">Your computer is running low on disk space.</Text>
 	<Text Name="BodyText1">This is a potential security concern, as we are unable to apply further updates to your computer.</Text>
