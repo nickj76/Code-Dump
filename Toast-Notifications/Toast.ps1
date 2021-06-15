@@ -11,8 +11,15 @@
     Specify the path for the custom-message.xml. If none is specified, the script uses the local custom-message.xml
 
 .NOTES
-    Filename: Toast.ps1
-    Version: 1.5
+    Filename: New-CoronaToast.ps1
+    Version: 1.0
+    Author: Peter Egerton
+    Twitter: @PeterEgerton
+
+    Inspired by, excerpts and structure taken from Martin Bengtsson's popular toast notification scripts
+    https://www.imab.dk/windows-10-toast-notification-script/
+
+    Version history:
 
     1.0   -   Script created
 
@@ -41,7 +48,7 @@ function Write-Log {
         # EDIT with your location for the local log file
         [Parameter(Mandatory=$false)]
         [Alias('LogPath')]
-        [string]$Path="$env:APPDATA\ToastNotificationScript\New-CoronaToast.log",
+        [string]$Path="$env:APPDATA\ToastNotificationScript\Toast.log",
 
         [Parameter(Mandatory=$false)]
         [ValidateSet("Error","Warn","Info")]
@@ -205,8 +212,8 @@ function Test-WindowsPushNotificationsEnabled {
 # Getting executing directory
 $global:ScriptPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 # Setting image variables
-$LogoImage = "file:///$global:ScriptPath/ToastLogoImage.jpg"
-$HeroImage = "file:///$global:ScriptPath/ToastHeroImage.jpg"
+$LogoImage = "file:///c:\Toast\badgeimage.jpg"
+$HeroImage = "file:///c:\Toast\heroimage.jpg"
 $RunningOS = Get-WmiObject -Class Win32_OperatingSystem | Select-Object BuildNumber
 
 # Test if the script is being run on a supported version of Windows. Windows 10 AND workstation OS is required
@@ -220,7 +227,7 @@ if ($SupportedWindowsVersion -eq $False) {
 $WindowsPushNotificationsEnabled = Test-WindowsPushNotificationsEnabled
 
 # If no config file is set as parameter, use the default. 
-# Default is executing directory. In this case, the custom-message.xml must exist in same directory as the Toast.ps1 file
+# Default is executing directory. In this case, the custom-message.xml must exist in same directory as the New-CoronaToast.ps1 file
 if (-NOT($Config)) {
     Write-Log -Message "No config file set as parameter. Using local config file"
     $Config = Join-Path ($global:ScriptPath) "custom-message.xml"

@@ -1,1 +1,0 @@
-Remove-Item -ItemType "file" -Path "c:\logfiles\gp-toast-notification.txt"
