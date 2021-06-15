@@ -4,7 +4,8 @@
     <Option Name="UseSoftwareCenterApp" Enabled="False" />	<!-- The app in Windows doing the action notification - can't be both SoftwareCenter and Powershell -->
 	<Option Name="UsePowershellApp" Enabled="True" />	<!-- The app in Windows doing the action notification - can't be both SoftwareCenter and Powershell -->
 	<Option Name="CustomAudio" Enabled="True" TextToSpeech="Important Information about your computer"/>
-	<Option Name="ActionButton" Enabled="True" Value="OK" />	<!-- Enables or disables the action button. Value is equal to the name displayed on the button -->
+	<Option Name="ActionButton" Enabled="False" Value="Yes OK" />	<!-- Enables or disables the action button. Value is equal to the name displayed on the button -->
+	<Option Name="DismissButton" Enabled="True" Value="Dismiss" />	<!-- Enables or disables the dismiss button. Value is equal to the name displayed on the button -->
 	<Option Name="SnoozeButton" Enabled="True" Value="Snooze" /> <!-- Enabling this option will always enable action button and dismiss button -->
 	<Option Name="Scenario" Type="reminder" />	<!-- Possible values are: reminder | short | long -->
 	<Option Name="Action" Value="YOUR URL HERE" />	<!-- Action taken when using the Action button. Can be link to SoftwareCenter if used with UpgradeOS -->
