@@ -23,7 +23,7 @@ Param
 $ToastTitle = "Please note that your hard drive is currently operating outside of healthy parameters. Please contact the IT service desk to arrange a replacement."
 $Signature = "Monitored by Proactive Remediations"
 $ButtonTitle = "IT Service Desk"
-$ButtonAction = "https://it.surrey.ac.uk/"
+$ButtonAction = "https://it.surrey.ac.uk/contact-us"
 $SnoozeTitle = "Snooze"
 
 #ToastDuration: Short = 7s, Long = 25s
