@@ -24,7 +24,7 @@
 [CmdletBinding()]
 param(
     [Parameter(HelpMessage='Path to XML Configuration File')]
-    [string]$Config = “https://github.com/nickj76/Scripts/blob/4ff40e235cf83f954c56bb7dc4a86f99c2f9ae87/Toast-Notifications/custom-message01.xml"
+    [string]$Config = “https://github.com/nickj76/Scripts/blob/4ff40e235cf83f954c56bb7dc4a86f99c2f9ae87/Toast-Notifications/custom-message.xml"
 )
 
 ######### FUNCTIONS #########
