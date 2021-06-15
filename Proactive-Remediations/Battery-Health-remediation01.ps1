@@ -1,3 +1,20 @@
+<#
+.SYNOPSIS
+    Battery Health remediation Script for Proactive Remediation
+
+.DESCRIPTION
+    Displays a toast notifcation to the user warning of the issue and to contact IT support to arrange a replacement
+    
+.PARAMETER Config
+    none
+
+.NOTES
+    Filename: battery-health-detection.ps1
+    Version: 1.0
+
+    1.0   -   Script created
+
+#>
 function Display-ToastNotification() {
 	$Load = [Windows.UI.Notifications.ToastNotificationManager, Windows.UI.Notifications, ContentType = WindowsRuntime]
 	$Load = [Windows.Data.Xml.Dom.XmlDocument, Windows.Data.Xml.Dom.XmlDocument, ContentType = WindowsRuntime]
@@ -47,8 +64,8 @@ ForEach($BatteryInstance in $BatteryInstances){
     [int]$CurrentHealth = ($BatteryFullCharge/$BatteryDesignSpec) * 100
 
     # Setting image variables
-    $LogoImageUri = "https://github.com/nickj76/Scripts/blob/master/Toast-Notifications/badgeimage.jpg"
-    $HeroImageUri = "https://github.com/nickj76/Scripts/blob/master/Toast-Notifications/heroimage.jpg"
+    $BadgeImageUri = "https://rawcdn.githack.com/nickj76/Scripts/5ac042ca6c273499a3d99badf0489b22514a07ec/Toast-Notifications/badgeimage.jpg"
+    $HeroImageUri = "https://rawcdn.githack.com/nickj76/Scripts/5ac042ca6c273499a3d99badf0489b22514a07ec/Toast-Notifications/heroimage.jpg"
     $LogoImage = "$env:TEMP\badgeimage.jpg"
     $HeroImage = "$env:TEMP\heroimage.jpg"
     $MinHealth = 40
@@ -65,11 +82,11 @@ ForEach($BatteryInstance in $BatteryInstances){
         $Scenario = 'reminder' # <!-- Possible values are: reminder | short | long -->
 
         # Load Toast Notification text
-        $AttributionText = "MSEndpointMgr"
+        $AttributionText = "IT Services"
         $HeaderText = "Battery Replacement Required"
         $TitleText = "Your device battery health is currently operating at $CurrentHealth% of manufacturers specifications."
         $BodyText1 = "It is recommended that your battery is replaced as soon as possible."
-        $BodyText2 = "Please contact IT and request a battery replacement. Thank you in advance."
+        $BodyText2 = "Please contact IT Support and request a battery replacement. Thank you in advance."
 
 
         # Creating registry entries if they don't exists

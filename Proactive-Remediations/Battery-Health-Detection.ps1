@@ -1,3 +1,26 @@
+<#
+.SYNOPSIS
+    Battery Health Detection Script for Proactive Remediation
+
+.DESCRIPTION
+    querying WMI to determine the manufacturer specifications and the current fully charged capacity value for the battery, 
+	then should it fail to reach a predetermined value which you can specify (40% being the recommended value),
+	a notification will be invoked where the battery falls below that value.
+    
+.PARAMETER Config
+    Maximum Acceptable Health Perentage change as required, default 40%
+
+.NOTES
+    Filename: battery-health-detection.ps1
+    Version: 1.2
+    
+        Version history:
+
+    1.1   -   Added links to required images
+    1.0.1 -   Add Synopsis, Description, Paramenter, notes etc
+    1.0   -   Script created
+
+#>
 function CheckBatteryHealth {
 	# Check for presence of battery and check where present
 	If (Get-WmiObject win32_battery) {
