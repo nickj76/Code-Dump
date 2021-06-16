@@ -42,10 +42,10 @@
         <Text Name="DismissButton">Understood!</Text> <!-- Text on the DismissButton if enabled -->
         <Text Name="SnoozeButton">Snooze</Text> <!-- Text on the SnoozeButton if enabled -->
         <Text Name="AttributionText">IT Services</Text>
-        <Text Name="HeaderText">Low Disk Space Warning!</Text>
-        <Text Name="TitleText">Your computer is running low on disk space.</Text>
-        <Text Name="BodyText1">This is a potential security concern, as we are unable to apply further updates to your computer.</Text>
-        <Text Name="BodyText2">Please free up space and reach out to Helpdesk if you require any assistance.</Text>
+        <Text Name="HeaderText">Battery Replacement Required</Text>
+        <Text Name="TitleText">Your computers battery health is currently operating at 40% of manufacturer specifications.</Text>
+        <Text Name="BodyText1">It is recommended that your battery is replaced as soon as possible.</Text>
+        <Text Name="BodyText2">Please contact IT Services as soon as possible to arrange a replacement</Text>
         <Text Name="SnoozeText">Click snooze to be reminded again in:</Text>
         <Text Name="DeadlineText">Your deadline is:</Text>
         <Text Name="GreetMorningText">Good morning</Text>
