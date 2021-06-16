@@ -139,7 +139,7 @@
 [CmdletBinding()]
 param(
     [Parameter(HelpMessage='Path to XML Configuration File')]
-    [string]$Config = 
+    [string]$Config
 )
 
 #region Functions
