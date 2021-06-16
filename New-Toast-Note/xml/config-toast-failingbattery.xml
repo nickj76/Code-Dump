@@ -23,8 +23,8 @@
 	<Option Name="CustomAudio" Enabled="False" />	<!-- Enable or disable a custom speak scenario, where the text will be read out aloud -->
 	<Option Name="LogoImageName" Value="https://rawcdn.githack.com/nickj76/Scripts/5ac042ca6c273499a3d99badf0489b22514a07ec/Toast-Notifications/badgeimage.jpg" />  <!-- File name of the image shown as logo in the toast notoification  -->
 	<Option Name="HeroImageName" Value="https://rawcdn.githack.com/nickj76/Scripts/5ac042ca6c273499a3d99badf0489b22514a07ec/Toast-Notifications/heroimage.jpg" /> <!-- File name of the image shown in the top of the toast notification -->	
-	<Option Name="ActionButton1" Enabled="False" />	<!-- Enables or disables the action button. -->
-	<Option Name="ActionButton2" Enabled="True" />	<!-- Enables or disables the action button. -->
+	<Option Name="ActionButton1" Enabled="True" />	<!-- Enables or disables the action button. -->
+	<Option Name="ActionButton2" Enabled="False" />	<!-- Enables or disables the action button. -->
 	<Option Name="DismissButton" Enabled="True" />	<!-- Enables or disables the dismiss button. -->
 	<Option Name="SnoozeButton" Enabled="False" /> <!-- Enabling this option will always enable action button and dismiss button -->
 	<Option Name="Scenario" Type="reminder" />	<!-- Possible values are: reminder | short | long -->
@@ -37,8 +37,8 @@
         <Text Name="PendingRebootCheckText">Reason: Pending reboots was found in registry or WMI.</Text> <!-- Text used if the PendingRebootUptimeText Option is enabled -->
         <Text Name="ADPasswordExpirationText">Your password will expire on: </Text> <!-- Text used if the ADPasswordExpirationText Option is enabled -->
         <Text Name="CustomAudioTextToSpeech">Hey you - wake up. Your computer needs to restart. Do it now.</Text> <!-- Text to speech used if the CustomAudioTextToSpeech Option is enabled -->
-        <Text Name="ActionButton1">Upgrade now</Text>  <!-- Text on the ActionButton if enabled -->
-		<Text Name="ActionButton2">Contact IT Services</Text>  <!-- Text on the ActionButton if enabled -->
+        <Text Name="ActionButton1">IT Helpdesk</Text>  <!-- Text on the ActionButton if enabled -->
+		<Text Name="ActionButton2">Text</Text>  <!-- Text on the ActionButton if enabled -->
         <Text Name="DismissButton">Understood</Text> <!-- Text on the DismissButton if enabled -->
         <Text Name="SnoozeButton">Snooze</Text> <!-- Text on the SnoozeButton if enabled -->
         <Text Name="AttributionText">IT Services</Text>
