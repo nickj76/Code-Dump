@@ -139,7 +139,7 @@
 [CmdletBinding()]
 param(
     [Parameter(HelpMessage='Path to XML Configuration File')]
-    [string]$Config = "https://rawcdn.githack.com/nickj76/Scripts/ff31ef12fd7abf2d790941b58c56b6bb37e74edd/New-Toast-Note/xml/config-toast-lowdiskspace.xml"
+    [string]$Config = "https://rawcdn.githack.com/nickj76/Scripts/a7594e3f7c490aba938af286a19067d940f76743/New-Toast-Note/xml/config-toast-lowdiskspace.xml"
 )
 
 #region Functions
