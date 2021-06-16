@@ -139,7 +139,7 @@
 [CmdletBinding()]
 param(
     [Parameter(HelpMessage='Path to XML Configuration File')]
-    [string]$Config = "https://rawcdn.githack.com/nickj76/Scripts/7130f6127f507affa1fde3f07d328556c7163344/New-Toast-Note/xml/config-toast-failingbattery.xml"
+    [string]$Config = "https://rawcdn.githack.com/nickj76/Scripts/ff31ef12fd7abf2d790941b58c56b6bb37e74edd/New-Toast-Note/xml/config-toast-failingbattery.xml"
 )
 
 #region Functions
