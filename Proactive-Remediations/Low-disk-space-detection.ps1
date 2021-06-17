@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Low Disk Space Detection Script.
+    Low Disk Space Detection Proactive Remediation Script.
 
 .DESCRIPTION
     Script to detect the amount of free space on the computer.
