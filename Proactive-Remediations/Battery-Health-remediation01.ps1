@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Battery Health remediation Script for Proactive Remediation
+    Battery Health Proactive Remediation Script.
 
 .DESCRIPTION
     Displays a toast notifcation to the user warning of the issue and to contact IT support to arrange a replacement
