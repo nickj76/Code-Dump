@@ -20,8 +20,8 @@
 Try
 {  
 
-    $chromeInstalled = Test-Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe'
-    
+    $chromeInstalled = Test-Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe' 
+
     if ($chromeInstalled -eq 'True') {
         Write-Host "Google Chrome is installed"
         exit 1
