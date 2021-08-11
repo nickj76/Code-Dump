@@ -30,7 +30,7 @@ param(
 
     ## LogFile path for the transcript to be written to
     [Parameter(Mandatory=$false,ValueFromPipelineByPropertyName=$true,Position=1)]
-    $LogFile = ("$env:TEMP\" + (get-date -format "d-MM-yy-HH-mm") + '.log'),
+    $LogFile = ("$env:TEMP\" + (get-date -format "MM-d-yy-HH-mm") + '.log'),
 
     ## All verbose outputs will get logged in the transcript($logFile)
     [Parameter(Mandatory=$false,ValueFromPipelineByPropertyName=$true,Position=2)]
@@ -73,20 +73,21 @@ param(
         Format-Table -AutoSize |
         Out-String
 
-    ## Stop Services so cleaned up can start
+    ## Stops the windows update service so that c:\windows\softwaredistribution can be cleaned up
     Get-Service -Name wuauserv | Stop-Service -Force -ErrorAction SilentlyContinue -WarningAction SilentlyContinue -Verbose
-	Get-Service -Name cryptSvc | Stop-Service -Force -ErrorAction SilentlyContinue -WarningAction SilentlyContinue -Verbose
-	Get-Service -Name bits | Stop-Service -Force -ErrorAction SilentlyContinue -WarningAction SilentlyContinue -Verbose
-	Get-Service -Name msiserver | Stop-Service -Force -ErrorAction SilentlyContinue -WarningAction SilentlyContinue -Verbose
-	
-	## Deletes the contents of windows software distribution folder.
+
+    # Sets the SCCM cache size to 1 GB if it exists.
+    #if ((Get-WmiObject -namespace root\ccm\SoftMgmtAgent -class CacheConfig) -ne "$null"){
+    #    # if data is returned and sccm cache is configured it will shrink the size to 1024MB.
+    #    $cache = Get-WmiObject -namespace root\ccm\SoftMgmtAgent -class CacheConfig
+    #    $Cache.size = 1024 | Out-Null
+    #    $Cache.Put() | Out-Null
+    #    Restart-Service ccmexec -ErrorAction SilentlyContinue -WarningAction SilentlyContinue
+    #}
+
+    ## Deletes the contents of windows software distribution.
     Get-ChildItem "C:\Windows\SoftwareDistribution\*" -Recurse -Force -ErrorAction SilentlyContinue | Remove-Item -recurse -ErrorAction SilentlyContinue -Verbose
     Write-Host "The Contents of Windows SoftwareDistribution have been removed successfully!                      " -NoNewline -ForegroundColor Green
-    Write-Host "[DONE]" -ForegroundColor Green -BackgroundColor Black
-
-    ## Deletes the contents of the Catroot2 folder.
-    Get-ChildItem "C:\Windows\System32\catroot2*" -Recurse -Force -ErrorAction SilentlyContinue | Remove-Item -recurse -ErrorAction SilentlyContinue -Verbose
-    Write-Host "The Contents of catroot2 have been removed successfully!                      " -NoNewline -ForegroundColor Green
     Write-Host "[DONE]" -ForegroundColor Green -BackgroundColor Black
 
     ## Deletes the contents of the Windows Temp folder.
@@ -94,6 +95,7 @@ param(
         Where-Object { ($_.CreationTime -lt $(Get-Date).AddDays( - $DaysToDelete)) } | Remove-Item -force -recurse -ErrorAction SilentlyContinue -Verbose
     Write-host "The Contents of Windows Temp have been removed successfully!                                      " -NoNewline -ForegroundColor Green
     Write-Host "[DONE]" -ForegroundColor Green -BackgroundColor Black
+
 
     ## Deletes all files and folders in user's Temp folder older then $DaysToDelete
     Get-ChildItem "C:\users\*\AppData\Local\Temp\*" -Recurse -Force -ErrorAction SilentlyContinue |
@@ -154,22 +156,6 @@ param(
         remove-item -Path c:\PerfLogs -force -recurse -Verbose -ErrorAction SilentlyContinue
     } else {
         Write-Host "c:\PerfLogs does not exist, there is nothing to cleanup.                                          " -NoNewline -ForegroundColor DarkGray
-        Write-Host "[WARNING]" -ForegroundColor DarkYellow -BackgroundColor Black
-    }
-
-    ## Removes C:\Windows\SoftwareDistribution.old
-    if (test-path C:\Windows\SoftwareDistribution.old){
-        remove-item -Path C:\Windows\SoftwareDistribution.old -force -recurse -Verbose -ErrorAction SilentlyContinue
-    } else {
-        Write-Host "C:\Windows\SoftwareDistribution.old does not exist, there is nothing to cleanup.                                        " -NoNewline -ForegroundColor DarkGray
-        Write-Host "[WARNING]" -ForegroundColor DarkYellow -BackgroundColor Black
-    }
-
-    ## Removes C:\Windows\system32\catroot2.old
-    if (test-path C:\Windows\system32\catroot2.old){
-        remove-item -Path C:\Windows\system32\catroot2.old -force -recurse -Verbose -ErrorAction SilentlyContinue
-    } else {
-        Write-Host "C:\Windows\system32\catroot2.old does not exist, there is nothing to cleanup.                                        " -NoNewline -ForegroundColor DarkGray
         Write-Host "[WARNING]" -ForegroundColor DarkYellow -BackgroundColor Black
     }
 
@@ -249,6 +235,14 @@ param(
         Remove-Item -Path "C:\Users\*\AppData\Local\Microsoft\Windows\IECompatCache\*" -Force -Recurse -Verbose -ErrorAction SilentlyContinue
     } else {
             Write-Host "C:\Users\*\AppData\Local\Microsoft\Windows\IECompatCache\ does not exist.                         " -NoNewline -ForegroundColor DarkGray
+            Write-Host "[WARNING]" -ForegroundColor DarkYellow -BackgroundColor Black
+    }
+
+    ## Cleans up Internet Explorer cache
+    if (Test-Path "C:\Users\*\AppData\Local\Microsoft\Windows\IECompatUaCache\") {
+        Remove-Item -Path "C:\Users\*\AppData\Local\Microsoft\Windows\IECompatUaCache\*" -Force -Recurse -Verbose -ErrorAction SilentlyContinue
+    } else {
+            Write-Host "C:\Users\*\AppData\Local\Microsoft\Windows\IECompatUaCache\ does not exist.                       " -NoNewline -ForegroundColor DarkGray
             Write-Host "[WARNING]" -ForegroundColor DarkYellow -BackgroundColor Black
     }
 
@@ -338,12 +332,9 @@ param(
     @{ Name = "PercentFree" ; Expression = {"{0:P1}" -f ( $_.FreeSpace / $_.Size ) } } |
         Format-Table -AutoSize | Out-String
 
-    ## Restart Services Stopped at start of cleanup
+    ## Restarts wuauserv
     Get-Service -Name wuauserv | Start-Service -ErrorAction SilentlyContinue
-	Get-Service -Name cryptSvc | Start-Service -ErrorAction SilentlyContinue
-	Get-Service -Name bits | Start-Service -ErrorAction SilentlyContinue
-	Get-Service -Name msiserver | Start-Service -ErrorAction SilentlyContinue
-	
+
     ## Stop timer
     $Enders = (Get-Date)
 
