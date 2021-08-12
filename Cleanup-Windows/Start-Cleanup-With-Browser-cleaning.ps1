@@ -415,5 +415,5 @@ Before: $Before"
 Script finished                                                                                   " -NoNewline -ForegroundColor Green
     Write-Host "[DONE]" -ForegroundColor Green -BackgroundColor Black
 
-}
+
 Start-Cleanup
