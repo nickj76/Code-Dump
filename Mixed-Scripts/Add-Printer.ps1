@@ -1,1 +1,2 @@
-Add-Printer -ConnectionName \\surreyprint.surrey.ac.uk\surreyprint
+Add-Printer -ConnectionName \\winprint.surrey.ac.uk\sspdutyoffice
+Add-Printer -ConnectionName \\winprint.surrey.ac.uk\qssp10
