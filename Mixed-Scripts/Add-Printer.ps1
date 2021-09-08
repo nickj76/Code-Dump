@@ -1,0 +1,1 @@
+Add-Printer -ConnectionName \\surreyprint.surrey.ac.uk\surreyprint
