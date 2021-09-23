@@ -24,7 +24,7 @@ If(!(test-path $path))
       New-Item -ItemType Directory -Force -Path $path
 }
 
-New-Item -ItemType "file" -Path "c:\logfiles\SamsungPrintUniDriver.txt"
+New-Item -ItemType "file" -Path "c:\logfiles\SamsungPrintUniDriver99.txt"
 Stop-Transcript
 
 
