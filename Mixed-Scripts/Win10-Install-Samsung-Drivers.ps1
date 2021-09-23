@@ -6,7 +6,7 @@
    Script to add device drivers to the driverstore.
 
 .EXAMPLE
-   PS C:\> .\Win10-Install-WinPrint-Drivers.ps1
+   PS C:\> .\Win10-Install-Samsung-Drivers.ps1
    Save the file to your hard drive with a .PS1 extention and run the file from an elavated PowerShell prompt. 
 
 .FUNCTIONALITY
