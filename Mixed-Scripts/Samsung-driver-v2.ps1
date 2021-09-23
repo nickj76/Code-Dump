@@ -1,3 +1,4 @@
+Start-Transcript -Path c:\temp\SamsungDriver.txt
 &"C:\Program Files\7-Zip\7z.exe" x -oc:\temp\ -y *.7z
 
 Get-ChildItem "C:\temp\printer" -Recurse -Filter "*.inf" | 
@@ -13,3 +14,4 @@ If(!(test-path $path))
 }
 
 New-Item -ItemType "file" -Path "c:\logfiles\SamsungPrintUniDriver.txt"
+Stop-Transcript
