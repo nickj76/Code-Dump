@@ -17,8 +17,11 @@ Start-Transcript -Path c:\temp\WinPrintDrivers.txt
 
 &"C:\Program Files\7-Zip\7z.exe" x -oc:\temp\ -y *.7z
 
-Get-ChildItem "C:\temp\Winprint\" -Recurse -Filter "*.inf" | 
-ForEach-Object { C:\Windows\Sysnative\PNPUtil.exe /add-driver $_.FullName /install /Subdirs }
+C:\Windows\Sysnative\PNPUtil.exe /add-driver "C:\Temp\Winprint\p1\*.inf" /install /Subdirs
+C:\Windows\Sysnative\PNPUtil.exe /add-driver "C:\Temp\Winprint\p2\*.inf" /install /Subdirs
+C:\Windows\Sysnative\PNPUtil.exe /add-driver "C:\Temp\Winprint\p3\*.inf" /install /Subdirs
+
+#pnputil /add-driver C:\temp\winprintdrivers\*.inf /subdirs
 
 # Create Detection Method.
 $path = "C:\logfiles"
