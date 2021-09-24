@@ -1,12 +1,12 @@
 <# 
 .SYNOPSIS
-   Install Script to add the SSP Printer Queues to the local machine.
+   Install Script to add the SSP Admin Office Printer Queue to the local machine.
 
 .DESCRIPTION
-   Add the SSP Printer Queues and make avaliable for use. 
+   Add the SSP Admin Printer Queue and make avaliable for use. 
 
 .EXAMPLE
-   PS C:\> .\SSPPrintQueues.ps1
+   PS C:\> .\Install-SSPAdminOffice.ps1
    Save the file to your hard drive with a .PS1 extention and run the file from an elavated PowerShell prompt.
 
 .FUNCTIONALITY
