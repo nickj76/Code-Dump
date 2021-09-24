@@ -1,3 +1,17 @@
+<# 
+.SYNOPSIS
+   Install Script to add the Surrey Print Driver to Windows.
+
+.DESCRIPTION
+   Add the Samsung Universal Print Driver for SurreyPrint to the Windows Driver store and make avaliable for use. 
+
+.EXAMPLE
+   PS C:\> .\Samsung-UniPrint-Driver.ps1
+   Save the file to your hard drive with a .PS1 extention and run the file from an elavated PowerShell prompt.
+
+.FUNCTIONALITY
+   PowerShell v1+
+#>
 
 Start-Transcript -Path c:\temp\SamsungDriver.txt
 
