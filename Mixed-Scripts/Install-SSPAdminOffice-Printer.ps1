@@ -17,14 +17,8 @@ Start-Transcript -Path c:\temp\SSPAdminOffice.txt
 
 $printServer = "Winprint.surrey.ac.uk"
 $printer = "SSPAdminOffice"
-$printer1 = "SSPDutyOffice"
-$printer2 = "Q_SSP_10"
 
 Invoke-Command -ScriptBlock { rundll32 printui.dll, PrintUIEntry /in /n\\$printServer\$printer }
-
-Invoke-Command -ScriptBlock { rundll32 printui.dll, PrintUIEntry /in /n\\$printServer\$printer1 }
-
-Invoke-Command -ScriptBlock { rundll32 printui.dll, PrintUIEntry /in /n\\$printServer\$printer2 }
 
 # Create Detection Method.
 $path = "C:\logfiles"
