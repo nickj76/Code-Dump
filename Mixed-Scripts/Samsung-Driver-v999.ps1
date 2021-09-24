@@ -14,7 +14,7 @@ Start-Transcript -Path c:\temp\SamsungDriver.txt
 
 #Get-ChildItem "C:\temp\printer" -Recurse -Filter "*.inf" | 
 #ForEach-Object { C:\Windows\System32\PNPUtil.exe /add-driver $_.FullName /install }
-%windir%\Sysnative\pnputil -i -a "C:\temp\Printer"
+C:\Windows\SysWOW64\cmd.exe %windir%\Sysnative\pnputil -i -a "C:\temp\Printer"
 
 add-printerdriver -name 'Samsung Universal Print Driver 2 PCL6'
 
