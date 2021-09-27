@@ -20,11 +20,6 @@ $printer = "SurreyPrint"
 
 Invoke-Command -ScriptBlock { rundll32 printui.dll, PrintUIEntry /in /n\\$printServer\$printer }
 
-## Pause for 45 seconds to allow install to completed.
-Start-Sleep -Seconds 30
-
-Invoke-Command -ScriptBlock { rundll32 printui.dll, PrintUIEntry /in /n\\$printServer\$printer }
-
 # Create Detection Method.
 $path = "C:\logfiles"
 If(!(test-path $path))
