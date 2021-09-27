@@ -1,7 +1,7 @@
 #region Printers to install
 $printers = @(
     [PSCustomObject]@{
-        Printer = "AdminOffice"
+        Printer = "DutyOffice"
         Server = "WinPrint.surrey.ac.uk"
     }
 )
