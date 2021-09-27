@@ -1,7 +1,5 @@
 Start-Transcript -Path c:\temp\SurreyPrint.txt
 
-New-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Printers\PointAndPrint' -Name 'Restricted' -type Dword -value "0"
-
 #region Printers to install
 $printers = @(
     [PSCustomObject]@{
@@ -49,8 +47,6 @@ foreach ($p in $printers) {
     Set-LocalPrinters -server $p.Server -printerName $p.Printer
 }
 #endregion
-
-New-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Printers\PointAndPrint' -Name 'Restricted' -type Dword -value "1"
 
 # Create Detection Method.
 $path = "C:\logfiles"
