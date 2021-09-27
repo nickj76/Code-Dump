@@ -56,5 +56,5 @@ If(!(test-path $path))
       New-Item -ItemType Directory -Force -Path $path
 }
 
-New-Item -ItemType "file" -Path "c:\logfiles\SurreyPrint.txt"
+New-Item -ItemType "file" -Path "c:\logfiles\SSPAdminOfficePrinter.txt"
 Stop-Transcript
