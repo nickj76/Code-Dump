@@ -1,4 +1,3 @@
-
 Start-Transcript -Path c:\temp\SurreyPrint.txt
 
 New-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Printers\PointAndPrint' -Name 'Restricted' -type Dword -value "0"
