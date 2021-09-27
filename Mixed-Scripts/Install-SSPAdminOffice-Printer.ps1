@@ -4,7 +4,7 @@ Start-Transcript -Path c:\temp\SSPAdminOffice.txt
 #region Printers to install
 $printers = @(
     [PSCustomObject]@{
-        Printer = "AdminOffice"
+        Printer = "SSPAdminOffice"
         Server = "WinPrint.surrey.ac.uk"
     }
 )
