@@ -1,3 +1,6 @@
+
+Start-Transcript -Path c:\temp\SSPAdminOffice.txt
+
 #region Printers to install
 $printers = @(
     [PSCustomObject]@{
@@ -45,3 +48,13 @@ foreach ($p in $printers) {
     Set-LocalPrinters -server $p.Server -printerName $p.Printer
 }
 #endregion
+
+# Create Detection Method.
+$path = "C:\logfiles"
+If(!(test-path $path))
+{
+      New-Item -ItemType Directory -Force -Path $path
+}
+
+New-Item -ItemType "file" -Path "c:\logfiles\SurreyPrint.txt"
+Stop-Transcript
