@@ -10,7 +10,7 @@
    Save the file to your hard drive with a .PS1 extention and run the file from an elavated PowerShell prompt.
 
 .FUNCTIONALITY
-   PowerShell v4+
+   PowerShell v1+
 #>
 
 $Path = "HKCU:\Software\Adobe\Adobe Acrobat\DC\AVGeneral\"
