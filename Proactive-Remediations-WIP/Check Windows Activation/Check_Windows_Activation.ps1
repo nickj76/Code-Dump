@@ -1,15 +1,7 @@
-#=============================================================================================================================
-#
-# Script Name:     Check_Windows_Activation.ps1
-# Description:     Detect Windows activated
-# Notes:           
-#                  
-#
-#=============================================================================================================================
 
 Try
 {
-    $LicenseState = Get-CimInstance -ClassName SoftwareLicensingProduct | where {$_.PartialProductKey -and $_.name -like "Windows*"}
+    $LicenseState = Get-CimInstance -ClassName SoftwareLicensingProduct | Where-Object {$_.PartialProductKey -and $_.name -like "Windows*"}
 
     if ($LicenseState.LicenseStatus -eq 1 -or $LicenseState.LicenseStatus -eq 5)
     {
