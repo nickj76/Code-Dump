@@ -1,1 +1,0 @@
-Set-MpPreference -DisableRealtimeMonitoring 0
