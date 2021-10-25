@@ -3,7 +3,7 @@ Try
 {
     $computername = (Get-CimInstance -ClassName Win32_ComputerSystem).Name
 
-    if ($computername -eq "UWS*")
+    if ($computername -like "*UWS*")
     {
         #Exit 0 Machine Name Correct.
         Write-Host "All Ok"            
