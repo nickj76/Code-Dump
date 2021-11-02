@@ -1,0 +1,11 @@
+<site-list version="1">
+  <created-by>
+    <tool>EMIESiteListManager</tool>
+    <version>12.0.0.0</version>
+    <date-created>11/02/2021 08:54:33</date-created>
+  </created-by>
+  <site url="www.bbc.co.uk/news">
+    <compat-mode>Default</compat-mode>
+    <open-in>IE11</open-in>
+  </site>
+</site-list>
