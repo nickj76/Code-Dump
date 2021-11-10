@@ -150,7 +150,7 @@ Process {
 
             # Retrieve the latitude and longitude values
             $GeoCoordinates = Get-GeoCoordinate
-            if (($GeoCoordinates.Latitude -ne $null) -and ($GeoCoordinates.Longitude -ne $null)) {
+            if (($null -ne $GeoCoordinates.Latitude) -and ($null -ne $GeoCoordinates.Longitude)) {
                 Write-LogEntry -Value "Successfully resolved current device coordinates" -Severity 1
                 Write-LogEntry -Value "Detected latitude: $($GeoCoordinates.Latitude)" -Severity 1
                 Write-LogEntry -Value "Detected longitude: $($GeoCoordinates.Longitude)" -Severity 1
@@ -163,7 +163,7 @@ Process {
                     Write-LogEntry -Value "Attempting to determine IANA time zone id from Azure MAPS API using query: $($AzureMapsQuery)" -Severity 1
                     $AzureMapsTimeZoneURI = "https://atlas.microsoft.com/timezone/byCoordinates/json?subscription-key=$($AzureMapsSharedKey)&api-version=1.0&options=all&query=$($AzureMapsQuery)"
                     $AzureMapsTimeZoneResponse = Invoke-RestMethod -Uri $AzureMapsTimeZoneURI -Method "Get" -ErrorAction Stop
-                    if ($AzureMapsTimeZoneResponse -ne $null) {
+                    if ($null -ne $AzureMapsTimeZoneResponse) {
                         $IANATimeZoneValue = $AzureMapsTimeZoneResponse.TimeZones.Id
                         Write-LogEntry -Value "Successfully retrieved IANA time zone id from current position data: $($IANATimeZoneValue)" -Severity 1
 
@@ -172,7 +172,7 @@ Process {
                             Write-LogEntry -Value "Attempting to Azure Maps API to enumerate Windows time zone ids" -Severity 1
                             $AzureMapsWindowsEnumURI = "https://atlas.microsoft.com/timezone/enumWindows/json?subscription-key=$($AzureMapsSharedKey)&api-version=1.0"
                             $AzureMapsWindowsEnumResponse = Invoke-RestMethod -Uri $AzureMapsWindowsEnumURI -Method "Get" -ErrorAction Stop
-                            if ($AzureMapsWindowsEnumResponse -ne $null) {
+                            if ($null -ne $AzureMapsWindowsEnumResponse) {
                                 $TimeZoneID = $AzureMapsWindowsEnumResponse | Where-Object { ($PSItem.IanaIds -like $IANATimeZoneValue) -and ($PSItem.Territory.Length -eq 2) } | Select-Object -ExpandProperty WindowsId
                                 Write-LogEntry -Value "Successfully determined the Windows time zone id: $($TimeZoneID)" -Severity 1
 
