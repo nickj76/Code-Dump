@@ -2,9 +2,9 @@
 param(
   [Parameter(ParameterSetName = 'XMLFile')][String]$ConfigurationXMLFile,
   [Parameter(ParameterSetName = 'NoXML')][ValidateSet('TRUE', 'FALSE')]$AcceptEULA = 'TRUE',
-  [Parameter(ParameterSetName = 'NoXML')][ValidateSet('Broad', 'Targeted', 'Monthly')]$Channel = 'Broad',
+  [Parameter(ParameterSetName = 'NoXML')][ValidateSet('Broad', 'Targeted', 'Monthly', 'MonthlyEnterprise')]$Channel = 'MonthlyEnterprise',
   [Parameter(ParameterSetName = 'NoXML')][Switch]$DisplayInstall = $False,
-  [Parameter(ParameterSetName = 'NoXML')][ValidateSet('Groove', 'Outlook', 'OneNote', 'Access', 'OneDrive', 'Publisher', 'Word', 'Excel', 'PowerPoint', 'Teams', 'Lync')][Array]$ExcludeApps,
+  [Parameter(ParameterSetName = 'NoXML')][ValidateSet('Outlook', 'OneNote', 'Access', 'Publisher', 'Word', 'Excel', 'PowerPoint')][Array]$ExcludeApps,
   [Parameter(ParameterSetName = 'NoXML')][ValidateSet('64', '32')]$OfficeArch = '64',
   [Parameter(ParameterSetName = 'NoXML')][ValidateSet('O365ProPlusRetail', 'O365BusinessRetail')]$OfficeEdition = 'O365ProPlusRetail',
   [Parameter(ParameterSetName = 'NoXML')][ValidateSet(0, 1)]$SharedComputerLicensing = '0',
