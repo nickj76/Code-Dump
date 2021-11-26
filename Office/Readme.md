@@ -1,4 +1,3 @@
-![](https://www.codetriage.com/mallockey/install-office365suite/badges/users.svg)
 # Install-Office365Suite
 
 ## Updates
