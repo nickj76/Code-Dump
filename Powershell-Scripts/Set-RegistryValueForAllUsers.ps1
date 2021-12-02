@@ -7,8 +7,6 @@ function Set-RegistryValueForAllUsers {
         PS> Set-RegistryValueForAllUsers -RegistryInstance @{'Name' = 'Setting'; 'Type' = 'String'; 'Value' = 'someval'; 'Path' = 'SOFTWARE\Microsoft\Windows\Something'}
         PS> .\Set-RegistryValueForAllUsers -RegistryInstance @{'Name' = 'OptionalConnectedExperiencesNoticeVersion'; 'Type' = 'dword'; 'Value' = '00000002'; 'Path' = 'Software\Microsoft\Office\16.0\Common\Privacy\SettingsStore\Anonymous'}
 
-        This example would modify the string registry value 'Type' in the path 'SOFTWARE\Microsoft\Windows\Something' to 'someval'
-        for every user registry hive.
     .PARAMETER RegistryInstance
         A hash table containing key names of 'Name' designating the registry value name, 'Type' to designate the type
         of registry value which can be 'String,Binary,Dword,ExpandString or MultiString', 'Value' which is the value itself of the
