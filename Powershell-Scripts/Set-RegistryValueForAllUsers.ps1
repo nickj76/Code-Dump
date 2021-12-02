@@ -5,7 +5,8 @@ function Set-RegistryValueForAllUsers {
         for all users on a computer. If the key path doesn't exist to the value, it will automatically create the key and add the value.
     .EXAMPLE
         PS> Set-RegistryValueForAllUsers -RegistryInstance @{'Name' = 'Setting'; 'Type' = 'String'; 'Value' = 'someval'; 'Path' = 'SOFTWARE\Microsoft\Windows\Something'}
-    
+        PS> .\Set-RegistryValueForAllUsers -RegistryInstance @{'Name' = 'OptionalConnectedExperiencesNoticeVersion'; 'Type' = 'dword'; 'Value' = '00000002'; 'Path' = 'Software\Microsoft\Office\16.0\Common\Privacy\SettingsStore\Anonymous'}
+
         This example would modify the string registry value 'Type' in the path 'SOFTWARE\Microsoft\Windows\Something' to 'someval'
         for every user registry hive.
     .PARAMETER RegistryInstance
