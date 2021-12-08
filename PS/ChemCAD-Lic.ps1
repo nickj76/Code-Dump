@@ -1,17 +1,9 @@
 <#
 .SYNOPSIS
-    Modify registry for the CURRENT user coming from SYSTEM context
+    Modify the registry for the CURRENT user when coming from SYSTEM context.
  
 .DESCRIPTION
-    Same as above
-.NOTES
-    Filename: Edit-HKCURegistryFromSystem.ps1
-    Version: 1.0
-    Author: Martin Bengtsson
-    Blog: www.imab.dk
-    Twitter: @mwbengtsson
-.LINK
-    https://www.imab.dk/back-to-basics-modifying-registry-for-the-current-user-coming-from-system-context    
+    add ChemCAD 7 License server details to Registry.   
 #> 
 function Get-CurrentUser() {
     try { 
@@ -44,3 +36,12 @@ $userRegistryPath1 = "Registry::HKEY_USERS\$($currentUserSID)\SOFTWARE\Chemstati
 New-Item -Path $userRegistryPath1 -ItemType RegistryKey -Force | Out-Null
 $userRegistryPath2 = "Registry::HKEY_USERS\$($currentUserSID)\SOFTWARE\Chemstations\CHEMCAD 7\Authorization\specified_servers\dongle02.surrey.ac.uk\Superpro"
 New-Item -Path $userRegistryPath2 -ItemType RegistryKey -Force | Out-Null
+
+# Create Detection Method. 
+$path = "C:\logfiles"
+If(!(test-path $path))
+{
+      New-Item -ItemType Directory -Force -Path $path
+}
+
+New-Item -ItemType "file" -Path "c:\logfiles\Chemcad7-Reg.txt"
