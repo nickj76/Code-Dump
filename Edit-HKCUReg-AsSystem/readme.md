@@ -1,0 +1,1 @@
+Edit the registry for the Current User From the system context
