@@ -5,7 +5,7 @@ https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-
 #>
  
 $Prompt = New-Object -comobject wscript.shell
-$Answer = $Prompt.Popup("WARNING: PC will reboot in 60 seconds", 60, "Reboot Required", 4096 + 48 + 1)
+$Answer = $Prompt.Popup("WARNING: The Upgrade to Microsoft 365 Apps for Enterprise is almost finished the PC will reboot in 60 seconds", 60, "Reboot Required", 4096 + 48 + 1)
 
 Switch ($Answer) {
 
