@@ -51,7 +51,7 @@ $ToastImage = "$env:TEMP\ToastHeroImage.jpg"
 $ToastDuration = "long" #ToastDuration: Short = 7s, Long = 25s
 $ToastScenario = "default" #ToastScenario: Default | Reminder | Alarm
 $ToastTitle = "Unsupported App(s) Found"
-$ToastText = "Please upgrade the following applications at your earliest convenience as they pose a security risk to your computer:-"
+$ToastText = "Please upgrade the following applications at your earliest convenience as they pose a security risk to your computer:"
 $SnoozeTitle = "Set Reminder"
 $SnoozeMessage = "Remind me again in"
 $LogFile = Join-Path -Path $env:TEMP -ChildPath "UnsupportAppsFound.log"
