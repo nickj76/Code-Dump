@@ -43,7 +43,7 @@ function Check-FileOpen {
     "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\MS Project\Addins",
     "HKCU:\SOFTWARE\Microsoft\Office\PowerPoint\Addins",
     "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\PowerPoint\Addins"
-    
+
     $test = $searchScopes | ForEach-Object {Get-ChildItem -Path $_ | ForEach-Object {Get-ItemProperty -Path $_.PSPath} | Select-Object @{n="Name";e={Split-Path $_.PSPath -leaf}},FriendlyName,Description} | Sort-Object -Unique -Property name
     
     foreach ($tst in $test){
@@ -51,10 +51,10 @@ function Check-FileOpen {
     }
     
     #write-host $test
-    #while ((Check-FileOpen -Path "C:\nj\test.csv")){
+    #while ((Check-FileOpen -Path "https://azurefiles.blob.core.windows.net/DS/PR5/Add-ins.csv")){
     #Start-Sleep -s 15
     #Write-Host "File in Use"
     #}
     
     #Write-Host "File Not in Use"
-    #$test | export-csv -Path C:\nj\test.csv -NoTypeInformation -Append
+    #$test | export-csv -Path https://azurefiles.blob.core.windows.net/DS/PR5/Add-ins.csv -NoTypeInformation -Append
