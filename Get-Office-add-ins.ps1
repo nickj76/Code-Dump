@@ -29,7 +29,21 @@ function Check-FileOpen {
     }
     }
     
-    $searchScopes = "HKLM:\SOFTWARE\Microsoft\Office\Outlook\Addins","HKCU:\SOFTWARE\Microsoft\Office\Outlook\Addins","HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\Outlook\Addins", "HKLM:\SOFTWARE\Microsoft\Office\Word\Addins","HKCU:\SOFTWARE\Microsoft\Office\Word\Addins", "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\Word\Addins", "HKLM:\SOFTWARE\Microsoft\Office\Excel\Addins","HKCU:\SOFTWARE\Microsoft\Office\Excel\Addins", "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\Excel\Addins", "HKLM:\SOFTWARE\Microsoft\Office\MS Project\Addins", "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\MS Project\Addins", "HKCU:\SOFTWARE\Microsoft\Office\PowerPoint\Addins", "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\PowerPoint\Addins"
+    $searchScopes = 
+    "HKLM:\SOFTWARE\Microsoft\Office\Outlook\Addins",
+    "HKCU:\SOFTWARE\Microsoft\Office\Outlook\Addins",
+    "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\Outlook\Addins",
+    "HKLM:\SOFTWARE\Microsoft\Office\Word\Addins",
+    "HKCU:\SOFTWARE\Microsoft\Office\Word\Addins",
+    "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\Word\Addins",
+    "HKLM:\SOFTWARE\Microsoft\Office\Excel\Addins",
+    "HKCU:\SOFTWARE\Microsoft\Office\Excel\Addins",
+    "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\Excel\Addins",
+    "HKLM:\SOFTWARE\Microsoft\Office\MS Project\Addins",
+    "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\MS Project\Addins",
+    "HKCU:\SOFTWARE\Microsoft\Office\PowerPoint\Addins",
+    "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Office\PowerPoint\Addins"
+    
     $test = $searchScopes | ForEach-Object {Get-ChildItem -Path $_ | ForEach-Object {Get-ItemProperty -Path $_.PSPath} | Select-Object @{n="Name";e={Split-Path $_.PSPath -leaf}},FriendlyName,Description} | Sort-Object -Unique -Property name
     
     foreach ($tst in $test){
