@@ -51,10 +51,10 @@ function Check-FileOpen {
     }
     
     write-host $test
-    while ((Check-FileOpen -Path "\\servername\sharename\Office-Upgrade\Add-ins.csv")){
+    while ((Check-FileOpen -Path "\\surrey.ac.uk\infrastructure\SCCM_DSL\Office-Upgrade\Add-ins.csv")){
     Start-Sleep -s 15
     Write-Host "File in Use"
     }
     
     Write-Host "File Not in Use"
-    $test | export-csv -Path \\servername\sharename\Office-Upgrade\Add-ins.csv -NoTypeInformation -Append
+    $test | export-csv -Path \\surrey.ac.uk\infrastructure\SCCM_DSL\Office-Upgrade\Add-ins.csv -NoTypeInformation -Append
