@@ -7,4 +7,4 @@ If(!(test-path $logfilespath))
       New-Item -ItemType Directory -Force -Path $logfilespath
 }
 
-New-Item -ItemType "file" -Path "c:\logfiles\Quick-Assist-Upgrade.txt"
+New-Item -ItemType "file" -Path "c:\logfiles\Remove-old-quickassist.txt"
