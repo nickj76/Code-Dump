@@ -3,13 +3,13 @@ Try
 {
     if (Test-Path -Path C:\logfiles\365AppsUpgrade-Reboot.txt -PathType Leaf)
     {
-        #Exit 0 for machine licensed.
+        #Exit 0 for 365 Apps installed.
         Write-Host "Installed"            
         exit 0
     }
     else 
     {
-        #Exit 1 for machine not licensed correctly
+        #Exit 1 for 365 Apps not installed
         Write-Host "Not Installed"
         exit 1        
     }
