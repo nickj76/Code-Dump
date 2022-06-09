@@ -1,4 +1,3 @@
-Remove-WindowsCapability -Online -Name 'App.Support.QuickAssist~~~~0.0.1.0' -ErrorAction 'SilentlyContinue'
 Add-AppxProvisionedPackage -online -SkipLicense -PackagePath '.\QuickAssist.AppxBundle'
 
 ## Create Detection Method. 
