@@ -1,4 +1,4 @@
-# Obtain UPN from Email address
+# Obtain UserPrincipalName and other data from email address stored in a CSV
 
 # for each value in the "EmailAddress" Column
 (Import-Csv "C:\Temp\Users.csv").EmailAddress | ForEach-Object {
