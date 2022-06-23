@@ -120,7 +120,7 @@ Try {
 		Show-InstallationWelcome -CloseApps "MSACCESS,EXCEL,INFOPATH,ONENOTEM,GROOVE,ONENOTE,OUTLOOK,POWERPNT,WINPROJ,MSPUB,SPDESIGN,lync,VISIO,WINWORD" -AllowDeferCloseApps -AllowDefer -DeferDays "5" -CloseAppsCountdown "5400" -PersistPrompt -BlockExecution
 
 		## Show Progress Message (with the default message)
-		Show-InstallationProgress -StatusMessage "We are insalling $installTitle. Please wait!" -WindowLocation 'BottomRight' -TopMost $false
+		Show-InstallationProgress -StatusMessage "We are installing $installTitle. Please wait!" -WindowLocation 'BottomRight' -TopMost $false
 
 		## <Perform Pre-Installation tasks here>
 
@@ -164,7 +164,7 @@ Try {
 		[string]$installPhase = 'Pre-Uninstallation'
 
 		## Show Welcome Message, close Internet Explorer with a 60 second countdown before automatically closing
-		Show-InstallationWelcome -CloseApps "MSACCESS,EXCEL,INFOPATH,ONENOTEM,GROOVE,ONENOTE,OUTLOOK,POWERPNT,WINPROJ,MSPUB,SPDESIGN,lync,VISIO,WINWORD" -AllowDeferCloseApps -AllowDefer -DeferDays "1" -CloseAppsCountdown "5400" -PersistPrompt -BlockExecution
+		Show-InstallationWelcome -CloseApps "MSACCESS,EXCEL,INFOPATH,ONENOTEM,GROOVE,ONENOTE,OUTLOOK,POWERPNT,WINPROJ,MSPUB,SPDESIGN,lync,VISIO,WINWORD" -AllowDeferCloseApps -AllowDefer -DeferDays "5" -CloseAppsCountdown "5400" -PersistPrompt -BlockExecution
 
 		## Show Progress Message (with the default message)
 		Show-InstallationProgress -StatusMessage "We are remvoing $installTitle. Please wait." -WindowLocation 'BottomRight' -TopMost $false
