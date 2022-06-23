@@ -117,7 +117,7 @@ Try {
 		[string]$installPhase = 'Pre-Installation'
 
 		## Show Welcome Message, close Internet Explorer if required, allow up to 3 deferrals, verify there is enough disk space to complete the install, and persist the prompt
-		Show-InstallationWelcome -CloseApps "MSACCESS,EXCEL,INFOPATH,ONENOTEM,GROOVE,ONENOTE,OUTLOOK,POWERPNT,WINPROJ,MSPUB,SPDESIGN,lync,VISIO,WINWORD" -AllowDeferCloseApps -AllowDefer -DeferDays "5" -CloseAppsCountdown "5400" -PersistPrompt -BlockExecution
+		Show-InstallationWelcome -CloseApps "MSACCESS,EXCEL,INFOPATH,ONENOTEM,GROOVE,ONENOTE,OUTLOOK,POWERPNT,WINPROJ,MSPUB,SPDESIGN,lync,VISIO,WINWORD" -AllowDeferCloseApps -AllowDefer -DeferDays "3" -CloseAppsCountdown "5400" -PersistPrompt -BlockExecution
 
 		## Show Progress Message (with the default message)
 		Show-InstallationProgress -StatusMessage "We are installing $installTitle. Please wait!" -WindowLocation 'BottomRight' -TopMost $false
