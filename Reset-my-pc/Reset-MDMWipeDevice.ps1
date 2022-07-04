@@ -1,11 +1,11 @@
 # Reset and wipe an Intune managed Windows 10/11 device
 
 # Create a tag file just so Intune knows this was installed (Just for the fun)
-if (-not (Test-Path "$($env:ProgramData)\TheOrangeCat\ResetMDMDevice"))
+if (-not (Test-Path "$($env:ProgramData)\ITServices\ResetMDMDevice"))
 {
-    Mkdir "$($env:ProgramData)\TheOrangeCat\ResetMDMDevice"
+    Mkdir "$($env:ProgramData)\ITServices\ResetMDMDevice"
 }
-Set-Content -Path "$($env:ProgramData)TheOrangeCat\ResetMDMDevice\Reset-MDMWipeDevice.ps1.tag" -Value "Installed"
+Set-Content -Path "$($env:ProgramData)ITServices\ResetMDMDevice\Reset-MDMWipeDevice.ps1.tag" -Value "Installed"
 
 # Show a messagebox where the enduser can accept or decline the reset
 Add-Type -AssemblyName System.Windows.Forms
