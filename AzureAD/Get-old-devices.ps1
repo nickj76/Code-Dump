@@ -3,7 +3,7 @@
     .NOTES
     filename: Manage-Intune-Device-Older-90days.ps1
     Powershell Script to find all computers in Intune and when the last time they were online.
-    If not older used in last 90 days to remove them.
+    If not used in last 90 days to remove them.
     #>
     
 #Sign-in to AzureAD
