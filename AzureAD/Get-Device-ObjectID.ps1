@@ -15,7 +15,7 @@
 
 Connect-AzureAD ## You will be prompted to enter your service account details
 $PathCsv = "C:\temp\UWSA-DeviceList.csv"
-$deviceList = Get-AzureADDevice -All $True -Searchstring "uwsa"| Select-Object @(
+$deviceList = Get-AzureADDevice -All $True -Searchstring "uws6"| Select-Object @(
     'DisplayName'
     'ObjectId'
     'AccountEnabled'
