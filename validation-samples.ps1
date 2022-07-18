@@ -58,6 +58,20 @@ if(($ProgramVersion_current -eq $ProgramVersion_target) -and ($RegContent)){
 }
 
 ######################################################################################################################
+# Program EXE with Product Version
+######################################################################################################################
+
+$version = "28.0.0.0"
+$path = "C:\Program Files\XXXXXXXX\XXXXXXX.exe"
+ 
+$appVersion = (Get-Command $path).FileVersionInfo.ProductVersion
+if ($appVersion.contains($version)) {
+    Write-Host "Found It"
+}
+else {
+}
+
+######################################################################################################################
 # Registry Key
 ######################################################################################################################
 $RegPath = 'HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{SCLOUD00-3E57-3F0B-9332-48A0A5671812}'
