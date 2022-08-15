@@ -1,6 +1,6 @@
 $ColRegUinst = @()
 (Get-Item -Path 'HKLM:\software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall').GetSubKeyNames() |
-%{
+ForEach-Object{
     if ( (Get-Item -Path "HKLM:\software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\$_").GetValue("DisplayName") -ne $null)
     {
         $ObjRegUinst = New-Object System.Object

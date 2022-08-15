@@ -51,7 +51,7 @@ function Check-FileOpen {
     }
     
     write-host $test
-    while ((Check-FileOpen -Path "\\surrey.ac.uk\infrastructure\SCCM_DSL\Office-Upgrade\Add-ins.csv")){
+    while ((Check-FileOpen -Path "\\")){
     Start-Sleep -s 15
     Write-Host "File in Use"
     }
