@@ -1,3 +1,23 @@
+<# 
+.SYNOPSIS
+Disable the following;
+TLS 1.0
+TLS 1.1
+SSL 3.0
+SSL 2.0
+
+Enable the following;
+TLS 1.2   
+TLS 1.3 
+
+.DESCRIPTION
+
+Be warned this may break some older web applications.
+
+.\Secure-TLS.ps1
+#>
+
+
 # Enable TLS 1.2
 New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server' -Force | Out-Null
 New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server' -name 'Enabled' -value '1' -PropertyType 'DWord' -Force | Out-Null
