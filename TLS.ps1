@@ -17,16 +17,16 @@ Set the system to use the strong Crypto for .Net on x86 & x64
 
 # Disable TLS 1.1 (TLS 1.1 Server should be disabled by default in Windows Server 2008 R2, this is here just in case)
 New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server' -name Enabled -value 0 -PropertyType "DWord"
-New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server' -name "DisabledByDefault" -value 0 -PropertyType "DWord"
+New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server' -name "DisabledByDefault" -value 1 -PropertyType "DWord"
 New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client' -name Enabled -value 0 -PropertyType "DWord"
 New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client' -name "DisabledByDefault" -value 1 -PropertyType "DWord"
 Write-Host -ForegroundColor Yellow 'Disabled TLS 1.1 registry keys for client and server SCHANNEL communications'
 
 # Disable TLS 1.0
 New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server' -name Enabled -value 0 -PropertyType "DWord"
-New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server' -name "DisabledByDefault" -value 0 -PropertyType "DWord"
+New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server' -name "DisabledByDefault" -value 1 -PropertyType "DWord"
 New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client' -name Enabled -value 0 -PropertyType "DWord"
-New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client' -name "DisabledByDefault" -value 0 -PropertyType "DWord"
+New-Itemproperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client' -name "DisabledByDefault" -value 1 -PropertyType "DWord"
 Write-Host -ForegroundColor Yellow 'Disabled TLS 1.0 registry keys for client and server SCHANNEL communications'
 
 # Disable SSL 3.0
