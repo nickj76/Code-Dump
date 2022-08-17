@@ -9,6 +9,7 @@ SSL 2.0
 Enable the following;
 TLS 1.2   
 TLS 1.3 
+Set the system to use the strong Crypto for .Net on x86 & x64
 
 .DESCRIPTION
 
