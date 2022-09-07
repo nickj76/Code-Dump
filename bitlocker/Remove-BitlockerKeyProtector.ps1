@@ -10,11 +10,3 @@ If(!(test-path $logfilespath))
 }
 
 New-Item -ItemType "file" -Path "c:\logfiles\Missing-Device.txt"
-
-
-
-
-<# 
-Add-BitLockerKeyProtector -MountPoint c -TpmProtector
-Restart-Computer -Force 
-#>
