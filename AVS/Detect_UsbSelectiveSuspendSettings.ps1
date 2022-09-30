@@ -14,8 +14,7 @@ param()
 
 <#
 Function name: New-LogFile
-Description:
-Creates a new log file for script execution.
+Description: Creates a new log file for script execution.
 #>
 function New-LogFile {
     [CmdletBinding()]
