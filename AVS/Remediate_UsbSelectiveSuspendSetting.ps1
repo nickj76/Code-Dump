@@ -1,3 +1,15 @@
+<#  
+    .SYNOPSIS
+    Proactive remediation remediate script, the status of usb selective suspend to disable.
+    
+    .NOTES
+    filename: Remediate_UsbSelectiveSuspendSetting.ps1
+    
+    Powershell Script to to detect is usb selective suspend is set to disable used as part of a proactive remediation to disable usb selective suspend.
+    
+#>
+
+
 [CmdletBinding()]
 param()
 
