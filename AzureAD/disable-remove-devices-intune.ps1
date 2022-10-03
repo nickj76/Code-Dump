@@ -28,7 +28,7 @@ write-host "Folder already exists"
 
 #Get CSV to Desktop of all Devices not used in 365 Days
 $dt = (Get-Date).AddDays(-365)
-Get-AzureADDevice -All:$true | Where-Object {$_.ApproximateLastLogonTimeStamp -le $dt} | select-object -Property AccountEnabled, DeviceId, DeviceOSType, DeviceOSVersion, DisplayName, DeviceTrustType, ApproximateLastLogonTimestamp | export-csv C:\IntuneFiles\devicelist-olderthan-365days-summary.csv -NoTypeInformation
+Get-AzureADDevice -All:$true | Where-Object {$_.ApproximateLastLogonTimeStamp -le $dt} | select-object -Property AccountEnabled, DeviceId, ObjectId, DeviceOSType, DeviceOSVersion, DisplayName, DeviceTrustType, ApproximateLastLogonTimestamp | export-csv C:\IntuneFiles\devicelist-olderthan-365days-summary.csv -NoTypeInformation
 
 #Disable all Devices not used in 365 Days
 $disyesorno = Read-Host -Prompt "Would you like to disable all devices (Y/N)?"
