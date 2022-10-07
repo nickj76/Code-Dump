@@ -15,6 +15,6 @@ foreach ($path in $paths) {
     }
 }
 
-Write-Host $officeVersion
-
+Write-Output $officeVersion
+Exit 0
 
