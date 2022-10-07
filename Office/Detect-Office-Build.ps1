@@ -15,6 +15,7 @@ foreach ($path in $paths) {
     }
 }
 
-Write-Output $officeVersion
+Write-Output "$officeVersion"
+
 Exit 0
 
