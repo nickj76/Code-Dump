@@ -16,6 +16,4 @@ foreach ($path in $paths) {
 }
 
 # Output the version
-Add-Content -Path C:\NJ\oversion.txt -Value "$env:COMPUTERNAME, $env:USERNAME, $officeversion"
-
-# Write-Output $env:computername $officeVersion
+Add-Content -Path C:\NJ\oversion.txt -Value "$env:COMPUTERNAME, $env:USERNAME, $officeVersion"
