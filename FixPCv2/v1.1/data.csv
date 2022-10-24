@@ -1,0 +1,10 @@
+Section,Method,Command,Arguments,Name,Description
+Clean up my device,powershell_file,.\Scripts_to_run\CleanBrowserCachesv2.ps1,,Delete Common Web Browser Caches,Delete the temp internet files from all common web browser caches
+Clean up my device,powershell_file,.\Scripts_to_run\>SelfX_Device_ClearTMP.ps1,,Delete temporary files,Temporary files will be deleted from the computer.
+Clean up my device,powershell_file,.\Scripts_to_run\SelfX_Device_DeviceSlow.ps1, ,Delete Temp Files & Empty Recycle Bin,Temporary files and recycle bin content will be deleted from the computer.
+Fix Teams Issues,powershell_file,.\Scripts_to_run\SelfX_Teams_Reboot.ps1,,Restart Teams,Restart the teams client
+Fix Teams Issues,powershell_file,.\Scripts_to_run\SelfX_Teams_ResetCache.ps1,,Fix issues with teams,"Solve issues like, teams failing to start, not receiving messages etc"
+Fix Teams Issues,powershell_file,.\Scripts_to_run\SelfX_Outlook_TeamsAddIn.ps1,,"""Teams meeting"" button is missing","Add the Teams meeting button to Outlook, note outlook will close and then open again automatically."
+Fix OneDrive Issues,powershell_file,.\Scripts_to_run\SelfX_OneDrive_Reboot.ps1,,Restart OneDrive,"Solve some issues like, synchronization issues, A red cross is displayed, OneDrive opens and closes"
+Fix OneDrive Issues,powershell_file,.\Scripts_to_run\SelfX_OneDrive_Reset.ps1,,Reset OneDrive,"Solve issues like, OneDrive does not start: error 0x8004def4, Your device is slow: OneDrive uses a lot of memory on your device,"
+Fix OneDrive Issues,powershell_file,.\Scripts_to_run\SelfX_OneDrive_Run.ps1,,Run Onedrive,This action allow you to start your OneDrive client
