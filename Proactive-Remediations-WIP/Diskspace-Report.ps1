@@ -10,9 +10,9 @@
 $Show_Large_Folder_From_Users = $True
 $Show_Large_Folders_From_C = $True
 $Show_Large_Files_From_C = $True
-$Show_OneDrive_Redirection = $True
-$Show_OneDrive_Size = $True
-$Show_Keep_OnDevice_Alert = $True
+$Show_OneDrive_Redirection = $False
+$Show_OneDrive_Size = $False
+$Show_Keep_OnDevice_Alert = $False
 
 # Choose the way to add your logo to the user report
 $Use_a_logo = $True # True or False
