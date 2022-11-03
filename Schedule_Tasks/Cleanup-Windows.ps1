@@ -158,15 +158,15 @@ while (`$true)
 <toast duration="""Long""" scenario="""reminder""">
 	<visual>
 		<binding template="""ToastGeneric""">
-			<text>$($Localization.CleanupTaskNotificationTitle)</text>
+			<text>Clean up temporary files</text>
 			<group>
 				<subgroup>
-					<text hint-style="""title""" hint-wrap="""true""">$($Localization.CleanupTaskNotificationEventTitle)</text>
+					<text hint-style="""title""" hint-wrap="""true""">Run task to clean up Windows unused files and updates?</text>
 				</subgroup>
 			</group>
 			<group>
 				<subgroup>
-					<text hint-style="""body""" hint-wrap="""true""">$($Localization.CleanupTaskNotificationEvent)</text>
+					<text hint-style="""body""" hint-wrap="""true""">The clean up will not take long. Please note that this notification will reappear every 30 days.</text>
 				</subgroup>
 			</group>
 		</binding>
@@ -174,12 +174,12 @@ while (`$true)
 	<audio src="""ms-winsoundevent:notification.default""" />
 	<actions>
 		<input id="""SnoozeTimer""" type="""selection""" title="""$($Localization.CleanupTaskNotificationSnoozeInterval)""" defaultInput="""1""">
-			<selection id="""1""" content="""$($Localization.Minute)""" />
-			<selection id="""30""" content="""$($Localization.HalfHour)""" />
-			<selection id="""240""" content="""$($Localization.FourHours)""" />
+			<selection id="""1""" content="""Snooze for 1 Minte""" />
+			<selection id="""30""" content="""Snooze for 30 Minutes""" />
+			<selection id="""240""" content="""Snooze for 4 Hours""" />
 		</input>
 		<action activationType="""system""" arguments="""snooze""" hint-inputId="""SnoozeTimer""" content="""""" id="""test-snooze"""/>
-		<action arguments="""WindowsCleanup:""" content="""$($Localization.Run)""" activationType="""protocol"""/>
+		<action arguments="""WindowsCleanup:""" content="""Cleanup Now""" activationType="""protocol"""/>
 		<action arguments="""dismiss""" content="""""" activationType="""system"""/>
 	</actions>
 </toast>
