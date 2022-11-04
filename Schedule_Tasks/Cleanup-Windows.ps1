@@ -174,7 +174,7 @@ while (`$true)
 	<audio src="""ms-winsoundevent:notification.default""" />
 	<actions>
 		<input id="""SnoozeTimer""" type="""selection""" title="""$($Localization.CleanupTaskNotificationSnoozeInterval)""" defaultInput="""1""">
-			<selection id="""1""" content="""Snooze for 1 Minte""" />
+			<selection id="""1""" content="""Snooze for 1 Minute""" />
 			<selection id="""30""" content="""Snooze for 30 Minutes""" />
 			<selection id="""240""" content="""Snooze for 4 Hours""" />
 		</input>
