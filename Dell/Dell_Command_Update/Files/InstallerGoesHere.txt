@@ -1,0 +1,1 @@
+Place the Dell Dell-Command-Update-Application_****.EXE installer in this folder. 
