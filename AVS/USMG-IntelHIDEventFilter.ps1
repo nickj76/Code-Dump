@@ -1,0 +1,1 @@
+Set-CimInstance -Query 'SELECT * FROM MSPower_DeviceEnable WHERE InstanceName LIKE "ACPI\\%"' -Namespace root/WMI -Property @{Enable = $false}
