@@ -1,0 +1,12 @@
+Install:
+
+.\ServiceUI.exe -Process:explorer.exe Deploy-Application.exe -DeploymentType install
+
+Uninstall:
+
+.\ServiceUI.exe -Process:explorer.exe Deploy-Application.exe -DeploymentType uninstall
+
+Detection:
+
+custom script
+
