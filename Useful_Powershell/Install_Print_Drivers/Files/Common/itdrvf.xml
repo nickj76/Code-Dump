@@ -1,0 +1,4051 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Features xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="prndrvf.xsd">
+  <Feature ID="UPDPrinterModel" NAME="Printer Model">
+    <Tooltip>Printer Model Tooltip</Tooltip>
+    <Help>Html\Printer Model.htm</Help>
+    <Messages>
+      <Message ID="AddPrinterTitle">Add Printer</Message>
+      <Message ID="AddPrinterText">You have successfully added new printer: %s</Message>
+      <Message ID="ConfirmAddPrinterDuplicationTitle">Printer name is used</Message>
+	  <Message ID="ConfirmAddPrinterDuplicationText">The printer of same name already exists. Do you want to add this printer with different name to printer folder?: %s</Message>
+      <Message ID="DeviceDisconnectedTitle">Printer is not identified</Message>
+	  <Message ID="DeviceDisconnectedText">The printer may not be supported, the cable may not be connected properly, or the power may be turned off. Please check printer status or select printer from Printer Model list manually.</Message>
+    </Messages>
+    <Controls>
+      <Control ID="UPDPrinterModelStatic">Printer Model
+        <Tooltip>Printer Model Tooltip</Tooltip>
+      </Control>
+      <Control ID="UPDPrinterModelCombo">
+        <Tooltip>Printer Model Tooltip</Tooltip>
+      </Control>
+      <Control ID="UPDPrinterModelAutoSelectCheck">Select printer when changing a port
+        <Tooltip>Select printer when changing a port Tooltip</Tooltip>
+      </Control>
+      <Control ID="UPDPrinterModelUpdateButton">Check Now
+        <Tooltip>Check Now Tooltip</Tooltip>
+      </Control>
+	  <Control ID="UPDPrinterModelAddQueueButton">Add Printer
+        <Tooltip>Add Printer Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+  <Feature ID="EcoPrinting" NAME="Eco Options">
+    <Tooltip>EcoPrinting Tooltip</Tooltip>
+    <Help>Html\Eco Printing.htm</Help>
+    <Messages>
+      <Message ID="PasswordDialogMessageTitle">Wrong password</Message>
+      <Message ID="PasswordDialogMessageText">Wrong password format</Message>
+      <Message ID="WrongPasswordDialogMessageTitle">Invalid password</Message>
+      <Message ID="WrongPasswordDialogMessageText">Password is not correct. Please input valid password.</Message>
+      <Message ID="DisabledDueToEcoTypeTooltip">Not available for selected Eco type</Message>
+      <Message ID="PasswordButtonDisabledTooltip">Password is not available for selected Eco type</Message>
+      <Message ID="EcoNupButtonDisabledTooltip">Details are not available for none layout</Message>
+    </Messages>
+    <Controls>
+      <Control ID="EcoPrintingTypesStatic">Type
+        <Tooltip>EcoPrintingTypes Tooltip</Tooltip>
+      </Control>
+      <Control ID="EcoPrintingTypesCombo">Eco
+        <Tooltip>EcoPrintingTypes Combo Tooltip</Tooltip>
+        <Items>
+          <Item ID="None">None</Item>
+          <Item ID="EcoPrinting">Eco Printing</Item>
+          <Item ID="PrinterDefault">Printer Default</Item>
+        </Items>
+      </Control>
+      <Control ID="DuplexCombo">
+        <Tooltip>Duplex Combo Tooltip</Tooltip>
+        <Items>
+          <Item ID="None">None</Item>
+          <Item ID="LongEdgeReverse">Long Edge Reverse</Item>
+          <Item ID="ShortEdgeReverse">Short Edge Reverse</Item>
+        </Items>
+      </Control>
+      <Control ID="NUPCombo">
+        <Tooltip>NUP Combo Tooltip</Tooltip>
+        <Items>
+          <Item ID="None">None</Item>
+        </Items>
+      </Control>
+      <Control ID="NUPButton">Details
+        <Tooltip>NUP Button Tooltip</Tooltip>
+      </Control>
+      <Control ID="ColorModeCombo">
+        <Tooltip>ColorMode Combo Tooltip</Tooltip>
+      </Control>
+      <Control ID="QualityCombo">
+        <Tooltip>Quality Combo Tooltip</Tooltip>
+      </Control>
+      <Control ID="SkipBlanksCombo">
+        <Tooltip>SkipBlanks Combo Tooltip</Tooltip>
+        <Items>
+          <Item ID="On">On</Item>
+          <Item ID="Off">Off</Item>
+        </Items>
+      </Control>
+      <Control ID="TonerSaveCombo">
+        <Tooltip>TonerSave Combo Tooltip</Tooltip>
+        <Items>
+          <Item ID="On">On</Item>
+          <Item ID="Off">Off</Item>
+        </Items>
+      </Control>
+      <Control ID="PrintOptionsDlg">Eco Printing Options</Control>
+      <Control ID="PrintOptionsGroup">Multiple Page per Side</Control>
+      <Control ID="PageBorderStatic">Page Border
+        <Tooltip>Page Border Tooltip</Tooltip>
+      </Control>
+      <Control ID="PageBorderCombo">
+        <Tooltip>Page Border Combo Tooltip</Tooltip>
+      </Control>
+      <Control ID="PageOrderStatic">Page Order
+        <Tooltip>Page Order Tooltip</Tooltip>
+      </Control>
+      <Control ID="PageOrderCombo">
+        <Tooltip>Page Order Combo Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordButton">Password
+        <Tooltip>Password Button Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordDialog">Forced Eco Mode
+      	<Help>Html\Forced Eco Mode.htm</Help>
+      </Control>
+      <Control ID="PasswordDialogGroup">Forced Eco Mode
+        <Tooltip>Forced Eco Mode Tooltip</Tooltip>
+        <Help>Html\Forced Eco Mode.htm</Help>
+      </Control>
+      <Control ID="PasswordDialogStatic">Password
+        <Tooltip>Password Static Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordDialogEdit">
+        <Tooltip>Password Edit Tooltip</Tooltip>
+      </Control>
+      <Control ID="BookletDlg">Eco Printing Options</Control>
+      <Control ID="BookletGroup">Booklet Printing</Control>
+    </Controls>
+  </Feature>
+  <Feature ID="EcoPrintingSimulator" NAME="Result Simulator">
+    <Tooltip>Result Simulator Tooltip</Tooltip>
+    <!--Help>Html\Eco Printing Simulator.htm</Help-->
+    <Controls>
+    	<Control ID="UptoStatic">up to
+        <!--Tooltip>Paper Tooltip</Tooltip-->
+      </Control>
+      <Control ID="CoStatic">CO2
+        <!--Tooltip>CO2 Tooltip</Tooltip-->
+      </Control>
+      <Control ID="EnergyStatic">Energy
+        <!--Tooltip>Energy Tooltip</Tooltip-->
+      </Control>
+      <Control ID="PaperStatic">Paper
+        <!--Tooltip>Paper Tooltip</Tooltip-->
+      </Control>
+	  <Control ID="Footnote">*This simulator only provides estimates.
+        <!--Tooltip>Footnote Tooltip</Tooltip-->
+      </Control>
+    </Controls>
+  </Feature>
+  <Feature ID="EcoPrintingConfirm" NAME="NotifyMe">
+    <Tooltip>NotifyMe Tooltip</Tooltip>
+    <Help>Html\Eco Printing.htm</Help>    
+    <Items>
+    	<Item ID="On">On</Item>
+    	<Item ID="Off">Off</Item>
+    </Items>    		
+    <Controls>
+      <Control ID="EcoPrintingConfirmStatic">NotifyMe
+        <Tooltip>NotifyMe</Tooltip>
+      </Control>
+      <Control ID="EcoPrintingConfirmCombo">
+        <Tooltip>NotifyMe</Tooltip>
+      </Control>      
+    </Controls>
+  </Feature>
+	<Feature ID="OptionalTray" NAME="Optional Tray">
+		<Help>Html\Printer Configuration.htm</Help>
+		<Tooltip>Optional Tray Tooltip</Tooltip>
+		<Controls>
+			<Control ID="OptionalTrayCombo">
+				<Tooltip>Optional Tray Combo Tooltip</Tooltip>
+			</Control>
+			<Control ID="OptionalTrayStatic">Optional Tray
+				<Tooltip>Optional Tray Tooltip</Tooltip>
+			</Control>
+			<Control ID="Tray2Static">Tray 2
+				<Tooltip>Tray2 Tooltip</Tooltip>
+			</Control>
+			<Control ID="Tray2Combo">
+				<Tooltip>Tray2 Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="StandartCapacity">Standart Capacity (300 sheets)</Item>
+					<Item ID="HighCapacity">High Capacity (1500 sheets)</Item>
+				</Items>
+			</Control>
+			<Control ID="Tray3Static">Tray 3
+				<Tooltip>Tray3 Tooltip</Tooltip>
+			</Control>
+			<Control ID="Tray3Combo">
+				<Tooltip>Tray3 Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="StandartCapacity">Standart Capacity (300 sheets)</Item>
+					<Item ID="HighCapacity">High Capacity (1500 sheets)</Item>
+				</Items>
+			</Control>
+			<Control ID="Tray4Static">Tray 4
+				<Tooltip>Tray4 Tooltip</Tooltip>
+			</Control>
+			<Control ID="Tray4Combo">
+				<Tooltip>Tray4 Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="StandartCapacity">Standart Capacity (300 sheets)</Item>
+					<Item ID="HighCapacity">High Capacity (1500 sheets)</Item>
+				</Items>
+			</Control>
+			<Control ID="Tray5Static">Tray 5
+				<Tooltip>Tray5 Tooltip</Tooltip>
+			</Control>
+			<Control ID="Tray5Combo">
+				<Tooltip>Tray5 Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="StandartCapacity">Standart Capacity (300 sheets)</Item>
+					<Item ID="HighCapacity">High Capacity (1500 sheets)</Item>
+				</Items>
+			</Control>
+			<Control ID="Tray6Static">Tray 6
+				<Tooltip>Tray6 Tooltip</Tooltip>
+			</Control>
+			<Control ID="Tray6Combo">
+				<Tooltip>Tray6 Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="StandartCapacity">Standart Capacity (300 sheets)</Item>
+					<Item ID="HighCapacity">High Capacity (1500 sheets)</Item>
+				</Items>
+			</Control>
+		</Controls>
+	</Feature>
+  <Feature ID="PreviewManager" NAME="Preview Manager">
+    <Controls>
+      <Control ID="PaperTab">Paper
+      </Control>
+      <Control ID="DeviceTab">Device
+      </Control>
+    </Controls>
+  </Feature>
+	<Feature ID="Finisher" NAME="Finisher">
+		<Help>Html\Printer Configuration.htm</Help>
+		<Tooltip>Finisher Tooltip</Tooltip>
+		<Controls>
+			<Control ID="FinisherStatic">Finisher
+				<Tooltip>Finisher Tooltip</Tooltip>
+			</Control>
+			<Control ID="FinisherCombo">
+				<Tooltip>Finisher Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="MailBox" NAME="MailBox">
+		<Help>Html\Printer Configuration.htm</Help>
+		<Tooltip>MailBox Tooltip</Tooltip>
+		<Controls>
+			<Control ID="MailBoxStatic">MailBox
+				<Tooltip>MailBox Tooltip</Tooltip>
+			</Control>
+			<Control ID="MailBoxCombo">
+				<Tooltip>MailBox Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PrinterMemory" NAME="Printer Memory">
+		<Help>Html\Printer Configuration.htm</Help>
+		<Tooltip>Printer Memory Tooltip</Tooltip>
+		<Controls>
+			<Control ID="PrinterMemoryStatic">Printer Memory
+				<Tooltip>Printer Memory Tooltip</Tooltip>
+			</Control>
+			<Control ID="PrinterMemoryCombo">
+				<Tooltip>Printer Memory Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+
+  <Feature ID="PreviewDevice" NAME="PreviewDevice">
+    <Tooltip>Preview Tooltip</Tooltip>
+    <Messages>
+      <Message ID="PaperDirection">Paper Direction</Message>
+      <Message ID="LongEdge">Long Edge</Message>
+      <Message ID="ShortEdge">Short Edge</Message>
+    </Messages>
+    <Controls>
+      <Control ID="PrinterModel">Printer Model</Control>
+      <Control ID="SummaryLabel">Device Summary</Control>
+    </Controls>
+  </Feature>
+	<Feature ID="OutputBin" NAME="Output Bin">
+		<Help>Html\Output Tray Options.htm</Help>
+		<Tooltip>Output Bin Tooltip</Tooltip>
+		<Controls>
+			<Control ID="OutputBinStatic">Output Bin
+				<Tooltip>Output Bin Tooltip</Tooltip>
+			</Control>
+			<Control ID="OutputBinCombo">
+				<Tooltip>Output Bin Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+
+	<Feature ID="OptionalOutputBin" NAME="Optional Output Bin">
+		<Help>Html\Optional Output Bin.htm</Help>
+		<Tooltip>Optional OutputBin Tooltip</Tooltip>
+		<Controls>
+			<Control ID="OptionalOutputBinStatic">Optional Output Bin
+				<Tooltip>Optional Output Bin Tooltip</Tooltip>
+			</Control>
+			<Control ID="OptionalOutputBinCombo">Optional Output Bin
+				<Tooltip>Optional Output Bin Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="Stapler" NAME="Stapler">
+		<Tooltip>Stapler Tooltip</Tooltip>
+		<Help>Html\Staple Options.htm</Help>
+		<Controls>
+			<Control ID="StaplerStatic">Stapler
+				<Tooltip>Stapler Tooltip</Tooltip>
+			</Control>
+			<Control ID="StaplerCombo">
+				<Tooltip>Stapler Combo Tooltip</Tooltip>
+			</Control>
+			<Control ID="StaplePositionStatic">StaplePosition
+				<Tooltip>StaplePosition Tooltip</Tooltip>
+			</Control>
+			<Control ID="StaplePositionCombo">
+				<Tooltip>StaplePosition Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="Offset" NAME="Request Offset">
+		<Tooltip>Offset Tooltip</Tooltip>
+		<Help>Html\Output Options.htm</Help>
+		<Controls>
+			<Control ID="OffsetStatic">Offset
+				<Tooltip>Offset Tooltip</Tooltip>
+			</Control>
+			<Control ID="OffsetCombo">
+				<Tooltip>Offset Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="MultiBinMode" NAME="MultiBinMode">
+		<Tooltip>MultiBinMode Tooltip</Tooltip>
+		<Help>Html\Output Options.htm</Help>
+		<Controls>
+			<Control ID="MultiBinModeStatic">MultiBinMode
+				<Tooltip>MultiBinMode Tooltip</Tooltip>
+			</Control>
+			<Control ID="MultiBinModeCombo">
+				<Tooltip>MultiBinMode Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="DestinationTray" NAME="Destination">
+		<Tooltip>Destination Tray Tooltip</Tooltip>
+		<Help>Html\Output Options.htm</Help>
+		<Controls>
+			<Control ID="DestinationTrayStatic">Destination
+				<Tooltip>Destination Tray Tooltip</Tooltip>
+			</Control>
+			<Control ID="DestinationTrayCombo">
+				<Tooltip>Destination Tray Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="PrinterDefault">Printer Default</Item>
+					<Item ID="TopTray">Top Tray</Item>
+					<Item ID="SideTray">Side Tray</Item>
+				</Items>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PrintOrder" NAME="Print Order">
+		<Tooltip>Print Order Tooltip</Tooltip>
+		<Help>Html\Output Options.htm</Help>
+		<Controls>
+			<Control ID="PrintOrderStatic">Print Order
+				<Tooltip>Print Order Tooltip</Tooltip>
+			</Control>
+			<Control ID="PrintOrderCombo">
+				<Tooltip>Print Order Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="Normal">Normal</Item>
+					<Item ID="ReverseAllPages">Reverse All Pages</Item>
+					<Item ID="PrintOddPages">Print Odd Pages</Item>
+					<Item ID="PrintEvenPages">Print Even Pages</Item>
+				</Items>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PaperType" NAME="Paper Type">
+		<Tooltip>Paper Type Tooltip</Tooltip>
+		<Help>Html\Paper Options.htm</Help>
+		<Controls>
+			<Control ID="PaperTypeStatic">Type
+				<Tooltip>Type Tooltip</Tooltip>
+			</Control>
+			<Control ID="PaperTypeCombo">
+				<Tooltip>Paper Type Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="EmulationLanguage" NAME="Emulation Language">
+		<Tooltip>Paper Type Tooltip</Tooltip>
+		<Help>Html\Printer Configuration.htm</Help>
+		<Controls>
+			<Control ID="EmulationLanguageStatic">Emulation Language
+				<Tooltip>Emulation Language Tooltip</Tooltip>
+			</Control>
+			<Control ID="EmulationLanguageCombo">
+				<Tooltip>Emulation Language Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="DuplexUnit" NAME="Duplex Unit">
+		<Tooltip>DuplexUnit Tooltip</Tooltip>
+		<Help>Html\Printer Configuration.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="OptionalHDD" NAME="Mass Storage Device">
+		<Tooltip>Mass Storage Device Tooltip</Tooltip>
+		<Help>Html\Printer Configuration.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="RAMDisk" NAME="RAM Disk">
+		<Tooltip>RAMDisk Tooltip</Tooltip>
+		<Help>Html\Printer Configuration.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	
+	<Feature ID="InternalUSBMemory" NAME="Internal USB Memory">
+		<Tooltip>InternalUSBMemory Tooltip</Tooltip>
+		<Help>Html\Printer Configuration.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>		
+	
+	<Feature ID="BannerSheet" NAME="Banner Sheet">
+		<Tooltip>Banner Sheet Tooltip</Tooltip>
+		<Help>Html\Output Options.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+  <Feature ID="DarkenText" NAME="Clear Text">
+		<Tooltip>Clear Text Tooltip</Tooltip>
+		<Help>Html\Clear Text.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+			<Item ID="Normal">Normal</Item>
+			<Item ID="Maximum">Maximum</Item>
+		</Items>
+		<Controls>
+			<Control ID="DarkenTextStatic">Clear Text
+				<Tooltip>Clear Text Tooltip</Tooltip>
+			</Control>
+			<Control ID="DarkenTextCombo">
+				<Tooltip>Clear Text Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PrinterFonts" NAME="Use Printer Fonts">
+		<Tooltip>Use Printer Fonts Tooltip</Tooltip>
+		<Help>Html\TrueType Options.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="JamReprint" NAME="Reprint When Jammed">
+		<Tooltip>Reprint When Jammed Tooltip</Tooltip>
+		<Help>Html\Output Options.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="GrayscaleEnhancement" NAME="Grayscale Enhancement">
+		<Tooltip>Grayscale Enhancement Tooltip</Tooltip>
+		<Help>Html\Grayscale Option.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="Collate" NAME="Collate">
+		<Tooltip>Collate Tooltip</Tooltip>
+		<Help>Html\Collate.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="BlackOnly" NAME="Black Cartridge Only">
+		<Tooltip>Black Only Tooltip</Tooltip>
+		<Help>Html\Black Only.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="HighAltitude" NAME="High Altitude Enhancement">
+		<Tooltip>High Altitude Enhancement Tooltip</Tooltip>
+		<Help>Html\Printer Configuration.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+		<Controls>
+			<Control ID="HighAltitudeStatic">Altitude Adjustment
+				<Tooltip>Altitude Adjustment Tooltip</Tooltip>
+			</Control>
+			<Control ID="HighAltitudeCombo">
+				<Tooltip>Altitude Adjustment Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="AllTextBlack" NAME="All Text Black">
+		<Tooltip>All Text Black Tooltip</Tooltip>
+		<Help>Html\Print All Text Black.htm</Help>
+	</Feature>
+	<Feature ID="CMS01" NAME="Smart CMS01">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\Smart Color.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS02" NAME="Smart CMS02">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\Smart Color.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS03" NAME="Smart CMS03">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS03.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS04" NAME="Smart CMS04">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS04.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS05" NAME="Smart CMS05">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS05.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS06" NAME="Smart CMS06">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS06.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS07" NAME="Smart CMS07">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS07.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS08" NAME="Smart CMS08">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS08.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS09" NAME="Smart CMS09">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS09.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS10" NAME="Smart CMS10">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS10.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS11" NAME="Smart CMS11">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS11.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS12" NAME="Smart CMS12">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS12.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS13" NAME="Smart CMS13">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS13.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS14" NAME="Smart CMS14">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS14.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS15" NAME="Smart CMS15">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS15.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS16" NAME="Smart CMS16">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS16.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS17" NAME="Smart CMS17">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS17.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS18" NAME="Smart CMS18">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS18.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS19" NAME="Smart CMS19">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS19.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS20" NAME="Smart CMS20">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS20.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS21" NAME="Smart CMS21">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS21.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS22" NAME="Smart CMS22">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS22.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS23" NAME="Smart CMS23">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS23.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS24" NAME="Smart CMS24">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS24.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS25" NAME="Smart CMS25">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS25.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS26" NAME="Smart CMS26">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS26.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS27" NAME="Smart CMS27">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS27.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS28" NAME="Smart CMS28">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS28.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS29" NAME="Smart CMS29">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS29.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS30" NAME="Smart CMS30">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS30.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS31" NAME="Smart CMS31">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS31.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS32" NAME="Smart CMS32">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS32.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS33" NAME="Smart CMS33">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS33.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS34" NAME="Smart CMS34">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS34.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS35" NAME="Smart CMS35">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS35.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS36" NAME="Smart CMS36">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS36.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS37" NAME="Smart CMS37">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS37.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS38" NAME="Smart CMS38">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS38.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS39" NAME="Smart CMS39">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS39.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="CMS40" NAME="Smart CMS40">
+		<Tooltip>Smart CMS Tooltip</Tooltip>
+		<Help>Html\CMS40.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="PowerSave" NAME="Power Save">
+		<Tooltip>Power Save Tooltip</Tooltip>
+		<Help>Html\Printer Configuration.htm</Help>
+		<Controls>
+			<Control ID="TimeDelay">Time Delay
+				<Tooltip>Time Delay Tooltip</Tooltip>
+			</Control>
+			<Control ID="TimeDelayCombo">
+				<Tooltip>Time Delay Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PaperSize" NAME="Paper Size">
+		<Tooltip>Paper Size Tooltip</Tooltip>
+		<Help>Html\Paper Options.htm</Help>
+		<Messages>
+            <Message ID="SaveChangesMessage">Save Changes Message</Message>
+            <Message ID="SaveChangesTitle">Save Changes Title</Message>
+            <Message ID="Width">Width</Message>
+            <Message ID="Lenght">Lenght</Message>
+            <Message ID="InchMMBaloonTitle">Baloon Title</Message>
+            <Message ID="InchMMBaloonMessage">Baloon Message</Message>
+            <Message ID="SwitchSizesMessageTitle">Switch Sizes Message Title</Message>
+            <Message ID="SwitchSizesMessageText">Switch Sizes Message Text</Message>
+            <Message ID="DeleteConfirmationMessageTitle">Delete Confirmation</Message>
+            <Message ID="DeleteConfirmationMessageText">Are you sure you want to delete the selected paper?</Message>
+		</Messages>
+		<Controls>
+			<Control ID="SizeStatic">Original Size
+				<Tooltip>Size Tooltip</Tooltip>
+			</Control>
+			<Control ID="PaperTab">Paper</Control>
+			<Control ID="EnvelopeTab">Envelope</Control>
+      <Control ID="DefaultByLocale">Default By Locale</Control>
+			<Control ID="PaperSizeCombo">
+				<Tooltip>PaperCombo Tooltip</Tooltip>
+				<Items>
+					<Item ID="EditItem">Edit...</Item>
+				</Items>
+			</Control>
+			<Control ID="CustomPapers">Custom Page Size
+				<Help>Html\Custom Page Size dialog.htm</Help>
+			</Control>
+          <Control ID="CustomPapersDlg">Custom Paper Size Settings
+            <Help>Html\Custom Page Size dialog.htm</Help>
+          </Control>
+          <Control ID="CustomPaperGroup">Custom Paper List
+            <Help>Html\Custom Pages Names.htm</Help>
+          </Control>
+			<Control ID="CustomPaperList">Custom Paper List
+				<Tooltip>Custom Paper List Tooltip</Tooltip>
+				<Help>Html\Custom Pages Names.htm</Help>
+			</Control>
+			<Control ID="AddButton">Add
+				<Tooltip>Custom Paper Add Tooltip</Tooltip>
+				<Help>Html\Custom Pages Names.htm</Help>
+			</Control>
+			<Control ID="UpdateButton">Update
+				<Tooltip>Custom Paper Update Tooltip</Tooltip>
+				<Help>Html\Custom Pages Names.htm</Help>
+			</Control>
+			<Control ID="DeleteButton">Delete
+				<Tooltip>Custom Paper Delete Tooltip</Tooltip>
+				<Help>Html\Custom Pages Names.htm</Help>
+			</Control>
+			<Control ID="CustomNameGroup">Custom Name
+				<Help>Html\Custom Name.htm</Help>
+			</Control>
+			<Control ID="CustomNameEdit">
+				<Tooltip>Custom Name Edit Tooltip</Tooltip>
+				<Help>Html\Custom Name.htm</Help>
+			</Control>
+			<Control ID="CustomDimensionGroup">Custom Paper Size
+				<Tooltip>Custom Dimension Group Tooltip</Tooltip>
+				<Help>Html\Page Dimensions.htm</Help>
+			</Control>
+			<Control ID="WidthStatic">Width (%s-%s)
+				<Tooltip>Width Tooltip</Tooltip>
+				<Help>Html\Page Dimensions.htm</Help>
+			</Control>
+			<Control ID="WidthInchStatic">Width (%s-%s)
+				<Tooltip>Width Tooltip</Tooltip>
+				<Help>Html\Page Dimensions.htm</Help>
+			</Control>
+			<Control ID="WidthSpin">
+				<Tooltip>Width Spin Tooltip</Tooltip>
+				<Help>Html\Page Dimensions.htm</Help>
+			</Control>
+			<Control ID="HeightStatic">Height (%s-%s)
+				<Tooltip>Height Tooltip</Tooltip>
+				<Help>Html\Page Dimensions.htm</Help>
+			</Control>
+			<Control ID="HeightInchStatic">Height (%s-%s)
+				<Tooltip>Height Tooltip</Tooltip>
+				<Help>Html\Page Dimensions.htm</Help>
+			</Control>
+			<Control ID="HeightSpin">
+				<Tooltip>Height Spin Tooltip</Tooltip>
+				<Help>Html\Page Dimensions.htm</Help>
+			</Control>
+			<Control ID="MmRadio">Millimeters
+				<Tooltip>Millimeters Tooltip</Tooltip>
+				<Help>Html\Page Dimensions.htm</Help>
+			</Control>
+			<Control ID="InchRadio">Inches
+				<Tooltip>Inches Tooltip</Tooltip>
+				<Help>Html\Page Dimensions.htm</Help>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="Orientation" NAME="Orientation">
+		<Tooltip>Orientation Tooltip</Tooltip>
+		<Help>Html\Orientation.htm</Help>
+		<Controls>
+			<Control ID="Portrait">Portrait
+				<Tooltip>Portrait Tooltip</Tooltip>
+			</Control>
+			<Control ID="Landscape">Landscape
+				<Tooltip>Landscape Tooltip</Tooltip>
+			</Control>
+			<Control ID="RotateCheck">Rotate 180 Degrees
+				<Tooltip>Rotate 180 Degrees Tooltip</Tooltip>
+			</Control>
+			<Control ID="Rotate">Rotate
+				<Tooltip>Rotate Tooltip</Tooltip>
+			</Control>
+			<Control ID="RotateCombo">
+				<Tooltip>Rotate Combo Tooltip</Tooltip>
+			</Control>
+			<Control ID="Degrees">Degrees
+				<Tooltip>Degrees Tooltip</Tooltip>
+			</Control>
+			<Control ID="Mirror">Mirror Image
+				<Tooltip>Mirror Image Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PaperSource" NAME="Paper Source">
+		<Tooltip>Paper Source Tooltip</Tooltip>
+		<Help>Html\Paper Options.htm</Help>
+		<Controls>
+			<Control ID="PaperSourceStatic">Source
+				<Tooltip>Source Tooltip</Tooltip>
+			</Control>
+			<Control ID="PaperSourceCombo">
+				<Tooltip>Paper Source Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PreviewLayout" NAME="PreviewLayout">
+		<Tooltip>Preview Tooltip</Tooltip>
+		<Messages>
+			<Message ID="NameExistsMessage">The name already exists, do you want to owerwrite the preset?</Message>
+			<Message ID="NameExistsTitle">Name exists</Message>
+			<Message ID="NameExistsReadOnlyMessage">The name is reserved for default preset, please, input another one.</Message>
+			<Message ID="NameExistsReadOnlyTitle">Name is reserved</Message>
+			<Message ID="DeletePresetMessage">Are you sure you want to delete this preset?</Message>
+			<Message ID="DeletePresetTitle">Delete Preset</Message>
+			<Message ID="NameRequiredMessage">Please, enter a name for this preset.</Message>
+			<Message ID="NameRequiredTitle">Name required</Message>
+			<Message ID="DefaultNameMessage">This name is reserved. Please, enter another name for this preset.</Message>
+			<Message ID="DefaultNameTitle">Another name</Message>
+			<Message ID="IconRequiredMessage">Please, choose an icon for this favorite.</Message>
+			<Message ID="IconRequiredTitle">Icon required</Message>
+            <Message ID="AddPresetButtonDisabledTooltip">Change configuration to enable</Message>
+            <Message ID="UpdatePresetButtonDisabledTooltip">Select preset to update and make some changes to enable</Message>
+            <Message ID="DeletePresetButtonDisabledTooltip">Select preset to delete to enable</Message>
+		</Messages>
+		<Controls>
+			<Control ID="PaperName">
+				<Tooltip>Paper Name Tooltip</Tooltip>
+			</Control>
+			<Control ID="Inch">inch
+				<Tooltip>Inch Tooltip</Tooltip>
+			</Control>
+			<Control ID="Metric">mm
+				<Tooltip>MM Tooltip</Tooltip>
+			</Control>
+			<Control ID="InchDimension">%s x %s inches
+				<Tooltip>Paper dimensions in inches</Tooltip>
+			</Control>
+			<Control ID="MmDimension">%s x %s mm
+				<Tooltip>Paper dimensions in millimeters</Tooltip>
+			</Control>
+			<Control ID="AddButton">Add
+				<Tooltip>Add Tooltip</Tooltip>
+			</Control>
+			<Control ID="SavePresetButton">Save
+				<Tooltip>SaveFavoriteButton Tooltip</Tooltip>
+			</Control>
+			<Control ID="UpdateButton">Update
+				<Tooltip>Update Tooltip</Tooltip>
+			</Control>
+			<Control ID="RenameButton">Rename
+				<Tooltip>Rename Tooltip</Tooltip>
+			</Control>
+			<Control ID="DeleteButton">Delete
+				<Tooltip>Delete Tooltip</Tooltip>
+			</Control>
+			<Control ID="PresetsLabel">Presets
+				<Tooltip>Presets Tooltip</Tooltip>
+			</Control>
+			<Control ID="PresetsCombo">
+				<Tooltip>PresetsCombo Tooltip</Tooltip>
+				<Items>
+					<Item ID="DefaultPreset">Default Preset</Item>
+					<Item ID="UntitledPreset">Untitled</Item>
+				</Items>
+			</Control>
+			<Control ID="PresetsList">Feature List
+				<Tooltip>PresetsList Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PreviewPrinter" NAME="PreviewPrinter">
+		<Tooltip>Preview Tooltip</Tooltip>
+		<Controls>
+			<Control ID="PrinterModel">Printer Model</Control>
+			<Control ID="SummaryLabel">Spec. Summary</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PreviewAdjustment" NAME="PreviewAdjustment">
+		<Tooltip>Preview Tooltip</Tooltip>
+		<Controls>
+			<Control ID="ImportImage">Import Image
+				<Tooltip>ImportImage Tooltip</Tooltip>
+			</Control>
+			<Control ID="DefaultImage">Default Image
+				<Tooltip>DefaultImage Tooltip</Tooltip>
+			</Control>
+			<Control ID="OriginalImage">Original</Control>
+			<Control ID="ModifiedImage">After</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="AdjustmentLevels" NAME="AdjustmentLevels">
+		<Tooltip>AdjustmentLevels Tooltip</Tooltip>
+		<Help>Html\Color Adjust Dialog.htm</Help>
+        <Messages>
+            <Message ID="WrongInputBaloonTitle">Wrong input:</Message>
+            <Message ID="WrongInputBaloonMessage">You have entered unacceptable character</Message>
+        </Messages>
+		<Controls>
+			<Control ID="AutoChckBox">Auto Adjustment
+				<Tooltip>Auto Adjustment Tooltip</Tooltip>
+			</Control>
+			<Control ID="BrightnessLevel">Brightness
+				<Tooltip>Brightness level Tooltip</Tooltip>
+			</Control>
+			<Control ID="ContrastLevel">Contrast
+				<Tooltip>Contrast level Tooltip</Tooltip>
+			</Control>
+			<Control ID="SaturationLevel">Saturation
+				<Tooltip>Saturation level Tooltip</Tooltip>
+			</Control>
+			<Control ID="CyanRedLevel">Cyan-Red
+				<Tooltip>Cyan-Red level Tooltip</Tooltip>
+			</Control>
+			<Control ID="MagentaGreenLevel">Magenta-Green
+				<Tooltip>Magenta-Green level Tooltip</Tooltip>
+			</Control>
+			<Control ID="YellowBlueLevel">Yellow-Blue
+				<Tooltip>Yellow-Blue level Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="AdjustmentColorMatching" NAME="Balance">
+		<Tooltip>Balance Tooltip</Tooltip>
+		<Help>Html\Color Adjust Dialog.htm</Help>
+		<Controls>
+			<Control ID="ICMCombo">
+				<Tooltip>ICMCombo Tooltip</Tooltip>
+				<Items>
+					<Item ID="Perceptual">Perceptual</Item>
+					<Item ID="Saturation">Saturation</Item>
+					<Item ID="Colorimetric">Colorimetric</Item>
+				</Items>
+			</Control>
+			<Control ID="RGBCombo">
+				<Tooltip>RGBCombo Tooltip</Tooltip>
+				<Items>
+					<Item ID="Standard">Standard</Item>
+					<Item ID="Vivid">Vivid</Item>
+					<Item ID="Device">Device</Item>
+					<Item ID="CorporateImaging">Corporate Imaging</Item>
+				</Items>
+			</Control>
+			<Control ID="RGBColorSimulationCombo">
+				<Tooltip>RGBColorSimulationCombo Tooltip</Tooltip>
+			</Control>
+			<Control ID="RGBColorSimStatic">Simulator
+				<Tooltip>Simulator Tooltip</Tooltip>
+			</Control>
+			<Control ID="RegionalCombo">
+				<Tooltip>RegionalCombo Tooltip</Tooltip>
+				<Items>
+					<Item ID="Regional1">Basic</Item>
+					<Item ID="Regional2">American</Item>
+					<Item ID="Regional3">European</Item>
+					<Item ID="Regional4">Oriental</Item>
+				</Items>
+			</Control>
+          <Control ID="MethodByStatic">Method By
+            <Tooltip>Method By Tooltip</Tooltip>
+          </Control>
+          <Control ID="IntentStatic">Intent
+            <Tooltip>Intent Tooltip</Tooltip>
+          </Control>
+          <Control ID="IntentCombo">
+            <Tooltip>Intent Combo Tooltip</Tooltip>
+          </Control>
+      <!-- CMS 2.0 -->
+			<Control ID="DeleteButton">Delete
+				<Tooltip>Delete Button Tooltip</Tooltip>
+			</Control>
+      <!-- CMS 3.0 -->			
+			<Control ID="AddButton">Add
+				<Tooltip>Add Button Tooltip</Tooltip>
+			</Control>
+			<Control ID="ProfileManagementDialogCaption">Profile Management dialog
+			</Control>
+			<Control ID="InstallEasyColorManagerMessage">Install "Easy Color Manager"
+				<!--Tooltip>Install Easy Color Manager message tooltip</Tooltip-->
+			</Control>
+			<Control ID="EasyColorManagerLink">
+				<!--Tooltip>Install Easy Color Manager message tooltip</Tooltip-->
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="BlackOptimizationEx" NAME="Black Optimization">
+		<Tooltip>Black Optimization Tooltip</Tooltip>
+		<Help>Html\Color Adjust Dialog.htm</Help>
+		<Controls>
+			<Control ID="BlackOptimizationExStatic">Black Optimization
+				<Tooltip>Black Optimization Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="Quality" NAME="Quality">
+		<Tooltip>Quality Tooltip</Tooltip>
+		<Help>Html\Resolution.htm</Help>
+		<Controls>
+			<Control ID="GlossyCheck">Glossy Printing (Half Speed)
+				<Tooltip>Glossy Printing (Half Speed) Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PrintDensity" NAME="Darkness">
+		<Tooltip>Print Density Tooltip</Tooltip>
+		<Help>Html\Darkness.htm</Help>
+	</Feature>
+	<Feature ID="ImageMode" NAME="Image Mode">
+		<Tooltip>Image Mode Tooltip</Tooltip>
+		<Help>Html\Image Mode.htm</Help>
+	</Feature>
+	<Feature ID="TrueTypeMode" NAME="True Type Options">
+		<Tooltip>True Type Mode Tooltip</Tooltip>
+		<Help>Html\TrueType Options.htm</Help>
+	</Feature>
+	<Feature ID="TonerSave" NAME="Toner Save">
+		<Tooltip>Toner Save Tooltip</Tooltip>
+		<Help>Html\Toner Save Mode.htm</Help>
+	</Feature>
+  
+	<Feature ID="DriverTonerSave" NAME="Driver Toner Save">
+		<Tooltip>Driver Toner Save Tooltip</Tooltip>
+		<Controls>
+			<Control ID="LeftStatic">No Save
+				<Tooltip>No Save Tooltip</Tooltip>
+			</Control>
+			<Control ID="RightStatic">Maximum Save
+				<Tooltip>Maximum Save Tooltip</Tooltip>
+			</Control>
+			<Control ID="TrackBar">
+				<Tooltip>TrackBar Tooltip</Tooltip>
+			</Control>
+		</Controls>
+		<Help>Html\Toner Save Mode.htm</Help>
+	</Feature>
+  
+	<Feature ID="Duplex" NAME="Double-Sided Printing">
+		<Tooltip>Double-Sided Printing Tooltip</Tooltip>
+		<Help>Html\Double-sided Printing.htm</Help>
+		<Messages>
+			<Message ID="ReverseDisabledTooltip">Reverse is disabled due to current duplex mode</Message>
+		</Messages>
+		<Controls>
+			<Control ID="ReverseDuplex">Reverse Double-Sided Printing
+				<Tooltip>Reverse Double-Sided Printing Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="DuplexManual" NAME="Double-Sided Printing (Manual)">
+		<Tooltip>Double-Sided Printing Tooltip</Tooltip>
+		<Help>Html\Double-sided Printing.htm</Help>
+		<Controls>
+			<Control ID="ReverseDuplex">Reverse Double-Sided Printing
+				<Tooltip>Reverse Double-Sided Printing Tooltip</Tooltip>
+			</Control>
+			<Control ID="PrintingTipDlg">Printing Tip</Control>
+			<Control ID="HeaderStatic">When the printer stops printing, follow these steps to complete your two-sided print job.</Control>
+			<Control ID="PickupStatic">Pick up all pages.</Control>
+			<Control ID="PutAllStatic">Put all pages into the input tray as you can see in the picture.</Control>
+			<Control ID="PressStatic">Press the button to print the other side of all pages.</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="ColorMode" NAME="Color Mode">
+		<Tooltip>Color Mode Tooltip</Tooltip>
+		<Help>Html\Color Mode.htm</Help>
+		<Controls>
+			<Control ID="Color">Color
+				<Tooltip>Color Tooltip</Tooltip>
+			</Control>
+			<Control ID="Grayscale">Grayscale
+				<Tooltip>Grayscale Tooltip</Tooltip>
+			</Control>
+			<Control ID="BlackOptimization">BlackOptimization
+				<Tooltip>BlackOptimization Tooltip</Tooltip>
+				<Items>
+					<Item ID="On">On</Item>
+					<Item ID="Off">Off</Item>
+				</Items>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="GrayscaleAlways" NAME="Grayscale Always">
+    <Tooltip>Grayscale Always Tooltip</Tooltip>
+    <Help>Html\Administrator Options.htm</Help>
+  </Feature>
+  <Feature ID="ApplicationColorMode" NAME="Application Color Mode">
+    <Tooltip>Application Color Mode Tooltip</Tooltip>
+    <Help>Html\Administrator Options.htm</Help>
+  </Feature>
+	<Feature ID="Watermark" NAME="Watermark">
+		<Tooltip>Watermark Tooltip</Tooltip>
+		<Help>Html\Watermark selection.htm</Help>
+		<Messages>
+			<Message ID="SaveChangesMessage">Save Changes Message</Message>
+			<Message ID="SaveChangesTitle">Save Changes Title</Message>
+            <Message ID="AngleBaloonTitle">Baloon Title</Message>
+            <Message ID="AngleBaloonMessage">Baloon Message</Message>
+            <Message ID="SizeBaloonTitle">Baloon Title</Message>
+            <Message ID="SizeBaloonMessage">Baloon Message</Message>
+            <Message ID="DeleteConfirmationMessageTitle">Delete Confirmation</Message>
+            <Message ID="DeleteConfirmationMessageText">Are you sure you want to delete the selected watermark?</Message>
+            <Message ID="UseHeaderFooterNotSet">To enable please check Header/Footer first</Message>
+            <Message ID="WatermarkImageFiles">Watermark Image Files(*.%s)</Message>
+            <Message ID="AngleDisabledTooltipText">This option is not enabled for image watermarks</Message>
+            <Message ID="AddImage">&lt;Image&gt;</Message>
+            <Message ID="NoImageFileSelectedConfirmationMessageTitle">Confirmation</Message>
+            <Message ID="NoImageFileSelectedConfirmationMessageText">Are you sure you want to close?</Message>
+		</Messages>
+		<Controls>
+			<Control ID="WatermarkStatic">Watermark
+				<Tooltip>Watermark Tooltip</Tooltip>
+			</Control>
+			<Control ID="WatermarkCombo">
+				<Tooltip>Watermark Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="None">None</Item>
+					<Item ID="Edit">Edit...</Item>
+				</Items>
+			</Control>
+			<Control ID="WatermarkImageEditbox">
+				<Tooltip>Watermark Image Edit Tooltip</Tooltip>
+        <Help>Html\Watermark Message.htm</Help>
+			</Control>
+			<Control ID="CurrentWMGroup">Current Watermarks
+				<Tooltip>Current Watermarks Group Tooltip</Tooltip>
+				<Help>Html\Current Watermarks.htm</Help>
+			</Control>
+			<Control ID="CurrentWMListBox">(No Watermark)
+				<Tooltip>Current Watermarks ListBox Tooltip</Tooltip>
+				<Help>Html\Current Watermarks.htm</Help>
+			</Control>
+			<Control ID="CurrentWMAddBtn">Add
+				<Tooltip>Add Button Tooltip</Tooltip>
+				<Help>Html\Current Watermarks.htm</Help>
+			</Control>
+			<Control ID="CurrentWMUpdateBtn">Update
+				<Tooltip>Update Button Tooltip</Tooltip>
+				<Help>Html\Current Watermarks.htm</Help>
+			</Control>
+			<Control ID="CurrentWMDeleteBtn">Delete
+				<Tooltip>Delete Button Tooltip</Tooltip>
+				<Help>Html\Current Watermarks.htm</Help>
+			</Control>
+			<Control ID="WMMessageGroup">Watermark Message
+				<Tooltip>Watermark Message Group Tooltip</Tooltip>
+				<Help>Html\Watermark Message.htm</Help>
+			</Control>
+			<Control ID="WMMessageEdit">
+				<Tooltip>Watermark Message Edit Tooltip</Tooltip>
+				<Help>Html\Watermark Message.htm</Help>
+			</Control>
+			<Control ID="WMMessageCheckBox">First Page Only
+				<Tooltip>First Page Only Tooltip</Tooltip>
+				<Help>Html\Watermark Message.htm</Help>
+				<Items>
+					<Item ID="On">On</Item>
+					<Item ID="Off">Off</Item>
+				</Items>
+			</Control>
+			<Control ID="MessageAngleGroup">Message Angle
+				<Tooltip>Message Angle Group Tooltip</Tooltip>
+				<Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="MessageAngleRadio1">Horizontal
+				<Tooltip>Horizontal Tooltip</Tooltip>
+				<Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="MessageAngleRadio2">Vertical
+				<Tooltip>Vertical Tooltip</Tooltip>
+				<Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="MessageAngleRadio3">Angle
+				<Tooltip>Angle Tooltip</Tooltip>
+				<Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="MessageAngleEdit">
+				<Tooltip>Angle Edit Tooltip</Tooltip>
+				<Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="MessageAngleStatic">Degrees
+				<Tooltip>Degrees Tooltip</Tooltip>
+				<Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="FontAttrGroup">Font Attributes
+				<Tooltip>Font Attributes Group Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+			</Control>
+			<Control ID="FontAttrStatic1">Name
+				<Tooltip>Name Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+			</Control>
+			<Control ID="FontAttrStatic2">Style
+				<Tooltip>Style Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+			</Control>
+			<Control ID="FontAttrStatic3">Color
+				<Tooltip>Color Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+			</Control>
+			<Control ID="FontAttrStatic4">Size
+				<Tooltip>Size Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+			</Control>
+			<Control ID="FontAttrStatic5">Shade
+				<Tooltip>Shade Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+			</Control>
+			<Control ID="FontAttrStatic6">(%d - %d)
+				<Tooltip>Size Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+			</Control>
+			<Control ID="FontAttrNameCombo">Font Name
+				<Tooltip>Name Combo Box Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+			</Control>
+			<Control ID="FontAttrStyleCombo">
+				<Tooltip>Style Combo Box Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+				<Items>
+					<Item ID="Regular">Regular</Item>
+					<Item ID="Bold">Bold</Item>
+					<Item ID="Italic">Italic</Item>
+					<Item ID="BoldItalic">Bold Italic</Item>
+				</Items>
+			</Control>
+			<Control ID="FontAttrColorCombo">Color
+				<Tooltip>Color Combo Box Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+				<Items>
+					<Item ID="Gray">Gray</Item>
+					<Item ID="Red">Red</Item>
+					<Item ID="Yellow">Yellow</Item>
+					<Item ID="Green">Green</Item>
+					<Item ID="Cyan">Cyan</Item>
+					<Item ID="Blue">Blue</Item>
+					<Item ID="Magenta">Magenta</Item>
+				</Items>
+			</Control>
+			<Control ID="FontAttrSizeEdit">Font Size
+				<Tooltip>Size Edit Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+			</Control>
+			<Control ID="FontAttrShadeCombo">Font Shade
+				<Tooltip>Shade Combo Box Tooltip</Tooltip>
+				<Help>Html\Font Attributes.htm</Help>
+				<Items>
+					<Item ID="ExtraDark">Extra Dark</Item>
+					<Item ID="Dark">Dark</Item>
+					<Item ID="Medium">Medium</Item>
+					<Item ID="Light">Light</Item>
+					<Item ID="ExtraLight">Extra Light</Item>
+				</Items>
+			</Control>
+			<Control ID="ButtonTopLeft">
+				<Tooltip>ButtonTopLeft Tooltip</Tooltip>
+        <Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="ButtonTop">
+				<Tooltip>ButtonTop Tooltip</Tooltip>
+        <Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="ButtonTopRight">
+				<Tooltip>ButtonTopRight Tooltip</Tooltip>
+        <Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="ButtonLeft">
+				<Tooltip>ButtonLeft Tooltip</Tooltip>
+        <Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="ButtonCenter">
+				<Tooltip>ButtonCenter Tooltip</Tooltip>
+        <Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="ButtonRight">
+				<Tooltip>ButtonRight Tooltip</Tooltip>
+        <Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="ButtonBottomLeft">
+				<Tooltip>ButtonBottomLeft Tooltip</Tooltip>
+        <Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="ButtonBottom">
+				<Tooltip>ButtonBottom Tooltip</Tooltip>
+        <Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="ButtonBottomRight">
+				<Tooltip>ButtonBottomRight Tooltip</Tooltip>
+        <Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="ButtonLoadImage">Load Image
+				<Tooltip>ButtonLoadImage Tooltip</Tooltip>
+        <Help>Html\Message Angle.htm</Help>
+			</Control>
+			<Control ID="MessageAlignmentGroup">Watermark Alignment and Angle
+        <Help>Html\Message Angle.htm</Help>
+      </Control>
+			<Control ID="ImageGroup">Watermark Image
+        <Help>Html\Watermark Message.htm</Help>
+      </Control>
+			<Control ID="ImageAttributesGroup">Image Attributes
+        <Help>Html\Image Attributes.htm</Help>
+      </Control>
+			<Control ID="StaticScaling">Scaling
+			  <Tooltip>Scaling Tooltip</Tooltip>
+        <Help>Html\Image Attributes.htm</Help>
+			</Control>
+			<Control ID="SpinEditScaling">
+			  <Tooltip>Scaling Tooltip</Tooltip>
+        <Help>Html\Image Attributes.htm</Help>
+			</Control>
+			<Control ID="StaticScalingRestriction">(%d-%d%)
+			  <Tooltip>Scaling Tooltip</Tooltip>
+        <Help>Html\Image Attributes.htm</Help>
+			</Control>
+			<Control ID="StaticWatermarkImagePath">Watermark image path
+			  <Tooltip>Watermark Image Path Tooltip</Tooltip>
+        <Help>Html\Watermark Message.htm</Help>
+			</Control>
+			<Control ID="StaticWatermarkName">Watermark name
+			  <Tooltip>Watermark Name Tooltip</Tooltip>
+        <Help>Html\Watermark Message.htm</Help>
+			</Control>
+			<Control ID="EditboxWatermarkName">
+			  <Tooltip>Watermark Name Tooltip</Tooltip>
+        <Help>Html\Watermark Message.htm</Help>
+			</Control>		
+			<Control ID="OK">OK</Control>
+			<Control ID="Cancel">Cancel</Control>
+			<Control ID="Help">Help</Control>
+			<Control ID="WatermarkDlg">Edit Watermarks
+				<Tooltip>Watermark Dialog Tooltip</Tooltip>
+				<Help>Html\Edit Watermarks Dialog.htm</Help>
+			</Control>
+			<Control ID="HeaderFooterCheckbox">Header/Footer
+				<Tooltip>Header/Footer Tooltip</Tooltip>
+        <Help>Html\Header and Footer.htm</Help>
+			</Control>
+			<Control ID="HeaderFooterDetailsButton">Details
+				<Tooltip>Details Tooltip</Tooltip>
+        <Help>Html\Header and Footer.htm</Help>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="LayoutOptions" NAME="LayoutOptions">
+		<Tooltip>LayoutOptions Tooltip</Tooltip>
+		<Help>Html\Type.htm</Help>
+        <Messages>
+          <Message ID="OverlapBaloonTitle">Baloon Title</Message>
+          <Message ID="OverlapBaloonMessage">Baloon Message</Message>
+          <Message ID="ResetAdvancedBookletOptionsMessageTitle">Reset Confirmation</Message>
+          <Message ID="ResetAdvancedBookletOptionsMessageText">Are you sure you want to reset advanced booklet options to the default values?</Message>
+        </Messages>
+		<Controls>
+			<Control ID="TypeStatic">Type
+				<Tooltip>Type Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="TypeCombo">Layout
+				<Tooltip>Type Combo Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+				<Items>
+					<Item ID="SinglePagePerSide">Single Page Per Side</Item>
+					<Item ID="MultiplePagePerSide">Multiple Page Per Side</Item>
+					<Item ID="PosterPrinting">Poster Printing</Item>
+					<Item ID="BookletPrinting">Booklet Printing</Item>
+					<Item ID="PreFormattedBookletPrinting">Pre-Formatted Booklet Printing</Item>
+				</Items>
+			</Control>
+			<Control ID="PagesPSideStatic">Pages per Side
+				<Tooltip>Pages per Side Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="PagesPSideCombo">
+				<Tooltip>Pages per Side Combo Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+				<Items>
+					<Item ID="1">1</Item>
+					<Item ID="2">2</Item>
+					<Item ID="4">4</Item>
+					<Item ID="6">6</Item>
+					<Item ID="9">9</Item>
+					<Item ID="16">16</Item>
+				</Items>
+			</Control>
+			<Control ID="PageOrderStatic">Page Order
+				<Tooltip>Page Order Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="PageOrderCombo">
+				<Tooltip>Page Order Combo Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+				<Items>
+					<Item ID="RightThenDown">Right Then Down</Item>
+					<Item ID="DownThenRight">Down Then Right</Item>
+					<Item ID="LeftThenDown">Left Then Down</Item>
+					<Item ID="DownThenLeft">Down Then Left</Item>
+					<Item ID="LeftThenRight">Left Then Right</Item>
+					<Item ID="RightThenLeft">Right Then Left</Item>
+					<Item ID="Down">Down</Item>
+					<Item ID="Up">Up</Item>
+				</Items>
+			</Control>
+			<Control ID="PrintPageBorderStatic">Page Border
+				<Tooltip>Page Border Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="PrintPageBorderCombo">
+				<Tooltip>Page Border Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="PrintPageBorderCheck">Print Page Border
+				<Tooltip>Print Page Border Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+				<Items>
+					<Item ID="On">On</Item>
+					<Item ID="Off">Off</Item>
+				</Items>
+			</Control>
+			<Control ID="PagesLayoutCombo">Poster Pages Layout
+				<Tooltip>Poster Pages Layout Combo Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+				<Items>
+					<Item ID="Poster2x2">Poster 2x2</Item>
+					<Item ID="Poster3x3">Poster 3x3</Item>
+					<Item ID="Poster4x4">Poster 4x4</Item>
+				</Items>
+			</Control>
+			<Control ID="PagesLayoutStatic">Pages Layout
+				<Tooltip>Pages Layout Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="PosterOverlapStatic">Poster Overlap
+				<Tooltip>Poster Overlap Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+            <Control ID="PosterOverlapLimitMmStatic">(%s-%s mm)
+                <Tooltip>Poster Overlap Mm Limit Static Tooltip</Tooltip>
+            </Control>
+            <Control ID="PosterOverlapLimitInchStatic">(%s-%s inches)
+                <Tooltip>Poster Overlap Inch Limit Static Tooltip</Tooltip>
+            </Control>
+			<Control ID="PosterScaleStatic">Poster Scale
+				<Tooltip>Poster Scale Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="PosterOverlapEdit">
+				<Tooltip>Poster Overlap Edit Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="PosterScaleEdit">
+				<Tooltip>Poster Scale Edit Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+      <!-- Fold method-->
+			<Control ID="FoldOption">Folding Options
+				<Tooltip>Folding Options Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="FoldGutterStatic">Gutter
+				<Tooltip>Gutter Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="FoldDimsStatic">(%s - %s mm)
+				<Tooltip>Dimentions Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="FoldDimsInchStatic">(%s - %s inches)
+				<Tooltip>Dimentions Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="FoldNoneReducedCheck">Non-Reduced Booklet
+				<Tooltip>Non-Reduced Booklet Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+				<Items>
+					<Item ID="On">On</Item>
+					<Item ID="Off">Off</Item>
+				</Items>
+			</Control>
+			<Control ID="FoldPassOnRightPageCheck">Pass bookshelf right to left
+				<Tooltip>Pass bookshelf right to left Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+				<Items>
+					<Item ID="On">On</Item>
+					<Item ID="Off">Off</Item>
+				</Items>
+			</Control>
+			<Control ID="FoldOnlyRadio">Folding Only
+				<Tooltip>Folding Only Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="FoldStitchRadio">Folding and Stitch
+				<Tooltip>Folding and Stitch Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="BookletFoldMethodDlg">Advanced Booklet Options
+				<Tooltip>Advanced Booklet Options Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="Reset">Reset
+				<Tooltip>Reset Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="Advanced">Advanced
+				<Tooltip>Advanced Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="FoldMethodStatic">Fold Method
+				<Tooltip>Fold Method Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="FoldMethodCombo">Fold Method
+				<Tooltip>Fold Method Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+				<Items>
+					<Item ID="AllPagesAtOnce">All Pages At Once</Item>
+					<Item ID="DivideInToSets">Divide In To Sets</Item>
+				</Items>
+			</Control>
+			<Control ID="FoldMethodSpinEdit">Sheets per Set
+				<Tooltip>Fold Method SpinEdit Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+			<Control ID="FoldMethodSpinEditStatic">Sheets per set [%d to %d]
+				<Tooltip>Sheets per set Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+		    <Control ID="SaddleStitchStatic">Fold Method
+				<Tooltip>Fold Method Tooltip</Tooltip>
+				<Help>Html\Type.htm</Help>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="JobEncryption" NAME="Job Encryption">
+		<Tooltip>Job Encryption Tooltip</Tooltip>
+		<Help>Html\Output Options.htm</Help>
+		<Controls>
+			<Control ID="JobEncryptionStatic">Job Encryption
+				<Tooltip>Job Encryption Tooltip</Tooltip>
+			</Control>
+			<Control ID="JobEncryptionCombo">
+				<Tooltip>Job Encryption Combo Tooltip</Tooltip>
+			</Control>			
+		</Controls>
+	</Feature>	
+	<Feature ID="InkVolume" NAME="Ink Volume">
+		<Tooltip>Ink Volume Tooltip</Tooltip>
+		<Help>Html\Ink Volume.htm</Help>
+		<Controls>
+			<Control ID="AutoCheckbox">Auto
+				<Tooltip>AutoTooltip</Tooltip>
+			</Control>
+			<Control ID="LeftStatic">Min
+				<Tooltip>Min Tooltip</Tooltip>
+			</Control>
+			<Control ID="RightStatic">Max
+				<Tooltip>Max Tooltip</Tooltip>
+			</Control>
+			<Control ID="TrackBar">
+				<Tooltip>Trackbar Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="DryTime" NAME="Dry Time">
+		<Tooltip>Ink Volume Tooltip</Tooltip>
+		<Help>Html\Dry Time.htm</Help>
+		<Controls>
+			<Control ID="AutoCheckbox">Auto
+				<Tooltip>AutoTooltip</Tooltip>
+			</Control>
+			<Control ID="LeftStatic">Short
+				<Tooltip>Short Tooltip</Tooltip>
+			</Control>
+			<Control ID="RightStatic">Long
+				<Tooltip>Long Tooltip</Tooltip>
+			</Control>
+			<Control ID="TrackBar">
+				<Tooltip>Trackbar Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="Overspray" NAME="Overspray">
+		<Tooltip>Overspray Tooltip</Tooltip>
+		<Help>Html\Overspray.htm</Help>
+		<Controls>
+			<Control ID="AutoCheckbox">Auto
+				<Tooltip>AutoTooltip</Tooltip>
+			</Control>
+			<Control ID="LeftStatic">Min
+				<Tooltip>Min Tooltip</Tooltip>
+			</Control>
+			<Control ID="RightStatic">Max
+				<Tooltip>Long Tooltip</Tooltip>
+			</Control>
+			<Control ID="TrackBar">
+				<Tooltip>Trackbar Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="Scaling" NAME="ScalingOptions">
+		<Tooltip>ScalingOptions Tooltip</Tooltip>
+		<Help>Html\Paper Options.htm</Help>
+		<Messages>
+			<Message ID="TypeErrorMessage">You can only type a number here.</Message>
+			<Message ID="TypeErrorTitle">Unacceptable Character</Message>
+            <Message ID="ScalingDisabledDueToOutputSize">Set output size same as original to enable</Message>
+		</Messages>
+		<Controls>
+			<Control ID="FitToPageStatic">Output Size
+				<Tooltip>Fit to Page Tooltip</Tooltip>
+				<Help>Html\Paper Options.htm</Help>
+			</Control>
+			<Control ID="FitToPageCombo">Scaling
+				<Tooltip>Scaling Tooltip</Tooltip>
+				<Help>Html\Paper Options.htm</Help>
+				<Items>
+					<Item ID="None">Same as Original Size</Item>
+				</Items>
+			</Control>
+			<Control ID="PercentageStatic">Percentage
+				<Tooltip>Percentage Tooltip</Tooltip>
+				<Help>Html\Paper Options.htm</Help>
+			</Control>
+			<Control ID="PercentageEdit">Scaling
+				<Tooltip>Percentage Edit Tooltip</Tooltip>
+				<Help>Html\Paper Options.htm</Help>
+			</Control>
+			<Control ID="Percentage2Static">(25-400%)
+				<Tooltip>(25-400%) Tooltip</Tooltip>
+				<Help>Html\Paper Options.htm</Help>
+			</Control>
+			<Control ID="MinimizeMarginCheck">Minimize Margin
+				<Tooltip>Minimize Margin Tooltip</Tooltip>
+				<Help>Html\Paper Options.htm</Help>
+				<Items>
+					<Item ID="On">On</Item>
+					<Item ID="Off">Off</Item>
+				</Items>
+			</Control>
+			<Control ID="AutoSettingsCheck">Auto Settings for Output Size
+				<Tooltip>Auto Settings for Output Size Tooltip</Tooltip>
+				<Help>Html\Paper Options.htm</Help>
+				<Items>
+					<Item ID="On">On</Item>
+					<Item ID="Off">Off</Item>
+				</Items>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="Copies" NAME="Number of Copies">
+		<Tooltip>Number of Copies Tooltip</Tooltip>
+		<Help>Html\Copies.htm</Help>
+        <Messages>
+          <Message ID="CopiesBaloonTitle">Baloon Title</Message>
+          <Message ID="CopiesBaloonMessage">Baloon Message</Message>
+        </Messages>
+		<Controls>
+			<Control ID="CopiesStatic">Number of Copies
+				<Tooltip>Number of Copies Tooltip</Tooltip>
+			</Control>
+			<Control ID="CopiesSpin">
+				<Tooltip>CopiesSpin Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="ColorCopies" NAME="Number of Color Copies">
+		<Tooltip>Number of Copies Tooltip</Tooltip>
+		<Help>Html\Copies.htm</Help>
+        <Messages>
+          <Message ID="CopiesBaloonTitle">Baloon Title</Message>
+          <Message ID="CopiesBaloonMessage">Baloon Message</Message>
+        </Messages>
+		<Controls>
+			<Control ID="CopiesStatic">Number of Copies
+				<Tooltip>Number of Copies Tooltip</Tooltip>
+			</Control>
+			<Control ID="CopiesSpin">
+				<Tooltip>CopiesSpin Tooltip</Tooltip>
+			</Control>
+			<Control ID="InfoStatic">Color
+				<Tooltip>ColorStatic Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="GrayCopies" NAME="Number of Gray Copies">
+		<Tooltip>GrayCopies Tooltip</Tooltip>
+		<Help>Html\Color Copies Setting.htm</Help>
+        <Messages>
+          <Message ID="CopiesBaloonTitle">Baloon Title</Message>
+          <Message ID="CopiesBaloonMessage">Baloon Message</Message>
+        </Messages>
+		<Controls>                
+			<Control ID="CopiesSpin">
+				<Tooltip>CopiesSpin Tooltip</Tooltip>
+			</Control>
+			<Control ID="InfoStatic">Grayscale
+				<Tooltip>Grayscale Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="OutputForm" NAME="OutputForm">
+		<Tooltip>Output Form Tooltip</Tooltip>
+		<Help>Html\Output Options.htm</Help>
+		<Messages>
+			<Message ID="FilterText">Overlay Files (*.FOM)</Message>
+		</Messages>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+		<Controls>
+			<Control ID="FilePathEdit">Save as Form for Overlay
+				<Tooltip>FilePath Edit Tooltip</Tooltip>
+			</Control>
+			<Control ID="FilePathButton">Search
+				<Tooltip>File Path Button Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="RasterCompression" NAME="Raster Compression">
+		<Tooltip>Raster Compression Tooltip</Tooltip>
+		<Help>Html\Raster Compression.htm</Help>
+		<Controls>
+			<Control ID="LevelStatic">Level
+				<Tooltip>Level Tooltip</Tooltip>
+			</Control>
+			<Control ID="LevelCombo">
+				<Tooltip>Level Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="Auto">Auto</Item>
+					<Item ID="Minimum">Minimum</Item>
+					<Item ID="Middle">Middle</Item>
+					<Item ID="Maximum">Maximum</Item>
+				</Items>
+			</Control>
+			<Control ID="QualityStatic">Quality
+				<Tooltip>Quality Tooltip</Tooltip>
+			</Control>
+			<Control ID="LeftStatic">Low
+				<Tooltip>Low Tooltip</Tooltip>
+			</Control>
+			<Control ID="RightStatic">High
+				<Tooltip>High Tooltip</Tooltip>
+			</Control>
+			<Control ID="TrackBar">
+				<Tooltip>TrackBar Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+  <Feature ID="EasyRasterCompression" NAME="Raster Compression">
+		<Tooltip>Raster Compression Tooltip</Tooltip>
+		<Help>Html\Raster Compression.htm</Help>
+		<Controls>
+			<Control ID="LevelStatic">Level
+				<Tooltip>Level Tooltip</Tooltip>
+			</Control>
+			<Control ID="LevelCombo">
+				<Tooltip>Level Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="FirstPage" NAME="First Page">
+		<Tooltip>First Page Tooltip</Tooltip>
+		<Help>Html\Advanced Paper Setting.htm</Help>
+		<Controls>
+			<Control ID="FirstPageSource">Source
+				<Tooltip>Source Tooltip</Tooltip>
+			</Control>
+			<Control ID="FirstPageSourceCombo">
+				<Tooltip>Source Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="None">None</Item>
+				</Items>
+			</Control>
+			<Control ID="FirstPageType">Type
+				<Tooltip>Type Tooltip</Tooltip>
+			</Control>
+			<Control ID="FirstPageTypeCombo">
+				<Tooltip>Type Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="LastPage" NAME="Last Page">
+		<Tooltip>Last Page Tooltip</Tooltip>
+		<Help>Html\Advanced Paper Setting.htm</Help>
+		<Controls>
+			<Control ID="LastPageSource">Source
+				<Tooltip>Source Tooltip</Tooltip>
+			</Control>
+			<Control ID="LastPageSourceCombo">
+				<Tooltip>Source Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="None">None</Item>
+				</Items>
+			</Control>
+			<Control ID="LastPageType">Type
+				<Tooltip>Type Tooltip</Tooltip>
+			</Control>
+			<Control ID="LastPageTypeCombo">
+				<Tooltip>Type Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="CoverPage" NAME="Cover Page">
+		<Tooltip>Cover Page Tooltip</Tooltip>
+		<Help>Html\Advanced Paper Setting.htm</Help>
+		<Controls>
+			<Control ID="CoverMode">Cover Options
+				<Tooltip>Cover Options Tooltip</Tooltip>
+			</Control>
+			<Control ID="CoverModeCombo">
+				<Tooltip>Cover Options Combo Tooltip</Tooltip>
+			</Control>
+			<Control ID="CoverOption">Options
+				<Tooltip>Options Tooltip</Tooltip>
+			</Control>
+			<Control ID="CoverOptionCombo">
+				<Tooltip>Options Combo Tooltip</Tooltip>
+			</Control>
+			<Control ID="CoverSize">Size
+				<Tooltip>Size Tooltip</Tooltip>
+			</Control>
+			<Control ID="CoverSizeCombo">
+				<Tooltip>Size Combo Tooltip</Tooltip>
+			</Control>
+			<Control ID="CoverSource">Source
+				<Tooltip>Source Tooltip</Tooltip>
+			</Control>
+			<Control ID="CoverSourceCombo">
+				<Tooltip>Source Combo Tooltip</Tooltip>
+			</Control>
+			<Control ID="CoverType">Type
+				<Tooltip>Type Tooltip</Tooltip>
+			</Control>
+			<Control ID="CoverTypeCombo">
+				<Tooltip>Type Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="TransparencySeparator" NAME="Transparency Separator">
+		<Help>Html\Transparency Separator.htm</Help>
+		<Controls>
+			<Control ID="OhpSeparatorMode">Separator
+				<Tooltip>Separator Tooltip</Tooltip>
+			</Control>
+			<Control ID="OhpSeparatorModeCombo">
+				<Tooltip>Separator Combo Tooltip</Tooltip>
+			</Control>
+			<Control ID="OhpSeparatorSource">Source
+				<Tooltip>Source Tooltip</Tooltip>
+			</Control>
+			<Control ID="OhpSeparatorSourceCombo">
+				<Tooltip>Source Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="AdminJobAccounting" NAME="Admin Job Accounting">
+		<Tooltip>Admin Accounting Tooltip</Tooltip>
+		<Controls>
+			<Control ID="AdminAccountingCheckbox">Set Admin Accounting
+				<Tooltip>AdminAccountingCheckbox Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="JobAccounting" NAME="Job Accounting">
+		<Tooltip>Job Accounting Tooltip</Tooltip>
+		<Help>Html\Job Accounting.htm</Help>
+		<Messages>
+			<Message ID="ErrorMessageTextPasswordsDiffer">Passwords Differ</Message>
+			<Message ID="MessageTitleDigitAlt">Invalid Password</Message>
+			<Message ID="MessageTextDigitAlt">Message Text1</Message>
+			<Message ID="MessageTitleDigit">Invalid Password</Message>
+			<Message ID="MessageTextDigit">Message Text2</Message>
+			<Message ID="MessageTitleAlt">Invalid Password</Message>
+			<Message ID="MessageTextAlt">Message Text Alphanumeric</Message>
+			<Message ID="MessageTitle">Invalid Password</Message>
+			<Message ID="MessageText">Message Text2 Alphanumeric</Message>
+			<Message ID="MessageTitleAlphanumericExtendedAlt">Invalid Password</Message>
+			<Message ID="MessageTextAlphanumericExtendedAlt">Message Text characters</Message>
+			<Message ID="MessageTitleAlphanumericExtended">Invalid Password</Message>
+			<Message ID="MessageTextAlphanumericExtended">Message Text2 characters</Message>			
+			<Message ID="ErrorMessageTitlePinCodeRestrictionNumeric">Invalid PIN code</Message>
+			<Message ID="ErrorMessageTextPinCodeRestrictionNumeric">Invalid PIN Message Restrict Text2</Message>
+			<Message ID="ErrorMessageTitlePinCodeRestrictionNumericInterval">Invalid PIN code</Message>
+			<Message ID="ErrorMessageTextPinCodeRestrictionNumericInterval">Invalid PIN Message Text2</Message>
+			<Message ID="ErrorMessageTitlePinCodeRestrictionAlphanumeric">Invalid PIN code</Message>
+			<Message ID="ErrorMessageTextPinCodeRestrictionAlphanumeric">Invalid PIN Message Restrict Text</Message>
+			<Message ID="ErrorMessageTitlePinCodeRestrictionAlphanumericInterval">Invalid PIN code</Message>
+			<Message ID="ErrorMessageTextPinCodeRestrictionAlphanumericInterval">Invalid PIN Message Text</Message>
+			<Message ID="ErrorMessageTitlePinCodeRestrictionAlphanumericExtended">Invalid PIN code</Message>
+			<Message ID="ErrorMessageTextPinCodeRestrictionAlphanumericExtended">Invalid PIN Message charaters Text</Message>
+			<Message ID="ErrorMessageTitlePinCodeRestrictionAlphanumericExtendedInterval">Invalid PIN code</Message>
+			<Message ID="ErrorMessageTextPinCodeRestrictionAlphanumericExtendedInterval">Invalid PIN Message charaters Text2</Message>
+      <Message ID="ErrorMessageTitleDomainIdRestrictionAlphanumeric">Invalid PIN code</Message>
+      <Message ID="ErrorMessageTitleDomainIdRestrictionAlphanumericInterval">Invalid PIN code</Message>
+      <Message ID="ErrorMessageTitleDomainIdRestrictionAlphanumericExtended">Invalid PIN code</Message>
+      <Message ID="ErrorMessageTitleDomainIdRestrictionAlphanumericExtendedInterval">Invalid PIN code</Message>
+      <Message ID="ErrorMessageTextDomainIdRestrictionAlphanumeric">Invalid Domain ID Message Restrict Text</Message>
+      <Message ID="ErrorMessageTextDomainIdRestrictionAlphanumericInterval">Invalid Domain ID Message Text</Message>
+      <Message ID="ErrorMessageTextDomainIdRestrictionAlphanumericExtended">Invalid Domain ID Message Restrict Text</Message>
+      <Message ID="ErrorMessageTextDomainIdRestrictionAlphanumericExtendedInterval">Invalid Domain ID Message Text</Message>      
+			<Message ID="PasswordChanged">Password Changed</Message>
+      <Message ID="PassBaloonTitle">Baloon Title</Message>
+      <Message ID="PassBaloonMessage">Baloon Message</Message>
+      <Message ID="UserIDBaloonTitle">Baloon Title</Message>
+      <Message ID="UserIDBaloonMessage">Baloon Message</Message>
+      <Message ID="PinCodeBaloonTitle">Baloon Title</Message>
+      <Message ID="PinCodeBaloonMessage">Baloon Message</Message>
+		</Messages>
+		<Controls>
+			<Control ID="JobAccountingDlg">Job Accounting Settings
+				<Tooltip>Job Accounting Settings Tooltip</Tooltip>
+			</Control>
+			<Control ID="AccountingTypeComboboxLabel">Accounting type
+				<Tooltip>AccountingTypeComboboxLabel Tooltip</Tooltip>
+			</Control>
+			<Control ID="AccountingTypeCombobox">
+				<Tooltip>AccountingTypeCombobox Tooltip</Tooltip>
+			</Control>
+			<Control ID="SettingsGroup">Settings
+				<Tooltip>Settings Tooltip</Tooltip>
+			</Control>
+      <Control ID="PermissionStatic">Permission
+        <Tooltip>Permission Tooltip</Tooltip>
+      </Control>
+			<Control ID="PersonalRadio">Personal Permission
+				<Tooltip>Personal Permission Tooltip</Tooltip>
+			</Control>
+			<Control ID="GroupRadio">Group Permission
+				<Tooltip>Group Permission Tooltip</Tooltip>
+			</Control>
+			<Control ID="UserNameComboboxLabel">User ID
+				<Tooltip>UserNameComboboxLabel Tooltip</Tooltip>
+			</Control>
+			<Control ID="UserNameCombobox">
+				<Tooltip>UserNameCombobox Tooltip</Tooltip>
+				<Items>
+					<Item ID="UserNameComboboxLogonName">Logon name</Item>
+					<Item ID="UserNameComboboxComputerName">Computer name</Item>
+					<Item ID="UserNameComboboxDomainLogonName">Domain\Logon name</Item>
+					<Item ID="UserNameComboboxEnterName">Enter name</Item>
+				</Items>
+			</Control>
+			<Control ID="UserIDStatic">User ID
+				<Tooltip>User ID Tooltip</Tooltip>
+			</Control>
+			<Control ID="UserIDEdit">
+				<Tooltip>User ID Edit Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordStatic">Enter Password
+				<Tooltip>Enter Password Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordEdit">
+				<Tooltip>Password Edit Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordConfirmStatic">Confirm Password
+				<Tooltip>Confirm Password Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordConfirmEdit">
+				<Tooltip>Password Confirm Edit Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordConfirmInfoStatic">(4-32 Alphanumeric)
+				<Tooltip>(4-32 Alphanumeric) Tooltip</Tooltip>
+			</Control>
+			<Control ID="EncryptCheck">Job Accounting password Encryption
+				<Tooltip>Job Accounting password Encryption Tooltip</Tooltip>
+			</Control>
+			<Control ID="PinCodeEditboxLabel">PIN Code
+				<Tooltip>PinCodeEditboxLabel Tooltip</Tooltip>
+			</Control>
+			<Control ID="PinCodeEditbox">
+				<Tooltip>PinCodeEditbox Tooltip</Tooltip>
+			</Control>
+			<Control ID="VerifyButton">Verify
+				<Tooltip>VerifyButton Tooltip</Tooltip>
+			</Control>
+			<Control ID="ConfirmationCheckboxJobAccounting">Confirm name/password when printing
+				<Tooltip>ConfirmationCheckbox Tooltip</Tooltip>
+			</Control>
+			<Control ID="ConfirmationCheckboxPinCode">Confirm PIN code when printing
+				<Tooltip>ConfirmationCheckbox Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordInfoStaticDigitAlt">(%d Digit)
+				<Tooltip>(%d Digit) Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordInfoStaticDigit">(%d-%d Digit)
+				<Tooltip>(%d-%d Digit) Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordInfoStaticAlt">(%d Alphanumeric)
+				<Tooltip>(%d Alphanumeric) Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordInfoStatic">(%d-%d Alphanumeric)
+				<Tooltip>(%d-%d Alphanumeric) Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordInfoStaticAplhanumericExtendedAlt">(%d characters)
+				<Tooltip>(%d characters) Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordInfoStaticAplhanumericExtended">(%d-%d characters)
+				<Tooltip>(%d-%d characters) Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+
+	<Feature ID="PrintHold" NAME="Job Settings">
+		<Tooltip>Job Settings Tooltip</Tooltip>
+		<Help>Html\Print and Hold Dialog.htm</Help>
+		<Messages>
+			<!--<Message ID="MessageTitle">Save Changes Title</Message>-->
+			<Message ID="MessageTitle">Invalid Password</Message>
+			<Message ID="MessageText">Message Text</Message>
+			<Message ID="MessageText2">Message Text2</Message>      
+			<Message ID="MessageTextAlphanumeric">Message Text Alphanumeric</Message>      
+			<Message ID="MessageText2Alphanumeric">Message Text2 Alphanumeric</Message>     
+			<Message ID="PasswordChanged">Password Changed</Message>
+			<Message ID="Untitled">Untitled</Message>
+            <Message ID="PasswordChanged">Password Changed</Message>
+            <Message ID="PassBaloonTitle">Baloon Title</Message>
+            <Message ID="PassBaloonMessage">Baloon Message</Message>
+            <Message ID="UserIDBaloonTitle">Baloon Title</Message>
+            <Message ID="UserIDBaloonMessage">Baloon Message</Message>
+            <Message ID="JobIDBaloonTitle">Baloon Title</Message>
+            <Message ID="JobIDBaloonMessage">Baloon Message</Message>
+			<Message ID="SecureDisableMessage">PullPrintingMode Activated Message</Message>
+		</Messages>
+		<Controls>
+			<Control ID="PrintHoldDlg">Job Settings
+				<Tooltip>Job Settings Tooltip</Tooltip>
+			</Control>
+			<Control ID="OptionsGroup">Settings
+				<Tooltip>Settings Tooltip</Tooltip>
+			</Control>
+			<Control ID="PrintModeStatic">Print Mode
+				<Tooltip>Print Mode Tooltip</Tooltip>
+			</Control>
+			<Control ID="PrintModeCombo">
+				<Tooltip>Print Mode Combo Tooltip</Tooltip>
+			</Control>
+			<Control ID="ScheduleStatic">Print at
+				<Tooltip>Print at Tooltip</Tooltip>
+			</Control>
+			<Control ID="ScheduleDate">Schedule Date
+				<Tooltip>Schedule Date Tooltip</Tooltip>
+			</Control>
+			<Control ID="ScheduleTime">Schedule Time
+				<Tooltip>Schedule Time Tooltip</Tooltip>
+			</Control>
+			<Control ID="StoreHDDCheck">Store to HDD
+				<Tooltip>Store to HDD Tooltip</Tooltip>
+			</Control>
+			<Control ID="StorePublicHDDCheck">Store to Public HDD
+				<Tooltip>Store to Public HDD Tooltip</Tooltip>
+			</Control>
+			<Control ID="UserIDStatic">User ID
+				<Tooltip>User ID Tooltip</Tooltip>
+			</Control>
+			<Control ID="UserIDEdit">
+				<Tooltip>UserIDEdit Tooltip</Tooltip>
+			</Control>
+			<!--Control ID="UserIDInfoStatic">(A-z,0-9)
+				<Tooltip>(A-z,0-9) Tooltip</Tooltip>
+			</Control-->
+			<Control ID="JobNameStatic">Job Name
+				<Tooltip>Job Name Tooltip</Tooltip>
+			</Control>
+			<Control ID="JobNameEdit">
+				<Tooltip>Job Name Edit Tooltip</Tooltip>
+			</Control>
+			<!--Control ID="JobNameInfoStatic">(A-z,0-9)
+				<Tooltip>(A-z,0-9) Tooltip</Tooltip>
+			</Control-->
+			<Control ID="PasswordStatic">Enter Password
+				<Tooltip>Enter Password Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordEdit">
+				<Tooltip>PasswordEdit Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordInfoStatic">(%d Digit)
+				<Tooltip>(%d Digit) Tooltip</Tooltip>
+			</Control>
+			<Control ID="PasswordInfoStaticAlt">(%d-%d Digit)
+				<Tooltip>(%d-%d Digit) Tooltip</Tooltip>
+			</Control>
+			<Control ID="CfrmStatic">Confirm Password
+				<Tooltip>Confirm Password Tooltip</Tooltip>
+			</Control>
+			<Control ID="CfrmEdit">
+				<Tooltip>CfrmEdit Tooltip</Tooltip>
+			</Control>
+			<Control ID="CfrmInfoStatic">(%d Digit)
+				<Tooltip>(%d Digit) Tooltip</Tooltip>
+			</Control>
+			<Control ID="CfrmInfoStaticAlt">(%d-%d Digit)
+				<Tooltip>(%d-%d Digit) Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+
+	<Feature ID="Overlay" NAME="Overlay">
+		<Tooltip>Overlay Tooltip</Tooltip>
+		<Help>Html\Overlay Selection.htm</Help>
+		<Messages>
+			<Message ID="FilterText">Overlay Files (*.%s)</Message>
+			<Message ID="CreateStatus">Ready to Create Overlay File</Message>
+			<Message ID="NoOverlayStatus">(No Overlay Selected)</Message>
+			<Message ID="LoadStatus">Use Overlay</Message>
+			<Message ID="ConfirmCancelStatus">Are you sure you want to cancel creation of overlay?</Message>
+			<Message ID="ConfirmDeleteStatus">Are you sure you want to delete this overlay?</Message>
+			<Message ID="ConfirmCreateStatus">Are you sure you want to create the overlay: %s?</Message>
+			<Message ID="ConfirmLoadStatus">Are you sure you want to print the document with overlay: %s</Message>
+			<Message ID="ConfirmStatusTitle">Are You Sure</Message>
+			<Message ID="ConfirmationDisabledTooltip">Available for loaded overlay only</Message>
+      <Message ID="OverlayMismatchWarningMessagePrefix">The overlay feature is enabled:</Message>
+      <Message ID="OverlayMismatchWarningMessageSuffix">Following overlay settings are not matched with the current settings. It can be printed improperly.</Message>
+      <Message ID="OverlayMismatchConfirmLoadStatus">Are you sure you want to print the document with overlay?</Message>
+		</Messages>
+		<Controls>
+			<Control ID="OverlayStatic">Text
+				<Tooltip>Text Tooltip</Tooltip>
+			</Control>
+			<Control ID="OverlayCombo">
+				<Tooltip>Overlay Combo Tooltip</Tooltip>
+				<Items>
+					<Item ID="None">None</Item>
+          <Item ID="Create">Create Overlay</Item>
+          <Item ID="Print">Print Overlay</Item>
+					<Item ID="Edit">Edit...</Item>
+				</Items>
+			</Control>
+			<Control ID="OverlayDlg">Edit Overlay
+        <Help>Html\Edit Overlays dialog.htm</Help>
+      </Control>
+			<Control ID="OverlayGroup">Overlay List
+				<Tooltip>Overlay Group Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="OverlayList">
+				<Tooltip>Overlay List Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+				<Items>
+          <Item ID="Name">Name</Item>
+          <Item ID="File">File</Item>
+          <Item ID="Status">Applies to</Item>
+					<Item ID="NoOverlay">(No Overlay)</Item>
+				</Items>
+			</Control>
+			<Control ID="CreateButton">Create
+				<Tooltip>Create Button Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="CancelButton">Cancel
+				<Tooltip>Cancel Button Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="LoadButton">Load
+				<Tooltip>Load Button Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="DeleteButton">Delete
+				<Tooltip>Delete Button Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="CreationStatic">Overlay Creation Status
+				<Tooltip>Overlay Creation Status Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="StatusEdit">
+				<Tooltip>Overlay Status Edit Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="ConfirmCheck">Confirm Page Overlay When Printing
+				<Tooltip>Confirm Page Overlay When Printing Tooltip</Tooltip>
+        <Help>Html\Confirm Page Overlay When Printing.htm</Help>
+			</Control>
+      <Control ID="OverlaySelection">Overlay Selection
+				<Tooltip>Overlay Selection</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="File1Static">Overlay 1
+				<Tooltip>Overlay 1 Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="File2Static">Overlay 2
+				<Tooltip>Overlay 2 Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="Range1Static">Applies to
+				<Tooltip>Applies to 1 Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="Range2Static">Applies to
+				<Tooltip>Applies to 2 Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+			<Control ID="File1Combo">
+				<Tooltip>Overlay 1 Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			<Items>
+				<Item ID="None">None</Item>
+			</Items>
+			</Control>
+				<Control ID="File2Combo">
+			<Tooltip>Overlay 2 Tooltip</Tooltip>
+      <Help>Html\Edit Overlays dialog.htm</Help>
+			<Items>
+				<Item ID="None">None</Item>
+			</Items>
+			</Control>
+				<Control ID="Range1Combo">
+			<Tooltip>Applies to 1 Tooltip</Tooltip>
+      <Help>Html\Edit Overlays dialog.htm</Help>
+			<Items>
+				<Item ID="None">None</Item>
+				<Item ID="AllPages">All Pages</Item>
+				<Item ID="AllExceptFirstPages">All Except First Page</Item>
+				<Item ID="FirstPage">First Page</Item>
+				<Item ID="OddPages">Odd Pages</Item>
+				<Item ID="EvenPages">Even Pages</Item>
+				<Item ID="FrontPages">Front Pages</Item>
+				<Item ID="BackPages">Back Pages</Item>
+			</Items>
+			</Control>
+			<Control ID="Range2Combo">
+				<Tooltip>Applies to 2 Tooltip</Tooltip>
+        <Help>Html\Edit Overlays dialog.htm</Help>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="AboutLogo" NAME="Logo">
+		<Controls>
+			<Control ID="PrinterModel">Printer Model</Control>
+			<Control ID="OemName">Oem Name</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="AboutHelp" NAME="Help">
+		<Tooltip>Help Tooltip</Tooltip>
+		<Controls>
+			<Control ID="AboutHelpEdit">Help Edit
+				<Tooltip>Help Edit Tooltip</Tooltip>
+			</Control>
+			<Control ID="AboutHelpButton">Help Button
+				<Tooltip>Help Button Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="AboutInfo" NAME="Info">
+		<Controls>
+			<Control ID="AboutPrinterName">Printer Name</Control>
+			<Control ID="AboutDriverVersion">Driver Version</Control>
+			<Control ID="AboutCopyright">Copyright</Control>
+			<Control ID="AboutBuildDate">Build Date</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="AboutService" NAME="Service">
+		<Tooltip>Service Tooltip</Tooltip>
+	</Feature>
+	<Feature ID="HighCoverageMode" NAME="High Coverage Mode">
+		<Tooltip>High Coverage Mode Tooltip</Tooltip>
+		<!--Help>Html\High Coverage Mode.htm</Help-->
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="FineEdge" NAME="Fine Edge">
+	  <Help>Html\Smart Color.htm</Help>
+	  <Tooltip>Fine Edge Tooltip</Tooltip>
+	  <Controls>
+		<Control ID="FineEdgeStatic">Fine Edge
+			<Tooltip>Fine Edge Tooltip</Tooltip>
+		</Control>
+		<Control ID="FineEdgeCombo">
+			<Tooltip>Fine Edge Combo Tooltip</Tooltip>
+		</Control>
+	  </Controls>
+	</Feature>
+	<Feature ID="FineTrapping" NAME="Fine Trapping">
+	  <Help>Html\Smart Color.htm</Help>
+	  <Tooltip>Fine Trapping Tooltip</Tooltip>
+	  <Controls>
+		<Control ID="FineTrappingStatic">Fine Trapping
+			<Tooltip>Fine Trapping Tooltip</Tooltip>
+		</Control>
+		<Control ID="FineTrappingCombo">
+			<Tooltip>Fine Trapping Combo Tooltip</Tooltip>
+		</Control>
+	  </Controls>
+	</Feature>
+	<Feature ID="FineEdgeTrapping" NAME="Fine Edge Trapping">
+		<Help>Html\Smart Color.htm</Help>
+		<Tooltip>Fine Edge Trapping Tooltip</Tooltip>
+		<Controls>
+			<Control ID="FineEdgeTrappingStatic">Fine Edge Trapping
+				<Tooltip>Fine Edge Trapping Tooltip</Tooltip>
+			</Control>
+			<Control ID="FineEdgeTrappingCombo">
+				<Tooltip>Fine Edge Trapping Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="PageColorMono" NAME="Page Range">
+		<Help>Html\Output Options.htm</Help>
+		<Tooltip>Page Color Mono Tooltip</Tooltip>
+		<Messages>
+			<Message ID="RangeBaloonTitle">Baloon Title</Message>
+			<Message ID="RangeBaloonMessage">Baloon Message</Message>
+		</Messages>
+		<Controls>
+			<Control ID="ColorRadio">Color
+				<Tooltip>Color Tooltip</Tooltip>
+			</Control>
+			<Control ID="GrayscaleRadio">Grayscale
+				<Tooltip>Grayscale Tooltip</Tooltip>
+			</Control>
+			<Control ID="RangeEdit">
+				<Tooltip>RangeEdit Tooltip</Tooltip>
+			</Control>
+			<Control ID="InfoStatic">InfoStatic
+				<Tooltip>InfoStatic Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="HalftoneScreen" NAME="Screen">
+		<Tooltip>Screen Tooltip</Tooltip>
+		<Help>Html\Color Adjust Dialog.htm</Help>
+	</Feature>
+  <Feature ID="HolePunching" NAME="Hole Punch">
+    <Help>Html\Hole Punch Options.htm</Help>
+    <Tooltip>Hole Punch Tooltip</Tooltip>
+    <Controls>
+      <Control ID="HolePunchingStatic">Hole Punch
+        <Tooltip>Hole Punch Tooltip</Tooltip>
+      </Control>
+      <Control ID="HolePunchingCombo">
+        <Tooltip>Hole Punch Tooltip</Tooltip>
+      </Control>
+      <Control ID="HolePunchingPositionStatic">Hole Punching Position
+        <Tooltip>Hole Punching Position Tooltip</Tooltip>
+      </Control>
+      <Control ID="HolePunchingPositionCombo">
+        <Tooltip>Hole Punching Position Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+  
+  <Feature ID="OptionalHolePunch" NAME="OptionalHolePunch">
+    <Help>Html\Printer Configuration.htm</Help>
+    <Tooltip>OptionalHolePunch Tooltip</Tooltip>
+    <Controls>
+      <Control ID="OptionalHolePunchStatic">OptionalHolePunch
+        <Tooltip>OptionalHolePunch Tooltip</Tooltip>
+      </Control>
+      <Control ID="OptionalHolePunchCombo">
+        <Tooltip>OptionalHolePunch Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="BookletFinishing" NAME="Booklet Finishing">
+    <Help>Html\Booklet Finishing.htm</Help>
+    <Tooltip>Booklet Finishing Tooltip</Tooltip>
+    <Controls>
+      <Control ID="BookletFinishingStatic">Booklet Finishing
+        <Tooltip>Booklet Finishing Tooltip</Tooltip>
+      </Control>
+      <Control ID="BookletFinishingCombo">
+        <Tooltip>Booklet Finishing Combo Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+
+  <Feature ID="SkipBlankPages" NAME="Skip Blank Pages">
+    <Tooltip>Skip Blank Pages Tooltip</Tooltip>
+    <Help>Html\Output Options.htm</Help>
+    <Controls>
+      <Control ID="SkipBlankPagesStatic">Skip Blank Pages
+        <Tooltip>Skip Blank Pages Tooltip</Tooltip>
+      </Control>
+      <Control ID="SkipBlankPagesCombo">
+        <Tooltip>Skip Blank Pages Tooltip</Tooltip>
+      </Control>
+    </Controls>
+
+    <Items>
+      <Item ID="On">On</Item>
+      <Item ID="Off">Off</Item>
+    </Items>
+  </Feature>
+
+  <Feature ID="SortOptions" NAME="Sort Options">
+    <Tooltip>Sort Options Tooltip</Tooltip>
+    <Help>Html\Sort Options.htm</Help>
+    <Controls>
+      <Control ID="Collate">Collate
+        <Tooltip>Collate Tooltip</Tooltip>
+      </Control>
+      <Control ID="None">None
+        <Tooltip>None Tooltip</Tooltip>
+      </Control>
+      <Control ID="Offset">Offset
+        <Tooltip>Offset Tooltip</Tooltip>
+      </Control>
+      <Control ID="Rotate">Rotate
+        <Tooltip>Rotate Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="AdvancedTrayOptions" NAME="Advanced Tray Options">
+    <Tooltip>Advanced Tray Options Tooltip</Tooltip>
+    <Help>Html\Advanced Tray Options.htm</Help>
+    <Controls>
+      <Control ID="AdvancedTrayOptionsTrayInfoGroup">Tray Information
+        <Tooltip>Tray Information Tooltip</Tooltip>
+      </Control>
+      <Control ID="AdvancedTrayOptionsTrayInfoList">
+        <Tooltip>Tray Information Tooltip</Tooltip>
+        <Items>
+          <Item ID="PaperSource">Paper Source</Item>
+          <Item ID="PaperSize">Paper Size</Item>
+          <Item ID="PaperType">Paper Type</Item>
+        </Items>
+      </Control>
+      <Control ID="AdvancedTrayOptionsTrayOptionsGroup">Tray Options
+        <Tooltip>Tray Options Tooltip</Tooltip>
+      </Control>
+      <Control ID="AdvancedTrayOptionsTrayOptionsPSLabel">Paper Size
+        <Tooltip>Paper Size Label Tooltip</Tooltip>
+      </Control>
+      <Control ID="AdvancedTrayOptionsTrayOptionsPSCombo">
+        <Tooltip>Paper Size Combo Tooltip</Tooltip>
+        <Items>
+          <Item ID="PSAny">Any Size</Item>
+        </Items>
+      </Control>
+      <Control ID="AdvancedTrayOptionsTrayOptionsFeedCheck">Short Edge Feed
+        <Tooltip>Short Edge Feed Tooltip</Tooltip>
+      </Control>
+      <Control ID="AdvancedTrayOptionsTrayOptionsPTLabel">Paper Type
+        <Tooltip>Paper Type Label Tooltip</Tooltip>
+      </Control>
+      <Control ID="AdvancedTrayOptionsTrayOptionsPTCombo">
+        <Tooltip>Paper Type Combo Tooltip</Tooltip>
+        <Items>
+          <Item ID="PTAny">Any Type</Item>
+        </Items>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="ManualMargin" NAME="Manual Margin">
+    <Tooltip>Manual Margin Tooltip</Tooltip>
+    <Help>Html\Output Options.htm</Help>
+    <Messages>
+      <Message ID="ButtonDisabledForUncheckedTooltip">Button Disabled for Unchecked Tooltip</Message>
+      <Message ID="WrongInputBaloonTitle">Wrong input:</Message>
+      <Message ID="WrongInputBaloonMessage">You have entered unacceptable character</Message>
+    </Messages>
+    <Controls>
+      <Control ID="ManualMarginButton">Details
+        <Tooltip>Details Tooltip</Tooltip>
+      </Control>
+      <Control ID="ManualMarginDlg">Manual Margin Settings
+      </Control>
+      <Control ID="MarginOptionsGroup">Margin Options
+        <Tooltip>Margin Options Tooltip</Tooltip>
+      </Control>
+      <Control ID="MarginStatic">Margin for
+        <Tooltip>Margin for Tooltip</Tooltip>
+      </Control>
+      <Control ID="MarginCombo">
+        <Tooltip>Margin for Tooltip</Tooltip>
+        <Items>
+          <Item ID="Shift">Image Shift</Item>
+          <Item ID="Bind">Binding</Item>
+        </Items>
+      </Control>
+      <Control ID="BindStatic">Binding Position
+        <Tooltip>Binding Position Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindCombo">
+        <Tooltip>Binding Position Tooltip</Tooltip>
+        <Items>
+          <Item ID="Auto">Auto</Item>
+          <Item ID="Left">Left Bind</Item>
+          <Item ID="Right">Right Bind</Item>
+          <Item ID="Top">Top Bind</Item>
+        </Items>
+      </Control>
+      <Control ID="FrontSideStatic">Front Side
+        <Tooltip>Front Side Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindReduction">Auto Reduction
+        <Tooltip>Auto Reduction Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindSameCheck">Same value for front and back sides
+        <Tooltip>Same value for front and back sides Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShiftSameCheck">Same value for front and back sides
+        <Tooltip>Same value for front and back sides Tooltip</Tooltip>
+      </Control>
+      <Control ID="FrontSideStatic">Front Side
+        <Tooltip>Front Side Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShiftLeftRadio">Left
+        <Tooltip>Left Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShiftRightRadio">Right
+        <Tooltip>Right Tooltip</Tooltip>
+      </Control>
+      <Control ID="FrontLeftRightSpin">
+        <Tooltip>FrontLeftRightSpin Tooltip</Tooltip>
+      </Control>
+      <Control ID="FrontLeftRightInfo">(%s-%s mm)
+        <Tooltip>FrontLeftRightInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="FrontLeftRightInfoInch">(%s-%s inches)
+        <Tooltip>FrontLeftRightInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShiftTopRadio">Top
+        <Tooltip>Top Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShiftBottomRadio">Bottom
+        <Tooltip>Bottom Tooltip</Tooltip>
+      </Control>
+      <Control ID="FrontTopBottomSpin">
+        <Tooltip>FrontTopBottomSpin Tooltip</Tooltip>
+      </Control>
+      <Control ID="FrontTopBottomInfo">(%s-%s mm)
+        <Tooltip>FrontTopBottomInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="FrontTopBottomInfoInch">(%s-%s inches)
+        <Tooltip>FrontTopBottomInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="BackSideStatic">Back Side
+        <Tooltip>Back Side Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShiftBackLeftRadio">Left
+        <Tooltip>Left Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShiftBackRightRadio">Right
+        <Tooltip>Right Tooltip</Tooltip>
+      </Control>
+      <Control ID="BackLeftRightSpin">
+        <Tooltip>BackLeftRightSpin Tooltip</Tooltip>
+      </Control>
+      <Control ID="BackLeftRightInfo">(%s-%s mm)
+        <Tooltip>BackLeftRightInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="BackLeftRightInfoInch">(%s-%s inches)
+        <Tooltip>BackLeftRightInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShiftBackTopRadio">Top
+        <Tooltip>Top Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShiftBackBottomRadio">Bottom
+        <Tooltip>Bottom Tooltip</Tooltip>
+      </Control>
+      <Control ID="BackTopBottomSpin">
+        <Tooltip>BackTopBottomSpin Tooltip</Tooltip>
+      </Control>
+      <Control ID="BackTopBottomInfo">(%s-%s mm)
+        <Tooltip>BackTopBottomInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="BackTopBottomInfoInch">(%s-%s inches)
+        <Tooltip>BackTopBottomInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindFrontStatic">Front Side
+        <Tooltip>Front Side Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindFrontSpin">
+        <Tooltip>BindFrontSpin Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindFrontInfo">(%s-%s mm)
+        <Tooltip>BindFrontInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindFrontInfoInch">(%s-%s inches)
+        <Tooltip>BindFrontInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindBackStatic">Back Side
+        <Tooltip>Back Side Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindBackSpin">
+        <Tooltip>BindBackSpin Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindBackInfo">(%s-%s mm)
+        <Tooltip>BindBackInfo Tooltip</Tooltip>
+      </Control>
+      <Control ID="BindBackInfoInch">(%s-%s inches)
+        <Tooltip>BindBackInfo Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+
+  <Feature ID="CopySetNumbering" NAME="Copy Set Numbering">
+    <Tooltip>Copy Set Numbering Tooltip</Tooltip>
+    <Help>Html\Output Options.htm</Help>
+    <Messages>
+      <Message ID="SizeTitle">Baloon Title</Message>
+      <Message ID="SizeMessage">Baloon Message</Message>
+      <Message ID="ButtonDisabledForUncheckedTooltip">Button Disabled for Unchecked Tooltip</Message>
+    </Messages>
+    <Controls>
+      <Control ID="CopySetNumberingButton">Details
+        <Tooltip>Details Tooltip</Tooltip>
+      </Control>
+      <Control ID="CopySetNumberinDlg">Copy Set Numbering Settings
+      </Control>
+      <Control ID="PositionStatic">Number Position
+        <Tooltip>Number Position Tooltip</Tooltip>
+      </Control>
+      <Control ID="PositionCombo">
+        <Tooltip>Number Position Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="PrintMode" NAME="Print Mode">
+    <Tooltip>Print Mode Tooltip</Tooltip>
+    <Help>Html\Print Mode.htm</Help>
+    <Messages>    
+      <Message ID="MessageTitle">Invalid Password</Message>
+      <Message ID="MessageText">Message Text</Message>      
+      <Message ID="MessageText2">Message Text2</Message>      
+      <Message ID="MessageTextAlphanumeric">Message Text Alphanumeric</Message>      
+      <Message ID="MessageText2Alphanumeric">Message Text2 Alphanumeric</Message>      	  
+      <Message ID="MessageTextAlphanumericExtended">Message Text characters</Message>      
+      <Message ID="MessageText2AlphanumericExtended">Message Text2 characters</Message>      
+      <Message ID="PasswordChanged">Password Changed</Message>
+      <Message ID="PassBaloonTitle">Baloon Title</Message>
+      <Message ID="PassBaloonMessage">Baloon Message</Message>
+      <Message ID="UserIDBaloonTitle">Baloon Title</Message>
+      <Message ID="UserIDBaloonMessage">Baloon Message</Message>
+      <Message ID="JobIDBaloonTitle">Baloon Title</Message>
+      <Message ID="JobIDBaloonMessage">Baloon Message</Message>
+      <Message ID="SecureDisableMessage">PullPrintingMode Activated Message</Message>
+      <Message ID="ErrorMessageTitlePrintTimeExpired">Wrong print time</Message>
+      <Message ID="ErrorMessageTextPrintTimeExpired">Input print time expired. Please enter another one.</Message>
+    </Messages>
+    <Controls>
+      <Control ID="PrintModeStatic">Print Mode
+        <Tooltip>Print Mode Tooltip</Tooltip>
+      </Control>
+      <Control ID="PrintModeCombo">
+        <Tooltip>Print Mode Tooltip</Tooltip>
+      </Control>
+      <Control ID="FileGroup">Options</Control>
+      <Control ID="PrintModeDlg">Print Mode Settings</Control>
+      <Control ID="PrintModeCombo">
+        <Tooltip>Print Mode Tooltip</Tooltip>
+      </Control>
+      <Control ID="FileTypeStatic">File Type
+        <Tooltip>File Type Tooltip</Tooltip>
+      </Control>
+      <Control ID="FileTypeCombo">
+        <Tooltip>File Type Combo Tooltip</Tooltip>
+        <Items>
+          <Item ID="NormalItem">Normal</Item>
+          <Item ID="ConfidentialItem">Confidential</Item>
+        </Items>
+      </Control>
+      <Control ID="JobNameComboboxLabel">File Name
+				<Tooltip>JobNameComboboxLabel Tooltip</Tooltip>
+			</Control>
+			<Control ID="JobNameCombobox">
+				<Tooltip>JobNameCombobox Tooltip</Tooltip>
+				<Items>
+					<Item ID="JobNameComboboxDocumentName">Document name</Item>
+					<Item ID="JobNameComboboxComputerName">Computer name</Item>
+					<Item ID="JobNameComboboxEnterName">Enter Job name</Item>
+				</Items>
+			</Control>
+      <Control ID="FileNameStatic">File Name
+        <Tooltip>File Name Tooltip</Tooltip>
+      </Control>
+      <Control ID="FileNameEdit">
+        <Tooltip>File Name Edit Tooltip</Tooltip>
+      </Control>
+      <Control ID="UserNameComboboxLabel">User ID
+        <Tooltip>UserNameComboboxLabel Tooltip</Tooltip>
+      </Control>
+      <Control ID="UserNameCombobox">
+        <Tooltip>UserNameCombobox Tooltip</Tooltip>
+        <Items>
+          <Item ID="UserNameComboboxLogonName">Logon name</Item>
+          <Item ID="UserNameComboboxComputerName">Computer name</Item>
+          <Item ID="UserNameComboboxDomainLogonName">Domain\Logon name</Item>
+          <Item ID="UserNameComboboxEnterName">Enter name</Item>
+        </Items>
+      </Control>
+      <Control ID="UserIDStatic">User ID
+        <Tooltip>User ID Tooltip</Tooltip>
+      </Control>
+      <Control ID="UserIDEdit">
+        <Tooltip>User ID Edit Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordStatic">Enter Password
+        <Tooltip>Enter Password Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordEdit">
+        <Tooltip>Enter Password Edit Tooltip</Tooltip>
+      </Control>
+      <Control ID="CfrmPasswordStatic">Confirm Enter Password
+        <Tooltip>Confirm Enter Password Tooltip</Tooltip>
+      </Control>
+      <Control ID="CfrmPasswordEdit">
+        <Tooltip>Confirm Enter Password Edit Tooltip</Tooltip>
+      </Control>
+      <Control ID="LocationGroup">Save Location</Control>      
+      <Control ID="InboxList">
+        <Tooltip>Inbox List Tooltip</Tooltip>
+        <Items>
+          <Item ID="InboxNumberColumn">Number</Item>
+          <Item ID="InboxPropertyColumn">Property</Item>
+          <Item ID="InboxNameColumn">Name</Item>
+          <Item ID="CommonItem">Common</Item>
+          <Item ID="SecureItem">Secure</Item>
+          <Item ID="PublicItem">Public</Item>
+        </Items>
+      </Control>
+      <Control ID="ScheduleStatic">Print at
+        <Tooltip>Print at Tooltip</Tooltip>
+      </Control>
+      <Control ID="ScheduleDate">
+        <Tooltip>Schedule Date Tooltip</Tooltip>
+      </Control>
+      <Control ID="ScheduleTime">
+        <Tooltip>Schedule Time Tooltip</Tooltip>
+      </Control>
+      <!--Control ID="FileNameInfoStatic">(A-z,0-9)
+        <Tooltip>(A-z,0-9) Tooltip</Tooltip>
+      </Control-->
+      <!--Control ID="UserIdInfoStatic">(A-z,0-9)
+        <Tooltip>(A-z,0-9) Tooltip</Tooltip>
+      </Control-->
+      <Control ID="PasswordInfoStatic">(%d Digit)
+        <Tooltip>(%d Digit) Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordInfoStaticAlt">(%d-%d Digit)
+        <Tooltip>(%d-%d Digit) Tooltip</Tooltip>
+      </Control>
+      <Control ID="StoreCheck">Store as Confidential
+        <Tooltip>Store as Confidential Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordInfoAlphaNumStatic">(%d Alphanumeric)
+        <Tooltip>(%d Alphanumeric) Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordInfoAlphaNumStaticAlt">(%d-%d Alphanumeric)
+        <Tooltip>(%d-%d Alphanumeric) Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordInfoAlphaNumExtStatic">(%d characters)
+        <Tooltip>(%d characters) Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordInfoAlphaNumExtStaticAlt">(%d-%d characters)
+        <Tooltip>(%d-%d characters) Tooltip</Tooltip>
+      </Control>
+      <Control ID="ConfirmationCheckbox">Confirm name/password when printing
+				<Tooltip>ConfirmationCheckbox Tooltip</Tooltip>
+			</Control>   
+    </Controls>
+  </Feature>
+  <Feature ID="PassThrough" NAME="PostScript PassThrough">
+    <Tooltip>PostScript PassThrough Tooltip</Tooltip>
+    <Help>Html\Output Options.htm</Help>
+    <Items>
+      <Item ID="On">On</Item>
+      <Item ID="Off">Off</Item>
+    </Items>
+    <Controls>
+      <Control ID="PassThroughStatic">PassThrough
+        <Tooltip>PostScript PassThrough Tooltip</Tooltip>
+      </Control>
+      <Control ID="PassThroughCombo">
+        <Tooltip>PostScript PassThrough Tooltip</Tooltip>
+        <Items>
+          <Item ID="Auto">Auto</Item>
+          <Item ID="On">On</Item>
+          <Item ID="Off">Off</Item>
+        </Items>
+      </Control>
+    </Controls>
+  </Feature>
+  <Feature ID="SubstitutionTable" NAME="Substitution Table">
+    <Help>Html\Substitution Table.htm</Help>
+    <Tooltip>Substitution Table Tooltip</Tooltip>
+    <Messages>
+      <Message ID="SubstituteTableFormat">%s :%s</Message>    
+    </Messages>    
+    <Controls>    
+      <Control ID="SubstitutionTableList">
+        <Tooltip>Substitution Table List Tooltip</Tooltip>
+        <Items>
+          <Item ID="SysFontsColumn">System Font</Item>
+          <Item ID="DevFontsColumn">Device Font</Item>
+        </Items>
+      </Control>
+      <Control ID="SubstitutionTableCombo">
+        <Tooltip>Substitution Table Combo Tooltip</Tooltip>
+        <Items>
+          <Item ID="DontSubstituteItem">Dont Substitute</Item>
+        </Items>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="OutputProtocol" NAME="Output Protocol">
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Tooltip>Output Protocol Tooltip</Tooltip>
+    <Controls>   
+      <Control ID="OutputProtocolStatic">Output Protocol
+        <Tooltip>Output Protocol Tooltip</Tooltip>
+      </Control>
+      <Control ID="OutputProtocolCombo">
+        <Tooltip>Output Protocol Combo Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="JobTimeout" NAME="Job Timeout">
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Tooltip>Job Timeout Tooltip</Tooltip>
+    <Messages>
+      <Message ID="BaloonTitle">Baloon Title</Message>
+      <Message ID="BaloonMessage">Baloon Message</Message>
+    </Messages>
+    <Controls>
+      <Control ID="JobTimeoutStatic">Job Timeout
+        <Tooltip>Job Timeout Tooltip</Tooltip>
+      </Control>
+      <Control ID="JobTimeoutSpin">
+        <Tooltip>Job Timeout Spin Tooltip</Tooltip>
+      </Control>
+      <Control ID="JobTimeoutInfoStatic">second(s)
+        <Tooltip>second(s) Tooltip</Tooltip>
+      </Control>      
+    </Controls>
+  </Feature>
+
+  <Feature ID="WaitTimeout" NAME="Wait Timeout">
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Tooltip>Wait Timeout Tooltip</Tooltip>
+    <Messages>
+      <Message ID="BaloonTitle">Baloon Title</Message>
+      <Message ID="BaloonMessage">Baloon Message</Message>
+    </Messages>
+    <Controls>
+      <Control ID="WaitTimeoutStatic">Wait Timeout
+        <Tooltip>Wait Timeout Tooltip</Tooltip>
+      </Control>
+      <Control ID="WaitTimeoutSpin">
+        <Tooltip>Wait Timeout Spin Tooltip</Tooltip>
+      </Control>
+      <Control ID="WaitTimeoutInfoStatic">second(s)
+        <Tooltip>second(s) Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="MaxFontSize" NAME="Maximum Font Size">
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Tooltip>Maximum Font Size Tooltip</Tooltip>
+    <Messages>
+      <Message ID="BaloonTitle">Baloon Title</Message>
+      <Message ID="BaloonMessage">Baloon Message</Message>
+    </Messages>
+    <Controls>
+      <Control ID="MaxFontSizeStatic">Maximum Font Size
+        <Tooltip>Maximum Font Size Tooltip</Tooltip>
+      </Control>
+      <Control ID="MaxFontSizeSpin">
+        <Tooltip>Maximum Font Size Spin Tooltip</Tooltip>
+      </Control>
+      <Control ID="MaxFontSizeInfoStatic">pixel(s)
+        <Tooltip>pixel(s) Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="MinFontSize" NAME="Minimum Font Size">
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Tooltip>Minimum Font Size Tooltip</Tooltip>
+    <Messages>
+      <Message ID="BaloonTitle">Baloon Title</Message>
+      <Message ID="BaloonMessage">Baloon Message</Message>
+    </Messages>
+    <Controls>
+      <Control ID="MinFontSizeStatic">Minimum Font Size
+        <Tooltip>Minimum Font Size Tooltip</Tooltip>
+      </Control>
+      <Control ID="MinFontSizeSpin">
+        <Tooltip>Minimum Font Size Spin Tooltip</Tooltip>
+      </Control>
+      <Control ID="MinFontSizeInfoStatic">pixel(s)
+        <Tooltip>pixel(s) Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="ErrorHandler" NAME="Send PostScript Error Handler">
+    <Tooltip>Send PostScript Error Handler Tooltip</Tooltip>
+    <Help>Html\Output Options.htm</Help>
+    <Items>
+      <Item ID="On">On</Item>
+      <Item ID="Off">Off</Item>
+    </Items>
+  </Feature>
+
+  <Feature ID="NegativeOutput" NAME="Negative Output">
+    <Tooltip>Negative Output Tooltip</Tooltip>
+    <Help>Html\Smart Color.htm</Help>
+    <Items>
+      <Item ID="On">On</Item>
+      <Item ID="Off">Off</Item>
+    </Items>
+  </Feature>
+
+  <Feature ID="SendCTRLDBefore" NAME="Send CTRL-D Before Each Job">
+    <Tooltip>Send CTRL-D Before Each Job Tooltip</Tooltip>
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Items>
+      <Item ID="On">On</Item>
+      <Item ID="Off">Off</Item>
+    </Items>
+  </Feature>
+
+  <Feature ID="SendCTRLDAfter" NAME="Send CTRL-D After Each Job">
+    <Tooltip>Send CTRL-D After Each Job Tooltip</Tooltip>
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Items>
+      <Item ID="On">On</Item>
+      <Item ID="Off">Off</Item>
+    </Items>
+  </Feature>
+
+  <Feature ID="ConvertGrayText" NAME="Convert Gray Text to PostScript Gray">
+    <Tooltip>Convert Gray Text to PostScript Gray Tooltip</Tooltip>
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Items>
+      <Item ID="On">On</Item>
+      <Item ID="Off">Off</Item>
+    </Items>
+  </Feature>
+
+  <Feature ID="ConvertGrayGraphics" NAME="Convert Gray Graphics to PostScript Gray">
+    <Tooltip>Convert Gray Graphics to PostScript Gray Tooltip</Tooltip>
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Items>
+      <Item ID="On">On</Item>
+      <Item ID="Off">Off</Item>
+    </Items>
+  </Feature>
+
+  <Feature ID="AddEuroCurrency" NAME="Add Euro Currency Symbol to PostScript Fonts">
+    <Tooltip>Add Euro Currency Symbol to PostScript Fonts Tooltip</Tooltip>
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Items>
+      <Item ID="On">On</Item>
+      <Item ID="Off">Off</Item>
+    </Items>
+  </Feature>
+
+  <Feature ID="AvailableMemory" NAME="Available PostScript Memory" >
+    <Help>Html\Advanced Device Options.htm</Help>
+    <Tooltip>Available PostScript Memory Tooltip</Tooltip>
+    <Messages>
+      <Message ID="BaloonTitle">Baloon Title</Message>
+      <Message ID="BaloonMessage">Baloon Message</Message>
+    </Messages>
+    <Controls>
+      <Control ID="AvailableMemoryStatic">Available PostScript Memory
+        <Tooltip>Available PostScript Memory Tooltip</Tooltip>
+      </Control>
+      <Control ID="AvailableMemorySpin">
+        <Tooltip>Available Memory Spin Tooltip</Tooltip>
+      </Control>
+      <Control ID="AvailableMemoryInfoStatic">KB
+        <Tooltip>KB Tooltip</Tooltip>
+      </Control>      
+    </Controls>
+  </Feature>
+
+  <Feature ID="LanguageLevel" NAME="Language Level">
+    <Tooltip>Language Level Tooltip</Tooltip>
+    <Help>Html\Output Options.htm</Help>
+    <Controls>
+      <Control ID="LanguageLevelStatic">Language Level
+        <Tooltip>Language Level Tooltip</Tooltip>
+      </Control>
+      <Control ID="LanguageLevelCombo">
+        <Tooltip>Language Level Combo Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="OutputOption" NAME="Output Option">
+    <Tooltip>Output Option Tooltip</Tooltip>
+    <Help>Html\Output Options.htm</Help>
+    <Controls>
+      <Control ID="OutputOptionStatic">Output Option
+        <Tooltip>Output Option Tooltip</Tooltip>
+      </Control>
+      <Control ID="OutputOptionCombo">
+        <Tooltip>Output Option Combo Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="PostScriptLanguage" NAME="PostScript Language">
+    <Tooltip>PostScript Language Tooltip</Tooltip>
+    <Help>Html\PostScript Options.htm</Help>
+    <Controls>
+      <Control ID="PostScriptLanguageStatic">PostScript Language
+        <Tooltip>PostScript Language Tooltip</Tooltip>
+      </Control>
+      <Control ID="PostScriptLanguageCombo">
+        <Tooltip>PostScript Language Combo Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="MixedSize" NAME="Mixed Size">
+    <Tooltip>Mixed Size Tooltip</Tooltip>
+    <Help>Html\MixedSize.htm</Help>
+    <Messages>
+      <Message ID="GutterInfoTitle">Baloon Title</Message>
+      <Message ID="GutterInfoMessage">Baloon Message</Message>
+    </Messages>
+    <Controls>
+      <Control ID="MixedSizeButton">Details
+        <Tooltip>Details Tooltip</Tooltip>
+      </Control>
+      <Control ID="MixedSizeDlg">Mixed Size Settings
+      </Control>
+      <Control ID="Size">Size
+        <Tooltip>Size Tooltip</Tooltip>
+      </Control>
+      <Control ID="SizeCombo">
+        <Tooltip>SizeCombo Tooltip</Tooltip>
+        <Items>
+          <Item ID="None">None</Item>
+        </Items>
+      </Control>
+      <Control ID="AlignmentOptions">Alignment Options
+        <Tooltip>Alignment Options Tooltip</Tooltip>
+      </Control>
+      <Control ID="AlignmentIcon">
+        <Tooltip>Alignment Icon Tooltip</Tooltip>
+      </Control>
+      <Control ID="RadioType1">Type 1
+        <Tooltip>Type 1 Tooltip</Tooltip>
+      </Control>
+      <Control ID="RadioType2">Type 2
+        <Tooltip>Type 2 Tooltip</Tooltip>
+      </Control>
+      <Control ID="GutterStatic">Gutter
+        <Tooltip>GutterStatic Tooltip</Tooltip>
+      </Control>
+      <Control ID="GutterSpin">
+        <Tooltip>GutterSpin Tooltip</Tooltip>
+      </Control>
+      <Control ID="GutterInfoMmStatic">(%s-%s mm)
+        <Tooltip>GutterInfoMmStatic Tooltip</Tooltip>
+      </Control>
+      <Control ID="GutterInfoInchStatic">(%s-%s mm)
+        <Tooltip>GutterInfoInchStatic Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="SpecialPages" NAME="Special Pages Options">
+    <Tooltip>Special Pages Tooltip</Tooltip>
+    <Help>Html\Special Pages Options.htm</Help>
+    <Messages>
+      <Message ID="ConfirmDeleteMessage">Are you sure you want to delete selected special page(s)?</Message>
+      <Message ID="ConfirmDeleteTitle">Are You Sure</Message>
+      <Message ID="BaloonTitle">Baloon Title</Message>
+      <Message ID="BaloonMessage">Baloon Message</Message>
+	  <Message ID="ResetMessageTitle">Are you sure</Message>
+      <Message ID="ResetMessage">Are you sure you want to reset special page(s)?</Message>      
+    </Messages>
+    <Controls>
+      <Control ID="SpecialPagesButton">Special Pages
+        <Tooltip>Special Pages Button Tooltip</Tooltip>
+      </Control>
+      <Control ID="PageOptionsGroup">Page Options
+      </Control>
+      <Control ID="UpButton">Up
+        <Tooltip>Up Tooltip</Tooltip>
+      </Control>
+        <Control ID="DownButton">Down
+        <Tooltip>Down Tooltip</Tooltip>
+      </Control>       
+     <Control ID="AddButton">Add
+        <Tooltip>Add Tooltip</Tooltip>
+      </Control>
+      <Control ID="UpdateButton">Update
+        <Tooltip>Update Tooltip</Tooltip>
+      </Control>
+       <Control ID="DeleteButton">Delete
+         <Tooltip>Delete Tooltip</Tooltip>
+      </Control>
+      <Control ID="DoubleSidedGroup">Double-Sided Printing
+      </Control>
+       <Control ID="SpecialPagesList">
+         <Tooltip>Special Pages List Tooltip</Tooltip>
+         <Items>
+           <Item ID="PagesColumn">Page(s)</Item>
+           <Item ID="TypeColumn">Type</Item>
+           <Item ID="SetupColumn">Setup</Item>
+         </Items>
+      </Control>
+      <Control ID="PageOptionsCombo">
+         <Tooltip>PageOptCombo Tooltip</Tooltip>
+        <Items>
+          <Item ID="Cover">Cover</Item>
+          <Item ID="Insert">Insert</Item>
+          <Item ID="Exception">Exception</Item>
+        </Items>
+      </Control>
+      <Control ID="InsertBeforeRadio">Before Page1
+         <Tooltip>Before Page1 Tooltip</Tooltip>
+      </Control>
+      <Control ID="InsertAfterRadio">After Page(s)
+         <Tooltip>After Page(s) Tooltip</Tooltip>
+      </Control>
+      <Control ID="InsertPageInfoStatic">(1,5-10)
+        <Tooltip>(1,5-10) Tooltip</Tooltip>
+      </Control>
+      <Control ID="PaperOptionsGroup">Paper Options</Control>
+      <Control ID="PaperSourceStatic">Source
+        <Tooltip>Source Tooltip</Tooltip>
+      </Control>
+      <Control ID="PaperTypeStatic">Paper Type
+        <Tooltip>Type Tooltip</Tooltip>
+      </Control>
+      <Control ID="PaperSourceCombo">
+        <Tooltip>Paper Source Combo Tooltip</Tooltip>
+      </Control>
+      <Control ID="PaperTypeCombo">
+        <Tooltip>Paper Type Combo Tooltip</Tooltip>
+      </Control>
+      <Control ID="ExceptionPageStatic">Page(s)
+        <Tooltip>Page(s) Tooltip</Tooltip>
+      </Control>
+      <Control ID="ExceptionPageEdit">
+        <Tooltip>Exception Page Edit Tooltip</Tooltip>
+      </Control>
+      <Control ID="ExceptionPageInfoStatic">(1,5-10)
+        <Tooltip>(1,5-10) Tooltip</Tooltip>
+      </Control>
+      <Control ID="CoverOptGroup">Cover Options</Control>
+      <Control ID="ResetButton">Reset
+        <Tooltip>Reset Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="GraphicsMode" NAME="Graphics Mode">
+    <Help>Html\Graphics Mode.htm</Help>
+    <Tooltip>Graphics Mode Tooltip</Tooltip>
+    <Controls>
+      <Control ID="GraphicsModeStatic">Graphics Mode
+        <Tooltip>Graphics Mode Tooltip</Tooltip>
+      </Control>
+      <Control ID="GraphicsModeCombo">
+        <Tooltip>Graphics Mode Combo Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+
+  <Feature ID="PrintOptimizations" NAME="Print Optimizations">
+    <Tooltip>Print Optimizations Tooltip</Tooltip>
+    <Help>Html\Print Optimizations.htm</Help>
+    <Items>
+      <Item ID="On">On</Item>
+      <Item ID="Off">Off</Item>
+    </Items>
+  </Feature>
+
+  <Feature ID="OptionalInnerOutputBin" NAME="Optional Inner Output Bin">
+    <Tooltip>Optional Inner Output Bin Tooltip</Tooltip>
+    <Help>Html\Printer Configuration.htm</Help>
+    <Controls>
+      <Control ID="OptionalInnerOutputBinStatic">Optional Inner Output Bin
+        <Tooltip>Optional Inner Output Bin Static Tooltip</Tooltip>
+      </Control>
+      <Control ID="OptionalInnerOutputBinCombo">
+        <Tooltip>Optional Inner Output Bin Combo Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+  <Feature ID="EcoPrintingPreview" NAME="Start Eco Preview before printing job">
+		<Tooltip>Start Eco Preview before printing job Tooltip</Tooltip>
+		<Help>Html\EcoPrintingPreview.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+		<Controls>
+			<Control ID="EcoPrintingPreviewStatic">Start Eco Preview before printing job
+				<Tooltip>Start Eco Preview before printing job Tooltip</Tooltip>
+			</Control>
+			<Control ID="EcoPrintingPreviewCombo">
+				<Tooltip>Start Eco Preview before printing job Tooltip</Tooltip>
+			</Control>
+			<Control ID="EcoPreviewGuideButton">Guide
+                <Tooltip>Guide Tooltip</Tooltip>
+            </Control>
+            <Control ID="EcoPreviewDialogCaption">Guide for Eco Previewer
+            </Control>
+            <Control ID="EcoPreviewDialogStaticExplanationNote">To enable this option, you need to install the latest .NET Framework 3.5 package on your computer. Would you like to go on Microsoft .NET Framework 3.5 download site right now?
+            </Control>
+            <Control ID="EcoPreviewDialogEditboxLinkToNetFramework">
+            </Control>
+		</Controls>
+	</Feature>
+    <Feature ID="EasyColorManager" NAME="Easy Color Manager">
+    <Tooltip>Easy Color Manager feature tooltip</Tooltip>
+    <Help>Html\Easy Color Manager.htm</Help>
+    <Controls>
+      <Control ID="EasyColorManagerButton">Easy Color Manager
+        <Tooltip>Easy Color Manager button tooltip</Tooltip>
+      </Control>
+      <Control ID="EasyColorManagerDialogCaption">Easy Color Manager dialog
+      </Control>
+      <Control ID="InstallEasyColorManagerMessage">Install "Easy Color Manager"
+        <!--Tooltip>Install Easy Color Manager message tooltip</Tooltip-->
+      </Control>
+      <Control ID="EasyColorManagerIsAlreadyRunningMessage">"Easy Color Manager" is already running
+        <!--Tooltip>Easy Color Manager is already running message tooltip</Tooltip-->
+      </Control>
+      <Control ID="EasyColorManagerLink">
+        <!--Tooltip>Install Easy Color Manager message tooltip</Tooltip-->
+      </Control>
+    </Controls>
+  </Feature>
+  <Feature ID="EMFSpooling" NAME="EMF Spooling">
+		<Tooltip>EMF Spooling Tooltip</Tooltip>
+		<Help>Html\Administrator Options.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+    <Controls>
+			<Control ID="EMFSpoolingStatic">Data type
+				<Tooltip>EMFSpooling Tooltip</Tooltip>
+			</Control>
+			<Control ID="EMFSpoolingCombo">
+				<Tooltip>EMFSpooling Combo Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+	<Feature ID="SmartPanel" NAME="Printer Status">
+		<Tooltip>Printer Status Tooltip</Tooltip>
+		<Help>Html\Administrator Options.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="AutoConfiguration" NAME="Auto Configuration">
+		<Tooltip>Auto Configuration Tooltip</Tooltip>
+		<Help>Html\Administrator Options.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="LiveUpdate" NAME="Live Update">
+		<Tooltip>Live Update Tooltip</Tooltip>
+		<Help>Html\Administrator Options.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+	<Feature ID="AMPVCollector" NAME="Collecting Printer Usage Info">
+		<Tooltip>Collecting Printer Usage Info Tooltip</Tooltip>
+		<Help>Html\Administrator Options.htm</Help>
+		<Items>
+			<Item ID="On">On</Item>
+			<Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+
+	<Feature ID="DocumentType" NAME="Document Type">
+    <Tooltip>DocumentType Tooltip</Tooltip>
+    <Help>Html\Document Type.htm</Help>
+  </Feature>
+
+	<Feature ID="PatternOptimizer" NAME="Pattern Optimizer">
+		<Tooltip>PatternOptimizer Tooltip</Tooltip>
+		<Help>Html\Smart Color.htm</Help>
+		<Items>
+		  <Item ID="On">On</Item>
+		  <Item ID="Off">Off</Item>
+		</Items>
+	</Feature>
+  
+    <Feature ID="PreviewPresetDetailes" NAME="PreviewPresetDetailes">
+		<Tooltip>Preview Tooltip</Tooltip>
+        <Messages>
+            <Message ID="MoreInfoButtonDisableReasonTooltip">There are no incompatible options for this favorite.</Message>
+        </Messages>
+		<Controls>
+            <Control ID="PrinterModel">Printer Model</Control>
+            <Control ID="SummaryLabel">Favorite Summary</Control>
+            <Control ID="IncompatibleOptionsLabel">Incompatible Options</Control>
+            <Control ID="MoreInfoButton">More Info
+                <Tooltip>MoreInfoButton Tooltip</Tooltip>
+            </Control>
+            <Control ID="IncompatibleOptionsInfoDialogTitle">Incompatible Options Info</Control>
+            <Control ID="IncompatibleOptionsInfo"></Control>
+		</Controls>
+	</Feature>
+	
+	<Feature ID="Presets">
+    <Help>Html\Presets.htm</Help>
+    <Messages>
+      <Message ID="DeletePresetMessageTitle">Delete Favorite</Message>
+      <Message ID="DeletePresetMessageText">Are you sure you want to delete this favorite?</Message>
+      <Message ID="DeleteButtonDisableReasonTooltip">Predefined favorite cannot be deleted.</Message>
+	  <Message ID="OkButtonDisableReasonMessage">Entered title already exists.</Message>
+      <Message ID="FilterText">Preset Files (*.FUP)</Message>
+      <Message ID="PresetIsNotValidWarningMessage">Some of this item are deactivated by other settings</Message>
+      <Message ID="SecurePrintWarningMessage">Please enter the password to enable.</Message>
+      <!--Message ID="SecurePrintNotValidMessage">Secure Printing is disabled due to Print Mode settings.</Message-->
+      <Message ID="JobAccountingPasswordWarningMessage">Please enter password to enable.</Message> 
+      <Message ID="JobAccountingPincodeWarningMessage">Please enter pin code to enable.</Message>
+      <Message ID="ShareButtonDisableReasonTooltip">You cannot change share status of predefined favorite.</Message>
+      <Message ID="LastUsedFavoriteIsAlwaysOnTopReasonTooltip">Last Used Setting favorite should always be on top of the list.</Message>
+      <Message ID="ImportErrorMessageTitle">Import error</Message>
+      <Message ID="DriverTypeUndefinedMessageText">This favorite file is incompatible with current driver.</Message>
+      <Message ID="DriverTypeIncompatibleMessageText">This favorite file is incompatible with current driver.</Message>
+      <Message ID="SameAsDefaultText">Same as default settings</Message>
+    </Messages>
+    <Controls>
+      <Control ID="PresetsListbox">Favorites List
+        <Tooltip>FavoritesListbox Tooltip</Tooltip>
+        <Items>
+          <Item ID="LastUsedPresetName">Last Used Settings</Item>
+          <Item ID="LastUsedPresetDescription">Last Used Settings Description</Item>
+        </Items>
+      </Control>
+      <Control ID="DeleteButton">Delete
+        <Tooltip>DeleteButton Tooltip</Tooltip>
+      </Control>
+      <Control ID="OptionsButton">Options
+        <Tooltip>OptionsButton Tooltip</Tooltip>
+      </Control>
+
+      <Control ID="SavePresetDialogTitle">Save Favorite
+        <Tooltip>SaveFavoriteDialogTitle Tooltip</Tooltip>
+      </Control>
+      <Control ID="PresetNameEditboxLabel">Name:
+        <Tooltip>FavoriteNameEditboxLabel Tooltip</Tooltip>
+      </Control>
+      <Control ID="PresetNameEditbox">
+        <Tooltip>FavoriteNameEditbox Tooltip</Tooltip>
+      </Control>
+      <Control ID="PresetDescriptionEditboxLabel">Description:
+        <Tooltip>FavoriteDescriptionEditboxLabel Tooltip</Tooltip>
+      </Control>
+      <Control ID="PresetDescriptionEditbox">
+        <Tooltip>FavoriteDescriptionEditbox Tooltip</Tooltip>
+      </Control>
+      <Control ID="IconsListboxLabel">Icon:
+        <Tooltip>IconsListboxLabel Tooltip</Tooltip>
+      </Control>
+      <Control ID="IconsListbox">
+        <Tooltip>IconsListbox Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShareCheckbox">Share this favorite
+        <Tooltip>ShareCheckbox Tooltip</Tooltip>
+      </Control>
+
+      <Control ID="PresetsOptionsDialogTitle">Options
+        <Tooltip>FavoritesOptionsDialogTitle Tooltip</Tooltip>
+      </Control>
+      <Control ID="ShareButton">
+        <Tooltip>ShareButton Tooltip</Tooltip>
+      </Control>
+      <Control ID="UpButton">
+        <Tooltip>UpButton Tooltip</Tooltip>
+      </Control>
+      <Control ID="DownButton">
+        <Tooltip>DownButton Tooltip</Tooltip>
+      </Control>
+      <Control ID="ImportButton">
+        <Tooltip>ImportButton Tooltip</Tooltip>
+      </Control>
+      <Control ID="ExportButton">
+        <Tooltip>ExportButton Tooltip</Tooltip>
+      </Control>
+      <Control ID="RestorePredefinedPresetsButton">
+        <Tooltip>RestoreButton Tooltip</Tooltip>
+      </Control>
+      <Control ID="PresetsListboxLabel">Favorites List
+        <Tooltip>FavoritesListboxLabel Tooltip</Tooltip>
+      </Control>
+      <Control ID="DetailsButton">Details
+        <Tooltip>DetailsButton Tooltip</Tooltip>
+      </Control>
+      
+      <Control ID="KeepJobAccountingWarning">Please pay attention that all presets use current settings of Job Accounting
+        <Tooltip>Please pay attention that all presets use current settings of Job Accounting</Tooltip> 
+      </Control> 
+      
+    </Controls>
+  </Feature>
+
+  <Feature ID="PreviewManager2" NAME="Preview Manager2">
+    <Controls>
+      <Control ID="PresetTab">Preview</Control>
+      <Control ID="PresetDetailsTab">Details</Control>
+    </Controls>
+  </Feature>
+  
+  <Feature ID="DeviceCustomPaper" NAME="Device Custom Paper"> 
+	<Tooltip>DeviceCustomPaper Tooltip</Tooltip> 
+	<Help>Html\Custom Page Size dialog.htm</Help>
+	<Controls>
+		<Control ID="AddPaperButton">Add Custom Paper
+			<Tooltip>AddPaperButton Tooltip</Tooltip> 
+		</Control> 
+	</Controls> 
+  </Feature>
+  
+  <Feature ID="ExternalUI" NAME="Stylish User Interface">
+    <Tooltip>Stylish User Interface Tooltip</Tooltip>
+    <Help>Html\Administrator Options.htm</Help>
+    <Controls>
+      <Control ID="ExternalUIStatic">Stylish User Interface
+        <Tooltip>Stylish User Interface Tooltip</Tooltip>
+      </Control>
+      <Control ID="ExternalUICombo">
+        <Tooltip>Stylish User Interface Combo Tooltip</Tooltip>
+      </Control>
+      <Control ID="EcoPreviewDialogCaption">.NET Framework 4.0 Required</Control>
+      <Control ID="EcoPreviewDialogStaticExplanationNote">To run Touch UI, you need to install .NET Framework 4.0 (or later) on your computer. Would you like to go to Microsoft download site right now?</Control>
+      <Control ID="EcoPreviewDialogEditboxLinkToNetFramework">http://www.microsoft.com/en-us/download/details.aspx?id=30653</Control>
+    </Controls>
+  </Feature>
+  <Feature ID="TechMode">
+    <Help>Html\TechMode.htm</Help>
+    <Controls>
+      <Control ID="TechMode">Technical mode</Control>
+      <Control ID="LogDebugView">Log to DebugView application
+        <Tooltip>Log to DebugView Application Tooltip</Tooltip>
+      </Control>
+      <Control ID="LogToFile">Log to the file
+        <Tooltip>Log to the file Tooltip</Tooltip>
+      </Control>
+      <Control ID="EnableLogging">Enable logging
+        <Tooltip>Enable Logging Tooltip</Tooltip>
+      </Control>
+      <Control ID="FileNameButton">...
+        <Tooltip>Browse For File Tooltip</Tooltip>
+      </Control>
+      <Control ID="FileName">File name
+        <Tooltip>File name Tooltip</Tooltip>
+      </Control>
+      <Control ID="LimitFileSizeTo">Limit the file size to
+        <Tooltip>Limit the file size to Tooltip</Tooltip>
+      </Control>
+      <Control ID="StaticMBytes">MBytes
+        <Tooltip>Limit the file size to Tooltip</Tooltip>
+      </Control>
+      <Control ID="StaticCommonLoggingLevel">Common logging level
+        <Tooltip>Common logging level Tooltip</Tooltip>
+      </Control>
+      <Control ID="CommonLoggingLevel">
+        <Items>
+          <Item ID="All">All</Item>
+          <Item ID="WarningsErrors">Warnings &amp; Errors</Item>
+          <Item ID="ErrorsOnly">Errors only</Item>
+          <Item ID="Nothing">Nothing</Item>
+          <Item ID="Empty">Multiple selection</Item>
+        </Items>
+      </Control>
+      <Control ID="PerModuleConfiguration">Per module configuration       
+        <Tooltip>Per module configuration Tooltip</Tooltip>
+      </Control>
+      <Control ID="DCU">DCU      
+        <Tooltip>DCU Tooltip</Tooltip>
+      </Control>
+      <Control ID="UPDAgent">UPDAgent
+        <Tooltip>UPDAgent Tooltip</Tooltip>
+      </Control>
+      <Control ID="DEVMODEHandler">DEVMODEHandler
+        <Tooltip>DEVMODEHandler Tooltip</Tooltip>
+      </Control>
+      <Control ID="Feature">Feature
+        <Tooltip>Feature Tooltip</Tooltip>
+      </Control>
+      <Control ID="CustomControls">CustomControls
+        <Tooltip>CustomControls Tooltip</Tooltip>
+      </Control>
+      <Control ID="Configurator">Configurator        
+        <Tooltip>Configurator Tooltip</Tooltip>
+      </Control>
+      <Control ID="PrinterInterface">PrinterInterface        
+        <Tooltip>PrinterInterface Tooltip</Tooltip>
+      </Control>
+      <Control ID="RegistryHandler">RegistryHandler
+        <Tooltip>RegistryHandler Tooltip</Tooltip>
+      </Control>
+      <Control ID="Page">Page        
+        <Tooltip>Page Tooltip</Tooltip>
+      </Control>
+      <Control ID="ImageProcessing">ImageProcessing
+        <Tooltip>ImageProcessing Tooltip</Tooltip>
+      </Control>
+	  <Control ID="OutputToPRN">Output to PRN file
+        <Tooltip>Output to PRN file Tooltip</Tooltip>
+      </Control>
+      <Control ID="OutputToEMF">Output to EMF file
+        <Tooltip>Output to EMF file Tooltip</Tooltip>
+      </Control>
+      <Control ID="GatherOutput">Gather output
+        <Tooltip>Gather Output Tooltip</Tooltip>
+      </Control>
+      <Control ID="OutputFileNameButton">...
+        <Tooltip>Browse for Output file Tooltip</Tooltip>
+      </Control>
+      <Control ID="OutputFileName">Output file name
+        <Tooltip>Output file name Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+	<Feature ID="HeaderFooter" NAME="HeaderFooter">
+    <Help>Html\Header and Footer.htm</Help>
+    <Messages>
+      <Message ID="HeaderFooter">Header/Footer</Message>
+      <Message ID="LeftHeader">Left Header</Message>
+      <Message ID="CenterHeader">Center Header</Message>
+      <Message ID="RightHeader">Right Header</Message>
+      <Message ID="LeftFooter">Left Footer</Message>
+      <Message ID="CenterFooter">Center Footer</Message>
+      <Message ID="RightFooter">Right Footer</Message>
+      <Message ID="FontName">Name</Message>
+      <Message ID="FontSize">Size</Message>
+      <Message ID="Color">Color</Message>
+    </Messages>
+		<Controls>
+			<Control ID="HeaderFooterDialogTitle">Header and Footer Options</Control>
+			<Control ID="HeaderGroupTitle">Header</Control>
+			<Control ID="LeftHeaderCombobox">
+				<Tooltip>Select left header</Tooltip>
+				<Items>
+					<Item ID="None">None</Item>
+					<Item ID="ShortDate">&lt;ShortDate&gt;</Item>
+					<Item ID="LongDate">&lt;LongDate&gt;</Item>
+					<Item ID="ShortTime">&lt;ShortTime&gt;</Item>
+					<Item ID="LongTime">&lt;LongTime&gt;</Item>
+					<Item ID="PageNumber">Page number</Item>
+          <Item ID="LogonName">Logon name</Item>
+          <Item ID="ComputerName">Computer name</Item>
+				</Items>
+			</Control>
+			<Control ID="CenterHeaderCombobox">
+				<Tooltip>Select center header</Tooltip>
+				<Items>
+					<Item ID="None">None</Item>
+					<Item ID="ShortDate">&lt;ShortDate&gt;</Item>
+					<Item ID="LongDate">&lt;LongDate&gt;</Item>
+					<Item ID="ShortTime">&lt;ShortTime&gt;</Item>
+					<Item ID="LongTime">&lt;LongTime&gt;</Item>
+					<Item ID="PageNumber">Page number</Item>
+          <Item ID="LogonName">Logon name</Item>
+          <Item ID="ComputerName">Computer name</Item>
+				</Items>
+			</Control>
+			<Control ID="RightHeaderCombobox">
+				<Tooltip>Select right header</Tooltip>
+				<Items>
+					<Item ID="None">None</Item>
+					<Item ID="ShortDate">&lt;ShortDate&gt;</Item>
+					<Item ID="LongDate">&lt;LongDate&gt;</Item>
+					<Item ID="ShortTime">&lt;ShortTime&gt;</Item>
+					<Item ID="LongTime">&lt;LongTime&gt;</Item>
+					<Item ID="PageNumber">Page number</Item>
+          <Item ID="LogonName">Logon name</Item>
+          <Item ID="ComputerName">Computer name</Item>
+				</Items>
+			</Control>
+			<Control ID="FooterGroupTitle">Footer</Control>
+			<Control ID="LeftFooterCombobox">
+				<Tooltip>Select left footer</Tooltip>
+				<Items>
+					<Item ID="None">None</Item>
+					<Item ID="ShortDate">&lt;ShortDate&gt;</Item>
+					<Item ID="LongDate">&lt;LongDate&gt;</Item>
+					<Item ID="ShortTime">&lt;ShortTime&gt;</Item>
+					<Item ID="LongTime">&lt;LongTime&gt;</Item>
+					<Item ID="PageNumber">Page number</Item>
+          <Item ID="LogonName">Logon name</Item>
+          <Item ID="ComputerName">Computer name</Item>
+				</Items>
+			</Control>
+			<Control ID="CenterFooterCombobox">
+				<Tooltip>Select center footer</Tooltip>
+				<Items>
+					<Item ID="None">None</Item>
+					<Item ID="ShortDate">&lt;ShortDate&gt;</Item>
+					<Item ID="LongDate">&lt;LongDate&gt;</Item>
+					<Item ID="ShortTime">&lt;ShortTime&gt;</Item>
+					<Item ID="LongTime">&lt;LongTime&gt;</Item>
+					<Item ID="PageNumber">Page number</Item>
+          <Item ID="LogonName">Logon name</Item>
+          <Item ID="ComputerName">Computer name</Item>
+				</Items>
+			</Control>
+			<Control ID="RightFooterCombobox">
+				<Tooltip>Select right footer</Tooltip>
+				<Items>
+					<Item ID="None">None</Item>
+					<Item ID="ShortDate">&lt;ShortDate&gt;</Item>
+					<Item ID="LongDate">&lt;LongDate&gt;</Item>
+					<Item ID="ShortTime">&lt;ShortTime&gt;</Item>
+					<Item ID="LongTime">&lt;LongTime&gt;</Item>
+					<Item ID="PageNumber">Page number</Item>
+          <Item ID="LogonName">Logon name</Item>
+          <Item ID="ComputerName">Computer name</Item>
+				</Items>
+			</Control>
+			<Control ID="FontGroupTitle">Font Attributes
+        <Help>Html\Font Attributes_Header and Footer.htm</Help>
+      </Control>
+			<Control ID="FontNameLabel">Name
+				<Tooltip>Name Tooltip</Tooltip>
+        <Help>Html\Font Attributes_Header and Footer.htm</Help>
+			</Control>
+			<Control ID="FontNameCombobox">
+				<Tooltip>Name Tooltip</Tooltip>
+        <Help>Html\Font Attributes_Header and Footer.htm</Help>
+			</Control>
+			<Control ID="FontSizeLabel">Size
+				<Tooltip>Size Tooltip</Tooltip>
+        <Help>Html\Font Attributes_Header and Footer.htm</Help>
+			</Control>
+			<Control ID="FontSizeEditbox">
+				<Tooltip>Size Tooltip</Tooltip>
+        <Help>Html\Font Attributes_Header and Footer.htm</Help>
+			</Control>
+			<Control ID="FontSizeRestrictionLabel">(%d - %d)
+				<Tooltip>Size Tooltip</Tooltip>
+        <Help>Html\Font Attributes_Header and Footer.htm</Help>
+			</Control>
+			<Control ID="ColorLabel">Color
+				<Tooltip>Color Tooltip</Tooltip>
+        <Help>Html\Font Attributes_Header and Footer.htm</Help>
+			</Control>
+			<Control ID="ColorCombobox">
+				<Tooltip>Color Tooltip</Tooltip>
+        <Help>Html\Font Attributes_Header and Footer.htm</Help>
+				<Items>
+					<Item ID="Gray">Gray</Item>
+					<Item ID="Red">Red</Item>
+					<Item ID="Yellow">Yellow</Item>
+					<Item ID="Green">Green</Item>
+					<Item ID="Cyan">Cyan</Item>
+					<Item ID="Blue">Blue</Item>
+					<Item ID="Magenta">Magenta</Item>
+				</Items>
+			</Control>
+			<Control ID="ResetButton">Reset
+				<Tooltip>Reset Tooltip</Tooltip>
+			</Control>
+		</Controls>
+	</Feature>
+  <Feature ID="ColorAlways" NAME="Color Always">
+  	<Tooltip>Color Always Tooltip</Tooltip>
+  	<Help>Html\Administrator Options.htm</Help>
+  </Feature>
+  
+  <Feature ID="CFoldingOptions" NAME="CFolding Options">
+    <Tooltip>CFolding Options Tooltip</Tooltip>
+    <Help>Html\CFolding Options.htm</Help>
+    <Messages>      
+      <Message ID="WrongSetBaloonTitle">Wrong Set Baloon Title</Message>
+      <Message ID="WrongSetBaloonMessage">Wrong Set Baloon Message</Message>
+      <Message ID="ResetPatterMessageTitle">Reset Confirmation</Message>
+      <Message ID="ResetPatternMessageText">Are you sure you want to reset folding options to the default values?</Message>
+    </Messages>
+    <Controls>
+      <Control ID="FoldingLabel">Folding
+        <Tooltip>Folding Tooltip</Tooltip>
+      </Control>
+      <Control ID="FoldingCombo">
+        <Tooltip>Folding Tooltip</Tooltip>
+        <Items>
+          <Item ID="None">None</Item>
+          <Item ID="CFolding">C-Folding</Item>
+        </Items>
+      </Control>
+      <Control ID="FoldingReset">Reset
+        <Tooltip>Reset Tooltip</Tooltip>
+      </Control>
+      <Control ID="FoldingAdvanced">Advanced
+        <Tooltip>Advanced Tooltip</Tooltip>
+      </Control>
+      <!-- Dialog -->
+      <Control ID="AdvancedDialog">Advanced Folding Options
+        <Tooltip>Advanced Folding Options Tooltip</Tooltip>
+      </Control>
+      <Control ID="PatternGroup">Pattern
+        <Tooltip>Pattern Tooltip</Tooltip>
+      </Control>
+      <Control ID="OutsideTopRadio">Outside, Top
+        <Tooltip>Outside, Top Tooltip</Tooltip>
+      </Control>
+      <Control ID="OutsideBottomRadio">Outside, Bottom
+        <Tooltip>Outside, Bottom Tooltip</Tooltip>
+      </Control>
+      <Control ID="InsideTopRadio">Inside, Top
+        <Tooltip>Inside, Top Tooltip</Tooltip>
+      </Control>
+      <Control ID="InsideBottomRadio">Inside, Bottom
+        <Tooltip>Inside, Bottom Tooltip</Tooltip>
+      </Control>
+      <Control ID="SetLabel">Sheets per Set
+        <Tooltip>Sheets per Set Tooltip</Tooltip>
+      </Control>
+      <Control ID="SetSpin">
+        <Tooltip>Sheets per Set Range Tooltip</Tooltip>
+      </Control>
+      <Control ID="SetLabelPostfix">(1-%d)
+        <Tooltip>Sheets per Set Postfix Tooltip</Tooltip>
+      </Control>
+      <Control ID="PatternReset">Reset
+        <Tooltip>Pattern Reset Tooltip</Tooltip>
+      </Control>
+    </Controls>
+  </Feature>
+  
+  <Feature ID="HardCopySecurity" NAME="Hard Copy Security">
+    <Messages>
+			<Message ID="DeleteCopyguardConfirmationMessageTitle">Delete Confirmation</Message>
+			<Message ID="DeleteCopyguardConfirmationMessageText">Are you sure you want to delete the selected secure watermark?</Message>
+			<Message ID="SaveChangesConfirmationMessageTitle">Save Changes Title</Message>
+			<Message ID="SaveChangesConfirmationMessageText">Save Changes Message</Message>
+			<Message ID="PasswordRestrictionMessageTitle">Baloon Title</Message>
+			<Message ID="PasswordRestrictionMessageText">Baloon Message</Message>
+      <Message ID="InvalidPasswordMessageTitle">Invalid Password</Message>
+      <Message ID="InvalidPasswordMessageText">You must enter a %d-%d alphanumeric Password and re-enter it for confirmation in order to use the Password</Message>
+      <Message ID="Mode">Mode</Message>
+      <Message ID="CopyguardMessage">Secure Watermark Text</Message>
+      <Message ID="CopyguardMessageSize">Size</Message>
+      <Message ID="CopyguardMessageDirection">Direction</Message>
+      <Message ID="Pattern">Pattern</Message>
+      <Message ID="Color">Color</Message>
+      <Message ID="PasswordChanged">Password Changed</Message>
+    </Messages>
+    <Controls>
+      <Control ID="HardCopySecurityLabel">Hard Copy Security
+        <Tooltip>Hard Copy Security Tooltip</Tooltip>
+      </Control>
+      <Control ID="HardCopySecurityCombobox">
+        <Tooltip>Hard Copy Security Tooltip</Tooltip>
+      </Control>
+      <Control ID="HardCopySecurityCopyguardDialogTitle">Secure Watermark Details</Control>
+      <Control ID="CopyguardsListGroupTitle">Current Secure Watermark</Control>
+      <Control ID="CopyguardsListbox">
+        <Tooltip>Available Secure Watermark</Tooltip>
+      </Control>
+      <Control ID="AddCopyguardButton">Add
+        <Tooltip>Add Button Tooltip</Tooltip>
+      </Control>
+      <Control ID="UpdateCopyguardButton">Update
+        <Tooltip>Update Button Tooltip</Tooltip>
+      </Control>
+      <Control ID="DeleteCopyguardButton">Delete
+        <Tooltip>Delete Button Tooltip</Tooltip>
+      </Control>
+      <Control ID="CopyguardMessageGroupTitle">Secure Watermark Text</Control>
+      <Control ID="CopyguardMessageEditbox">
+        <Tooltip>Secure Watermark Text Edit Tooltip</Tooltip>
+      </Control>
+      <Control ID="CopyguardMessageSizeLabel">Size
+        <Tooltip>Size Tooltip</Tooltip>
+      </Control>
+      <Control ID="CopyguardMessageSizeCombobox">
+        <Tooltip>Size Tooltip</Tooltip>
+        <Items>
+          <Item ID="Small">Small</Item>
+          <Item ID="Medium">Medium</Item>
+          <Item ID="Large">Large</Item>
+        </Items>
+      </Control>
+      <Control ID="CopyguardMessageDirectionLabel">Direction
+        <Tooltip>Direction Tooltip</Tooltip>
+      </Control>
+      <Control ID="CopyguardMessageDirectionCombobox">
+        <Tooltip>Direction Tooltip</Tooltip>
+        <Items>
+          <Item ID="-45">-45 degrees</Item>
+					<Item ID="0">0 degrees</Item>
+					<Item ID="45">+45 degrees</Item>
+        </Items>
+      </Control>
+      <Control ID="PatternGroupTitle">Background</Control>
+      <Control ID="PatternLabel">Pattern
+        <Tooltip>Pattern Tooltip</Tooltip>
+      </Control>
+      <Control ID="PatternCombobox">
+        <Tooltip>Pattern Tooltip</Tooltip>
+        <Items>
+          <Item ID="Pattern1">Pattern1</Item>
+          <Item ID="Pattern2">Pattern2</Item>
+          <Item ID="Pattern3">Pattern3</Item>
+        </Items>
+      </Control>
+      <Control ID="ColorLabel">Color
+        <Tooltip>Color Tooltip</Tooltip>
+      </Control>
+      <Control ID="ColorCombobox">
+        <Tooltip>Color Tooltip</Tooltip>
+        <Items>
+          <Item ID="Black">Black</Item>
+          <Item ID="Cyan">Cyan</Item>
+          <Item ID="Magenta">Magenta</Item>
+        </Items>
+      </Control>
+      <Control ID="ColorToneLabel">Darkness
+        <Tooltip>Darkness Tooltip</Tooltip>
+      </Control>
+      <Control ID="ColorToneCombobox">
+        <Tooltip>Darkness Tooltip</Tooltip>
+        <Items>
+          <Item ID="Light">-1</Item>
+          <Item ID="Medium">0</Item>
+          <Item ID="Dark">1</Item>
+        </Items>
+      </Control>
+      <Control ID="HardCopySecurityPasswordDialogTitle">Hard Copy Security Password</Control>
+      <Control ID="PasswordGroupTitle">Password Group</Control>
+      <Control ID="PasswordLabel">Enter Password</Control>
+      <Control ID="PasswordEditbox">
+        <Tooltip>Password Edit Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordRestrictionLabel">(%d-%d Alphanumeric)</Control>
+      <Control ID="PasswordConfirmationLabel">Confirm Password</Control>
+      <Control ID="PasswordConfirmationEditbox">
+        <Tooltip>Password Confirm Edit Tooltip</Tooltip>
+      </Control>
+      <Control ID="PasswordConfirmationRestrictionLabel">(%d-%d Alphanumeric)</Control>
+    </Controls>
+  </Feature>
+  <Feature ID="Warmup" NAME="Warmup Device">
+      <Tooltip>Warmup Tooltip</Tooltip>
+      <Help>Html\Administrator Options.htm</Help>
+      <Items>
+          <Item ID="On">On</Item>
+          <Item ID="Off">Off</Item>
+      </Items>
+  </Feature>
+  
+  <Feature ID="ScriptVersion">2014.06.02</Feature>
+</Features>

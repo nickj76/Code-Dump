@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model xmlns:fuic="http://schemas.samsung.com/windows/printing/FUIConfiguratorSchema">
+   <Capabilities>
+      <!--*************************UPD Enterprise*************************-->
+      <Capability ID="UPDPrinterModel" VALUE="TRUE" UPDATENOW="TRUE" ADDQUEUE="TRUE"/>
+      <Capability ID="FFDVersion" VALUE="FALSE" DATE="2012-03-01"/>
+      <Capability ID="PreviewManager2" VALUE="TRUE">
+         <Items>
+            <Item ID="PreviewPreset">Preview</Item>
+            <Item ID="PreviewPresetDetailes">Details</Item>
+         </Items>
+      </Capability>
+      <Capability ID="PreviewPreset" VALUE="TRUE"/>
+      <Capability ID="PreviewPresetDetailes" VALUE="TRUE" PRINTERTYPE="ColorPrinter"/>
+      <Capability ID="PreviewManager" VALUE="TRUE">
+         <Items>
+            <Item ID="PreviewLayout">Paper</Item>
+            <Item ID="PreviewDevice">Device</Item>
+         </Items>
+      </Capability>
+      <Capability ID="PreviewLayout" VALUE="TRUE"/>
+      <Capability ID="PreviewDevice" VALUE="TRUE" PRINTERTYPE="ColorPrinter"/>
+      <Capability ID="PreviewPrinter" VALUE="TRUE" PRINTERTYPE="ColorPrinter" SUMMARY="TRUE"/>
+      <Capability ID="PrinterImages">
+        <Items>
+             <Item VALUE="u" OPTIONALTRAY="0"/>
+             <Item VALUE="u|t3h" OPTIONALTRAY="1" OPTIONALTRAY3="2"/>
+             <Item VALUE="u|t34" OPTIONALTRAY="2" OPTIONALTRAY3="1" OPTIONALTRAY4="1"/>
+             <!--Item VALUE="u|34h" OPTIONALTRAY="2" OPTIONALTRAY3="1" OPTIONALTRAY4="2"/-->
+             <!--Item VALUE="u|345h" OPTIONALTRAY="3" OPTIONALTRAY3="1" OPTIONALTRAY4="1" OPTIONALTRAY5="2"/-->
+             <Item VALUE="u|f1" OPTIONALFINISHER="6" OPTIONALTRAY="0"/>
+             <Item VALUE="u|t3h|f1" OPTIONALFINISHER="6" OPTIONALTRAY="1" OPTIONALTRAY3="2"/>
+             <Item VALUE="u|t34|f1" OPTIONALFINISHER="6" OPTIONALTRAY="2" OPTIONALTRAY3="1" OPTIONALTRAY4="1"/>
+             <!--Item VALUE="u|34h|f1" OPTIONALFINISHER="6" OPTIONALTRAY="2" OPTIONALTRAY3="1" OPTIONALTRAY4="2"/-->
+             <!--Item VALUE="u|345h|f1" OPTIONALFINISHER="6" OPTIONALTRAY="3" OPTIONALTRAY3="1" OPTIONALTRAY4="1" OPTIONALTRAY5="2"/-->
+             <Item VALUE="u|f3|ts" OPTIONALFINISHER="7" OPTIONALTRAY="0"/>
+             <Item VALUE="u|t3h|f3" OPTIONALFINISHER="7" OPTIONALTRAY="1" OPTIONALTRAY3="2"/>
+             <Item VALUE="u|t34|f3" OPTIONALFINISHER="7" OPTIONALTRAY="2" OPTIONALTRAY3="1" OPTIONALTRAY4="1"/>
+             <!--Item VALUE="u|34h|f3" OPTIONALFINISHER="7" OPTIONALTRAY="2" OPTIONALTRAY3="1" OPTIONALTRAY4="2"/-->
+             <!--Item VALUE="u|345h|f3" OPTIONALFINISHER="7" OPTIONALTRAY="3" OPTIONALTRAY3="1" OPTIONALTRAY4="1" OPTIONALTRAY5="2"/-->
+           </Items>     
+      </Capability>
+     <Capability ID="DeviceImages">
+       <Items>
+         <!--Item VALUE="mf1" FINISHER="6"/-->
+         <!--Item VALUE="mf3" FINISHER="7"/-->
+         <Item VALUE="bt1" PAPERSOURCE="1"/>
+         <Item VALUE="bt2" PAPERSOURCE="2"/>
+         <Item VALUE="bmp" PAPERSOURCE="6"/>
+         <Item VALUE="bt3" PAPERSOURCE="257"/>
+         <Item VALUE="bt4" PAPERSOURCE="258"/>
+         <Item VALUE="bt3h" PAPERSOURCE="263"/>
+         <!--Item VALUE="t4h" PAPERSOURCE="265"/-->
+         <!--Item VALUE="t5h" PAPERSOURCE="266"/-->
+         <!--Item VALUE="bor" OUTPUTBIN="9"/-->
+         <Item VALUE="bo" OUTPUTBIN="1" FINISHER="0"/>
+         <Item VALUE="bot1" OUTPUTBIN="12" FINISHER="6"/>
+         <Item VALUE="bof1" OUTPUTBIN="10" FINISHER="6"/>
+         <Item VALUE="bot3" OUTPUTBIN="12" FINISHER="7"/>
+         <Item VALUE="bof3" OUTPUTBIN="10" FINISHER="7"/>
+         <Item VALUE="bob3" OUTPUTBIN="11" FINISHER="7"/>
+       </Items>
+     </Capability>
+      <Capability ID="Debug" SHOWDMCHANGES="FALSE" DEBUGLOG="FALSE" FILELOG="FALSE"/>
+      <Capability ID="LiveUpdate" VALUE="TRUE" EDM="FALSE" LUISUPPORT="FALSE">
+         <Items>
+            <Item VALUE="PCL"/>
+         </Items>
+      </Capability>
+      <Capability ID="SmartPanel" VALUE="TRUE" WEBTS="FALSE" EDM="TRUE" SUPPORTUSB="FALSE">
+	<Constraints ID="EasySecurityManager" PERMIT="FALSE">
+      	<Constraint VALUE="2"/>
+     	</Constraints>
+     </Capability>
+      <Capability ID="AMPVCollector" VALUE="TRUE" EDM="TRUE"/>
+      <Capability ID="WebAgreement" VALUE="TRUE" EDM="TRUE"/>
+      <Capability ID="DriverInfo" VALUE="TRUE" OEMNAME="Samsung" MODELNAME="Samsung Universal Print Driver 2"/>
+      <Capability ID="HtmlHelp" DEFAULTPAGE="Html\About page Buttons.htm"/>
+      <Capability ID="EMFDriver" VALUE="FALSE"/>
+      <Capability ID="PCLClass3" VALUE="FALSE"/>
+      <Capability ID="FBEmulation" VALUE="204"/>
+      <Capability ID="FBObjectType" VALUE="1"/>
+      <Capability ID="FBColorTableLayoutID" VALUE="-1"/>
+      <Capability ID="FBLineWidth" VALUE="1"/>
+      <Capability ID="FBInterpolation" VALUE="0"/>
+      <Capability ID="EngineMargin" VALUE="50"/>
+      <Capability ID="InkjetMinimumMargin" VALUE="0"/>
+      <Capability ID="PCLPatternUsingTransWM" VALUE="TRUE"/>
+      <Capability ID="UseLangmon" VALUE="1"/>
+      <Capability ID="SupportEarlyWarmUp" VALUE="TRUE"/>
+      <Capability ID="SupportingFontGroupNum" VALUE="FALSE" GROUPNUM="2"/>
+      <Capability ID="SupportPCLPenWidthCmd" VALUE="FALSE"/>
+      <Capability ID="SupportRAMQTYProof" VALUE="FALSE"/>
+      <Capability ID="SupportRAMQTYConfidential" VALUE="FALSE"/>
+      <Capability ID="AutoConfiguration" VALUE="FALSE" MDL="CLX-9252 9352 Series" EDM="TRUE">
+         <Items>
+            <Item VALUE="TRUE" ID="OptionalTray" TRAY34="TRUE" PAPERSIZE="TRUE" PAPERTYPE="TRUE"/>
+            <Item VALUE="FALSE" ID="DuplexUnit"/>
+            <Item VALUE="FALSE" ID="OptionalHDD"/>
+            <Item VALUE="FALSE" ID="PrinterMemory"/>
+            <Item VALUE="FALSE" ID="OptionalOutputBin"/>
+            <Item VALUE="TRUE" ID="Finisher"/>
+            <Item VALUE="FALSE" ID="MailBox" QUERYCHECK="FALSE"/>
+            <Item VALUE="FALSE" ID="OutputBin"/>
+            <Item VALUE="FALSE" ID="Temperature"/>
+            <Item VALUE="TRUE" ID="PrintMode"/>
+            <Item VALUE="TRUE" ID="JobEncryption"/>
+            <Item VALUE="TRUE" ID="EcoPrinting"/>
+            <Item VALUE="FALSE" ID="RAMDisk"/>
+            <Item VALUE="TRUE" ID="OptionalHolePunch"/>
+            <Item VALUE="FALSE" ID="OptionalInnerOutputBin"/>
+            <Item VALUE="TRUE" ID="SecureReleaseMode"/>
+            <Item VALUE="FALSE" ID="EmulationLanguage"/>
+            <Item VALUE="TRUE" ID="BuySuppliesWebLink"/>
+         </Items>
+      </Capability>
+     <Capability ID="Presets" VALUE="TRUE" VISIBLEPRESETSCOUNT="7" KEEPJOBACCOUNTINGVALUE="TRUE" KEEPPRINTMODEVALUE="TRUE">
+        <Items>
+          <Item ID="Preset1"/>
+          <Item ID="Preset7"/>
+          <Item ID="Preset2"/>
+          <Item ID="Preset3"/>
+          <Item ID="Preset4"/>
+          <Item ID="Preset5"/>
+        </Items>
+      </Capability>
+      <Capability ID="Preset1" VALUE="TRUE" NAME="Normal Printing" ICON="Normal" DESCRIPTION="Normal Printing Description" SHARED="TRUE" SMARTVALIDATE="TRUE"/>
+      <Capability ID="Preset2" VALUE="TRUE" NAME="Double Sided Printing" ICON="DuplexLong" DESCRIPTION="Double Sided Printing Description" SHARED="TRUE" SMARTVALIDATE="TRUE">
+         <Items>
+            <Item ID="Duplex" VALUE="1"/>
+         </Items>
+      </Capability>
+      <Capability ID="Preset3" VALUE="TRUE" NAME="2-in-1 Printing" ICON="FoldPages" DESCRIPTION="2-in-1 Printing Description" SHARED="TRUE" SMARTVALIDATE="TRUE">
+         <Items>
+            <Item ID="LayoutOptions" VALUE="1"/>
+         </Items>
+      </Capability>
+      <Capability ID="Preset4" VALUE="TRUE" NAME="Booklet Printing" ICON="FoldPages" DESCRIPTION="Booklet Printing Description" SHARED="TRUE" SMARTVALIDATE="TRUE">
+         <Items>
+            <Item ID="LayoutOptions" VALUE="3"/>
+         </Items>
+      </Capability>
+      <Capability ID="Preset5" VALUE="TRUE" NAME="Secure Printing" ICON="Secure" DESCRIPTION="Secure Printing Description" SHARED="TRUE" SECURE="TRUE" SMARTVALIDATE="TRUE">
+         <Items>
+            <Item ID="PrintMode" VALUE="4"/>
+         </Items>
+      </Capability>
+      <Capability ID="Preset7" VALUE="FALSE" NAME="Eco Preview Printing" ICON="Eco" DESCRIPTION="Eco Preview Printing Description" SHARED="FALSE" SMARTVALIDATE="TRUE">
+       <Items>
+         <Item ID="EcoPrintingPreview" VALUE="2"/>
+         </Items>
+      </Capability>
+      <Capability ID="Orientation" VALUE="TRUE" ROTATE="TRUE" MIRROR="FALSE">
+         <Items>
+            <Item VALUE="0">0</Item>
+            <Item VALUE="180">180</Item>
+         </Items>
+      </Capability>
+      <Capability ID="LayoutOptions" VALUE="TRUE" FITPAGE="TRUE" FOLDMETHOD="TRUE" MINGUTTER="0" MAXGUTTER="250" NONREDUCEDBOOKLET="FALSE" PREBOOKLET="TRUE"/>
+      <Capability ID="NupBorder" VALUE="TRUE" SINGLEPAGE="TRUE" NUPBORDERSCALE="TRUE" USEGRAPHICSDLLBORDER="TRUE">
+         <Items>
+            <Item VALUE="0" PSNAME="None">None</Item>
+            <Item VALUE="8" PSNAME="SolidLine">Solid Line</Item>
+            <Item VALUE="1" PSNAME="DashedLine">Dashed Line</Item>
+            <Item VALUE="2" PSNAME="DottedLine">Dotted Line</Item>
+            <Item VALUE="3" PSNAME="ChainLine">Chain Line</Item>
+            <Item VALUE="4" PSNAME="ChainDoubleDashedLine">Chain Double-Dashed Line</Item>
+            <Item VALUE="5" PSNAME="3DimensionalLine">3-Dimensional Line</Item>
+            <Item VALUE="6" PSNAME="Transparent">Transparent</Item>
+            <Item VALUE="7" PSNAME="DoubleSolidLine">Double Solid Line</Item>
+            <Item VALUE="9" PSNAME="CropMarks">Crop Marks</Item>
+            <Item VALUE="10" PSNAME="CornerMarks">Corner Marks</Item>
+         </Items>
+      </Capability>
+      <Capability ID="BookletOptions" VALUE="TRUE" GUTTER="TRUE" MINGUTTER="0" MAXGUTTER="250" NONREDUCEDBOOKLET="FALSE" RTLBOOKSHELF="TRUE" NUPLAYOUT="TRUE"/>
+      <Capability ID="BookletOutput" VALUE="0"/>
+      <Capability ID="BookletFoldOutput" VALUE="1"/>
+      <Capability ID="BookletFinishing" VALUE="TRUE" PPDKEYWORD="JCLBookletFinishing">
+         <Items>
+            <Item VALUE="0">None</Item>
+            <Item VALUE="1">Folding</Item>
+            <Item VALUE="2" PSNAME="StapleFolding">Staple Folding</Item>
+         </Items>
+         <Constraints ID="Finisher" PERMIT="TRUE">
+            <Constraint VALUE="7"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="Scaling" VALUE="TRUE" MINMARGIN="FALSE" AUTOCHANGE="FALSE" MINRATIO="10"/>
+      <Capability ID="Duplex" VALUE="TRUE" REVERSE="TRUE" PPDKEYWORD="Duplex">
+         <Items>
+            <Item VALUE="3">Printer Default</Item>
+            <Item VALUE="0" PPDKEYWORD="None">None</Item>
+           <Item VALUE="1" PPDKEYWORD="DuplexNoTumble">Long Edge
+             <Constraints ID="PaperSize" PERMIT="FALSE">
+               <Constraint VALUE="70"/>
+               <Constraint VALUE="192"/>
+               <Constraint VALUE="37"/>
+               <Constraint VALUE="27"/>
+               <Constraint VALUE="28"/>
+               <Constraint VALUE="31"/>
+               <Constraint VALUE="20"/>
+               <Constraint VALUE="19"/>
+               <Constraint VALUE="130"/>
+               <Constraint VALUE="30"/>
+               <Constraint VALUE="256" CUSTOMPAPER="2"/>
+             </Constraints>
+             <Constraints ID="PaperType" PERMIT="FALSE">
+               <Constraint VALUE="66"/>
+               <Constraint VALUE="8"/>
+               <Constraint VALUE="3"/>
+               <Constraint VALUE="5"/>
+               <Constraint VALUE="61"/>
+               <Constraint VALUE="62"/>
+             </Constraints>
+           </Item>
+            <Item VALUE="2" PPDKEYWORD="DuplexTumble">Short Edge
+              <Constraints ID="PaperSize" PERMIT="FALSE">
+                <Constraint VALUE="70"/>
+                <Constraint VALUE="192"/>
+                <Constraint VALUE="37"/>
+                <Constraint VALUE="27"/>
+                <Constraint VALUE="28"/>
+                <Constraint VALUE="31"/>
+                <Constraint VALUE="20"/>
+                <Constraint VALUE="19"/>
+                <Constraint VALUE="130"/>
+                <Constraint VALUE="30"/>
+                <Constraint VALUE="256" CUSTOMPAPER="2"/>
+              </Constraints>
+              <Constraints ID="PaperType" PERMIT="FALSE">
+                <Constraint VALUE="66"/>
+                <Constraint VALUE="8"/>
+                <Constraint VALUE="3"/>
+                <Constraint VALUE="5"/>
+                <Constraint VALUE="61"/>
+                <Constraint VALUE="62"/>
+              </Constraints>
+            </Item>
+         </Items>
+         <Constraints ID="GlossyPrinting" PERMIT="TRUE">
+            <Constraint VALUE="0"/>
+         </Constraints>         
+      </Capability>
+      <Capability ID="DuplexManual" VALUE="FALSE" REVERSE="FALSE">
+         <Items>
+            <Item VALUE="0">None</Item>
+            <Item VALUE="1">Long Edge</Item>
+            <Item VALUE="2">Short Edge</Item>
+         </Items>
+        <Constraints ID="PaperSource" PERMIT="FALSE">
+          <Constraint VALUE="4"/>
+        </Constraints>
+      </Capability>
+      <Capability ID="MDType" VALUE="FALSE" TYPE="0"/>
+      <Capability ID="MDEvenPageReverseOrder" VALUE="FALSE"/>
+      <Capability ID="MDEvenPageSEReverseOrientation" VALUE="FALSE"/>
+      <Capability ID="MDOddPageFirst" VALUE="TRUE"/>
+      <Capability ID="MDOddPageReverseOrder" VALUE="FALSE"/>
+      <Capability ID="Copies" VALUE="TRUE" MAX="9999"/>
+      <Capability ID="Collate" VALUE="TRUE">
+         <Constraints ID="PrintMode" PERMIT="FALSE">
+           <Constraint VALUE="2"/>
+           <Constraint VALUE="3"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="TransparencySeparator" VALUE="TRUE" PAPERSOURCE="TRUE" PPDKEYWORD="JCLSeparatorsOption">
+         <Items>
+            <Item VALUE="0" PSNAME="NONE" PPDKEYWORD="None">No Separator</Item>
+            <Item VALUE="1" PSNAME="PRINTED" PPDKEYWORD="PrintedSeparator">Printed Separator</Item>
+            <Item VALUE="2" PSNAME="BLANK" PPDKEYWORD="BlankSeparator">Blank Separator</Item>
+         </Items>
+         <Constraints ID="PaperType" PERMIT="TRUE">
+            <Constraint VALUE="3"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="FWSupportedOHPSeperator" VALUE="TRUE"/>
+     <Capability ID="DeviceCustomPaper" VALUE="TRUE"/>
+     <Capability ID="CustomPaper" PPDKEYWORD="ParamCustomPageSize" MINWIDTH="982" MINHEIGHT="1480" MAXWIDTH="3200" MAXHEIGHT="12000">
+         <Items>
+            <Item VALUE="1" MINWIDTH="1397" MINHEIGHT="2100" MAXWIDTH="3050" MAXHEIGHT="4572"/>
+            <Item VALUE="2" MINWIDTH="1397" MINHEIGHT="1820" MAXWIDTH="3050" MAXHEIGHT="4572"/>
+         </Items>
+      </Capability>
+      <Capability ID="PaperSize" VALUE="TRUE">
+         <Items>
+            <Item VALUE="9" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="3507" WIDTH="2480" METRIC="TRUE" TARGET="8">A4</Item>
+            <Item VALUE="8" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="4960" WIDTH="3507" METRIC="TRUE">A3</Item>
+            <Item VALUE="11" LEFT="57" TOP="57" RIGHT="57" BOTTOM="57" HEIGHT="2480" WIDTH="1748" METRIC="TRUE" TARGET="9">A5</Item>
+            <Item VALUE="70" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="1748" WIDTH="1240" METRIC="TRUE" TARGET="11">A6</Item>
+            <Item VALUE="192" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="5315" WIDTH="3780" PCLCOMMAND="SRA3">SRA3</Item>
+            <Item VALUE="12" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="4299" WIDTH="3030" METRIC="TRUE">JISB4</Item>
+            <Item VALUE="13" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="3035" WIDTH="2149" METRIC="TRUE" TARGET="12">JISB5</Item>
+            <Item VALUE="28" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="2704" WIDTH="1913" METRIC="TRUE" ENVELOPE="TRUE">C5</Item>
+            <Item VALUE="34" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="2952" WIDTH="2078" METRIC="TRUE">B5Env</Item>
+            <Item VALUE="30" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="3815" WIDTH="2705" METRIC="TRUE" ENVELOPE="TRUE" PCLCOMMAND="C4">C4Envelope</Item>
+            <Item VALUE="31" LEFT="51" TOP="51" RIGHT="51" BOTTOM="51" HEIGHT="1914" WIDTH="1346" METRIC="TRUE" ENVELOPE="TRUE">C6Env</Item>
+            <Item VALUE="27" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="2598" WIDTH="1299" METRIC="TRUE" ENVELOPE="TRUE">DL</Item>
+            <Item VALUE="20" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="2850" WIDTH="1237" ENVELOPE="TRUE">Com10</Item>
+            <Item VALUE="19" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="2662" WIDTH="1162" ENVELOPE="TRUE" PCLCOMMAND="ENV NO9">Env No9</Item>
+            <Item VALUE="37" LEFT="55" TOP="55" RIGHT="55" BOTTOM="55" HEIGHT="2250" WIDTH="1162" ENVELOPE="TRUE">Monarch</Item>
+            <Item VALUE="193" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="4606" WIDTH="3189" PCLCOMMAND="8K">8K</Item>
+            <Item VALUE="194" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="3189" WIDTH="2303" PCLCOMMAND="16K" TARGET="193">16K</Item>
+            <Item VALUE="1" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="3300" WIDTH="2550" TARGET="3">Letter</Item>
+            <Item VALUE="3" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="5100" WIDTH="3300">Tabloid</Item>
+            <Item VALUE="5" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="4200" WIDTH="2550">Legal</Item>
+            <Item VALUE="6" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="2550" WIDTH="1650" TARGET="1">Statement</Item>
+            <Item VALUE="7" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="3150" WIDTH="2175">Exec</Item>
+            <Item VALUE="14" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="3900" WIDTH="2550">Folio</Item>
+            <Item VALUE="190" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="4050" WIDTH="2550" PCLCOMMAND="OFICIO">Oficio</Item>
+            <Item VALUE="130" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="1800" WIDTH="1200" PCLCOMMAND="POSTCARD">Postcard</Item>
+            <Item VALUE="52" LEFT="50" TOP="50" RIGHT="50" BOTTOM="50" HEIGHT="5400" WIDTH="3600" PCLCOMMAND="TABLOID_EXTRA">Tabloid Extra</Item>
+         </Items>
+      </Capability>
+      <Capability ID="PaperSource" VALUE="TRUE">
+         <Items>
+            <Item VALUE="7" PSNAME="AUTO">Auto</Item>
+            <Item VALUE="6">MPTray</Item>
+            <Item VALUE="1" PSNAME="UPPER">Upper
+               <Constraints ID="PaperSize" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="6"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="9"/>
+                  <Constraint VALUE="11"/>
+                  <Constraint VALUE="12"/>
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="14"/>
+                  <Constraint VALUE="34"/>
+                  <Constraint VALUE="52"/>
+                  <Constraint VALUE="190"/>
+                  <Constraint VALUE="193"/>
+                  <Constraint VALUE="194"/>
+                  <Constraint VALUE="256" CUSTOMPAPER="1"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <!--Constraint VALUE="61"/-->
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="65"/>
+                  <Constraint VALUE="66"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="2" PSNAME="LOWER">Lower
+               <Constraints ID="PaperSize" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="6"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="9"/>
+                  <Constraint VALUE="11"/>
+                  <Constraint VALUE="12"/>
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="14"/>
+                  <Constraint VALUE="34"/>
+                  <Constraint VALUE="52"/>
+                  <Constraint VALUE="190"/>
+                  <Constraint VALUE="193"/>
+                  <Constraint VALUE="194"/>
+                  <Constraint VALUE="256" CUSTOMPAPER="1"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <!--Constraint VALUE="61"/-->
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="65"/>
+                  <Constraint VALUE="66"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="257" PSNAME="OPTIONTRAY3">Tray3
+               <Constraints ID="OptionalTray" PERMIT="TRUE">
+                  <Constraint VALUE="2"/>
+                  <Constraint VALUE="1"/>
+               </Constraints>
+               <Constraints ID="OptionalTray3" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+               </Constraints>
+               <Constraints ID="PaperSize" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="6"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="9"/>
+                  <Constraint VALUE="11"/>
+                  <Constraint VALUE="12"/>
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="14"/>
+                  <Constraint VALUE="34"/>
+                  <Constraint VALUE="52"/>
+                  <Constraint VALUE="190"/>
+                  <Constraint VALUE="193"/>
+                  <Constraint VALUE="194"/>
+                  <Constraint VALUE="256" CUSTOMPAPER="1"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <!--Constraint VALUE="61"/-->
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="65"/>
+                  <Constraint VALUE="66"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="258" PSNAME="OPTIONTRAY4">Tray4
+               <Constraints ID="OptionalTray" PERMIT="TRUE">
+                  <Constraint VALUE="2"/>
+               </Constraints>
+               <Constraints ID="OptionalTray4" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+               </Constraints>
+               <Constraints ID="PaperSize" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="6"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="9"/>
+                  <Constraint VALUE="11"/>
+                  <Constraint VALUE="12"/>
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="14"/>
+                  <Constraint VALUE="34"/>
+                  <Constraint VALUE="52"/>
+                  <Constraint VALUE="190"/>
+                  <Constraint VALUE="193"/>
+                  <Constraint VALUE="194"/>
+                  <Constraint VALUE="256" CUSTOMPAPER="1"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <!--Constraint VALUE="61"/-->
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="65"/>
+                  <Constraint VALUE="66"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="263" PSNAME="OPTIONTRAY3">Tray3 (HCT)
+               <Constraints ID="OptionalTray" PERMIT="TRUE">
+                  <Constraint VALUE="2"/>
+                  <Constraint VALUE="1"/>
+               </Constraints>
+               <Constraints ID="OptionalTray3" PERMIT="TRUE">
+                  <Constraint VALUE="2"/>
+               </Constraints>
+               <Constraints ID="PaperSize" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="15"/>
+                  <Constraint VALUE="12"/>
+                  <Constraint VALUE="61"/>
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="64"/>
+                  <Constraint VALUE="65"/>
+                  <Constraint VALUE="66"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+               </Constraints>
+            </Item>
+         </Items>
+      </Capability>
+      <Capability ID="PaperType" VALUE="TRUE" PPDKEYWORD="MediaType">
+         <Items>
+            <Item VALUE="0" PSNAME="OFF" PCLCOMMAND="DEFAULT" PJLCOMMAND="OFF">PrinterDefault</Item>
+            <Item VALUE="1" PSNAME="NORMAL" PCLCOMMAND="Plain" PJLCOMMAND="NORMAL">Normal
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="10" PSNAME="THICK" PCLCOMMAND="Thick" PJLCOMMAND="THICK">Thick
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="60" PSNAME="HEAVYWEIGHT" PCLCOMMAND="HEAVYWEIGHT" PJLCOMMAND="HEAVYWEIGHT">Heavy Weight
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="30"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="61" PSNAME="EXTRAHEAVYWEIGHT1" PCLCOMMAND="EXTRAHEAVYWEIGHT1" PJLCOMMAND="EXTRAHEAVYWEIGHT1">Extra Heavy Weight 1
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="30"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="62" PSNAME="EXTRAHEAVYWEIGHT2" PCLCOMMAND="EXTRAHEAVYWEIGHT2" PJLCOMMAND="EXTRAHEAVYWEIGHT2">Extra Heavy Weight 2
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256" CUSTOMPAPER="1"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="11" PSNAME="THIN" PCLCOMMAND="Thin" PJLCOMMAND="THIN">Thin
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="2" PSNAME="BOND" PCLCOMMAND="Bond" PJLCOMMAND="BOND">Bond
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="7" PSNAME="COLOR" PCLCOMMAND="Color" PJLCOMMAND="COLOR">Color
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="5" PSNAME="LABEL" PCLCOMMAND="Labels" PJLCOMMAND="LABEL">Labels
+               <Constraints ID="PaperSize" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="3" PSNAME="OHP" PCLCOMMAND="Transparency" PJLCOMMAND="OHP">OHP
+               <Constraints ID="PaperSize" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="8" PSNAME="ENV" PCLCOMMAND="Envelope" PJLCOMMAND="ENV">ENV
+               <Constraints ID="PaperSize" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="30"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="6" PSNAME="USED" PCLCOMMAND="Preprinted" PJLCOMMAND="USED">Preprinted
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="14" PSNAME="COTTON" PCLCOMMAND="Cotton" PJLCOMMAND="COTTON">Cotton
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="9" PSNAME="RECYCLED" PCLCOMMAND="Recycled" PJLCOMMAND="RECYCLED">Recycle
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="15" PSNAME="ARCHIVE" PCLCOMMAND="Archive" PJLCOMMAND="ARCHIVE">Archive
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                 <Constraint VALUE="37"/>
+                 <Constraint VALUE="27"/>
+                 <Constraint VALUE="28"/>
+                 <Constraint VALUE="31"/>
+                 <Constraint VALUE="20"/>
+                 <Constraint VALUE="19"/>
+                 <Constraint VALUE="130"/>
+                 <Constraint VALUE="30"/>
+                 <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="12" PSNAME="LETTERHEAD" PCLCOMMAND="Letterhead" PJLCOMMAND="LETTERHEAD">LetterHead
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="18" PSNAME="PUNCHED" PCLCOMMAND="Prepunched" PJLCOMMAND="PUNCHED">Punched
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="63" PSNAME="THINCARDSTOCK" PCLCOMMAND="THINCARDSTOCK" PJLCOMMAND="THINCARDSTOCK">Thin Cardstock
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="64" PSNAME="THICKCARDSTOCK" PCLCOMMAND="THICKCARDSTOCK" PJLCOMMAND="THICKCARDSTOCK">Thick Cardstock
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="65" PSNAME="THINGLOSSY" PCLCOMMAND="THINGLOSSY" PJLCOMMAND="THINGLOSSY">Thin Glossy
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="66" PSNAME="THICKGLOSSY" PCLCOMMAND="THICKGLOSSY" PJLCOMMAND="THICKGLOSSY">Thick Glossy
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+            </Item>
+         </Items>
+      </Capability>
+     <Capability ID="SpecialPages" VALUE="FALSE">
+       <Constraints ID="LayoutOptions" PERMIT="FALSE">
+         <Constraint VALUE="4"/>
+       </Constraints>
+     </Capability>
+      <Capability ID="PaperTypePCLCommand" VALUE="TRUE"/>
+      <Capability ID="CoverPage" VALUE="TRUE" PAPERTYPE="TRUE" PAPERSIZE="FALSE" PAPERSOURCE="TRUE">
+         <Items>
+            <Item VALUE="0">None</Item>
+            <Item VALUE="1">Front Cover
+               <Constraints ID="LayoutOptions" PERMIT="FALSE">
+                  <Constraint VALUE="3"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="2">Back Cover
+               <Constraints ID="LayoutOptions" PERMIT="FALSE">
+                  <Constraint VALUE="3"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="3">Front and Back Cover</Item>
+         </Items>
+      </Capability>
+      <Capability ID="CoverOption" VALUE="TRUE" PPDKEYWORD="JCLFrontCoverOption">
+         <Items>
+            <Item VALUE="1" PSNAME="BlankOrPreprinted" PPDKEYWORD="BlankPreprinted">Blank or Preprinted</Item>
+            <Item VALUE="3" PSNAME="1SidedPrinted" PPDKEYWORD="1SidedPrinted">1-Sided Printed</Item>
+            <Item VALUE="4" PSNAME="2SidedPrinted" PPDKEYWORD="2SidedPrinted">2-Sided Printed</Item>
+         </Items>
+      </Capability>
+      <Capability ID="FWSupportedFrontBackCover" VALUE="TRUE"/>
+      <Capability ID="FirstPage" VALUE="FALSE" PAPERTYPE="FALSE"/>
+      <Capability ID="LastPage" VALUE="FALSE" PAPERTYPE="FALSE"/>
+      <Capability ID="ColorMode" VALUE="TRUE" PPDKEYWORD="ColorDevice"/>
+      <Capability ID="GrayscaleEnhancement" VALUE="FALSE"/>
+      <Capability ID="GrayscaleAlways" VALUE="TRUE"/>
+      <Capability ID="ApplicationColorMode" VALUE="TRUE"/>
+      <Capability ID="HighCoverageMode" VALUE="FALSE"/>
+      <Capability ID="DocumentType" VALUE="FALSE">
+       <Items>
+         <Item VALUE="0">Standard</Item>
+         <Item VALUE="1">Photo</Item>
+         <Item VALUE="2">Business Graphic</Item>
+         <Item VALUE="3">CAD</Item>
+         <Item VALUE="4">Browser</Item>
+       </Items>
+      </Capability>
+      <Capability ID="PatternOptimizer" VALUE="TRUE"/>
+      <Capability ID="Quality" VALUE="TRUE">
+         <Items>
+            <Item VALUE="0" PUBLIC="600" PRIVATE="4">Best</Item>
+            <Item VALUE="1" PUBLIC="600" PRIVATE="2">Normal</Item>
+            <!--Item VALUE="2" PUBLIC="600" PRIVATE="1">Draft</Item-->
+         </Items>
+      </Capability>
+      <Capability ID="RES1200CLASS" VALUE="FALSE"/>
+      <Capability ID="CMS01" VALUE="FALSE" GRAY="56" COLOR="11"/>
+      <Capability ID="CMS02" VALUE="FALSE" GRAY="41" COLOR="31"/>
+     <Capability ID="BlackOptimization" VALUE="TRUE" PPDKEYWORD="JCLBlackOptimization">
+       <Constraints ID="ColorMode" PERMIT="TRUE">
+         <Constraint VALUE="1"/>
+       </Constraints>
+     </Capability>
+      <Capability ID="SupportSPLNewDarkenText" VALUE="TRUE"/>
+     <Capability ID="DarkenText" VALUE="TRUE" PPDKEYWORD="JCLDarkenText">
+       <Items>
+         <Item VALUE="0" PPDKEYWORD="False">Off</Item>
+         <Item VALUE="3">Minimum</Item>
+         <Item VALUE="1" PPDKEYWORD="True">Medium</Item>
+         <Item VALUE="2" PPDKEYWORD="Maximum">Maximum</Item>
+       </Items>
+     </Capability>
+     <Capability ID="AllTextBlack" VALUE="TRUE"/>
+     <Capability ID="FineEdge" VALUE="TRUE">
+       <Items>
+         <Item VALUE="4">Off</Item>
+         <Item VALUE="1">Normal</Item>
+         <Item VALUE="2">Maximum</Item>
+       </Items>
+     </Capability>
+     <Capability ID="FineTrapping" VALUE="TRUE">
+       <Items>
+         <Item VALUE="4">Off</Item>
+         <Item VALUE="1">Normal</Item>
+         <Item VALUE="2">Maximum</Item>
+       </Items>
+       <Constraints ID="ColorMode" PERMIT="TRUE">
+         <Constraint VALUE="1"/>
+       </Constraints>
+     </Capability>
+     <Capability ID="TonerSave" VALUE="TRUE">
+        <Items>
+          <Item VALUE="2">On</Item>
+          <Item VALUE="1">Off</Item>
+        </Items>
+     </Capability>
+     <Capability ID="RasterCompression" VALUE="FALSE"/>
+      <Capability ID="EasyRasterCompression" VALUE="TRUE" FWSUPPORTMONOJPEG="TRUE" PCLRASTERRESIZE="TRUE">
+       <Items>
+         <Item VALUE="1">Best Quality</Item>         <!-- Delta Row Compression -->
+         <Item VALUE="5">Normal</Item>         <!-- Jpeg low Compression -->
+         <Item VALUE="6">Best Compression</Item>         <!-- Jpeg high Compression -->
+       </Items>
+     </Capability>
+     <Capability ID="TrueTypeMode" VALUE="TRUE">
+         <Items>
+            <Item VALUE="0">Download as Outline</Item>
+            <Item VALUE="1">Download as Bit Image</Item>
+            <Item VALUE="2">Print as Graphics</Item>
+         </Items>
+      </Capability>
+      <Capability ID="PrinterFonts" VALUE="TRUE"/>
+      <Capability ID="PreviewAdjustment" VALUE="TRUE" STATICPREVIEW="TRUE"/>
+      <Capability ID="UseColorAdjustNewPJL" VALUE="TRUE"/>
+      <Capability ID="AdjustmentLevels" VALUE="TRUE" ENHANCEDSLIDER="TRUE"/>
+      <Capability ID="AdjustmentColorMatching" VALUE="TRUE" URL="URL_6">
+         <Items>
+            <Item VALUE="0">Default</Item>
+            <Item VALUE="1">ICM Setting</Item>
+            <Item VALUE="2">Samsung Color Management</Item>
+            <Item VALUE="4">User Defined Color</Item>
+         </Items>
+      </Capability>
+      <Capability ID="ICMSetting" VALUE="TRUE">
+         <Items>
+            <Item VALUE="2">Perceptual</Item>
+            <Item VALUE="1">Saturation</Item>
+            <Item VALUE="3">Colorimetric</Item>
+         </Items>
+      </Capability>
+      <Capability ID="RGBColor" VALUE="TRUE" PPDKEYWORD="JCLRGB">
+         <Items>
+            <Item VALUE="0" PPDKEYWORD="Standard">Standard</Item>
+            <Item VALUE="1" PPDKEYWORD="Vivid">Vivid</Item>
+            <Item VALUE="2" PPDKEYWORD="Device">Device</Item>
+            <Item VALUE="3" PPDKEYWORD="CoImaging">Corporate Imaging</Item>
+         </Items>
+      </Capability>
+      <Capability ID="RegionalTable" VALUE="TRUE">
+         <Items>
+            <Item VALUE="0">Basic</Item>
+            <Item VALUE="1">American</Item>
+            <Item VALUE="2">European</Item>
+            <Item VALUE="3">Oriental</Item>
+         </Items>
+      </Capability>
+      <Capability ID="RGBColorSimulator" VALUE="TRUE" PPDKEYWORD="JCLRGBSimulator">
+         <Items>
+            <Item VALUE="0" PPDKEYWORD="Simulation1">Printer Default</Item>
+            <Item VALUE="1" PPDKEYWORD="Simulation2" PJLCommand="DEFAULT">Default Simulation</Item>
+            <Item VALUE="2" PPDKEYWORD="Simulation3" PJLCommand="SIMUL_A">Simulation A</Item>
+            <Item VALUE="3" PPDKEYWORD="Simulation4" PJLCommand="SIMUL_B">Simulation B</Item>
+            <Item VALUE="4" PPDKEYWORD="Simulation5" PJLCommand="SIMUL_C">Simulation C</Item>
+            <Item VALUE="5" PPDKEYWORD="Simulation6" PJLCommand="SIMUL_D">Simulation D</Item>
+         </Items>
+      </Capability>
+      <Capability ID="EasyColorManager" VALUE="FALSE" URL="URL_6"/>
+      <Capability ID="GlossyPrinting" VALUE="TRUE" PPDKEYWORD="JCLGlossyPrinting">
+         <Constraints ID="PaperSize" PERMIT="FALSE">
+            <Constraint VALUE="70"/>
+            <Constraint VALUE="192"/>
+            <Constraint VALUE="37"/>
+            <Constraint VALUE="27"/>
+            <Constraint VALUE="28"/>
+            <Constraint VALUE="31"/>
+            <Constraint VALUE="20"/>
+            <Constraint VALUE="19"/>
+            <Constraint VALUE="130"/>
+            <Constraint VALUE="30"/>
+            <Constraint VALUE="256"/>
+         </Constraints>
+         <Constraints ID="PaperType" PERMIT="FALSE">
+            <Constraint VALUE="61"/>
+            <Constraint VALUE="62"/>
+            <Constraint VALUE="64"/>
+            <Constraint VALUE="66"/>
+            <Constraint VALUE="8"/>
+            <Constraint VALUE="3"/>
+            <Constraint VALUE="5"/>
+         </Constraints>
+          <Constraints ID="ColorMode" PERMIT="TRUE">
+            <Constraint VALUE="1"/>
+          </Constraints>
+      </Capability>
+      <Capability ID="GlossyReverseOrder" VALUE="FALSE"/>
+      <Capability ID="HalftoneScreen" VALUE="TRUE" PPDKEYWORD="JCLScreen">
+         <Items>
+            <Item VALUE="0" PPDKEYWORD="None" PSNAME="PrinterDefault">Printer Default</Item>
+            <Item VALUE="1" PPDKEYWORD="Normal">Normal</Item>
+            <Item VALUE="2" PPDKEYWORD="Enhanced">Enhanced</Item>
+            <Item VALUE="3" PPDKEYWORD="Detailed">Detailed</Item>
+         </Items>
+      </Capability>
+      <Capability ID="Watermark" VALUE="TRUE">
+         <Items>
+            <Item SIZE="WmSizeConf" ANGLE="WmAngleConf" COLOR="8421504" FACENAME="Arial" STYLE="0" FIRSTPAGE="FALSE">Confidential</Item>
+            <Item SIZE="WmSizeDraft" ANGLE="WmAngleDraft" COLOR="8421504" FACENAME="Arial" STYLE="0" FIRSTPAGE="FALSE">Draft</Item>
+            <Item SIZE="WmSizeSecret" ANGLE="WmAngleSecret" COLOR="8421504" FACENAME="Arial" STYLE="0" FIRSTPAGE="FALSE">TopSecret</Item>
+            <Item SIZE="WmSizeLongTime" ANGLE="WmAngleLongTime" COLOR="8421504" FACENAME="Arial Unicode MS" STYLE="0" FIRSTPAGE="FALSE">&lt;LongTime&gt;</Item>
+         </Items>
+      </Capability>
+      <Capability ID="Overlay" VALUE="TRUE"/>
+      <Capability ID="JobEncryption" VALUE="TRUE"/>
+      <Capability ID="BannerSheet" VALUE="FALSE" PPDKEYWORD="JCLBanner"/>
+      <Capability ID="OutputForm" VALUE="FALSE"/>
+      <Capability ID="PrintOrder" VALUE="TRUE">
+         <Items>
+            <Item VALUE="0">Normal</Item>
+            <Item VALUE="1">Reverse All Pages</Item>
+            <Item VALUE="2">Print Odd Pages</Item>
+            <Item VALUE="3">Print Even Pages</Item>
+         </Items>
+      </Capability>
+      <Capability ID="CopySetNumbering" VALUE="FALSE" PPDKEYWORD="JCLCopySetNumberingPosition">
+         <Items>
+            <Item VALUE="1" PPDKEYWORD="Top" PSNAME="Top">Top</Item>
+            <Item VALUE="2" PPDKEYWORD="TopLeft" PSNAME="TopLeft">TopLeft</Item>
+            <Item VALUE="3" PPDKEYWORD="TopRight" PSNAME="TopRight">TopRight</Item>
+            <Item VALUE="4" PPDKEYWORD="Bottom" PSNAME="Bottom">Bottom</Item>
+            <Item VALUE="5" PPDKEYWORD="BottomLeft" PSNAME="BottomLeft">BottomLeft</Item>
+            <Item VALUE="6" PPDKEYWORD="BottomRight" PSNAME="BottomRight">BottomRight</Item>
+         </Items>
+      </Capability>
+      <Capability ID="ManualMargin" VALUE="TRUE" MINRANGE="0" MAXRANGE="250">
+         <Items>
+           <Item VALUE="1">Binding</Item>
+           <Item VALUE="2">Image Shift</Item>
+         </Items>
+      </Capability>
+      <Capability ID="SkipBlankPages" VALUE="TRUE" PPDKEYWORD="JCLSkipBlankPages">
+        <Constraints ID="NupBorder" PERMIT="TRUE">
+          <Constraint VALUE="0"/>
+        </Constraints>
+        <Constraints ID="DuplexManual" PERMIT="TRUE">
+          <Constraint VALUE="0" />
+        </Constraints>
+        <Constraints ID="LayoutOptions" PERMIT="FALSE">
+          <Constraint VALUE="3" />
+        </Constraints>
+      </Capability>
+      <Capability ID="MultiBinMode" VALUE="FALSE" PPDKEYWORD="JCLOutputMode"/>
+      <Capability ID="SortOptions" VALUE="TRUE" PPDKEYWORD="JCLSortOptions">
+         <Items>
+            <Item VALUE="0" PPDKEYWORD="None">None</Item>
+            <Item VALUE="1" PPDKEYWORD="Offset">Offset
+               <Constraints ID="Finisher" PERMIT="TRUE">
+                  <Constraint VALUE="6"/>
+                  <Constraint VALUE="7"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="2" PPDKEYWORD="Rotate">Rotate
+               <Constraints ID="Finisher" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+               </Constraints>
+               <Constraints ID="PaperSize" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+               </Constraints>
+            </Item>
+         </Items>
+         <Constraints ID="Finisher" PERMIT="TRUE">
+            <Constraint VALUE="6"/>
+            <Constraint VALUE="7"/>
+         </Constraints>
+         <Constraints ID="BookletFinishing" PERMIT="TRUE">
+            <Constraint VALUE="0"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="Stapler" VALUE="TRUE" PPDKEYWORD="StapleLocation">
+         <Items>
+            <Item VALUE="0" PPDKEYWORD="None">None</Item>
+            <Item VALUE="1" PPDKEYWORD="1Staple" PSNAME="1Staple">1 Staple
+               <Constraints ID="PaperSizeSEF" PERMIT="FALSE">
+                  <Constraint VALUE="6"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="70"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+               <Constraints ID="PaperSizeLEF" PERMIT="TRUE">
+                  <Constraint VALUE="11"/>
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+                  <Constraint VALUE="5"/>
+                  <Constraint VALUE="14"/>
+                  <Constraint VALUE="190"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="12"/>
+                  <Constraint VALUE="193"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="52"/>
+                  <Constraint VALUE="34"/>
+                  <Constraint VALUE="192"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="2" PPDKEYWORD="2Staple" PSNAME="2Staple">2 Staple
+               <Constraints ID="PaperSizeSEF" PERMIT="FALSE">
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="70"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="6"/>
+                  <Constraint VALUE="11"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="192"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+               <Constraints ID="PaperSizeLEF" PERMIT="TRUE">
+                  <Constraint VALUE="11"/>
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+                  <Constraint VALUE="34"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+               </Constraints>
+            </Item>
+         </Items>
+         <Constraints ID="Finisher" PERMIT="TRUE">
+            <Constraint VALUE="6"/>
+            <Constraint VALUE="7"/>
+         </Constraints>
+         <Constraints ID="BookletFinishing" PERMIT="TRUE">
+            <Constraint VALUE="0"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="StaplePosition" VALUE="TRUE" PPDKEYWORD="JCLStaplePosition">
+         <Items>
+            <Item VALUE="0" PPDKEYWORD="Left">Left</Item>
+            <Item VALUE="1" PPDKEYWORD="Right">Right</Item>
+            <Item VALUE="2" PPDKEYWORD="Top">Top
+               <Constraints ID="Stapler" PERMIT="FALSE">
+                  <Constraint VALUE="1"/>
+               </Constraints>
+            </Item>
+         </Items>
+         <Constraints ID="Stapler" PERMIT="FALSE">
+            <Constraint VALUE="0"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="HolePunching" VALUE="TRUE" PPDKEYWORD="JCLPunch">
+         <Items>
+            <Item VALUE="0" PPDKEYWORD="None" PSNAME="NONE">None</Item>
+            <Item VALUE="1" PPDKEYWORD="2Hole" PSNAME="2Hole">2 Hole
+               <Constraints ID="OptionalHolePunch" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="2"/>
+               </Constraints>
+               <Constraints ID="PaperSizeSEF" PERMIT="FALSE">
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="70"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="192"/>
+               </Constraints>
+               <Constraints ID="PaperSizeLEF" PERMIT="TRUE">
+                  <Constraint VALUE="11"/>
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+                  <Constraint VALUE="34"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="18"/>
+                  <Constraint VALUE="64"/>
+                  <Constraint VALUE="66"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="2" PPDKEYWORD="3Hole" PSNAME="3Hole">3 Hole
+               <Constraints ID="OptionalHolePunch" PERMIT="TRUE">
+                  <Constraint VALUE="1"/>
+               </Constraints>
+               <Constraints ID="PaperSizeSEF" PERMIT="TRUE">
+                  <Constraint VALUE="12"/>
+                  <Constraint VALUE="193"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="52"/>
+               </Constraints>
+               <Constraints ID="PaperSizeLEF" PERMIT="TRUE">
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="34"/>
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="18"/>
+                  <Constraint VALUE="64"/>
+                  <Constraint VALUE="66"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="3" PPDKEYWORD="4Hole" PSNAME="4Hole">4 Hole
+               <Constraints ID="OptionalHolePunch" PERMIT="TRUE">
+                  <Constraint VALUE="2"/>
+               </Constraints>
+               <Constraints ID="PaperSizeSEF" PERMIT="TRUE">
+                  <Constraint VALUE="12"/>
+                  <Constraint VALUE="193"/>
+                  <!--Constraint VALUE="3"/-->
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="52"/>
+               </Constraints>
+               <Constraints ID="PaperSizeLEF" PERMIT="TRUE">
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="18"/>
+                  <Constraint VALUE="64"/>
+                  <Constraint VALUE="66"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+               </Constraints>
+            </Item>
+			<Item VALUE="4" PPDKEYWORD="Scan4Hole" PSNAME="Scan4Hole">4 Hole
+               <Constraints ID="OptionalHolePunch" PERMIT="TRUE">
+			      <Constraint VALUE="3"/>
+               </Constraints>
+               <Constraints ID="PaperSizeSEF" PERMIT="TRUE">                  
+				  <Constraint VALUE="3"/>
+                  <Constraint VALUE="11"/>
+				  <Constraint VALUE="12"/>
+				  <Constraint VALUE="34"/>
+				  <Constraint VALUE="7"/>
+				  <Constraint VALUE="193"/>
+                  <Constraint VALUE="194"/>
+				  <Constraint VALUE="9"/>
+				  <Constraint VALUE="13"/>
+				  <Constraint VALUE="5"/>
+				  <Constraint VALUE="1"/>
+				  <Constraint VALUE="14"/>
+				  <Constraint VALUE="190"/>
+                  <Constraint VALUE="52"/>
+                  <Constraint VALUE="8"/>
+               </Constraints>
+               <Constraints ID="PaperSizeLEF" PERMIT="TRUE">
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="9"/>
+				  <Constraint VALUE="11"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="18"/>
+                  <Constraint VALUE="64"/>
+                  <Constraint VALUE="66"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+               </Constraints>
+            </Item>
+         </Items>
+         <Constraints ID="OptionalHolePunch" PERMIT="TRUE">
+            <Constraint VALUE="1"/>
+            <Constraint VALUE="2"/>
+			<Constraint VALUE="3"/>
+         </Constraints>
+         <Constraints ID="BookletFinishing" PERMIT="TRUE">
+            <Constraint VALUE="0"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="HolePunchingPosition" VALUE="TRUE" PPDKEYWORD="JCLPunchPosition">
+         <Items>
+            <Item VALUE="0" PSNAME="LEFT" PPDKEYWORD="Left">Left</Item>
+            <Item VALUE="1" PSNAME="RIGHT" PPDKEYWORD="Right">Right</Item>
+            <Item VALUE="2" PSNAME="TOP" PPDKEYWORD="Top">Top</Item>
+         </Items>
+         <Constraints ID="HolePunching" PERMIT="FALSE">
+            <Constraint VALUE="0"/>
+         </Constraints>
+      </Capability>
+     <Capability ID="PrintMode" VALUE="TRUE" ENHANCEDDLG="TRUE" CONFIRMPRINT="TRUE" MINPASS="4" MAXPASS="8" ALLLANGUAGESUPPORT="TRUE" ALPHANUMPASS="TRUE" ALPHANUMEXT="TRUE" SUPPORTDOCUMENTBOX="TRUE" JOBINVALIDTKN="&quot;&#13;&#10;" UIDINVALIDTKN="&quot;*+,/:;&lt;=&gt;?@[]|" PWINVALIDTKN="\&quot;&lt;&gt;">
+	<Constraints ID="EasySecurityManager" PERMIT="TRUE">
+        <Constraint VALUE="0"/>
+        </Constraints>
+         <Items>
+            <Item VALUE="0">Normal</Item>
+            <Item VALUE="2">Proof</Item>
+            <Item VALUE="4">Confidential</Item>
+            <Item VALUE="6">Store</Item>
+            <Item VALUE="10">Store and Print</Item>
+            <Item VALUE="8">Delay</Item>
+         </Items>
+      </Capability>
+      <Capability ID="EncryptionMode" VALUE="0"/>
+      <Capability ID="EncryptionKey" VALUE="pdke"/>
+      <Capability ID="UsePrintModeNewPJL" VALUE="TRUE"/>
+      <Capability ID="Offset" VALUE="FALSE" PPDKEYWORD="SECOffSet">
+         <Items>
+            <Item VALUE="0" PPDKEYWORD="False">None</Item>
+            <Item VALUE="1" PPDKEYWORD="True">Offset Each Set</Item>
+         </Items>
+         <Constraints ID="Finisher" PERMIT="TRUE">
+            <Constraint VALUE="6"/>
+            <Constraint VALUE="7"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="OutputBin" VALUE="TRUE">
+         <Items>
+            <Item VALUE="0" PSNAME="PrinterSetting">Printer Setting
+               <Constraints ID="BookletFinishing" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="1" PSNAME="StandardOutbin">Center Tray
+               <Constraints ID="BookletFinishing" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+               </Constraints>
+               <Constraints ID="Finisher" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+               </Constraints>
+            </Item>
+            <!--<Item VALUE="9" PSNAME="SubOutbin">Right Tray
+               <Constraints ID="BookletFinishing" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+               </Constraints>
+               <Constraints ID="Stapler" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+               </Constraints>
+               <Constraints ID="HolePunching" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+               </Constraints>
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="192"/>
+                  <Constraint VALUE="70"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+               </Constraints>
+            </Item>-->
+            <Item VALUE="12" PSNAME="StandardOutbin">Top Tray
+                <Constraints ID="BookletFinishing" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+                </Constraints>
+                <Constraints ID="Stapler" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+                </Constraints>
+                <Constraints ID="HolePunching" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+                </Constraints>
+                <Constraints ID="Finisher" PERMIT="TRUE">
+                  <Constraint VALUE="6"/>
+                  <Constraint VALUE="7"/>
+                </Constraints>
+                <Constraints ID="SortOptions" PERMIT="FALSE">
+                  <Constraint VALUE="1"/>
+                </Constraints>
+            </Item>
+            <Item VALUE="10" PSNAME="FinisherOutbin">Finishing Tray
+               <Constraints ID="BookletFinishing" PERMIT="TRUE">
+                  <Constraint VALUE="0"/>
+               </Constraints>
+               <Constraints ID="Finisher" PERMIT="TRUE">
+                  <Constraint VALUE="6"/>
+                  <Constraint VALUE="7"/>
+               </Constraints>
+               <Constraints ID="PaperSize" PERMIT="FALSE">
+                  <Constraint VALUE="70"/>
+                  <Constraint VALUE="37"/>
+                  <Constraint VALUE="27"/>
+                  <Constraint VALUE="28"/>
+                  <Constraint VALUE="31"/>
+                  <Constraint VALUE="20"/>
+                  <Constraint VALUE="19"/>
+                  <Constraint VALUE="130"/>
+                  <Constraint VALUE="30"/>
+                  <Constraint VALUE="256"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="62"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="11" PSNAME="BookletOutbin">Booklet Tray
+               <Constraints ID="Finisher" PERMIT="TRUE">
+                  <Constraint VALUE="7"/>
+               </Constraints>
+               <Constraints ID="LayoutOptions" PERMIT="TRUE">
+                  <Constraint VALUE="3"/>
+               </Constraints>
+               <Constraints ID="BookletFinishing" PERMIT="FALSE">
+                  <Constraint VALUE="0"/>
+               </Constraints>
+               <Constraints ID="PaperSize" PERMIT="TRUE">
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="9"/>
+                  <Constraint VALUE="12"/>
+                  <Constraint VALUE="34"/>
+                  <Constraint VALUE="13"/>
+                  <Constraint VALUE="7"/>
+                  <Constraint VALUE="1"/>
+                  <Constraint VALUE="190"/>
+                  <Constraint VALUE="14"/>
+                  <Constraint VALUE="5"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="193"/>
+                  <Constraint VALUE="194"/>
+                  <Constraint VALUE="52"/>
+               </Constraints>
+               <Constraints ID="PaperType" PERMIT="FALSE">
+                  <Constraint VALUE="62"/>
+                  <Constraint VALUE="18"/>
+                  <Constraint VALUE="63"/>
+                  <Constraint VALUE="64"/>
+                  <Constraint VALUE="8"/>
+                  <Constraint VALUE="3"/>
+                  <Constraint VALUE="5"/>
+               </Constraints>
+            </Item>
+         </Items>
+      </Capability>
+      <Capability ID="PageColorMono" VALUE="FALSE"/>
+      <Capability ID="EcoPrinting" VALUE="FALSE"/>
+      <Capability ID="EcoOptions" VALUE="FALSE">
+         <Items>
+            <Item VALUE="TRUE" ID="Nup"/>
+            <Item VALUE="FALSE" ID="Booklet"/>
+            <Item VALUE="TRUE" ID="Duplex"/>
+            <Item VALUE="FALSE" ID="Quality"/>
+            <Item VALUE="TRUE" ID="ColorMode"/>
+            <Item VALUE="TRUE" ID="SkipBlankPages"/>
+            <Item VALUE="TRUE" ID="TonerSave"/>
+         </Items>
+      </Capability>
+      <Capability ID="EcoPrintingSimulator" VALUE="FALSE"/>
+      <Capability ID="EcoPrintingConfirm" VALUE="FALSE"/>
+      <Capability ID="EcoPrintingPreview" VALUE="FALSE" URL="URL_5" FPPT="TRUE" EEDSL="TRUE"/>
+      <Capability ID="EmulationLanguage" VALUE="FALSE">
+         <Items>
+            <Item VALUE="0">SPL</Item>
+            <Item VALUE="1">PCL</Item>
+         </Items>
+      </Capability>
+      <Capability ID="OptionalTray" VALUE="TRUE">
+         <Items>
+            <Item VALUE="0">None</Item>
+            <Item VALUE="1">Tray 3</Item>
+            <Item VALUE="2">Tray 3,4</Item>
+         </Items>
+      </Capability>
+      <Capability ID="OptionalTray2" VALUE="FALSE" PPDKEYWORD="OptTray2"/>
+      <Capability ID="OptionalTray3" VALUE="TRUE" PPDKEYWORD="OptTray3">
+         <Items>
+            <Item VALUE="1">Standard Capacity
+               <Constraints ID="OptionalTray" PERMIT="TRUE">
+                  <Constraint VALUE="2"/>
+               </Constraints>
+            </Item>
+            <Item VALUE="2">High Capacity
+               <Constraints ID="OptionalTray" PERMIT="FALSE">
+                  <Constraint VALUE="2"/>
+               </Constraints>
+            </Item>
+         </Items>
+         <Constraints ID="OptionalTray" PERMIT="FALSE">
+            <!--Constraint VALUE="2"/-->
+            <Constraint VALUE="0"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="OptionalTray4" VALUE="TRUE" PPDKEYWORD="OptTray4">
+         <Items>
+            <Item VALUE="1">Standard Capacity</Item>
+         </Items>
+         <Constraints ID="OptionalTray" PERMIT="TRUE">
+            <Constraint VALUE="2"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="OptionalTray5" VALUE="FALSE" PPDKEYWORD="OptTray5"/>
+      <Capability ID="OptionalTray6" VALUE="FALSE" PPDKEYWORD="OptTray6"/>
+      <Capability ID="AdvancedTrayOptions" VALUE="TRUE" AUTOCHANGE="FALSE"/>
+      <Capability ID="DuplexUnit" VALUE="FALSE" PPDKEYWORD="DuplexUnit"/>
+      <Capability ID="Finisher" VALUE="TRUE" PPDKEYWORD="Finisher">
+         <Items>
+            <Item VALUE="0" PPDKEYWORD="None">None</Item>
+            <Item VALUE="6" PPDKEYWORD="StandardFinisher">Standard Finisher (1K)</Item>
+            <Item VALUE="7" PPDKEYWORD="BookletFinisher">Booklet Finisher (3K)</Item>
+         </Items>
+      </Capability>
+      <Capability ID="OptionalHolePunch" VALUE="TRUE" PPDKEYWORD="OptPunch">
+         <Items>
+            <Item VALUE="0" PPDKEYWORD="None">None</Item>
+            <Item VALUE="1" PPDKEYWORD="2-3Hole">2/3 Hole</Item>
+            <Item VALUE="2" PPDKEYWORD="2-4Hole">2/4 Hole</Item>
+			<Item VALUE="3" PPDKEYWORD="Scan-4 Hole">Scan-4 Hole</Item> 
+         </Items>
+         <Constraints ID="Finisher" PERMIT="TRUE">
+            <Constraint VALUE="6"/>
+            <Constraint VALUE="7"/>
+         </Constraints>
+      </Capability>
+      <Capability ID="OptionalInnerOutputBin" VALUE="FALSE" PPDKEYWORD="OptInnerOutputBin"/>
+      <Capability ID="OptionalHDD" VALUE="FALSE"/>
+      <Capability ID="PrinterMemory" VALUE="FALSE" PPDKEYWORD="InstalledMemory">
+         <Items>
+            <Item VALUE="256" PPDKEYWORD="256MB">256 MB</Item>
+            <Item VALUE="512" PPDKEYWORD="512MB">512 MB</Item>
+            <Item VALUE="768" PPDKEYWORD="768MB">768 MB</Item>
+         </Items>
+      </Capability>
+      <Capability ID="CriticalMemorySize" VALUE="0"/>
+      <Capability ID="RamBasedCollation" VALUE="FALSE"/>
+      <Capability ID="RAMDisk" VALUE="FALSE" MINSIZE="1" PPDKEYWORD="OptRAMDisk"/>
+      <Capability ID="InternalUSBMemory" VALUE="FALSE" PPDKEYWORD="OptInternalUSBMemory"/>
+      <Capability ID="HighAltitude" VALUE="FALSE"/>
+      <Capability ID="JamReprint" VALUE="FALSE"/>
+      <Capability ID="PowerSave" VALUE="FALSE">
+         <Items>
+            <Item VALUE="5" PSNAME="5minutes">5 minutes</Item>
+            <Item VALUE="15" PSNAME="15minutes">15 minutes</Item>
+            <Item VALUE="30" PSNAME="30minutes">30 minutes</Item>
+            <Item VALUE="60" PSNAME="60minutes">60 minutes</Item>
+            <Item VALUE="120" PSNAME="120minutes">120 minutes</Item>
+         </Items>
+      </Capability>
+      <Capability ID="MailBox" VALUE="FALSE" PPDKEYWORD="OptMailbox"/>
+      <Capability ID="OptionalOutputBin" VALUE="FALSE">
+         <Items>
+            <Item VALUE="0">None</Item>
+            <Item VALUE="1">Bin1</Item>
+         </Items>
+      </Capability>
+     <Capability ID="JobAccounting" VALUE="TRUE" DOCUMENTPROPERTY="TRUE" CONFIRMPRINT="TRUE" VERIFY="FALSE" ALPHANUMEXT="TRUE">
+	<Constraints ID="EasySecurityManager" PERMIT="TRUE">
+        <Constraint VALUE="0"/>
+        </Constraints>
+       <Items>
+         <Item VALUE="0" PERMISSION="TRUE" ENCRYPTION="FALSE" MAXUSERID="129" UIDINVALIDTKN="&quot;*+,/:;&lt;=&gt;?@[]|" PWINVALIDTKN="\&quot;&lt;&gt;">Accounting</Item>
+         <Item VALUE="1" PERMISSION="TRUE" MINPINCODE="1" MAXPINCODE="129" ALPHANUM="TRUE" PINCODEINVALIDTKN="&quot;*+,/:;&lt;=&gt;?@[]|">PIN Code</Item>
+       </Items>
+     </Capability>
+     <Capability ID="AdminJobAccounting" VALUE="TRUE" ALPHANUMEXT="TRUE">
+	<Constraints ID="EasySecurityManager" PERMIT="TRUE">
+        <Constraint VALUE="0"/>
+        </Constraints>
+       <Items>
+         <Item VALUE="0" PERMISSION="TRUE" ENCRYPTION="FALSE" MAXUSERID="129" UIDINVALIDTKN="&quot;*+,/:;&lt;=&gt;?@[]|" PWINVALIDTKN="\&quot;&lt;&gt;">Accounting</Item>
+         <Item VALUE="1" PERMISSION="TRUE" MINPINCODE="1" MAXPINCODE="129" ALPHANUM="TRUE" PINCODEINVALIDTKN="&quot;*+,/:;&lt;=&gt;?@[]|">PIN Code</Item>
+       </Items>
+     </Capability>
+     <Capability ID="EMFSpooling" VALUE="TRUE" EDM="TRUE"/>
+     <Capability ID="AboutLogo" VALUE="TRUE" PRINTERTYPE="ColorPrinter" SHOWVERSIONINLOGO="TRUE"/>
+     <Capability ID="AboutHelp" VALUE="FALSE"/>
+     <Capability ID="AboutInfo" VALUE="FALSE"/>
+     <Capability ID="AboutService" VALUE="TRUE" USELINKS="TRUE">
+       <Items>
+         <Item VALUE="0" URL="URL_1">Website</Item>
+         <Item VALUE="1" URL="URL_2" CONFIG="BuySuppliesWebLink">Supplies</Item>
+       </Items>
+     </Capability>
+     <Capability ID="EasySecurityManager" VALUE="TRUE">
+      <Items>
+        <Item VALUE="0">Not Installed</Item>
+        <Item VALUE="1">Installed</Item>
+        <Item VALUE="2">Pull Print</Item>
+      </Items>
+     </Capability>
+     <Capability ID="DefaultDEVMODE">
+       <Items>
+          <Item ID="Quality" VALUE="1"/>
+          <Item ID="OptionalHDD" VALUE="TRUE"/>
+          <Item ID="DuplexUnit" VALUE="TRUE"/>
+          <Item ID="EmulationLanguage" VALUE="1"/>
+          <!--Item ID="RasterCompression" VALUE="0"/-->
+          <Item ID="EasyRasterCompression" VALUE="5"/>
+          <Item ID="OutputBin" VALUE="0"/>
+          <Item ID="DarkenText" VALUE="3"/>
+          <Item ID="HalftoneScreen" VALUE="2"/>
+          <Item ID="Encryption" VALUE="TRUE"/>
+          <Item ID="BookletSheetsPerSet" VALUE="15"/>
+          <Item ID="EcoPrintingPreview" VALUE="FALSE"/>
+          <Item ID="EcoPrintingConfirm" VALUE="FALSE"/>
+          <Item ID="FineEdge" VALUE="1"/>
+          <Item ID="FineTrapping" VALUE="1"/>
+          <Item ID="EMFSpooling" VALUE="0"/>
+          <Item ID="DocumentType" VALUE="0"/>
+          <Item ID="PatternOptimizer" VALUE="0"/>
+          <Item ID="ICMMethod" VALUE="2"/>
+          <Item ID="ManualMargin" VALUE="1"/>
+          <Item ID="TonerSave" VALUE="1"/>
+          <Item ID="GrayscaleAlways" VALUE="0"/>
+          <Item ID="ApplicationColorMode" VALUE="1"/>
+	  <Item ID="SmartPanel" VALUE="FALSE"/>
+       </Items>
+      </Capability>
+   </Capabilities>
+   <Messages>
+      <Message>
+         <Id>PREVIEW_MODEL_NAME</Id>
+         <Value>Universal Print Driver 2</Value>
+      </Message>
+      <Message>
+         <Id>LOGO_MODEL_NAME</Id>
+         <Value>Universal Print Driver 2</Value>
+      </Message>
+      <Message>
+         <Id>INFO_MODEL_NAME</Id>
+         <Value>Samsung Universal Print Driver 2 PCL6</Value>
+      </Message>
+      <Message>
+         <Id>OEM_NAME</Id>
+         <Value>Samsung</Value>
+      </Message>
+      <Message>
+         <Id>VERSION</Id>
+         <Value>$MainVersion$</Value>
+      </Message>
+      <Message>
+         <Id>BUILD_DATE</Id>
+         <Value>$BuildDates$</Value>
+      </Message>
+      <Message>
+         <Id>COPYRIGHT</Id>
+         <Value>Copyright (c) 2014 Samsung Electronics Co., Ltd.</Value>
+      </Message>
+      <Message>
+         <Id>URL_1</Id>
+         <Value>http://www.samsungprinter.com</Value>
+         <Value LANG="KR">http://www.sec.co.kr/printer</Value>
+      </Message>
+      <Message>
+         <Id>URL_2</Id>
+         <Value LANG="KR">http://www.samsung.com/printer-accessory/</Value>
+         <Value>http://www.samsung.com/printer-accessory/</Value>
+      </Message>
+      <Message>
+         <Id>URL_3</Id>
+         <Value>http://www.samsung.com/Support/ProductSupport/download/index.aspx</Value>
+         <Value LANG="KR">http://www.sec.co.kr/printerdriver</Value>
+      </Message>
+      <Message>
+         <Id>URL_4</Id>
+         <Value>http://www.samsung.com/Products/Printer/Registration/Printer_regist.htm</Value>
+         <Value LANG="KR">http://www.imagingworld.co.kr/mycolor/mycolor_pmanage_myproduct.asp</Value>
+      </Message>
+      <Message>
+         <Id>URL_5</Id>
+         <Value>http://www.microsoft.com/downloads/en/details.aspx?FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7&amp;displaylang=en</Value>
+         <Value LANG="KR">http://www.microsoft.com/downloads/ko-kr/details.aspx?familyid=D0E5DEA7-AC26-4AD7-B68C-FE5076BBA986&amp;displaylang=ko</Value>
+      </Message>
+      <Message>
+         <Id>URL_6</Id>
+         <Value>http://www.samsung.com/support</Value>
+      </Message>
+   </Messages>
+</Model>

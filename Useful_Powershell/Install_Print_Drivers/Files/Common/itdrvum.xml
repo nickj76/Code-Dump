@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ssprinterdevice ver="1.04.00">
+<!-- 
+[V1.04.00] 29/Nov/2013 : added language id="166" (FBB & FPOT DOT Coverage)
+[V1.03.00] 06/JUL/2013 : added language id="165" (FBBLZW & FPOT DOT Coverage for every page)
+[V1.02.00] 12/AUG/2012 : added 600x600x2 resolution for language id="164" (FBBLZW)
+[V1.01.00] 12/AUG/2011 : added language id="300" (Alice), language id="1002"(Bitmap for BOP)
+[V1.00.00] 11/AUG/2011 : added 1200x600x1, 1200x1200x1 resolution for 160/164
+-->
+    <device direct.enable="0"></device>
+    <config>
+        <!-- singlethread:0, multithread:1 -->
+        <!-- set opt.usemultithread="1" / -->
+        <!-- Off:4, Minimum:3, Medium:1, Maximum:2 -->
+        <!-- set opt.trapping="2" / -->
+        <!-- Off:4, Normal:1, Maximum:2 -->
+        <!-- set opt.edgeenhance="2" / -->
+        <!-- Off:1, On:2 -->
+        <!-- set opt.stitchremoval="2" / -->
+        <!-- Off:1, On:2 -->
+        <!-- set opt.transoptimizer="1" / -->
+        <!-- Off:0, On:1 -->
+        <!-- set opt.enablebop="1" / -->
+    </config>
+    <device></device>
+<!--
+opt.printerlanguageid,opt.colortablelayoutid,opt.resolution,opt.printresx,opt.printresy,opt.printquality,opt.ret,opt.graymodecolorspace,opt.colormodecolorspace,opt.mediatype
+eColorK1=0, eColorKCMY1x4=1, eColorGray8=2, eColorBGRO32=3,eColorRGB24=4,eColorGray2=5,eColorGray4=6,eColorKCMY2x4=7,eColorKCMY4x4=8,eColorBGR24=9
+-->
+	<languages>
+		<language id="100" name="EMUL_SMART_OLDTIFF">
+			<set opt.printquality="0"/>
+			<condition opt.resolution="300">
+				<set opt.printquality="-1"/>
+			</condition>
+			<condition opt.resolution="1200">
+				<set opt.printquality="1"/>
+			</condition>
+		</language>
+		<language id="105" name="EMUL_SMART_OLDSCANTIFF">
+			<set opt.printquality="0"/>
+			<condition opt.resolution="300">
+				<set opt.printquality="-1"/>
+			</condition>
+			<condition opt.resolution="1200">
+				<set opt.printquality="1"/>
+			</condition>
+		</language>
+		<language id="110" name="EMUL_SMART_SCANTIFF">
+			<set opt.printquality="0"/>
+			<condition opt.resolution="300">
+				<set opt.printquality="-1"/>
+			</condition>
+			<condition opt.resolution="1200">
+				<set opt.printquality="1"/>
+			</condition>
+		</language>
+		<language id="130" name="EMUL_SPL0_SCANTIFF">
+			<set opt.printquality="0"/>
+			<condition opt.resolution="300">
+				<set opt.printquality="-1"/>
+			</condition>
+			<condition opt.resolution="1200">
+				<set opt.printquality="1"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1200">
+				<set opt.printquality="1"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>
+		<language id="140" name="EMUL_SPL1_FBBLZW">
+			<set opt.printquality="0"/>
+			<condition opt.resolution="300">
+				<set opt.printquality="-1"/>
+			</condition>
+			<condition opt.resolution="1200">
+				<set opt.printquality="1"/>
+			</condition>
+		</language>
+		<language id="141" name="EMUL_SPL1_SCANTIFF">
+			<set opt.printquality="0"/>
+			<condition opt.resolution="300">
+				<set opt.printquality="-1"/>
+			</condition>
+			<condition opt.resolution="1200">
+				<set opt.printquality="1"/>
+			</condition>
+		</language>
+		<language id="150" name="EMUL_SPL2_FBBLZW">
+			<set opt.printquality="0"/>
+			<condition opt.resolution="600" opt.uiprintquality="1200">
+				<set opt.printquality="1"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>
+		<language id="151" name="EMUL_SPL2_KESTREL_FBBLZW" >
+			<set opt.printquality="0"/>
+			<condition opt.resolution="1200" opt.uiprintquality="1200">
+				<set opt.printquality="1"/>
+			</condition>
+		</language>
+		<language id="160" name="EMUL_SPL3_FBBLZW" >
+			<set opt.printquality="0"/>
+            <condition opt.resolution="600" opt.uiprintquality="1200">
+                <set opt.printquality="1" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="600" />
+            </condition>
+            <condition opt.resolution="1200" opt.uiprintquality="1200">
+                <set opt.printquality="1" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="1200" />
+            </condition>
+            <condition opt.resolution="1200" opt.uiprintquality="1200" opt.pseudomode="1">
+				<set opt.printquality="2"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+				<set opt.graymodecolorspace="5"/>
+				<set opt.colormodecolorspace="7"/>
+			</condition>
+			<condition opt.resolution="1200" opt.uiprintquality="1" opt.pseudomode="1">
+				<set opt.printquality="2"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+				<set opt.graymodecolorspace="5"/>
+				<set opt.colormodecolorspace="7"/>
+			</condition>
+			<condition opt.resolution="300" opt.uiprintquality="600">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>
+		<language id="161" name="EMUL_SPL3_SCANTIFF" >
+			<set opt.printquality="0"/>
+			<condition opt.resolution="600" opt.uiprintquality="1200">
+				<set opt.printquality="1"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+			</condition>
+			<condition opt.resolution="1200" opt.uiprintquality="1200">
+				<set opt.printquality="1"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="1200"/>
+			</condition>
+			<condition opt.resolution="300" opt.uiprintquality="600">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>
+		<language id="164" name="EMUL_SPL3_FBBLZW_FPOTCOVERAGEMODE" >
+			<set opt.printquality="0"/>
+            <condition opt.resolution="600" opt.uiprintquality="1200">
+                <set opt.printquality="1" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="600" />
+            </condition>
+            <condition opt.resolution="1200" opt.uiprintquality="1200">
+                <set opt.printquality="1" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="1200" />
+            </condition>
+            <condition opt.resolution="1200" opt.uiprintquality="1200" opt.pseudomode="1">
+				<set opt.printquality="2"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+				<set opt.graymodecolorspace="5"/>
+				<set opt.colormodecolorspace="7"/>
+			</condition>
+			<condition opt.resolution="1200" opt.uiprintquality="1" opt.pseudomode="1">
+				<set opt.printquality="2"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+				<set opt.graymodecolorspace="5"/>
+				<set opt.colormodecolorspace="7"/>
+			</condition>
+			<condition opt.resolution="300" opt.uiprintquality="600">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="2">
+				<set opt.graymodecolorspace="5"/><set opt.colormodecolorspace="7"/>				
+				<set opt.printquality="0"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>		
+		<language id="165" name="EMUL_SPL3_FBBLZW_FPOTEVERYPAGECOVERAGEMODE" >
+			<set opt.printquality="0"/>
+            <condition opt.resolution="600" opt.uiprintquality="1200">
+                <set opt.printquality="1" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="600" />
+            </condition>
+            <condition opt.resolution="1200" opt.uiprintquality="1200">
+                <set opt.printquality="1" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="1200" />
+            </condition>
+            <condition opt.resolution="1200" opt.uiprintquality="1200" opt.pseudomode="1">
+				<set opt.printquality="2"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+				<set opt.graymodecolorspace="5"/>
+				<set opt.colormodecolorspace="7"/>
+			</condition>
+			<condition opt.resolution="1200" opt.uiprintquality="1" opt.pseudomode="1">
+				<set opt.printquality="2"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+				<set opt.graymodecolorspace="5"/>
+				<set opt.colormodecolorspace="7"/>
+			</condition>
+			<condition opt.resolution="300" opt.uiprintquality="600">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="2">
+				<set opt.graymodecolorspace="5"/><set opt.colormodecolorspace="7"/>				
+				<set opt.printquality="0"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>
+		<language id="166" name="EMUL_SPL3_FBB_FPOTCOVERAGEMODE" >
+			<set opt.printquality="0"/>
+            <condition opt.resolution="600" opt.uiprintquality="1200">
+                <set opt.printquality="1" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="600" />
+            </condition>
+            <condition opt.resolution="1200" opt.uiprintquality="1200">
+                <set opt.printquality="1" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="1200" />
+            </condition>
+            <condition opt.resolution="1200" opt.uiprintquality="1200" opt.pseudomode="1">
+				<set opt.printquality="2"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+				<set opt.graymodecolorspace="5"/>
+				<set opt.colormodecolorspace="7"/>
+			</condition>
+			<condition opt.resolution="1200" opt.uiprintquality="1" opt.pseudomode="1">
+				<set opt.printquality="2"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+				<set opt.graymodecolorspace="5"/>
+				<set opt.colormodecolorspace="7"/>
+			</condition>
+			<condition opt.resolution="300" opt.uiprintquality="600">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="2">
+				<set opt.graymodecolorspace="5"/><set opt.colormodecolorspace="7"/>				
+				<set opt.printquality="0"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>				
+		<language id="200" name="EMUL_SPLC1_FBBLZW">
+			<set opt.printquality="0"/>
+			<condition opt.resolution="600" opt.uiprintquality="2400">
+				<set opt.printquality="1"/>
+				<set opt.printresx="1200"/>
+				<set opt.printresy="1200"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1200">
+				<set opt.printquality="0"/>
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>
+		<language id="201" name="EMUL_SPLC2_JBIG_FULL">
+			<set opt.printquality="-1"/>		
+			<condition opt.resolution="600" opt.uiprintquality="2400">
+				<set opt.printquality="1"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="1200"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1200">
+				<set opt.printquality="0"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+			</condition>
+
+			<!-- added for unified language file(DAT) -->
+			<condition opt.resolution="600" opt.uiprintquality="4">
+				<set opt.printquality="1"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="1200"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="2">
+				<set opt.printquality="0"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			
+			<condition opt.resolution="300" opt.uiprintquality="600">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>
+		<language id="202" name="EMUL_SPLUNI5_JBIG">
+			<set opt.printquality="-1"/>		
+			<condition opt.resolution="600" opt.uiprintquality="2400">
+				<set opt.printquality="1"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="1200"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1200">
+				<set opt.printquality="0"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+			</condition>
+
+			<!-- added for unified language file(DAT) -->
+			<condition opt.resolution="600" opt.uiprintquality="4">
+				<set opt.printquality="1"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="1200"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="2">
+				<set opt.printquality="0"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			
+			<condition opt.resolution="300" opt.uiprintquality="600">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>		
+		
+		<language id="203" name="EMUL_SPLUNI5_JBIG_MULTIBITS">
+			<set opt.graymodecolorspace="0"/><set opt.colormodecolorspace="1"/>
+			<set opt.printquality="-1"/>		
+			<condition opt.resolution="600" opt.uiprintquality="4">
+				<set opt.graymodecolorspace="6"/><set opt.colormodecolorspace="8"/>
+				<set opt.printquality="1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="2">
+				<set opt.graymodecolorspace="5"/><set opt.colormodecolorspace="7"/>				
+				<set opt.printquality="0"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			
+			<!-- for 1 bit resolutio mode-->
+			<condition opt.resolution="600" opt.uiprintquality="2400">
+				<set opt.printquality="1"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="1200"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1200">
+				<set opt.printquality="0"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>		
+		
+		<language id="204" name="EMUL_SPLUNI5_JBIG_COVER">
+			<set opt.graymodecolorspace="0"/><set opt.colormodecolorspace="1"/>
+			<set opt.printquality="-1"/>		
+			<condition opt.resolution="600" opt.uiprintquality="4">
+				<set opt.graymodecolorspace="6"/><set opt.colormodecolorspace="8"/>
+				<set opt.printquality="1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="2">
+				<set opt.graymodecolorspace="5"/><set opt.colormodecolorspace="7"/>				
+				<set opt.printquality="0"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1">
+				<set opt.printquality="-1"/>		
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+			
+			<!-- for 1 bit resolutio mode-->
+			<condition opt.resolution="600" opt.uiprintquality="2400">
+				<set opt.printquality="1"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="1200"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1200">
+				<set opt.printquality="0"/>		
+				<set opt.printresx="1200"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>
+
+        <language id="300" name="EMUL_SPLUNI7_ALICE">
+            <set opt.graymodecolorspace="0" />
+            <set opt.colormodecolorspace="1" />
+            <!-- set opt.extendedobjtype="1" / -->
+            <set opt.printquality="-1" />
+            <!-- 600x600x4 -->
+            <condition opt.resolution="600" opt.uiprintquality="4">
+                <set opt.graymodecolorspace="6" />
+                <set opt.colormodecolorspace="8" />
+                <set opt.printquality="1" />
+                <set opt.printresx="600" />
+                <set opt.printresy="600" />
+            </condition>
+            <!-- 600x600x2 -->
+            <condition opt.resolution="600" opt.uiprintquality="2">
+                <set opt.graymodecolorspace="5" />
+                <set opt.colormodecolorspace="7" />
+                <set opt.printquality="0" />
+                <set opt.printresx="600" />
+                <set opt.printresy="600" />
+            </condition>
+            <!-- 600x600x1 -->
+            <condition opt.resolution="600" opt.uiprintquality="1">
+                <set opt.printquality="-1" />
+                <set opt.printresx="600" />
+                <set opt.printresy="600" />
+            </condition>
+            <!-- 1200x1200x1(Rendering:600) -->
+            <condition opt.resolution="600" opt.uiprintquality="2400">
+                <set opt.printquality="1" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="1200" />
+            </condition>
+            <!-- 1200x600x1(Rendering:600) -->
+            <condition opt.resolution="600" opt.uiprintquality="1200">
+                <set opt.printquality="0" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="600" />
+            </condition>
+            <!-- Pseudo1200(Rendering:1200) -->
+            <condition opt.resolution="1200" opt.uiprintquality="1200" opt.pseudomode="1">
+                <set opt.printquality="2" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="600" />
+                <set opt.graymodecolorspace="5" />
+                <set opt.colormodecolorspace="7" />
+            </condition>
+            <!-- Pseudo600(Rendering:600) -->
+            <condition opt.resolution="600" opt.uiprintquality="600" opt.pseudomode="1">
+                <set opt.printquality="2" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="600" />
+                <set opt.graymodecolorspace="5" />
+                <set opt.colormodecolorspace="7" />
+            </condition>
+            <!-- 1200x1200x1(Rendering:1200) -->
+            <condition opt.resolution="1200" opt.uiprintquality="1200">
+                <set opt.printquality="1" />
+                <set opt.printresx="1200" />
+                <set opt.printresy="1200" />
+            </condition>
+            <!-- 600x600x1(Rendering:600) -->
+            <condition opt.resolution="600" opt.uiprintquality="600">
+                <set opt.printquality="1" />
+                <set opt.printresx="600" />
+                <set opt.printresy="600" />
+            </condition>
+        </language>
+        
+		<language id="904" name="EMUL_SPLC4_UNCOMPRESSED_MULTIBITS">
+			<set opt.graymodecolorspace="0"/><set opt.colormodecolorspace="1"/>
+			<set opt.printquality="-1"/>			
+			<condition opt.resolution="600" opt.uiprintquality="4">
+				<set opt.graymodecolorspace="6"/><set opt.colormodecolorspace="8"/>
+				<set opt.printquality="1"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="2">
+				<set opt.graymodecolorspace="5"/><set opt.colormodecolorspace="7"/>				
+				<set opt.printquality="0"/>
+			</condition>
+			<condition opt.resolution="300" opt.uiprintquality="600">
+				<set opt.printquality="-1"/>
+				<set opt.printresx="600"/>
+				<set opt.printresy="600"/>
+			</condition>
+		</language>		
+		<language id="230" name="SPLC6_ICEBERG">
+			<set opt.graymodecolorspace="3"/><set opt.colormodecolorspace="3"/>
+		</language>
+		
+				
+		<language id="5" name="PHOTOS">
+			<set opt.graymodecolorspace="2"/>
+			<set opt.colormodecolorspace="4"/>
+			<condition opt.resolution="300" opt.uiprintquality="600">
+				<set opt.printresx="300"/>
+				<set opt.printresy="300"/>
+				<set opt.printquality="0"/>
+			</condition>
+			<condition opt.resolution="300" opt.uiprintquality="1200">
+				<set opt.printresx="300"/>
+				<set opt.printresy="300"/>
+				<set opt.printquality="1"/>
+			</condition>
+		</language>
+		<language id="2" name="PCL6">
+			<set opt.graymodecolorspace="2"/>
+			<set opt.colormodecolorspace="4"/>
+		</language>
+		<language id="6" name="PCL6_DROW">
+			<set opt.graymodecolorspace="2"/>
+			<set opt.colormodecolorspace="4"/>
+		</language>
+		<language id="7" name="PCL6_WHITESKIP">
+			<set opt.graymodecolorspace="2"/>
+			<set opt.colormodecolorspace="4"/>
+		</language>
+		<language id="3" name="PCL5e">
+			<set opt.graymodecolorspace="0"/>
+			<set opt.colormodecolorspace="1"/>
+		</language>
+		<language id="4" name="PCL3GUI">		
+			<set opt.graymodecolorspace="3"/>
+			<set opt.colormodecolorspace="3"/>
+			<!-- print quality set -->
+			<condition opt.resolution="300" opt.uiprintquality="300">				
+				<set opt.printquality="-2"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="1">
+				<set opt.printquality="-1"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="2">
+				<set opt.printquality="0"/>
+			</condition>
+			<condition opt.resolution="600" opt.uiprintquality="4">
+				<set opt.printquality="1"/>
+			</condition>
+			<condition opt.resolution="1200" opt.uiprintquality="1200">
+				<set opt.printquality="2"/>
+			</condition>
+			<!-- seperate level set -->
+			<set opt.seperateblack="2"/>  <!-- Seperate Level 0:No, 1:Text, 2:Graphic&Text -->
+			<condition opt.mediatype="22">
+				<set opt.seperateblack="0"/>
+			</condition>
+			<condition opt.mediatype="25">
+				<set opt.seperateblack="0"/>
+			</condition>
+			<condition opt.mediatype="26">
+				<set opt.seperateblack="0"/>
+			</condition>
+			<condition opt.mediatype="27">
+				<set opt.seperateblack="0"/>
+			</condition>
+			<condition opt.mediatype="28">
+				<set opt.seperateblack="0"/>
+			</condition>
+			<condition opt.mediatype="30">
+				<set opt.seperateblack="0"/>
+			</condition>
+			<condition opt.mediatype="42">
+				<set opt.seperateblack="0"/>
+			</condition>
+			<condition opt.mediatype="43">
+				<set opt.seperateblack="0"/>
+			</condition>
+			<condition opt.mediatype="45">
+				<set opt.seperateblack="0"/>
+			</condition>
+			<condition opt.mediatype="0" opt.printquality="-1">
+				<set opt.seperateblack="1"/>
+			</condition>
+			<condition opt.mediatype="0" opt.printquality="0">
+				<set opt.seperateblack="1"/>
+			</condition>
+			<condition opt.mediatype="1" opt.printquality="-1">
+				<set opt.seperateblack="1"/>
+			</condition>
+			<condition opt.mediatype="1" opt.printquality="0">
+				<set opt.seperateblack="1"/>
+			</condition>
+			<condition opt.mediatype="19" opt.printquality="-1">
+				<set opt.seperateblack="1"/>
+			</condition>
+			<condition opt.mediatype="19" opt.printquality="0">
+				<set opt.seperateblack="1"/>
+			</condition>
+			<condition opt.mediatype="40" opt.printquality="-1">
+				<set opt.seperateblack="1"/>
+			</condition>
+			<condition opt.mediatype="40" opt.printquality="0">
+				<set opt.seperateblack="1"/>
+			</condition>
+		</language>
+		<language id="1000" name="RAW">
+			<set opt.graymodecolorspace="2"/><set opt.colormodecolorspace="4"/>
+		</language>
+		<language id="1001" name="RAWB">
+			<set opt.graymodecolorspace="2"/><set opt.colormodecolorspace="9"/>
+		</language>
+        <language id="1002" name="RAWB">
+            <set opt.graymodecolorspace="11" />
+            <set opt.colormodecolorspace="12" />
+        </language>
+    </languages>
+
+<!-- Color Table Description for Mono LBP/MFP
+ 0	- SSRGBv3.3.icm
+ 1~2	- stub.256
+ 3	- Linear.256
+ 4	- TEXTBLACK600.scn
+ 5	- PHOTO600.scn
+ 6	- 1200DPI.scn
+ 7	- 1200DPI1.scn
+ 8	- TEXTBLACK600.scn
+ 9	- NscreenR12x6_(4.4)_106_45.scn
+ 10 - DIT_1200.scn
+ 11 - skylark20060626.scn
+ 12 - Eiger20060626.scn
+ 13 - Eiger20060725.256
+ 14 - plover600.scn
+ 15 -plover1200.scn
+
+ 16	- 600TEXT1.256
+ 17	- 600TEXT2.256
+ 18	- 600TEXT3.256
+ 19	- 600TEXT4.256
+ 20	- 600PHOTO1.256
+ 21	- 600PHOTO2.256
+ 22	- 600PHOTO3.256
+ 23	- 600PHOTO4.256
+ 24	- 1200DPI.256
+ 25	- 1200DPI2.256
+ 26	- 1200DPIdark.256
+ 27	- 1200final_1201pt.256
+ 28	- 12_6final_5pt.256
+ 29	- 1200DPI_20050817.256
+ 30	- whitev.256
+ 31 - cnv_1200_oriole.256
+ 32 - Logan_scn1_070411.scn
+ 33 - cnv_0.9_inv1.1.256
+ 34 - swan_scn1_45_16x16.scn
+ 35 - Swan (1200x600).scn
+ 36 - cygnus600.256
+ 37 - plover600.256
+ 38 - plover1200.256
+ 39 - loganW_600_45_106_16x16.scn
+ 40 - loganW_600_cnv.256
+ 41 - loganW_1200_45_141.scn
+ 42 - loganW_1200_cnv.256
+
+ 43~47	- stub.256
+-->
+
+			
+	<colortables>
+		<!-- Kestrel -->
+		<colortable id="0" name="default">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="3"/>
+			<condition opt.printresx="1200">
+				<set opt.scn_gray="6"/>
+				<set opt.lut_gray="24"/>
+			</condition>
+		</colortable>		
+		<!-- Grenach, Dove -->
+		<colortable id="1" name="Grenache">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="17"/>
+			<condition opt.printresx="1200">
+				<set opt.scn_gray="10"/>
+				<set opt.lut_gray="29"/>
+			</condition>
+		</colortable>
+		<!-- Skylark -->
+		<colortable id="2" name="Skylark">
+			<set opt.scn_gray="11"/>
+			<set opt.lut_gray="3"/>
+		</colortable>
+		<!-- Snipe=OrioleL -->
+		<colortable id="3" name="Snipe">
+			<set opt.scn_gray="8"/>
+			<set opt.lut_gray="27"/>
+			<condition opt.printresx="1200">
+				<set opt.scn_gray="9"/>
+				<set opt.lut_gray="28"/>
+			</condition>
+		</colortable>
+		<!-- Whitney -->
+		<colortable id="4" name="Whitney">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="30"/>
+		</colortable>
+		<!-- OrioleH -->
+		<colortable id="5" name="OrioleH">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="17"/>
+			<condition opt.printresx="1200">
+				<set opt.scn_gray="10"/>
+				<set opt.lut_gray="31"/>
+			</condition>
+		</colortable>
+		<!-- Eiger -->
+		<colortable id="6" name="Eiger">
+			<set opt.scn_gray="12"/>
+			<set opt.lut_gray="13"/>
+		</colortable>
+		<!-- Logan -->
+		<colortable id="7" name="Logan">
+			<set opt.scn_gray="32"/>
+			<set opt.lut_gray="33"/>			
+		</colortable>
+		<colortable id="8" name="Swan">
+			<set opt.scn_gray="34"/>
+			<set opt.lut_gray="33"/>
+			<condition opt.printresx="1200">
+				<set opt.scn_gray="35"/>
+				<set opt.lut_gray="33"/>
+			</condition>
+		</colortable>
+		<!-- Grenach, Dove -->
+		<colortable id="9" name="Cygnus">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="36"/>
+			<condition opt.printresx="1200">
+				<set opt.scn_gray="10"/>
+				<set opt.lut_gray="29"/>
+			</condition>
+		</colortable>	
+		
+		<!-- Old Model Mono 1:1 -->
+		<colortable id="10" name="Mono1:1">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="3"/>
+			<condition opt.ret="3">	
+				<set opt.scn_gray="5"/>
+				<set opt.lut_gray="21"/>
+			</condition>
+		</colortable>
+		<!-- Old Model Mono Text1 -->
+		<colortable id="11" name="MonoText1">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="16"/>
+		</colortable>
+		<!-- Old Model Mono Text2 -->
+		<colortable id="12" name="MonoText2">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="17"/>
+		</colortable>
+		<!-- Old Model Mono Text3 -->
+		<colortable id="13" name="MonoText3">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="18"/>
+		</colortable>
+		<!-- Old Model Mono Text4 -->
+		<colortable id="14" name="MonoText4">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="19"/>
+		</colortable>
+		<!-- Orchid Model Mono 600Text2600Photo2 -->		
+		<colortable id="20" name="600Text2600Photo2">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="17"/>
+			<condition opt.ret="3">	
+				<set opt.scn_gray="5"/>
+				<set opt.lut_gray="21"/>
+			</condition>
+		</colortable>
+		<!-- Orchid Model Mono 600Text2600Photo3 -->
+		<colortable id="21" name="600Text2600Photo3">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="17"/>
+			<condition opt.ret="3">	
+				<set opt.scn_gray="5"/>
+				<set opt.lut_gray="22"/>
+			</condition>
+		</colortable>
+		<!-- Orchid Model Mono 600TEXT2600PHOTO4_1200DPI2 -->
+		<colortable id="22" name="HB2_600TEXT2600PHOTO4_1200DPI2">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="17"/>
+			<condition opt.ret="3">				
+				<set opt.scn_gray="5"/>
+				<set opt.lut_gray="23"/>
+			</condition>
+			<condition opt.printresx="1200">
+				<set opt.scn_gray="7"/>
+				<set opt.lut_gray="25"/>
+			</condition>
+		</colortable>
+		<!-- Orchid Model Mono Mono1:1_1200DPI -->
+		<colortable id="23" name="Mono1:1_1200DPI">
+			<set opt.scn_gray="4"/>
+			<set opt.lut_gray="3"/>			
+			<condition opt.printresx="1200">
+				<set opt.scn_gray="6"/>
+				<set opt.lut_gray="24"/>
+			</condition>
+		</colortable>
+		
+		
+		<!-- Plover -->
+		<colortable id="24" name="Plover">
+			<set opt.scn_gray="14"/>
+			<set opt.lut_gray="37"/>
+			<condition opt.printresx="1200">
+				<set opt.scn_gray="15"/>
+				<set opt.lut_gray="38"/>
+			</condition>
+		</colortable>	
+
+		<!-- Swan Wireless, Logan Wireless common -->
+		<colortable id="25" name="LoganW">
+			<set opt.scn_gray="39"/>
+			<set opt.lut_gray="40"/>			
+			<condition opt.printresx="1200">
+				<set opt.scn_gray="41"/>
+				<set opt.lut_gray="42"/>
+			</condition>			
+		</colortable>
+		
+		
+
+		<!-- dali ... tbd ... general setting based on print quality (draft, normal, best,...)-->
+		<colortable id="53" name="dali">			
+
+			<set opt.icc_input="0"/>
+			<set opt.icc_output="1"/>
+			<set opt.scn_gray="10"/>
+			<set opt.scn_color_cyan="11"/>
+			<set opt.scn_color_magenta="12"/>
+			<set opt.scn_color_yellow="13"/>
+			<set opt.scn_color_black="14"/>
+			<set opt.lut_gray="25"/>
+			<set opt.lut_color_cyan="26"/>
+			<set opt.lut_color_magenta="27"/>
+			<set opt.lut_color_yellow="28"/>
+			<set opt.lut_color_black="29"/>
+			<set opt.lut_color_textgray="30"/>
+			<set opt.lut_color_graphicgray="43"/>
+			
+			<copy src="opt.mediatype" dst="opt.lut_subid"/>
+			
+			<condition opt.bitsperpixel="2">
+				<set opt.icc_output="4"/>
+				<set opt.scn_gray="15"/>
+				<set opt.scn_color_cyan="16"/>
+				<set opt.scn_color_magenta="17"/>
+				<set opt.scn_color_yellow="18"/>
+				<set opt.scn_color_black="19"/>
+				<set opt.lut_gray="31"/>
+				<set opt.lut_color_cyan="32"/>
+				<set opt.lut_color_magenta="33"/>
+				<set opt.lut_color_yellow="34"/>
+				<set opt.lut_color_black="35"/>
+				<set opt.lut_color_textgray="36"/>
+				<set opt.lut_color_graphicgray="44"/>
+			</condition>
+			
+			<condition opt.bitsperpixel="4">
+				<set opt.icc_output="7"/>
+				<set opt.scn_gray="20"/>
+				<set opt.scn_color_cyan="21"/>
+				<set opt.scn_color_magenta="22"/>
+				<set opt.scn_color_yellow="23"/>
+				<set opt.scn_color_black="24"/>
+				<set opt.lut_gray="37"/>
+				<set opt.lut_color_cyan="38"/>
+				<set opt.lut_color_magenta="39"/>
+				<set opt.lut_color_yellow="40"/>
+				<set opt.lut_color_black="41"/>
+				<set opt.lut_color_textgray="42"/>
+				<set opt.lut_color_graphicgray="45"/>
+			</condition>
+		</colortable>
+		
+		<!-- gogh -->
+		<colortable id="52" name="gogh">			
+			<set opt.icc_input="0"/>
+			<set opt.icc_output="1"/>
+			<set opt.scn_gray="10"/>
+			<set opt.scn_color_cyan="11"/>
+			<set opt.scn_color_magenta="12"/>
+			<set opt.scn_color_yellow="13"/>
+			<set opt.scn_color_black="14"/>
+			<set opt.lut_gray="25"/>
+			<set opt.lut_color_cyan="26"/>
+			<set opt.lut_color_magenta="27"/>
+			<set opt.lut_color_yellow="28"/>
+			<set opt.lut_color_black="29"/>
+			<set opt.lut_color_textgray="30"/>
+			<set opt.lut_color_graphicgray="43"/>
+			<condition opt.printresx="1200" opt.printresy="600">
+				<set opt.icc_output="4"/>
+				<set opt.scn_gray="15"/>
+				<set opt.scn_color_cyan="16"/>
+				<set opt.scn_color_magenta="17"/>
+				<set opt.scn_color_yellow="18"/>
+				<set opt.scn_color_black="19"/>
+				<set opt.lut_gray="31"/>
+				<set opt.lut_color_cyan="32"/>
+				<set opt.lut_color_magenta="33"/>
+				<set opt.lut_color_yellow="34"/>
+				<set opt.lut_color_black="35"/>
+				<set opt.lut_color_textgray="36"/>
+				<set opt.lut_color_graphicgray="44"/>
+			</condition>
+			<condition opt.printresx="1200" opt.printresy="1200">
+				<set opt.icc_output="7"/>
+				<set opt.scn_gray="20"/>
+				<set opt.scn_color_cyan="21"/>
+				<set opt.scn_color_magenta="22"/>
+				<set opt.scn_color_yellow="23"/>
+				<set opt.scn_color_black="24"/>
+				<set opt.lut_gray="37"/>
+				<set opt.lut_color_cyan="38"/>
+				<set opt.lut_color_magenta="39"/>
+				<set opt.lut_color_yellow="40"/>
+				<set opt.lut_color_black="41"/>
+				<set opt.lut_color_textgray="42"/>
+				<set opt.lut_color_graphicgray="45"/>
+			</condition>
+			<copy src="opt.mediatype" dst="opt.lut_subid"/>
+		</colortable>
+		<!-- daVinci -->
+		<colortable id="51" name="daVinci">
+			<set opt.icc_input="0"/>
+			<set opt.icc_output="1"/>
+			<set opt.scn_gray="10"/>
+			<set opt.scn_color_cyan="11"/>
+			<set opt.scn_color_magenta="12"/>
+			<set opt.scn_color_yellow="13"/>
+			<set opt.scn_color_black="14"/>
+			<set opt.lut_gray="25"/>
+			<set opt.lut_color_cyan="26"/>
+			<set opt.lut_color_magenta="27"/>
+			<set opt.lut_color_yellow="28"/>
+			<set opt.lut_color_black="29"/>
+			<set opt.lut_color_textgray="30"/>
+			<condition opt.printresx="1200" opt.printresy="600">
+				<set opt.icc_output="4"/>
+				<set opt.scn_gray="15"/>
+				<set opt.scn_color_cyan="16"/>
+				<set opt.scn_color_magenta="17"/>
+				<set opt.scn_color_yellow="18"/>
+				<set opt.scn_color_black="19"/>
+				<set opt.lut_gray="31"/>
+				<set opt.lut_color_cyan="32"/>
+				<set opt.lut_color_magenta="33"/>
+				<set opt.lut_color_yellow="34"/>
+				<set opt.lut_color_black="35"/>
+				<set opt.lut_color_textgray="36"/>
+			</condition>
+			<condition opt.printresx="1200" opt.printresy="1200">
+				<set opt.icc_output="7"/>
+				<set opt.scn_gray="20"/>
+				<set opt.scn_color_cyan="21"/>
+				<set opt.scn_color_magenta="22"/>
+				<set opt.scn_color_yellow="23"/>
+				<set opt.scn_color_black="24"/>
+				<set opt.lut_gray="37"/>
+				<set opt.lut_color_cyan="38"/>
+				<set opt.lut_color_magenta="39"/>
+				<set opt.lut_color_yellow="40"/>
+				<set opt.lut_color_black="41"/>
+				<set opt.lut_color_textgray="42"/>
+			</condition>
+		</colortable>
+		<!-- BigBang=BingBangPlus -->
+		<colortable id="50" name="BigBang">
+			<set opt.icc_input="0"/>
+			<set opt.icc_output="1"/>
+			<set opt.scn_gray="10"/>
+			<set opt.scn_color_cyan="11"/>
+			<set opt.scn_color_magenta="12"/>
+			<set opt.scn_color_yellow="13"/>
+			<set opt.scn_color_black="14"/>
+			<set opt.lut_gray="33"/>
+			<set opt.lut_color_cyan="40"/>
+			<set opt.lut_color_magenta="41"/>
+			<set opt.lut_color_yellow="42"/>
+			<set opt.lut_color_black="43"/>
+			<set opt.lut_color_textgray="35"/>
+			<condition opt.printresx="1200" opt.printresy="1200">
+				<set opt.icc_output="2"/>
+				<set opt.scn_gray="15"/>
+				<set opt.scn_color_cyan="16"/>
+				<set opt.scn_color_magenta="17"/>
+				<set opt.scn_color_yellow="18"/>
+				<set opt.scn_color_black="19"/>
+				<set opt.lut_gray="34"/>
+				<set opt.lut_color_cyan="44"/>
+				<set opt.lut_color_magenta="45"/>
+				<set opt.lut_color_yellow="46"/>
+				<set opt.lut_color_black="47"/>
+				<set opt.lut_color_textgray="36"/>
+			</condition>
+		</colortable>
+	</colortables>
+</ssprinterdevice>

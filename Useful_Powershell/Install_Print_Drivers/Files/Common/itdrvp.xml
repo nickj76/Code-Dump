@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<Driver xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="prndrvp.xsd">
+
+  <Pages>
+    <Page ID="ScriptVersion">2013.01.02(UPDEnterprise)_SpecialPages(x)_DocumentType(x)</Page>
+    <Page ID="About" NAME="About">
+      <Feature ID="AboutLogo"></Feature>
+      <!--Feature ID="AboutHelp"></Feature-->
+      <Feature ID="AboutService"></Feature>
+      <Feature ID="AboutInfo"></Feature>
+    </Page>
+
+    <Page ID="Presets" NAME="Favorites">
+      <Feature ID="Presets"></Feature>
+      <Feature ID="EcoPrintingPreview"></Feature>
+      <Feature ID="PreviewManager2"></Feature>
+    </Page>
+
+    <Page ID="Basic" NAME="Basic">
+      <Feature ID="PrintMode"/>
+      <Feature ID="Orientation"></Feature>
+      <!--Feature ID="Quality"></Feature-->
+      <Feature ID="LayoutOptions"></Feature>
+      <Feature ID="Duplex"></Feature>
+      <!-- For New Manual Duplex Model : To support it, remove comment tag from below line. -->
+      <Feature ID="DuplexManual"></Feature>
+      <Group NAME="Finishing Options">
+        <Feature ID="Stapler2"></Feature>
+        <Feature ID="HolePunching2"></Feature>
+      </Group>
+      <!--Feature ID="EcoPrintingPreview"/-->
+      <Feature ID="PreviewLayout"></Feature>
+      <!--Feature ID="PreviewManager"></Feature-->
+    </Page>
+
+    <Page ID="Paper" NAME="Paper">
+      <Feature ID="PrintMode"/>
+      <Group NAME="Copies">
+        <Feature ID="Copies"></Feature>
+        <Feature ID="Collate"></Feature>
+      </Group>
+      <Group NAME="Paper Options">
+        <Feature ID="PaperSize"></Feature>
+        <!-- For New Scailing (Output Size) : To support it, remove comment tag from below line. -->
+        <Feature ID="Scaling"></Feature>
+        <Feature ID="PaperSource"></Feature>
+        <Feature ID="PaperType"></Feature>
+        <!--Feature ID="OutputBin"></Feature-->
+        <!-- For Cover Page : To support it, remove comment tag from below line. -->
+        <Button NAME="AdvancedPaperOptionsButton" POPUP="AdvancedPaperOptions" RESET="ResetPaperOptionsButton"></Button>
+        <!-- For Special Pages : To support it, remove comment tag from below line. -->
+        <!--<Button NAME="SpecialPagesButton" POPUP="SpecialPagesOptions" RESET="ResetSpecialPagesButton"></Button>-->
+      </Group>
+      <!-- For Old Scailing (Fit To Page) : To support it, remove comment tag from below line. -->
+      <!--<Group NAME="ScalingOptions">
+        <Feature ID="Scaling"></Feature>
+      </Group>-->
+      <!-- For Special Pages : To support it, remove comment tag from below line. -->
+      <!--<Feature ID="TransparencySeparator"/>-->
+	  <Feature ID="PreviewLayout"></Feature>
+      <!--Feature ID="PreviewManager"></Feature-->
+    </Page>
+
+    <Page ID="Eco" NAME="Eco">
+      <Feature ID="PrintMode"/>
+      <Group NAME="Eco Options">
+        <Feature ID="EcoPrinting"/>
+        <Feature ID="EcoPrintingConfirm"/>
+      </Group>
+      <Feature ID="EcoPrintingSimulator"/>
+	  <Feature ID="PreviewLayout"></Feature>
+      <!--Feature ID="PreviewManager"/-->
+    </Page>
+
+    <Page ID="AdvancedPaperOptions" NAME="Advanced Paper Options" TYPE="popup" RESET="Reset">
+      <Feature ID="FirstPage"/>
+      <Feature ID="LastPage"/>
+      <Feature ID="CoverPage"/>
+      <Feature ID="TransparencySeparator"/>
+    </Page>
+
+    <Page ID="SpecialPagesOptions" NAME="Special Pages Options" TYPE="popup">
+      <Feature ID="SpecialPages"/>
+    </Page>
+
+    <Page ID="Graphics" NAME="Graphics">
+      <Feature ID="PrintMode"/>
+      <!-- Color Only : To support it, remove comment tag from below line. -->	  
+      <!--Group NAME="Document Type">
+        <Feature ID="DocumentType"></Feature>
+        <Button NAME="AdvancedGraphicControllerOptionsButton" POPUP="AdvancedGraphicControllerOptions" RESET="ResetGraphicControllerOptionsButton"/>
+      </Group>
+      <Feature ID="Quality"></Feature>
+      <Button NAME="AdvancedGraphicControllerOptionsButton" POPUP="AdvancedGraphicControllerOptions" RESET="ResetGraphicControllerOptionsButton"/-->
+
+      <Group NAME="Color Mode">
+        <Feature ID="ColorMode"></Feature>
+        <Feature ID="BlackOptimization"></Feature>
+        <Button NAME="AdvancedColorSettingsButton" POPUP="AdvancedColorSettings" RESET="ResetColorSettingsButton"></Button>
+      </Group>
+      <!-- Mono Only : To support it, remove comment tag from below line. -->	  
+      <Feature ID="Quality"></Feature>
+
+      <Group NAME="Font / Text">
+        <Feature ID="DarkenText"></Feature>
+        <Feature ID="AllTextBlack"></Feature>
+        <Button NAME="AdvancedFontOptionsButton" POPUP="AdvancedFontOptions" RESET="ResetFontOptionsButton"></Button>
+      </Group>
+
+      <!-- Mono Only : To support it, remove comment tag from below line. -->
+      <Group NAME="Graphic Controller">
+      	<Feature ID="CMS01"></Feature>
+        <Feature ID="CMS02"></Feature>
+        <Feature ID="FineEdgeTrapping"></Feature>
+        <Feature ID="FineEdge"></Feature>
+        <Feature ID="FineTrapping"></Feature>
+        <Feature ID="PatternOptimizer"></Feature>
+        <Feature ID="NegativeOutput"></Feature>
+		<Button NAME="AdvancedGraphicControllerOptionsButton" POPUP="AdvancedGraphicControllerOptions" RESET="ResetGraphicControllerOptionsButton"/>		
+      </Group>
+
+      <Feature ID="TonerSave"></Feature>      
+      <Feature ID="DriverTonerSave"></Feature>
+      <Feature ID="HighCoverageMode"></Feature>
+      <Feature ID="PrintDensity"></Feature>
+	  <!--<Button NAME="PostScriptOptionsButton" POPUP="PostScriptOptions" RESET="ResetPostScriptOptionsButton"></Button>-->
+      <Feature ID="PreviewLayout"></Feature>
+      <!--Feature ID="PreviewManager"></Feature-->
+    </Page>
+
+    <Page ID="AdvancedColorSettings" NAME="Advanced Color Settings">
+      <Page ID="AdjustmentLevels"/>
+      <Page ID="AdjustmentMatching"/>
+    </Page>
+
+    <Page ID="AdvancedFontOptions" NAME="Advanced Font / Text Options" TYPE="popup" RESET="Reset">
+      <Feature ID="TrueTypeMode"></Feature>
+      <Feature ID="PrinterFonts"></Feature>
+    </Page>
+
+    <Page ID="AdvancedGraphicControllerInkJet" NAME="InkJet">
+      <Feature ID="InkVolume"></Feature>
+      <Feature ID="DryTime"></Feature>
+      <Feature ID="Overspray"></Feature>
+    </Page>
+
+    <Page ID="AdvancedGraphicControllerRadioGroup" NAME="RadioGroup">
+      <Feature ID="PrintDensity"></Feature>
+      <!--Feature ID="TonerSave"></Feature-->
+    </Page>
+
+    <Page ID="AdvancedGraphicControllerOptions" NAME="Advanced Graphic Controller Options" TYPE="popup" RESET="Reset">
+      <Feature ID="RasterCompression"></Feature>
+      <Feature ID="EasyRasterCompression"></Feature>
+      <Feature ID="InkVolume"></Feature>
+      <Feature ID="DryTime"></Feature>
+      <Feature ID="Overspray"></Feature>
+      <!--Feature ID="PrintDensity"></Feature-->
+      <!--Feature ID="TonerSave"></Feature-->
+      <!--Page ID="AdvancedGraphicControllerRaster"/-->
+      <!--<Page ID="AdvancedGraphicControllerInkJet"/>
+      <Page ID="AdvancedGraphicControllerRadioGroup"/>-->
+    </Page>
+    <Page ID="AdjustmentLevels" NAME="Levels" RESET="Reset">
+      <Feature ID="AdjustmentLevels"></Feature>
+	  <Group NAME="Optimization">
+      	<Feature ID="BlackOptimizationEx"></Feature>
+      </Group>
+      <Feature ID="PreviewAdjustment"></Feature>
+    </Page>
+    <Page ID="AdjustmentMatching" NAME="Matching" RESET="Reset">
+      <Feature ID="AdjustmentColorMatching"></Feature>
+      <Feature ID="HalftoneScreen"></Feature>
+      <Feature ID="PreviewAdjustment"></Feature>
+      <Feature ID="EasyColorManager"></Feature>
+    </Page>
+
+    <Page ID="Finishing" NAME="Finishing">
+      <Feature ID="PrintMode"/>
+      <Feature ID="SortOptions"/>
+      <Group NAME="Staple Options">
+        <Feature ID="Stapler"></Feature>
+        <Feature ID="StaplePosition"></Feature>
+      </Group>
+
+      <Group NAME="Output Stacker Options">
+        <Feature ID="Offset"></Feature>
+      </Group>
+
+      <Group NAME="Hole Punch Options">
+        <Feature ID="HolePunching"></Feature>
+        <Feature ID="HolePunchingPosition"/>
+      </Group>
+
+      <Group NAME="Output Tray Options">
+        <Feature ID="OutputBin"/>
+      </Group>
+
+      <Feature ID="PreviewLayout"></Feature>
+      <!--Feature ID="PreviewManager"></Feature-->
+    </Page>
+
+    <Page ID="Advanced" NAME="Advanced">
+      <Feature ID="PrintMode"/>
+      <Feature ID="Watermark"></Feature>
+      <Feature ID="Overlay"></Feature>
+      <Group NAME="Output Options">
+        <Feature ID="PrintOrder"></Feature>
+        <Feature ID="SkipBlankPages"/>
+        <Feature ID="CopySetNumbering"></Feature>
+        <Feature ID="ManualMargin"></Feature>
+        <Feature ID="MultiBinMode"></Feature>
+        <Feature ID="JamReprint"></Feature>
+        <Button NAME="AdvancedOutputOptionsButton" POPUP="AdvancedOutputOptions" RESET="ResetOutputOptionsButton"></Button>
+      </Group>
+      <!-- For Previous Manual Duplex Model Only : To support it, remove comment tag from below line. -->
+      <!--<Feature ID="DuplexManual"></Feature>-->
+      <Group NAME="Security">
+        <Feature ID="JobEncryption"></Feature>
+      </Group>
+      <Feature ID="PrintHold"></Feature>
+      <Feature ID="JobAccounting"></Feature>
+      <Feature ID="PreviewLayout"></Feature>
+      <!--Feature ID="PreviewManager"></Feature-->
+    </Page>
+
+    <Page ID="AdvancedOutputOptions" NAME="Advanced Output Options" TYPE="popup" RESET="Reset">
+      <Group NAME="">
+        <Feature ID="BannerSheet"></Feature>
+        <Feature ID="OutputForm"></Feature>
+      </Group>
+      <Group NAME="PostScript Options">
+        <Feature ID="OutputOption"></Feature>
+        <Feature ID="PostScriptLanguage"></Feature>
+        <Feature ID="PassThrough"></Feature>
+        <Feature ID="ErrorHandler"></Feature>
+      </Group>
+      <Feature ID="PageColorMono"/>
+    </Page>
+
+    <Page ID="Printer" NAME="Device Options">
+      <Group NAME="Printer Model">
+        <Feature ID="UPDPrinterModel"/>
+      </Group>  
+      <Group NAME="Tray Options">
+        <Feature ID="OptionalTray"></Feature>
+        <Feature ID="DuplexUnit"></Feature>
+        <Feature ID="OptionalOutputBin"></Feature>
+        <Feature ID="OptionalInnerOutputBin"></Feature>
+        <Button NAME="AdvTrayOptionsButton" POPUP="AdvTrayOptions" RESET="ResetAdvTrayOptionsButton"/>
+      </Group>
+      <Group NAME="Finisher Options">
+        <Feature ID="Finisher"></Feature>
+        <Feature ID="MailBox"></Feature>
+      </Group>
+      <Group NAME="Storage Options">
+        <Feature ID="OptionalHDD"></Feature>
+        <Feature ID="InternalUSBMemory"></Feature>
+        <Feature ID="RAMDisk"></Feature>
+        <Feature ID="PrinterMemory"></Feature>
+      </Group>
+      <Group NAME="Printer Configuration">
+        <Feature ID="HighAltitude"></Feature>
+        <Feature ID="PowerSave"></Feature>
+        <Feature ID="EmulationLanguage"></Feature>
+      </Group>
+      <Group NAME="Hole Punch Options">
+        <Feature ID="OptionalHolePunch"></Feature>
+      </Group>
+      <!--Feature ID="JobAccounting"></Feature-->
+
+      <!--Group NAME="Spooling Options">
+      <Feature ID="EMFSpooling"></Feature>
+      </Group-->
+
+      <Group NAME="Administrator Settings">
+        <Feature ID="SmartPanel"></Feature>
+        <!--Feature ID="AutoConfiguration"></Feature-->
+        <Feature ID="EMFSpooling"></Feature>
+        <Feature ID="LiveUpdate"></Feature>
+        <Feature ID="AMPVCollector"></Feature>
+        <Feature ID="GrayscaleAlways"></Feature>
+        <Feature ID="ApplicationColorMode"></Feature>
+        <Feature ID="Warmup"></Feature>
+      </Group>
+      <Feature ID="AdminJobAccounting"></Feature>
+      <Button NAME="Advanced" POPUP="AdvancedDeviceOptions" RESET="ResetAdvancedDeviceOptionsButton"></Button>
+      <!--Button NAME="Font Substitution Table" POPUP="FontSubstitutionTableSettings" RESET="ResetFontSubstitutionTableButton"></Button-->
+      <Feature ID="DeviceCustomPaper"></Feature>
+      <Feature ID="PreviewPrinter"></Feature>
+    </Page>
+
+    <Page ID="AdvTrayOptions" NAME="Advanced Tray Options" TYPE="popup" RESET="Reset">
+      <Feature ID="AdvancedTrayOptions"/>
+    </Page>
+
+   	<Page ID="PostScriptOptions" NAME="PostScript Options" TYPE="popup" RESET="ResetPostScriptOptionsButton">
+   	  <Feature ID="OutputOption"></Feature>
+   	  <Feature ID="PostScriptLanguage"></Feature>
+   	  <Feature ID="ErrorHandler"></Feature>
+   	</Page>
+
+    <Page ID="AdvancedDeviceOptions" NAME="Advanced Device Options" TYPE="popup" RESET="ResetAdvancedDeviceOptionsButton">
+      <Group NAME="Protocol/PostScript">
+        <Feature ID="OutputProtocol"></Feature>
+        <Feature ID="AvailableMemory"></Feature>
+        <Feature ID="ConvertGrayText"></Feature>
+        <Feature ID="ConvertGrayGraphics"></Feature>
+        <Feature ID="AddEuroCurrency"></Feature>
+      </Group>
+      <Group NAME="Timeout">
+        <Feature ID="JobTimeout"></Feature>
+        <Feature ID="WaitTimeout"></Feature>            
+      </Group>
+      <Group NAME="Font Size">           
+        <Feature ID="MinFontSize"></Feature>
+        <Feature ID="MaxFontSize"></Feature>
+      </Group>
+      <Group NAME="CTRL-D">
+        <Feature ID="SendCTRLDBefore"></Feature>
+        <Feature ID="SendCTRLDAfter"></Feature>
+      </Group>
+	  <Group NAME="Font Substitution Table">
+        <Feature ID="SubstitutionTable"></Feature>
+      </Group>
+    </Page>
+
+    <Page ID="FontSubstitutionTableSettings" NAME="Font Substitution Table Settings" TYPE="popup" RESET="Reset">
+      <Group NAME="Font Substitution Table">
+        <Feature ID="SubstitutionTable"></Feature>
+      </Group>
+    </Page>
+
+	  
+  </Pages>
+
+  <UI>
+    <PrinterSettings>
+      <Page ID="Printer"/>
+      <Page ID="About"/>
+    </PrinterSettings>
+    <AdvancedProperties>
+      <Page ID="Presets"/>
+      <Page ID="Basic"/>
+      <Page ID="Paper"/>
+      <Page ID="Graphics"/>
+      <Page ID="Finishing"/>
+      <Page ID="Advanced"/>
+      <!--Page ID="Eco"/-->
+      <Page ID="About"/>
+    </AdvancedProperties>
+    <DocumentProperties>
+    </DocumentProperties>
+  </UI>
+</Driver>

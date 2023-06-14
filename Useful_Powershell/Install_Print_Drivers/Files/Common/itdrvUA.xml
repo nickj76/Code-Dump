@@ -1,0 +1,3173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Translation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung provides customers with better user experiences by offering enhanced troubleshooting features and product improvements based on printer information received from customers.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>삼성은 고객의 프린터 정보에 기반하여 향상된 문제 해결 및 개선된 제품 기능을 서비스하여 고객에게 보다 나은 사용자 경험을 제공합니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung giver kunden en bedre brugeroplevelse ved at tilbyde udvidet fejlfinding og produktforbedringer på baggrund af kundens oplysninger om brug af printeren.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung biedt de klant betere gebruikservaring door, op basis van de printerinformatie van de klant, betere probleemoplossingen en productverbeteringen aan te bieden.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung parantaa asiakkaan käyttöelämystä parantamalla vianmääritystä ja tuotekehitystä asiakkaan tulostimen tietojen perusteella.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung permet à ses clients de mieux exploiter leur matériel, en leur proposant un système de dépannage optimisé et une amélioration des produits, basés sur les informations d’imprimante fournies par les clients.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung bietet seinen Kunden eine höhere Benutzerfreundlichkeit an, da aufgrund der Druckerinformationen des Kunden Problembehebungen und Produktverbesserungen bereitgestellt werden können.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung fornisce ai clienti una miglior esperienza utente offrendo procedure di risoluzione dei problemi avanzate e miglioramenti dei prodotti basati sulle informazioni della stampante del cliente.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung gir kunden en bedre brukeropplevelse ved å tilby forbedret problemløsning og produktytelse basert på kundens skriverinformasjon.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung proporciona al cliente mejores experiencias de usuario mediante mejoras en la solución de problemas y en el producto basadas en la información de la impresora del cliente.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung ger kunderna en bättre upplevelse genom att erbjuda förbättrad felsökning och produktförbättring baserat på kundens skrivarinformation.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Společnost Samsung poskytuje zákazníkům rozšířenou funkci odstraňování potíží a zlepšování produktu pomocí informací od zkušenějších uživatelů na základě údajů o tiskárně poskytnutých zákazníky.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>A Samsung jobb felhasználói élményt biztosít az ügyfél nyomtatójának adatai alapján továbbfejlesztett hibaelhárítási szolgáltatása és termékei tökéletesítése révén.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Firma Samsung dąży do poprawy sposobu obsługi urządzeń dzięki zoptymalizowanym procedurom rozwiązywania problemów i ulepszeniom produktów na podstawie informacji dotyczących drukarki otrzymanych od klientów.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>تزود Samsung العميل بخبرات أفضل للمستخدم من خلال توفير طريقة محسّنة لاستكشاف الأخطاء وإصلاحها وتحسين المنتج بناءً على معلومات الطابعة الخاصة بالمستخدم.</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>A Samsung oferece aos clientes uma melhor experiência do usuário ao disponibilizar solução de problemas aprimorada e melhorias nos produtos com base nas informações das impressoras fornecidas pelos clientes.</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>A fornece aos clientes experiências de utilização optimizadas graças à capacidade avançada de resolução de problemas e optimizações dos produtos com base nos dados da impressora do cliente.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung 根据客户的打印机信息提供增强的故障排除和产品改进，为客户提供更好的用户体验。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung 根據客戶的印表機資訊提供增強的故障排除和產品改進，為客戶提供更好的使用者體驗。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Η Samsung παρέχει στον πελάτη μια καλύτερη εμπειρία χρήστη προσφέροντας αναβαθμισμένη αντιμετώπιση προβλημάτων και βελτίωση προϊόντος βασιζόμενη στις πληροφορίες εκτυπωτή του πελάτη.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung‏ מעניקה ללקוחותיה חוויות משתמש טובות יותר בכך שהיא מציעה פתרון בעיות משופר וממטבת את המוצר בהתבסס על מידע המדפסת של הלקוח.</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Компания Samsung обеспечивает исчерпывающую поддержку клиентов с помощью усовершенствованной процедуры устранения неисправностей и улучшения характеристик изделий на основе данных об их использовании.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Samsung, kullanıcının yazıcı bilgilerine dayanarak sunduğu gelişmiş sorun giderme ve ürün iyileştirme olanağı sayesinde daha iyi kullanım deneyimi sağlar.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>Statement1</Id>
+		<Val>Використовуючи відомості про принтер клієнта, компанія Samsung може забезпечити ефективніше усунення несправностей та кращу підтримку продукту, завдяки чому використання принтера стає простішим.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>For example, a new troubleshooting system or live update system for Samsung printers can help users fix printer errors or help improve product performance. To do this, Samsung software will send printer status information or other printer related information to the system’s web services. Users can then utilize enhanced troubleshooting features via these services to solve printing problems.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>예를 들어, 삼성 프린터용 새 문제 해결 시스템 또는 라이브 업데이트 시스템은 프린터의 문제를 해결하거나 제품의 성능을 더 쉽게 향상시킬 수 있도록 지원합니다. 이를 위해 삼성 소프트웨어는 프린터 상태 또는 기타 프린터 관련 정보를 시스템용 웹 서비스로 전송하고, 사용자는 이러한 고급 기능을 경험할 수 있습니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Du kan også hjælpe Samsung med at forbedre kvaliteten af deres produkter og tjenester ved at tilmelde dig et program, der indsamler oplysninger om printerbrug og analyserer den måde, produktet anvendes på. Samsung indsamler oplysninger fra din printer for at bruge dem i forbindelse med kommende opdateringer af driveren og som en hjælp til forbedring af printerprodukterne.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Ook kunt u Samsung helpen de kwaliteit van haar product- en serviceaanbiedingen te verbeteren door aan het verzamelprogramma voor gebruiksinformatie van de printer en de analyse voor gebruikseigenschappen van het product deel te nemen. Samsung verzamelt informatie van uw printer om, indien nodig, het stuurprogramma bij te werken en te helpen onze printerproducten te.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Voit auttaa Samsung parantamaan tuotteidensa ja palveluidensa laatua osallistumalla tulostimen käyttötietojen keräysohjelmaan, jonka tavoitteena on kerätä tulostimen käyttötiedot ja analysoida laitteen käyttötapaa. Samsung kerää tulostimesta tietoja päivittääkseen ohjaimen tarpeen mukaan ja parantaakseen tulostintuotteiden laatua.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Vous pouvez également aider Samsung à améliorer la qualité de ses offres de produits et de services, en participant au programme de collecte d’informations sur l’utilisation des imprimantes. Ce programme recueille des informations concernant l’utilisation des imprimantes et analyse les caractéristiques d’utilisation du produit. Samsung recueille des informations à partir de votre imprimante, afin de mettre à jour le pilote (si nécessaire) et vous permettre d’améliorer vos imprimantes.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Sie können Samsung dabei helfen, die Qualität der Produkte und Dienstangebote zu verbessern, indem Sie dem Programm zur Erfassung von Druckernutzungsinformationen beitreten. Dieses Programm erfasst Druckernutzungsinformationen und analysiert die Nutzungsmerkmale des Produkts. Samsung sammelt Informationen über Ihren Drucker, um den Treiber im Bedarfsfall zu aktualisieren und zur Verbesserung der Samsung-Drucker beizutragen.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Gli utenti possono inoltre aiutare Samsung a migliorare la qualità dei prodotti e dei servizi offerti partecipando al programma di raccolta di informazioni sull'utilizzo della stampante che raccoglie informazioni sull'utilizzo della stampante e analizza le caratteristiche di utilizzo del prodotto. Samsung raccoglie informazioni dalla stampante per aggiornare il driver quando necessario e per contribuire al miglioramento dei propri prodotti.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Også du kan hjelpe Samsung med å forbedre kvaliteten på selskapets produkt- og servicetilbud ved å bli med i programmet for innsamling av skriverbrukdata, som henter inn slik informasjon og analyserer produktets bruksmønstre. Samsung samler inn informasjon fra skriveren for å oppdatere driveren ved behov, og for å bidra til å forbedre skriverproduktene.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>También puede ayudar a Samsung a mejorar la calidad de sus ofertas de productos y servicios uniéndose al programa de recopilación de información de uso de impresora que recopila información de uso de la impresora y analiza las características de uso del producto. Samsung recopila información de su impresora para actualizar el controlador cuando es necesario y para ayudar a mejorar nuestros productos de impresoras.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Du kan även hjälpa Samsung att förbättra kvaliteten på produkter och tjänster genom att gå med i insamlingsprogrammet för information om skrivaranvändning, som samlar in information om skrivaranvändning och analyserar hur produkten används. Samsung samlar in information från din dator för att uppdatera drivrutinen när detta behövs, och för att hjälpa till att förbättra våra skrivarprodukter.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Společnosti Samsung můžete také pomocí zlepšit kvalitu jejích produktů a nabízených služeb účastí v programu shromažďování údajů o provozu tiskárny, jehož účelem je shromažďovat údaje o provozu a analyzovat charakteristiku používání produktu. Společnost Samsung shromažďuje údaje z vaší tiskárny, aby mohla v případě nutnosti provést aktualizaci ovladače, a pomohla vylepšit své produkty z oblasti tiskáren.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Emellett a Samsung segítségére lehet termékei és szolgáltatásai minőségének fejlesztésében, ha csatlakozik a nyomtatóhasználati adatgyűjtési programhoz, amelynek célja a nyomtató használatára vonatkozó adatok gyűjtése és a termékek használati jellemzőinek elemzése. A Samsung a gyűjtött nyomtatóadatokat az illesztőprogram esetleg szükséges frissítésére és nyomtatóinak fejlesztésére használja.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Użytkownicy mogą także pomagać firmie Samsung w polepszaniu jakości produktów oraz usług, biorąc udział w programie zbierania informacji o zastosowaniach drukarek. W ramach tego programu są gromadzone i analizowane informacje o zastosowaniach produktów. Firma Samsung zbiera te dane z drukarek w celu aktualizowania sterowników oraz ulepszania produktów.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>يمكنك أيضًا مساعدة Samsung‬ على تحسين جودة منتجاتها وعروض الخدمات التي تقدمها من خلال الانضمام لبرنامج جمع معلومات استخدام الطابعة الذي يجمع معلومات استخدام الطابعة ويحلل خصائص استخدام المنت.ج تجمع Samsung‬ معلومات من الطابعة لديك من أجل تحديث برنامج التشغيل عند الضرورة، والمساعدة في تحسين منتجات الطابعات التي نوفره.ا</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Você também pode ajudar a Samsung a aprimorar a qualidade de suas ofertas de produtos e serviços ao participar do programa de coleta de informações de utilização da impressora, o qual coleta as informações de uso da impressora e analisa as características de uso do produto. A Samsung coleta informações da sua impressora para atualizar o driver quando necessário e também para ajudar a aperfeiçoar nossos produtos de impressão.</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Para ajudar a Samsung a optimizar a qualidade dos seus produtos e serviços, pode também participar no programa de recolha de dados sobre a utilização da impressora que recolhe informação sobre a utilização da sua impressora e analisa as características da utilização do produto. A Samsung recolhe dados da sua impressora para actualizar o software de controlador sempre que necessário e para ajudar a optimizar os nossos produtos de impressora.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>同时，您可以通过加入打印机使用信息收集计划，帮助 Samsung 提高其产品和服务的质量。该计划会收集打印机使用信息并分析产品的使用统计。 Samsung 从您打印机收集信息，以便在需要时更新驱动程序，并帮助改进打印机产品。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>同時，您可以透過加入印表機使用資訊收集計劃，幫助 Samsung 提高其產品和服務的品質。該計劃會收集印表機使用資訊並分析產品的使用統計。 Samsung 從您的印表機收集資訊，以便在需要時更新驅動程式，並幫助改進印表機產品。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Μπορείτε επίσης να βοηθήσετε τη Samsung να βελτιώσει την ποιότητα των προϊόντων και των υπηρεσιών της με τη συμμετοχή σας στο Πρόγραμμα συλλογής πληροφοριών χρήσης εκτυπωτή, το οποίο συλλέγει πληροφορίες χρήσης εκτυπωτή και αναλύει τα χαρακτηριστικά χρήσης του προϊόντος. Η Samsung συλλέγει πληροφορίες από τον εκτυπωτή σας με σκοπό την ενημέρωση του προγράμματος οδήγησης όταν αυτό απαιτείται και τη βελτίωση των εκτυπωτών της.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>תוכל גם לעזור ל-Samsung לשפר את איכות המוצרים והשירותים שהיא מציעה בכך שתצטרף לתוכנית איסוף המידע אודות השימוש במדפסת אשר אוספת מידע אודות שימוש במדפסת ומנתחת מאפייני שימוש במוצר. Samsung אוספת מידע מהמדפסת כדי לעדכן את מנהל ההתקן בעת הצורך וכדי לשפר את מוצרי המדפסות שלנו.</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Кроме того, вы можете принять участие в программе сбора данных об использовании принтера, которая будет собирать соответствующую информацию и анализировать ее, чтобы помочь компании Samsung улучшить качество своих изделий и услуг. Компания Samsung собирает данные о принтере, чтобы своевременно обновлять соответствующие драйверы и улучшать характеристики устройств.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Yazıcı kullanım bilgilerini toplayan ve ürünün kullanım özelliklerini analiz eden yazıcı kullanım bilgilerini toplama programına katılarak da Samsung’un sunduğu ürün ve hizmetlerin kalitesini artırmasına yardımcı olabilirsiniz. Samsung, gerektiğinde sürücüyü güncelleştirmek ve yazıcı ürünlerimizi daha iyi hale getirmek için yazıcından bilgi alır.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>Statement2</Id>
+		<Val>Наприклад, завдяки новій системі усунення несправностей або системі інтерактивних оновлень для принтера Samsung можна усунути проблеми із принтером і легко покращити ефективність роботи продукту. Щоб це зробити, програмне забезпечення Samsung надсилатиме відомості про стан принтера або інші пов’язані відомості до веб-служб для системи, після чого ви зможете скористатися цими розширеними функціями.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Users can also help Samsung improve the quality of its product and service offerings by joining the printer usage information collection program. This program collects printer usage information and analyzes how the product is used. Samsung also collects information from your printer in order to update the driver when necessary and to help improve Samsung printer products.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>게다가 사용자는 프린터 사용량 정보를 수집하고 제품의 사용량 특성을 분석하는 프린터 사용량 정보 수집 프로그램에 참여하여 삼성이 제품 및 서비스 제공 서비스의 품질을 향상시키는 데 도움을 줄 수 있습니다. 삼성은 필요하면 드라이버를 업데이트하고, 프린터 제품의 기능을 개선하도록 지원하기 위해 사용자의 프린터로부터 정보를 수집합니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>F.eks. kan det nye fejlfindingssystem eller system til opdateringer i realtid for Samsung-printere hjælpe dig med at løse problemer med printeren eller forbedre ydeevnen på en nemmere måde. Du kan tilmelde dig disse forbedrede funktioner, når Samsung-softwaren har sendt printerstatus eller andre printerrelaterede oplysninger til systemets webtjenester.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Het nieuwe probleemoplossingsysteem of het live update-systeem voor de Samsung-printer kan u bijvoorbeeld helpen problemen met printers te herstellen of om de prestaties van het product gemakkelijker te verbeteren. Hiervoor stuurt de Samsung-software de printerstatus of andere aan de printer verwante informatie naar webservices voor het system en dan kunt u met deze verbeterde functies meedoen.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Samsung-tulostimien uuden vianmääritysjärjestelmän tai reaaliaikaisen päivitysjärjestelmän avulla voit esimerkiksi korjata tulostimiin liittyvät ongelmat tai parantaa tuotteen suorituskykyä entistä helpommin. Tästä syystä Samsung-ohjelmisto lähettää tulostimen tilan tai muut tulostimeen liittyvät tiedot järjestelmän verkkopalveluihin, minkä jälkeen voit ottaa nämä parannetut toiminnot käyttöön.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Par exemple, le nouveau système de dépannage ou le système de mise à jour en direct des imprimantes Samsung peut vous aider à résoudre les problèmes rencontrés avec les imprimantes ou à améliorer les performances du produit avec plus de commodité. Pour ce faire, le logiciel Samsung transmet l’état de l’imprimante ou d’autres informations relatives à l’imprimante aux services Web du système, ce qui vous permet ensuite de bénéficier de ces fonctions optimisées.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Mit dem System zur Problembehebung oder dem Echtzeit-Aktualisierungssystem können Sie Probleme mit Samsung-Druckern einfacher beheben und die Leistung des Produkts verbessern. Dazu sendet die Samsung-Software den Druckerstatus und andere druckerbezogene Informationen an einen Webdienst für das System. Sie können diese erweiterten Funktionen dann nutzen.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Ad esempio, il nuovo sistema di risoluzione dei problemi o il sistema di aggiornamento automatico per le stampanti Samsung può aiutare gli utenti a risolvere i problemi con le stampanti o a migliorare le prestazioni del prodotto più facilmente. A questo scopo, il software Samsung invierà lo stato della stampante o altre informazioni relative alla stampante ai servizi Web per il sistema e gli utenti potranno poi usufruire di queste funzionalità avanzate.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Det nye feilsøkingssystemet for Samsung-skriveren eller det direkte oppdateringssystemet kan hjelpe deg med å løse skriverproblemer eller forbedre produktets ytelse på en enklere måte. For å gjøre dette vil Samsung-programvaren sende skriverstatus eller annen skriverrelatert informasjon til systemets webtjenester, slik at du kan begynne å bruke disse utvidede funksjonene.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Por ejemplo, un nuevo sistema de solución de problemas o de actualizaciones para su impresora Samsung puede ayudarlo a solucionar los problemas con impresoras y mejorar el rendimiento del producto más fácilmente. Para esto, el software de Samsung enviará el estado de la impresora u otra información relacionada a los servicios web del sistema y, entonces, podrá adherirse a estas funciones mejoradas.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Exempelvis kan ett nytt felsökningssystem eller live-uppdateringssystem för Samsung-skrivare vara till hjälp för att lösa skrivarproblem eller för att förbättra produktens prestanda. För att kunna göra detta kommer Samsung-programmet att skicka skrivarstatus eller annan skrivarrelaterad information till webbtjänster för systemet, och du kan sedan använda dessa förbättrade funktioner.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Například nový systém odstraňování potíží či online systém aktualizací pro tiskárny Samsung vám pomůže vyřešit potíže s tiskárnou nebo zlepšit její výkon snadněji a rychleji. Aby toho bylo možné dosáhnout, software společnosti Samsung odešle informace o stavu tiskárny či jiné potřebné informace ke zpracování webové službě, která vám následně umožní využití těchto rozšířených funkcí.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Az új hibaelhárító rendszer vagy a Samsung nyomtatók online frissítési rendszere egyszerűsítheti a nyomtatóhibák kijavítását és a termékek teljesítménynövelését. A Samsung e célból a nyomtató állapotára és más nyomtatóra vonatkozó adatokat küld a rendszerek webszolgáltatásának, és ezt követően ezek a tökéletesített funkciók is használhatók.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Dzięki nowemu systemowi rozwiązywania problemów i systemowi aktualizacji na bieżąco drukarek firmy Samsung użytkownicy mogą łatwiej rozwiązywać problemy z drukarkami oraz optymalizować wydajność produktów. W tym celu oprogramowanie firmy Samsung wysyła informacje o stanie drukarki lub inne dane drukarki do odpowiednich usług sieciowych, dzięki czemu użytkownik może korzystać z tych zoptymalizowanych funkcji.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>سبيل المثال، يمكن أن يساعدك نظام استكشاف الأخطاء وإصلاحها أو نظام التحديث المباشر لطابعة Samsung‬ على إصلاح المشكلات التي تواجه الطابعات أو تحسين أداء المنتج بسهول.ة لإجراء ذلك، يقوم برنامج Samsung‬ بإرسال حالة الطابعة أو أي معلومات أخرى تتعلق بالطابعة إلى خدمات الويب للنظام ويمكنك بعد ذلك الانضمام إلى هذه الميزات المحسّن.ة</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Por exemplo, o novo sistema de solução de problemas ou o sistema de atualização dinâmica para as impressoras Samsung podem ajudar você a corrigir problemas nas impressoras ou a aumentar facilmente o desempenho dos produtos. Para fazer isso, o software da Samsung irá enviar o status da impressora ou outras informações relacionadas a ela para serviços da Web do sistema, e você poderá entrar nesses recursos avançados.</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Por exemplo, o novo sistema de resolução de problemas ou o sistema de actualizações pela Internet para impressoras Samsung oferecem-lhe uma forma simples de eliminar problemas com impressoras ou optimizar o desempenho do produto. Para esse efeito, o software da Samsung enviará dados relacionados com o estado operacional da impressora ou outros dados relacionados com a impressora ao nosso sistema através da Internet, para que possa tirar partido dessas funcionalidades avançadas.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>例如，Samsung 打印机的新故障排除系统或实时更新系统可帮助您修正打印机故障，或更轻松地提高产品的性能。 为了达到此目的，Samsung 软件将打印机状态或其他相关信息发送到系统的web 服务，这样您可以加入这些增强的功能。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>例如，Samsung 印表機的新疑難排解系統或即時更新系統可幫助您修正印表機故障，或更輕鬆地提高產品的效能。 為了達到此目的，Samsung 軟體將印表機狀態或其他相關資訊發送到系統的web 服務，這樣您可以加入這些增強的功能。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Για παράδειγμα, ένα νέο σύστημα αντιμετώπισης προβλημάτων ή ένα σύστημα live ενημέρωσης για τον εκτυπωτή Samsung μπορεί να σας βοηθήσει να λύσετε τα προβλήματα που αντιμετωπίζετε με εκτυπωτές ή να βελτιώσετε την απόδοση του προϊόντος πιο εύκολα. Για το σκοπό αυτό, με το λογισμικό Samsung θα αποσταλεί η κατάσταση εκτυπωτή ή άλλες σχετικές πληροφορίες στις ηλεκτρονικές υπηρεσίες συστήματος και στη συνέχεια θα μπορείτε να έχετε πρόσβαση σε αυτές τις αναβαθμισμένες λειτουργίες.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>לדוגמה, מערכת חדשה לפתרון בעיות או מערכת לעדכונים חיים עבור מדפסות של Samsung יכולה לעזור לך לתקן בעיות במדפסות או לשפר ביצועי מוצרים בקלות רבה יותר. כדי לעשות זאת, תוכנת Samsung תשלח את מצב המדפסת ומידע קשור אחר בנוגע למדפסת לשירותי האינטרנט עבור מערכות ולאחר מכן תוכל להוסיף מאפיינים משופרים אלה.</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Например, новая система устранения неисправностей или система автоматического обновления ПО принтеров Samsung облегчит решение проблем, возникающих при использовании устройства, или улучшение его характеристик. Чтобы вы могли присоединиться к программе расширения функциональности, ПО Samsung будет отправлять данные о состоянии принтера или другую информацию, касающуюся устройства, в систему веб-справки.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Örneğin, Samsung yazıcılara yönelik yeni sorun giderme sistemi veya canlı güncelleştirme sistemi, yazıcı sorunlarını giderme veya ürünün performansını artırma işlemlerini daha kolay gerçekleştirmenize yardımcı olur. Bunun için, Samsung yazılımı sistemle ilgili web hizmetlerine yazıcı durumunu veya diğer yazıcıyla ilgili bilgileri gönderir ve siz de bu gelişmiş özelliklere katılabilirsiniz.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>Statement3</Id>
+		<Val>Також ви можете допомогти компанії Samsung покращити якість продуктів і послуг, які вона надає, приєднавшись до програми збирання відомостей про принтер, у межах якої збираються відомості про використання принтера, а також аналізуються характеристики використання продукту. Компанія Samsung збирає відомості, які надає принтер, для оновлення драйверів, коли в цьому виникає потреба, а також покращення продуктів для принтерів.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung does not use the information collected in any way that will identify individual users or their personal information.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>삼성은 개별 사용자 또는 개인 신상 정보를 식별할 수 있는 방식으로 수집된 정보를 사용하지 않습니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung anvender ikke de indsamlede oplysninger på en måde, som kan identificere de enkelte brugere og deres personlige oplysninger.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsun gebruikt de verzamelde informatie op geen enkele wijze om individuele gebruikers of hun persoonlijke informatie te identificeren.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung ei millään tavalla käytä kerättyjä tietoja niin, että yksittäiset käyttäjät tai heidän henkilötietonsa voitaisiin tunnistaa.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung n’utilise pas les informations collectées d’une manière qui pourrait permettre d’identifier les utilisateurs ou leurs informations personnelles.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung verwendet die Informationen nicht in einer Art und Weise, die zur Identifizierung des Benutzers oder der persönlichen Informationen führen kann.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung non utilizza le informazioni raccolte in alcun modo che possa portare a identificare singoli utenti o i loro dati personali.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung bruker ikke den innsamlede informasjonen på en måte som kan identifisere individuelle brukere eller deres personlige informasjon.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung no utiliza la información recopilada de ninguna forma que pueda identificar usuarios individuales o su información personal.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung använder inte den information som samlas in på något sätt som gör att enskilda kunder eller deras personliga information kan identifieras.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Společnost Samsung nakládá se shromážděnými údaji takovým způsobem, aby nebylo možné rozlišit jednotlivé uživatele nebo jejich osobní údaje.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>A Samsung nem kívánja felhasználni a gyűjtött adatokat a felhasználók azonosítására alkalmas módon.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Firma Samsung nie używa zebranych informacji w żaden sposób umożliwiający identyfikację poszczególnych użytkowników lub uzyskanie ich danych osobowych.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>لا تستخدم Samsung المعلومات التي تم تجميعها بأي طريقة والتي سوف تتعرف على المستخدمين الفرديين أو معلوماتهم الشخصية.</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>A Samsung não usa as informações coletadas de nenhuma forma que identifique os usuários individuais ou suas informações pessoais.</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>A Samsung não utiliza os dados recolhidos de alguma forma que possa identificar utilizadores individuais ou dados pessoais dos mesmos.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung 不使用以任何确定个人用户身份或其个人信息的方式而收集的信息。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung 不使用以任何確定個人使用者身份或其個人資訊的方式而收集的資訊。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Η Samsung δεν χρησιμοποιεί πληροφορίες που έχουν συλλεχθεί με τρόπο ώστε να γίνεται αναγνώριση της ταυτότητας χρηστών ή των προσωπικών τους πληροφοριών.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung אינה משתמשת במידע שנאסף באופן כלשהו שיכול לזהות משתמשים בודדים או את המידע האישי שלהם.</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Компания Samsung не использует собранные данные для идентификации пользователей или их личных сведений.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Samsung toplanan bilgileri kullanıcının kimliği veya kişisel bilgileri belirlenebilecek şekilde kullanmaz.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>Statement4</Id>
+		<Val>Компанія Samsung жодним чином не використовує зібрані дані для визначення особи окремих користувачів та їхніх особистих даних.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Using Enhanced Features and Participating in Printer Usage Information Collection Program</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>고급 기능 사용 및 프린터 사용량 정보 수집 프로그램 참여</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Brug af udvidede funktioner og deltagelse i programmet til indsamling af oplysninger om brug af printeren</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Gebruik van verbeterde functies en deelname aan het verzamelprogramma voor gebruiksinformatie van printer</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Parannettujen toimintojen käyttäminen ja osallistuminen tulostimen käyttötietojen keräysohjelmaan</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Utilisation des fonctions optimisées et participation au programme de collecte d’informations sur l’utilisation des imprimantes</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Verwenden erweiterter Funktionen und Teilnehmen am Programm zur Druckernutzungs-Informationserfassung</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Utilizzo delle funzionalità avanzate e partecipazione al programma di raccolta delle informazioni sull'utilizzo delle stampanti</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Bruk av utvidede funksjoner og deltakelse i innsamlingsprogram for informasjon om skriverbruk</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Uso de funciones mejoradas y participación en el programa de recopilación de información de uso de impresora</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Använda förbättrade funktioner och delta i insamlingsprogrammet för information om skrivaranvändning</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Používání rozšířených funkcí a Účast v programu shromažďování údajů o provozu tiskárny</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Továbbfejlesztett funkciók használata és részvétel a nyomtatóhasználatra vonatkozó adatgyűjtési programban</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Korzystanie z ulepszonych funkcji i udział w programie zbierania informacji o wykorzystaniu drukarki</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>استخدام الميزات المحسّنة والمشاركة في برنامج تجميع معلومات استخدام الطابعة</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Usando os recursos aprimorados e participando do programa de coleta de informações de uso da impressora</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Utilização de Funcionalidades Avançadas e Participação no Programa de Recolha de Dados Sobre a Utilização da Impressora</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>使用增强的功能并参与打印机使用信息收集计划</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>使用增強的功能並參與印表機使用資訊收集計劃</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Χρήση των βελτιωμένων λειτουργιών και συμμετοχή στο πρόγραμμα συλλογής πληροφοριών χρήσης εκτυπωτή</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>שימוש במאפיינים משופרים והשתתפות בתוכנית 'איסוף מידע אודות השימוש במדפסת'</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Использование расширенных возможностей и участие в программе сбора данных об использовании принтера</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Gelişmiş Özellikleri Kullanma ve Yazıcı Kullanım Bilgilerini Toplama Programına Katılma</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>Title</Id>
+		<Val>Використання розширених можливостей і участь у програмі збирання інформації про використання принтера</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Learn more about enhanced features and printer usage information collection program</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>고급 기능 및 프린터 사용량 정보 수집 프로그램에 대해 자세히 알아보기</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Få mere at vide om udvidede funktioner og programmet til indsamling af oplysninger om brug af printeren</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Lees meer over de verbeterde functies en het verzamelprogramma voor gebruiksinformatie van de printer</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Perehdy parannettuihin toimintoihin ja tulostimen käyttötietojen keräysohjelmaan</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>En savoir plus concernant les fonctions optimisées et le programme de collecte d’informations sur l’utilisation des imprimantes</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Weitere Informationen über erweiterte Funktionen und das Programm zur Druckernutzungs-Informationserfassung</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Maggiori informazioni sulle funzionalità avanzate e sul programma di raccolta delle informazioni sull'utilizzo delle stampanti</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Lær mer om utvidede funksjoner og innsamlingsprogrammet for informasjon om skriverbruken</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Obtener más información acerca de las funciones mejoradas y el programa de recopilación de información de uso de impresora</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Mer om förbättrade funktioner och insamlingsprogrammet för information om skrivaranvändning</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Získat více informací o rozšířených funkcí a programu shromažďování údajů o provozu tiskárny</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>További információk a továbbfejlesztett funkciókról és nyomtatóhasználati adatgyűjtési programról</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Dowiedz się więcej o ulepszonych funkcjach i udziale w programie zbierania informacji o wykorzystaniu drukarki</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>تعرف على المزيد حول الميزات المحسّنة وبرنامج تجميع معلومات استخدام الطابعة</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Saiba mais sobre recursos aprimorados e o programa de coleta de informações de uso da impressora</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Saiba mais sobre as funcionalidades avançadas e o programa de recolha de dados sobre a utilização da impressora</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>了解有关增强的功能和打印机使用信息收集计划</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>瞭解有關增強的功能和印表機使用資訊收集計劃</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Μάθετε περισσότερα σχετικά με τις αναβαθμισμένες λειτουργίες και το πρόγραμμα συλλογής πληροφοριών χρήσης εκτυπωτή</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>קבל מידע נוסף אודות מאפיינים משופרים ותוכנית איסוף המידע אודות השימוש במדפסת</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Дополнительно о расширенных возможностях и участии в программе сбора данных об использовании принтера</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Gelişmiş özellikler ve yazıcı kullanım bilgilerini toplama programı hakkında daha fazla bilgi edinin</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>LearnMore</Id>
+		<Val>Докладніше про розширені функції та програму збирання інформації про використання принтера</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Yes, I agree to transfer printer information to Samsung  (Recommended)</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>예. 프린터 정보를 삼성으로 전송하는 데 동의합니다(권장).</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Ja, jeg accepterer, at der videregives oplysninger om printeren til Samsung (Anbefalet)</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Ja, ik ga akkoord met overdracht van printerinformatie naar Samsung (aanbevolen)</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Kyllä, suostun tulostimen tietojen siirtämiseen Samsungille (suositus)</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Oui, j’accepte de transmettre des informations concernant l’imprimante à Samsung (recommandé)</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Ja, ich bin damit einverstanden, Druckerinformationen an Samsung zu übertragen (empfohlen)</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Sì, accetto di trasferire a Samsung le informazioni relative alla stampante (scelta consigliata)</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Ja, jeg godtar å overføre skriverinformasjon til Samsung (anbefalt)</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Sí, acepto transferir información de la impresora a Samsung (Recomendado)</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Ja, jag godtar att skrivarinformation överförs till Samsung (rekommenderas)</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Ano, souhlasím s odesíláním údajů o tiskárně společnosti Samsung (doporučeno)</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Igen, hozzájárulok a nyomtatóadatok továbbításához a Samsung részére (ajánlott)</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Tak, zgadzam się na przesyłanie informacji o wykorzystaniu drukarki do firmy Samsung (zalecane)</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>نعم، أوافق على نقل معلومات الطابعة إلى Samsung (مستحسن)</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Sim, concordo em transferir as informações da impressora para a Samsung (recomendado)</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Sim, concordo com a transferência dos dados sobre a impressora para a Samsung (Recomendado)</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>是，我同意将打印机信息发给 Samsung（建议）</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>是，我同意將印表機資訊發給 Samsung（建議）</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Ναι, δέχομαι να πραγματοποιηθεί μεταφορά πληροφοριών εκτυπωτή στη Samsung (συνιστάται)</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>כן, אני מסכים להעביר מידע אודות המדפסת ל-Samsung (מומלץ)</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Да, я соглашаюсь на передачу таких данных в компанию Samsung (рекомендуется)</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Evet, yazıcı bilgilerini Samsung’a göndermeyi kabul ediyorum (Önerilir)</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>Agree</Id>
+		<Val>Так, надсилати інформацію про принтер у компанію Samsung (рекомендовано)</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>- The information will not contain any personal information</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>이 정보에는 개인 신상 정보가 포함되지 않습니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Oplysningerne vil ikke indeholde personlige oplysninger</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>De informatie zal geen persoonlijke informatie bevatten</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Tiedot eivät sisällä mitään henkilökohtaisia ​​tietoja</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Les informations ne contiendront aucune donnée personnelle</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Die Informationen enthalten keine persönlichen Daten</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Le informazioni non conterranno dati personali</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Informasjonen vil ikke inneholde noen personlige data</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>La información enviada no contendrá datos personales</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Informationen innehåller inte någon personlig information</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Tyto informace nebudou obsahovat žádné osobní údaje</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Az információ nem fog tartalmazni személyes adatokat</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Informacje te nie będą zawierać żadnych danych osobowych</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>لن تتضمن المعلومات أية معلومات شخصية</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>As informações não conterão nenhuma informação pessoal</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>A informação não irá conter quaisquer dados pessoais</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>此信息不包含任何个人信息</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>此資訊不包括任何個人資料</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Οι πληροφορίες δεν θα περιέχουν προσωπικά δεδομένα</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>המידע לא יכיל כל מידע אישי</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Информация не будет содержать никаких личных данных</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>Bilgi herhangi bir kişisel bilgi içermez</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>AgreeComment</Id>
+		<Val>– Ця інформація не міститиме жодні особисті дані</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>No, I would not like to transfer printer information</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>아니오. 프린터 정보를 전송하지 않습니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Nej, jeg ønsker ikke at videregive oplysninger om printeren</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Nee, ik wil geen printerinformatie overdragen</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Ei, en halua siirtää tulostimen tietoja</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Non, je ne souhaite pas transmettre d’informations concernant l’imprimante</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Nein, ich möchte keine Druckerinformationen übertragen</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>No, non desidero trasferire le informazioni sulla stampante</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Nei, jeg vil ikke overføre skriverinformasjon</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>No, no deseo transferir información de la impresora</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Nej, jag vill inte att skrivarinformation överförs</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Ne, nechci odesílat údaje o tiskárně</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Nem, nem szeretném továbbítani a nyomtatóadatokat</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Nie, nie chcę przesyłać informacji o wykorzystaniu drukarki</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>لا، لا أرغب في نقل معلومات الطابعة</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Não, eu não gostaria de transferir as informações da impressora</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Não, não quero transferir dados sobre a impressora</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>不，我不愿意发送打印机信息</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>不，我不願意發送印表機資訊</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Όχι, δεν επιθυμώ να μεταφέρω πληροφορίες εκτυπωτή</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>לא, אינני מעוניין להעביר מידע אודות המדפסת</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Нет, я не хочу передавать такие данные</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Hayır, yazıcı bilgilerinin gönderilmesini istemiyorum</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>Disagree</Id>
+		<Val>Ні, не надсилати інформацію про принтер</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>User Agreement</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>사용자 동의</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Brugeraftale</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Gebruikersovereenkomst</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Käyttösopimus</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Contrat de licence utilisateur</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Nutzungsvereinbarung</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Contratto utente</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Brukeravtale</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Acuerdo de usuario</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Användaravtal</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Smlouva s uživatelem</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Felhasználói megállapodás</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Umowa licencyjna</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>اتفاقية المستخدم</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Aceitação do usuário</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Permissão do Utilizador</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>用户协议</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>使用者合約</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Συμφωνία χρήστη</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>הסכם משתמש</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Пользовательское соглашение</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Kullanıcı Sözleşmesi</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>UserAgreement</Id>
+		<Val>Угода з користувачем</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/en/</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/kr/</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/dn/</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/dt/</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/fi/</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/fn/</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/gr/</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/it/</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/nr/</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/sp/</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/sw/</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/cz/</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/hu/</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/po/</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/ab/</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/bp/</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/pt/</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/cp/</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/ct/</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/el/</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/hb/</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/ru/</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/tk/</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>LearnMoreURL</Id>
+		<Val>http://www.samsungsetup.com/ts/agreements/uk/</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Internet Connection Usage Agreement</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>인터넷 연결 사용 동의</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Aftale for brug af internetforbindelse</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Gebruiksrechtovereenkomst voor internetverbinding</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Internet-yhteyden käyttösopimus</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Accord d'utilisation de connexion Internet</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Vertrag über die Nutzung der Internetverbindung</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Accordo utilizzo connessione Internet </Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Brukeravtale for internett-tilkobling</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Contrato de uso de conexión a Internet</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Användaravtal för internetanslutning</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Smlouva o využití připojení k internetu</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Az internetkapcsolat használatával kapcsolatos feltételek</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Umowa na korzystanie z połączenia internetowego</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>اتفاقية استخدام اتصال الإنترنت</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Contrato de uso da conexão à Internet</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Contrato de utilização da ligação à Internet</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Internet 连接使用协议</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>網際網路連線使用協議</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Συμφωνία χρήσης σύνδεσης στο Internet</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>הסכם שימוש בחיבור לאינטרנט</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Интернет-соединение: соглашение об использовании</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>İnternet Bağlantısı Kullanım Sözleşmesi</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>TitleNew</Id>
+		<Val>Інтернет-з'єднання: угода з користувачем</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Samsung software may log user interactions and use your IP address and internet connection to transmit data for software updates, troubleshooting problems and to provide improved customer support. The data transmitted to Samsung shall be used in an anonymous and/or aggregate form and may be transferred to a Samsung entity located overseas.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>삼성 소프트웨어에는 소프트웨어 업데이트, 문제 해결 및 제품 개선 작업을 수행하기 위해 인터넷 연결을 사용합니다.&#xD;&#xA;&#xD;&#xA;삼성은 인터넷 연결 사용 시 사용자의 개인 정보와 컴퓨터 시스템의 무결성을 보호하기 위해 최선을 다하고 있습니다. 사용자의 컴퓨터에서 삼성으로 전송되는 데이터는 업데이트 필요 여부 및 삼성 제품 사용 방식을 확인하는 데 사용됩니다. 사용자 이름, 주소 또는 전자우편 주소 등과 같은 개인 정보는어떠한 경우에도 수집되지 않습니다.&#xD;&#xA;&#xD;&#xA;인터넷 연결을 사용하는 기능은 아래와 같습니다.&#xD;&#xA;&#xD;&#xA;1. 웹 컨텐츠를 통한 문제 해결 시스템(개선된 기능)&#xD;&#xA;&#xD;&#xA;2. 삼성 제품 개선 연구&#xD;&#xA;&#xD;&#xA;3. 스마트 업데이트</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Samsung software gemmer muligvis brugerinteraktioner og kan bruge din IP-adresse og internetforbindelse til at sende data til softwareopdateringer, løse problemer og yde forbedret kundesupport. De data, der sendes til Samsung, bruges anonymt og/eller i aggregeret form og kan overføres til en oversøisk Samsung-enhed.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Bij gebruik van software van Samsung kunnen gebruikersinteracties worden opgeslagen en worden uw IP-adres en internetverbinding gebruikt voor het verzenden van gegevens ten behoeve van software-updates, probleemoplossing en verbetering van klantenservice. De gegevens die worden verzonden naar Samsung worden gebruikt in anonieme en/of samengevoegde vorm en kunnen worden overgedragen aan overzeese vestigingen van Samsung.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Samsung-ohjelmistö voi kirjata käyttäjän vuorovaikutuksen ja käyttää IP-osoitettasi sekä internet-yhteyttä lähettämään dataa ohjelmiston päivityksistä, vianetsintäongelmista sekä tarjota parannettua asiakastukea. Samsungille lähetettyä tietoa käytetään anonyymissä ja/tai kokonaismuodossa ja voidaan siirtää Samsungin ulkomailla sijaitsevaan kohteeseen.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Le logiciel Samsung peut identifier des interactions d'utilisateurs et utiliser votre adresse IP et une connexion internet pour transmettre des données de mise à jour logicielle, résoudre des problèmes et offrir une meilleure prise en charge des clients. Les données transmises à Samsung sont utilisées de manière anonyme et/ou globales et peuvent être transmises à une entité Samsung située à l'étranger.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Die Samsung-Software kann Benutzer-Interaktionen protokollieren und Ihre IP-Adresse und Internetverbindung benutzen, um Daten für Software-Updates, Fehlerbehebungen und verbesserten Kundendienst zu übertragen. Die an Samsung übermittelten Daten werden in anonymisierter / aggregierter Form verwendet und können zu einer Samsung-Niederlassung im Ausland gesendet werden.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Il software Samsung è in grado di registrare le interazioni dell'utente e di utilizzare l'indirizzo IP e la connessione Internet per la trasmissione di dati per l'aggiornamento software, la risoluzione dei problemi e l'offerta di una migliore assistenza ai clienti. I dati trasmessi a Samsung verranno utilizzati in forma anonima e/o cumulativa e potranno essere trasferiti a un organismo Samsung con sede all'estero.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Samsung programvare kan logge brukerinteraksjoner og bruke IP-adressen din og internettilkoblingen til å overføre data for programvareoppdateringer, feilsøke problemer og gi bedre kundeservice. Data som overføres til Samsung blir brukt i anonym og/eller aggregert form og kan overføres til en Samsung-enhet plassert i utlandet.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>El software de Samsung podría registrar las interacciones del usuario y utilizar su dirección IP y su conexión a Internet para transmitir datos para actualizaciones de software, solución de problemas y para ofrecerle un servicio de atención al cliente de mayor calidad. Los datos transmitidos a Samsung podrán utilizarse de forma anónima y/o añadida, y podrían transferirse a una entidad de Samsung situada en el extranjero.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Samsungs programvara kan logga användarinteraktioner och använda din IP-adress och internetanslutning för att sända information om programvaruuppdateringar, felsöka problem och att ge ett öka kundstöd. Informationen som skickas till Samsung ska användas anonymt och/eller skapa formulär och överföras till en Samsungenhet som finns utomlands.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Software Samsung může protokolovat interakce uživatele a používat vaši IP adresu a připojení k internetu k přenášení dat pro aktualizace softwaru, odstraňování problémů a poskytování lepší podpory zákazníkům. Data předaná společnosti Samsung budou použita v anonymní a/nebo agregované formě a mohou být předána subjektu společnosti Samsung, který se nachází v zahraničí.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>A Samsung szoftvere naplózhatja a felhasználó tevékenységét, és IP címe és internetkapcsolata segítségével szoftverfrissítéseket tölthet le, hibaelhárítást hajthat végre, és jobb támogatási szolgáltatásokat nyújt. A Samsunghoz kerülő adatokat névtelen és/vagy összesített formában használjuk fel, és egy külföldi Samsung-egységhez is eljuttathatjuk azokat.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Oprogramowanie Samsung może rejestrować czynności użytkownika i korzystać z adresu IP i połączenia internetowego użytkownika do wysyłania danych w celu aktualizacji oprogramowania, rozwiązywania problemów oraz zapewnienia lepszej obsługi klienta. Dane wysyłane do firmy Samsung będą używane w formie anonimowej i (lub) zbiorczej i mogą być wysyłane do oddziałów firmy Samsung za granicą.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>ربما تقوم برامج Samsung بتسجيل تفاعلات المستخدم واستخدام عنوان IP الخاص بك واتصالك بالإنترنت لإرسال بيانات من أجل تحديثات البرامج، وحل المشاكل، وتوفير دعم مُحسَّن للعملاء. ويتم استخدام البيانات المرسلة إلى Samsung بصيغة غير مسماة و/أو جماعية، وربما يتم نقلها إلى كيانات Samsung على مستوى العالم.</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>O software da Samsung pode registrar as interações do usuário e usar seu endereço IP e a conexão à internet para transmitir dados para fins de atualizações de software, solução de problemas e para fornecer suporte aprimorado ao cliente. Os dados enviados à Samsung devem ser usados de forma anônima e agregada e podem ser transferidos para uma entidade da Samsung localizada em outro país.</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>O software Samsung pode registar as interacções do utilizador e utilizar o seu endereço IP e a ligação à Internet para transmitir dados para actualizações de software, problemas de resolução de problemas e proporcionar uma assistência ao cliente melhorada. Os dados transmitidos à Samsung devem ser utilizados de forma anónima e/ou agregada e podem ser transferidos para uma entidade Samsung situada no estrangeiro.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Samsung 软件可能记录用户互动，并使用您的 IP 地址和 Internet 连接传输软件更新数据、对问题进行故障诊断和提供更好的客户支持。传输到 Samsung 的数据应当以匿名和/或整合形式使用，可传输到海外的 Samsung 实体。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Samsung 軟體可能記錄使用者的互動狀態並使用您的 IP 位址和網路連線來傳輸資料，以進行軟體更新、疑難排解問題與提供改善的客戶支援功能。傳送給 Samsung 的資料及/或收集的表單將以暱名方式使用，且可能會轉傳給 Samsung 海外的公司。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Το λογισμικό Samsung μπορεί να καταγράψει αλληλεπιδράσεις των χρηστών και να χρησιμοποιήσει τη διεύθυνση IP και τη σύνδεσή σας στο internet για τη μεταφορά δεδομένων για ενημερώσεις λογισμικού, αντιμετώπιση προβλημάτων και για παροχή βελτιωμένης υποστήριξης πελατών. Τα δεδομένα που μεταφέρονται στη Samsung πρέπει να χρησιμοποιηθούν σε ανώνυμη ή/και συγκεντρωτική μορφή και μπορούν να μεταφερθούν σε μια οντότητα Samsung που βρίσκεται στο εξωτερικό.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>התוכנה של Samsung עשויה לתעד אינטראקציות משתמש ולהשתמש בכתובת ה-IP ובחיבור האינטרנט שלך כדי לשדר נתונים עבור עדכוני תוכנה,כדי לפתור בעיות וכדי לספק תמיכת לקוחות משופרת. הנתונים המשודרים ל-Samsung ישמשו באופן אנונימי ו/או מצטבר וייתכן שיועברו לישות של Samsung הממוקמת בחו"ל.</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Программное обеспечение Samsung может вести журнал действий пользователя и использовать ваш IP-адрес и интернет-подключение для передачи данных для установки обновлений, устранения неполадок и обеспечения технической поддержки. Данные, отправляемые специалистам Samsung, предоставляются анонимно и в накопительной форме и могут быть пересланы в подразделения Samsung в других странах.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Samsung yazılımı kullanıcı etkileşimlerini kaydedebilir ve yazılım güncellemeleri, sorun gidermeler ve daha iyi müşteri desteği için verileri aktarmak üzere IP adresiniz ile internet bağlantınızı kullanabilir. Samsung'a aktarılan veriler genel ve/veya toplu formda kullanılacak ve yurtdışında bulunan Samsung kurumuna aktarılacaktır.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>StatementNew1</Id>
+		<Val>Програмне забезпечення Samsung може вести журнал дій користувача та використовувати вашу IP-адресу та інтернет-підключення для передавання даних для встановлення оновлень програм, усунення несправностей та надання технічної підтримки. Дані, які передаються спеціалістам Samsung, надаються анонімно та у накопичувальний формі та можуть пересилатись до підрозділів Samsung в інших країнах.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung is committed to protecting your privacy and the integrity of your computer system, especially when using your internet connection. Your name, address, or e-mail address will not be collected. The data shall not be used in any way that identifies individual users and shall be in compliance Samsung’s Privacy Policy. Click the link below to review or change the settings that customizes how your internet connection may be used.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>삼성 제품과 서비스의 품질 개선을 위해 일부 데이터가 익명 또는 사용자를 알아볼 수 없도록 통합된 형태로 사용될 수 있습니다. 이러한 데이터는 해외의 삼성 법인으로 전송될 수 있습니다.&#xD;&#xA;&#xD;&#xA;정보를 전송하는 컴퓨터의 IP 주소는 인터넷 보안 연결을 활성화하기 위한 용도로만 사용됩니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung er forpligtet til at beskytte dine personlige oplysninger og dit computersystems integritet, specielt ved anvendelse af din internetforbindelse. Dit navn, din adresse og dine e-mail-adresser vil ikke blive indsamlet. Dataene vil ikke blive brugt, så de på nogen måde kan identificere individuelle brugere, og vil blive brugt i overensstemmelse med Samsungs politik for beskyttelse af personlige oplysninger. Klik på linket nedenfor for at se eller ændre de indstillinger, der definerer, hvordan din internetforbindelse må bruges.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung zet zich in voor de bescherming van uw privacy en de integriteit van uw computersysteem, met name bij gebruikmaking van uw internetverbinding. Uw naam, adresgegevens of e-mailadres worden niet opgeslagen. De gegevens zullen zo worden gebruikt dat ze op geen enkele manier kunnen worden herleid naar afzonderlijke gebruiker en in overeenstemming met Samsung’s privacybeleid. Klik op de onderstaande koppeling om de specifieke instellingen waarin het gebruik van uw internetverbinding zijn opgenomen, weer te geven of te wijzigen.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung sitoutuu suojaamaan yksityisyyttäsi ja tietokonejärjestelmäsi eheyttä, erityisesti käyttäessäsi internet-yhteyttä. Nimeäsi, osoitettasi, tai sähköpostiosoitettasi ei kerätä. Sellaista tietoa ei käytetä millään tavalla, joka identifioi käyttäjät, ja Samsungin yksityisyyden suojaa noudatetaan. Napsauta alla olevaa linkkiä katsoaksesi tai muuttaaksesi asetuksia, jotka mukauttavat kuinka internet-yhteyttäsi voidaan käyttää.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung s'engage à protéger votre vie privée et l'intégrité de votre système informatique, en particulier lors de l'utilisation de votre connexion internet. Votre nom, adresse ou adresse électronique ne seront pas recueillis. Les données ne seront pas utilisées d'une manière permettant d'identifier des utilisateurs individuels et sont en conformité avec la politique de protection de la vie privée de Samsung. Cliquez sur le lien ci-dessous pour voir ou modifier les réglages personnalisant votre connexion internet.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung verpflichtet sich, den Schutz Ihrer persönlichen Daten und die Integrität Ihres Computersystems zu gewährleisten, insbesondere bei Benutzung Ihrer Internetverbindung. Ihr Name, Ihre Adresse und Ihre E-Mail-Adresse werden nicht erfasst. Die Daten werden gemäß den Datenschutzrichtlinien von Samsung in der Weise benutzt, dass es auf keinen Fall möglich ist, einzelne Benutzer zu identifizieren. Klicken Sie auf den Link unten, um die Einstellungen zu überprüfen oder zu ändern, die festlegen, wie Ihre Internetverbindung benutzt werden kann.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung è impegnata a proteggere la privacy dei suoi clienti e l'integrità dei sistemi informatici, in particolar modo quando si utilizza una connessione Internet. Nome, indirizzo o indirizzo di posta elettronica del cliente non vengono raccolti. I dati non verranno utilizzati in alcun modo che possa far individuare i singoli utenti, sempre in conformità all'informativa sulla privacy di Samsung. Fare clic sul collegamento in basso per esaminare o modificare le impostazioni per stabilire in che modo è possibile utilizzare la connessione Internet.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung er forpliktet til å beskytte ditt privatliv og integritet av datasystemet, spesielt når du bruker Internett-forbindelsen. Navnet ditt, adressen eller e-postadressen blir ikke lagret. Dataene blir ikke brukt på en måte som identifiserer individuelle brukere, og skal være i samsvar Samsungs personvern. Klikk på lenken nedenfor for å se på eller endre innstillingene som tilpasser hvordan din internettforbindelse kan brukes.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung se compromete a proteger su privacidad y la integridad de su sistema informático, especialmente a la hora de utilizar su conexión a Internet. No se recopilará su nombre, su dirección física ni su dirección de correo electrónico. Los datos no se utilizarán de ninguna forma que identifique a individuos personalmente, y se utilizarán de conformidad con la Política de privacidad de Samsung. Haga clic en el vínculo que aparece a continuación para revisar o modificar la configuración que personaliza la forma en la que puede utilizarse su conexión a Internet.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung fast beslutna att skydda din sekretess och integritet i ditt datasystem, speciellt när du använder din internetanslutning. Ditt namn, din adress eller e-postadress kommer inte att samlas. Informationen ska inte användas på något sätt som identifierar individuella användare och ska stämma överrens med Samsungs sekretesspolicy. Klicka på länken nedan för att se eller förändra inställningarna som ställts in för hur din internetanslutning ska användas.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Společnost Samsung je odhodlána chránit vaše osobní údaje a integritu vašeho počítačového systém, zejména když používáte připojení k internetu. Vaše jméno, adresa ani e-mailová adresa nebudou shromažďovány. Data nebudou používána žádným způsobem, který identifikuje jednotlivé uživatele a bude se s nimi zacházet v souladu se Zásadami ochrany soukromí společnosti Samsung. Chcete-li zkontrolovat nebo změnit nastavení, kterými se řídí používání vašeho připojení k internetu, klikněte na odkaz níže.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>A Samsung elkötelezett adatainak és számítógépes rendszerének védelme mellett – ez fokozottan érvényes internetkapcsolatának használatára. Nevét, lakcímét és e-mail címét nem rögzítjük. A gyűjtött adatokat nem használjuk olyan módon, amely révén azonosítani lehetne egyes felhasználókat, és az adatok használata mindig megfelel a Samsung adatvédelmi irányelveinek. Annak megtekintéséhez és módosításához, hogy hogyan használjuk internetkapcsolatát, kattintson az alábbi hivatkozásra.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Firma Samsung czyni wszelkie starania w celu ochrony prywatności i integralności systemu komputerowego użytkownika, a w szczególności podczas korzystania z połączenia internetowego. Imię i nazwisko, adres lub adres e-mail użytkownika nie są pobierane. Dane nie będą używane w żaden sposób, który umożliwiłby identyfikację poszczególnych użytkowników, i będą używane zgodnie z Polityką prywatności firmy Samsung. Kliknij poniższe łącze, aby przejrzeć lub zmienić ustawienia dostosowujące sposób używania połączenia internetowego.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>تلتزم Samsung بحماية خصوصيتك وسلامة نظام الكمبيوتر الخاص بك عند استخدام اتصالك بالإنترنت على وجه الخصوص. لن يتم تجميع اسمك، أو عنوان إقامتك، أو عنوان بريدك الإلكتروني. ولا يتم استخدام البيانات بأية طريقة تُعرِّف المستخدمين الأفراد، كما أنها تتوافق مع سياسة خصوصية Samsung. انقر فوق الرابط أدناه لمراجعة البيانات - التي تخصص الطريقة التي ربما يتم بها استخدام اتصالك بالإنترنت - أو تغييرها.</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>A Samsung está comprometida a proteger sua privacidade e a integridade de seu sistema computacional, especialmente ao usar sua conexão à Internet. Seu nome, endereço ou e-mail não deve ser coletado. Os dados não devem ser usados de nenhuma forma que identifique os usuários e devem estar em conformidade com a política de privacidade da Samsung. Clique no link abaixo e analise ou altere as configurações que personalizam como a conexão à Internet pode ser usada.</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>A Samsung está empenhada em proteger a sua privacidade e a integridade do seu sistema informático, especialmente ao utilizar a ligação à Internet. O seu nome, morada ou endereço de correio electrónico não serão recolhidos. Os dados não devem ser utilizados de uma forma que identifique os utilizadores individuais e devem estar em conformidade com a política de privacidade da Samsung. Clique na hiperligação abaixo para rever ou alterar as definições que personalizam a forma como a sua ligação à Internet pode ser utilizada.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung 致力于保护您的隐私及计算机系统的完整性，尤其是使用您的 Internet 连接时。不会收集您的姓名、地址或电子邮件地址。严禁以识别个人用户的任何方式使用这些数据，并且应当遵循 Samsung 的隐私策略。单击以下链接查看或更改设置，这些设置用于自定义您的 Internet 连接的使用方式。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung 承諾會保護您的隱私與電腦系統的完整性，尤其是在您使用網路連線時。我們不會收集您的名稱、地址或電子郵件地址。該資料應以任何無法辨識個別使用者的方式使用，且應遵循 Samsung 的隱私權政策。按一下下面連結，查看或變更自訂網路連線使用方式的設定。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Η Samsung δεσμεύεται να προστατεύει το απόρρητό σας και την ακεραιότητα του υπολογιστικού σας συστήματος, ειδικά όταν χρησιμοποιείτε τη σύνδεση στο internet. Το όνομα, η διεύθυνση και το e-mail σας δεν θα συλλεχθούν. Τα δεδομένα δεν πρόκειται να χρησιμοποιηθούν με τέτοιο τρόπο που να ταυτοποιούνται ανεξάρτητοι χρήστες και η χρήση τους θα είναι σε συμφωνία με την πολιτική απόρρητου της Samsung. Κάντε κλικ στο σύνδεσμο παρακάτω για επισκόπηση ή τροποποίηση των ρυθμίσεων που προσαρμόζουν τον τρόπο με τον οποίο μπορεί να χρησιμοποιηθεί η σύνδεσή σας στο internet.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung מחויבת להגנה על פרטיותך וכל תקינות מערכת המחשב שלך, בייחוד בעת השימוש בחיבור האינטרנט שלך. השם, הכתובת או כתובת הדוא"ל שלך לא ייאספו. השימוש בנתונים לא ייעשה באופן שיזהה משתמשים אינדיבידואליים, וייעשה בהתאם למדיניות הפרטיות של Samsung. לחץ על הקישור שלהלן כדי לסקור או לשנות את ההגדרות המתאימות אישית את האופן שבו ניתן להשתמש בחיבור האינטרנט שלך.</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Компания Samsung делает все возможное для защиты вашей конфиденциальной информации и обеспечения целостности системы вашего компьютера, особенно при использовании интернет-подключения. Ваше имя, адрес или адрес электронной почты не фиксируются. Полученные данные не будут использованы таким образом, который позволит установить личность отдельных пользователей, а их сбор осуществляется в соответствии с политикой обеспечения конфиденциальности Samsung. Перейдите по ссылке, указанной ниже, чтобы просмотреть или изменить параметры использования вашего интернет-подключения.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Samsung, özellikle internet bağlantınızı kullanırken gizliliğinizi ve bilgisayar sisteminizin bütünlüğünü korumak amacıyla çalışır. Adınız, adresiniz ya da e-posta adresiniz toplanmayacaktır. Veriler, bireysel kullanıcıları tanımlayan herhangi bir yolla kullanılmayacak ve Samsung'un Gizlilik İlkesine uygun olacaktır. Aşağıdaki linke tıklayarak internet bağlantınızın nasıl kullanılabileceğini özelleştiren ayarları inceleyin ya da değiştirin.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>StatementNew2</Id>
+		<Val>Компанія Samsung робить все можливе для захисту вашої конфіденційної інформації та забезпечення цілісності системи вашого комп'ютера, особливо під час використання інтернет-підключення. Ваше ім'я, адреса або електронна адреса не фіксуються. Отримані дані не будуть використовуватись у такій спосіб, який дозволить встановити особу окремих користувачів, а їх збір повинен здійснюватись згідно з політикою забезпечення конфіденційності інформації. Клацніть наведене нижче посилання, щоб переглянути або змінити параметри використання вашого інтернет-підключення.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>I have reviewed and accept the terms of the agreement.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>동의 조항을 검토하며 수락합니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Jeg har gennemlæst og accepterer aftalens vilkår.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Ik heb de bepalingen van de overeenkomst gelezen en ik accepteer deze.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Olen lukenut sopimusehdot ja hyväksyn ne.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>J'ai pris connaissance et j'accepte les termes de l'accord.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Ich habe die Konditionen des Vertrags gelesen und akzeptiere sie.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Ho letto e accetto i termini dell'accordo.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Jeg har lest og aksepterer betingelsene i avtalen.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>He leído y acepto los términos del contrato.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Jag har mottagit och godkänt villkoren i avtalet.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Přečetl/a jsem si ustanovení této smlouvy a přijímám je.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Elolvastam és elfogadom a használati feltételeket.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Przeczytałem/-am i akceptuję warunki umowy.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>لقد اطلعت على شروط الاتفاقية وأوافق عليها.</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Li e aceito os termos do contrato.</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Li e aceito os termos do contrato.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>我已阅读并接受本协议条款。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>我已閱讀並同意本協議的條款。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Διάβασα και αποδέχομαι τους όρους της συμφωνίας.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>עיינתי בתנאי ההסכם, ואני מקבל אותם.</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Я прочитал и принимаю условия соглашения.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Sözleşme şartlarını inceledim ve kabul ettim.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>AgreeCheck</Id>
+		<Val>Я переглянув та приймаю умови угоди.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Click here for setup options</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>설치 옵션을 설정하려면 클릭하세요.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Klik her for at se opsætningsindstillinger</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Klik hier voor installatieopties</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Napsauta tästä asennusvalintoja varten</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Cliquez ici pour paramétrer des options</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Für Setup-Optionen hier klicken</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Fare clic qui le opzioni di installazione</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Klikk her for alternativer for oppsett</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Haga clic aquí para acceder a las opciones de configuración</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Klicka för installationsalternativ</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Kliknutím sem otevřete možnosti nastavení</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Kattintson ide a beállítási lehetőségek megtekintéséhez</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Kliknij tutaj, aby uzyskać opcje konfiguracji</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>انقر هنا لعرض خيارات الإعداد</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Clique aqui para ver as opções de configuração</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Clique aqui para as opções de configuração</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>单击此处查看设置选项</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>按一下這裡了解安裝選項</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Κάντε κλικ εδώ για τις επιλογές εγκατάστασης</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>לחץ כאן לאפשרויות הגדרה</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Щелкните здесь, чтобы выбрать параметры настройки</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Ayar seçenekleri için buraya tıklayın</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>AgreementOption</Id>
+		<Val>Клацніть тут, щоб вибрати параметри встановлення</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Setup Internet connection usage</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>인터넷 연결 사용</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Opsætning af brug af internetforbindelse</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Instellingen internetverbindingsgebruik</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Internet-yhteyden käytön asennus</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Paramétrez l'utilisation de la connexion internet</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Setup für Nutzung der Internetverbindung</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Configura utilizzo connessione Internet</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Konfigurer bruk av tilkobling til Internett</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Configurar uso de la conexión a Internet</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Ange användning av internetanslutning</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Nastavení využití připojení k internetu</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Az internetkapcsolat használatának konfigurálása</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Konfiguracja korzystania z połączenia internetowego</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>إعداد استخدام الاتصال بالإنترنت</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Configurar o uso da conexão à Internet</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Configurar utilização da ligação à Internet</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>设置 Internet 连接使用情况</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>設定網路連線用量</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Εγκατάσταση της χρήσης σύνδεσης στο Internet</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>הגדר שימוש בחיבור האינטרנט</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Настройка использования интернет-подключения</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>İnternet bağlantısı kullanım ayarı</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>AgreementOptionTitle</Id>
+		<Val>Налаштування використання інтернет-підключення</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Troubleshooting System via Web Contents</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>웹 컨텐츠를 통한 문제 해결 시스템</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Fejlfindingssystem via webindhold</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Probleemoplossingsysteem via webinhoud</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Järjestelmän vianmääritys verkkosisällön perusteella</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Dépannage du système via le contenu Web</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>System zur Problembehebung mit Webinhalten</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Risoluzione dei problemi del sistema tramite contenuti Web</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Feilsøking i systemet via webinnhold</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Sistema de solución de problemas mediante contenidos web</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Felsökning via webbinnehåll</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Systém odstraňování potíží pomocí webového obsahu</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Webes tartalmakon keresztül elérhető hibaelhárítási rendszer</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Rozwiązanie problemów z systemem za pomocą zawartości internetowej</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>نظام استكشاف الأخطاء وإصلاحها بواسطة محتويات الويب</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Sistema de solução de problemas via Web</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Sistema de Resolução de Problemas através de Conteúdos na Internet</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>通过 Web 内容的故障排除系统</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>透過 Web 內容的疑難排解系統</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Περιεχόμενα συστήματος αντιμετώπισης προβλημάτων μέσω Web</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>מערכת לפתרון בעיות דרך תוכן אינטרנט</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Устранение неисправностей с помощью веб-справки</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Web içerikleri üzerinden Sorun Giderme Sistemi</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>TroubleshootingAgree</Id>
+		<Val>Система усунення несправностей за допомогою веб-вмісту</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Samsung Product Improvement Study</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>삼성 제품 개선 연구</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Samsung Undersøgelse af produktforbedringer</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Samsung onderzoek voor productverbetering</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Samsung -tuotteen parannusselvitys</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Étude d'amélioration des produits  Samsung</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Studie zur Verbesserung der Produkte von Samsung</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Studio sul miglioramento dei prodottiSamsung</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Samsung Produktforbedring</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Estudio de mejora del producto Samsung</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Samsung produktförbättringsstudie</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Studie o zlepšování produktů Samsung</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>A  Samsung termékek fejlesztésével kapcsolatos információk</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Badania w celu ulepszenia produktu Samsung</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>دراسة لتحسين منتجات Samsung</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Estudo de aprimoramento de produtos Samsung</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Estudo de melhoramento de produtos Samsung</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Samsung 产品改善研究</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Samsung 產品改善研究</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Έρευνα βελτίωσης προϊόντος Samsung</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>מחקר לשיפור המוצר של Samsung</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Исследование относительно улучшения продукции Samsung</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Samsung Ürün İyileştirme Çalışması</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>AMPVAgree</Id>
+		<Val>Дослідження щодо покращення продукції Samsung</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Smart Update</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>스마트 업데이트</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Smart opdatering</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Slimme update</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Älykäs päivitys</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Mise à jour intelligente</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Smart-Update</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Smart Update</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Smart Update</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Actualización inteligente</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Smart-uppdatering</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Inteligentní aktualizace</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Intelligens frissítés</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Inteligentna aktualizacja</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>تحديث ذكي</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Atualização inteligente</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Actualização inteligente</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Smart Update</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>智慧更新</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Smart Update</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>עדכון חכם</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Программа Smart Update</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Akıllı Güncelleme</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>LiveupdateAgree</Id>
+		<Val>Програма Smart Update</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Detailed information about Internet connection usage</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>인터넷 연결 사용에 대한 자세한 정보</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Yderligere oplysninger om brug af internetforbindelse</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Details over gebruik van internetverbinding</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Lisätietoja internet-yhteyden käytöstä</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Informations détaillées sur l'utilisation de la connexion internet</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Detaillierte Informationen über die Nutzung der Internetverbindung</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Informazioni dettagliate sull'utilizzo della connessione Internet</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Detaljert informasjon om bruk av tilkobling til internett</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Información detallada sobre el uso de la conexión a Internet</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Ingående info. om användandet av internetanslutningen</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Podrobné informace o využití připojení k internetu</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Az internetkapcsolat használatával kapcsolatos részletes információk</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Szczegółowe informacje o wykorzystaniu połączenia internetowego</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>معلومات تفصيلية حول استخدام الاتصال بالإنترنت</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Informações detalhadas sobre o uso da conexão à Internet</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Informações detalhadas sobre a utilização da ligação à Internet</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Internet 连接使用情况的详细信息</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>網路連線用量詳細資訊</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Αναλυτικές πληροφορίες για την χρήση της σύνδεσης στο Internet</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>מידע מפורט על השימוש בחיבור לאינטרנט</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Подробная информация об использовании интернет-подключения</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>İnternet bağlantısı kullanımı hakkında ayrıntılı bilgi</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>DetailedInfo</Id>
+		<Val>Докладна інформація щодо використання інтернет-підключення</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung Privacy Statement Online</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>삼성 개인 정보 보호 정책 온라인</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung Onlineerklæring om beskyttelse af personlige oplysninger</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung online privacyverklaring</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung -Yksityisyyslausunto Online</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Énoncé de confidentialité en ligne Samsung</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung Datenschutzerklärung Online</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung Informativa sulla privacy online</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung Personvernerklæring Online</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Declaración de privacidad en línea de Samsung</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung Sekretessavtal online</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Online prohlášení o ochraně soukromí Samsung</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>A Samsung internetes adatvédelmi nyilatkozata</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Oświadczenie o prywatności online Samsung</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>بيان خصوصية Samsung على الإنترنت</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Acordo de privacidade on-line Samsung</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Declaração de privacidade Samsung online</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung 隐私声明在线</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung 線上隱私權聲明</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Δήλωση απορρήτου Samsung  μέσω διαδικτύου</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>הצהרת פרטיות מקוונת של Samsung</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Заявление о конфиденциальности информации Samsung онлайн</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Samsung Çevrimiçi Gizlilik Beyanı</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>PrivacyControl</Id>
+		<Val>Заява про конфіденційність інформації Samsung онлайн</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>PrivacyStatementOnline</Id>
+		<Val>http://www.samsung.com/privacy</Val>
+	</Msg>
+	<Msg LN="EN" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="KR" GR="Common">
+		<Id>OK</Id>
+		<Val>확인</Val>
+	</Msg>
+	<Msg LN="DN" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="DT" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="FI" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="FN" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="GR" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="IT" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="NR" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="SP" GR="Common">
+		<Id>OK</Id>
+		<Val>Aceptar</Val>
+	</Msg>
+	<Msg LN="SW" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="CZ" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="HU" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="PO" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="AB" GR="Common">
+		<Id>OK</Id>
+		<Val>موافق</Val>
+	</Msg>
+	<Msg LN="BP" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="PT" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="CP" GR="Common">
+		<Id>OK</Id>
+		<Val>确定</Val>
+	</Msg>
+	<Msg LN="CT" GR="Common">
+		<Id>OK</Id>
+		<Val>確定</Val>
+	</Msg>
+	<Msg LN="EL" GR="Common">
+		<Id>OK</Id>
+		<Val>OK</Val>
+	</Msg>
+	<Msg LN="HB" GR="Common">
+		<Id>OK</Id>
+		<Val>אישור</Val>
+	</Msg>
+	<Msg LN="RU" GR="Common">
+		<Id>OK</Id>
+		<Val>ОК</Val>
+	</Msg>
+	<Msg LN="TK" GR="Common">
+		<Id>OK</Id>
+		<Val>Tamam</Val>
+	</Msg>
+	<Msg LN="UK" GR="Common">
+		<Id>OK</Id>
+		<Val>ОК</Val>
+	</Msg>
+	<Msg LN="EN" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Cancel</Val>
+	</Msg>
+	<Msg LN="KR" GR="Common">
+		<Id>Cancel</Id>
+		<Val>취소</Val>
+	</Msg>
+	<Msg LN="DN" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Annuller</Val>
+	</Msg>
+	<Msg LN="DT" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Annuleren</Val>
+	</Msg>
+	<Msg LN="FI" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Peruuta</Val>
+	</Msg>
+	<Msg LN="FN" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Annuler</Val>
+	</Msg>
+	<Msg LN="GR" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Abbrechen</Val>
+	</Msg>
+	<Msg LN="IT" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Annulla</Val>
+	</Msg>
+	<Msg LN="NR" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Avbryt</Val>
+	</Msg>
+	<Msg LN="SP" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Cancelar</Val>
+	</Msg>
+	<Msg LN="SW" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Avbryt</Val>
+	</Msg>
+	<Msg LN="CZ" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Storno</Val>
+	</Msg>
+	<Msg LN="HU" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Mégse</Val>
+	</Msg>
+	<Msg LN="PO" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Anuluj</Val>
+	</Msg>
+	<Msg LN="AB" GR="Common">
+		<Id>Cancel</Id>
+		<Val>إلغاء</Val>
+	</Msg>
+	<Msg LN="BP" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Cancelar</Val>
+	</Msg>
+	<Msg LN="PT" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Cancelar</Val>
+	</Msg>
+	<Msg LN="CP" GR="Common">
+		<Id>Cancel</Id>
+		<Val>取消</Val>
+	</Msg>
+	<Msg LN="CT" GR="Common">
+		<Id>Cancel</Id>
+		<Val>取消</Val>
+	</Msg>
+	<Msg LN="EL" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Άκυρο</Val>
+	</Msg>
+	<Msg LN="HB" GR="Common">
+		<Id>Cancel</Id>
+		<Val>ביטול</Val>
+	</Msg>
+	<Msg LN="RU" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Отмена</Val>
+	</Msg>
+	<Msg LN="TK" GR="Common">
+		<Id>Cancel</Id>
+		<Val>İptal</Val>
+	</Msg>
+	<Msg LN="UK" GR="Common">
+		<Id>Cancel</Id>
+		<Val>Скасувати</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Yes, I would like to use the product protection function.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>제품보호기능을 사용하겠습니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Ja, jeg vil gerne benytte produktbeskyttelsesfunktionen.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Ja, ik wil de productbeschermingsfunctie gebruiken.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Kyllä, haluaisin käyttää tuotesuojaustoimintoa.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Oui, je souhaiterais utiliser la fonction de protection des produits.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Ja, ich möchte die Produktschutzfunktion verwenden.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Sì, desidero utilizzare la funzione di protezione del prodotto.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Ja, jeg ønsker å bruke funksjonen for produktbeskyttelse.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Sí, deseo usar la función de protección del producto.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Ja, jag vill aktivera produktens skyddsfunktion.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Ano, chci používat funkci ochrany produktu.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Igen, bekapcsolom a termékvédelmi funkciót.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Tak, chcę korzystać z funkcji ochrony produktu.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>نعم، أرغب في استخدام وظيفة حماية المنتج. </Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Sim, desejo utilizar a função de proteção do produto. </Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Sim, pretendo utilizar a função de protecção do produto.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>是，我希望使用产品保护功能。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>是，我想使用產品保護功能。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Ναι, θα ήθελα να χρησιμοποιήσω τη λειτουργία προστασίας προϊόντος.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>  כן, ברצוני להשתמש בפונקציית ההגנה על המוצר. </Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Да, я хочу использовать функцию защиты продукта.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Evet, ürün koruma işlevini kullanmak istiyorum.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>ProtectionOffAgree</Id>
+		<Val>Так, я бажаю використовувати функцію захисту продукту.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>No, I would not like to use the product protection function.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>제품보호기능을 사용하지 않겠습니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Nej, jeg vil ikke benytte produktbeskyttelsesfunktionen.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Nee, ik wil de productbeschermingsfunctie niet gebruiken.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Ei, en halua käyttää tuotesuojaustoimintoa.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Non, je ne souhaite pas utiliser la fonction de protection des produits.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Nein, ich möchte die Produktschutzfunktion nicht verwenden.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>No, non desidero utilizzare la funzione di protezione del prodotto.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Nei, jeg ønsker ikke å bruke funksjonen for produktbeskyttelse.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>No, no deseo usar la función de protección del producto.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Nej, jag vill inte aktivera produktens skyddsfunktion.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Ne, nechci používat funkci ochrany produktu.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Nem, nem kapcsolom be a termékvédelmi funkciót.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Nie, nie chcę korzystać z funkcji ochrony produktu.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>  لا، انا لا أرغب في استخدام وظيفة حماية المنتج. </Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Não, não desejo utilizar a função de proteção do produto.</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Não, não pretendo utilizar a função de protecção do produto.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>否，我不希望使用产品保护功能。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>否，我不想使用產品保護功能。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Όχι, δεν θα ήθελα να χρησιμοποιήσω τη λειτουργία προστασίας προϊόντος.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>  לא, אני לא מעוניין להשתמש בפונקציית ההגנה על המוצר.    </Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Нет, я не хочу использовать функцию защиты продукта.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Hayır, ürün koruma işlevini kullanmak istemiyorum.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>ProtectionOffDisagree</Id>
+		<Val>Ні, я не бажаю використовувати функцію захисту продукту.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Yes, I would like to use the product protection function.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>제품보호기능을 계속 사용하겠습니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Ja, jeg vil gerne benytte produktbeskyttelsesfunktionen.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Ja, ik wil de productbeschermingsfunctie gebruiken.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Kyllä, haluaisin käyttää tuotesuojaustoimintoa.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Oui, je souhaiterais utiliser la fonction de protection des produits.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Ja, ich möchte die Produktschutzfunktion verwenden.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Sì, desidero utilizzare la funzione di protezione del prodotto.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Ja, jeg ønsker å bruke funksjonen for produktbeskyttelse.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Sí, deseo usar la función de protección del producto.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Ja, jag vill aktivera produktens skyddsfunktion.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Ano, chci používat funkci ochrany produktu.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Igen, bekapcsolom a termékvédelmi funkciót.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Tak, chcę korzystać z funkcji ochrony produktu.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>نعم، أرغب في استخدام وظيفة حماية المنتج. </Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Sim, desejo utilizar a função de proteção do produto. </Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Sim, pretendo utilizar a função de protecção do produto.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>是，我希望使用产品保护功能。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>是，我想使用產品保護功能。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Ναι, θα ήθελα να χρησιμοποιήσω τη λειτουργία προστασίας προϊόντος.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>  כן, ברצוני להשתמש בפונקציית ההגנה על המוצר. </Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Да, я хочу использовать функцию защиты продукта.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Evet, ürün koruma işlevini kullanmak istiyorum.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>ProtectionOnAagree</Id>
+		<Val>Так, я бажаю використовувати функцію захисту продукту.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>No, I would not like to use the product protection function.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>제품보호기능을 더 이상 사용하지 않겠습니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Nej, jeg vil ikke benytte produktbeskyttelsesfunktionen.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Nee, ik wil de productbeschermingsfunctie niet gebruiken.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Ei, en halua käyttää tuotesuojaustoimintoa.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Non, je ne souhaite pas utiliser la fonction de protection des produits.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Nein, ich möchte die Produktschutzfunktion nicht verwenden.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>No, non desidero utilizzare la funzione di protezione del prodotto.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Nei, jeg ønsker ikke å bruke funksjonen for produktbeskyttelse.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>No, no deseo usar la función de protección del producto.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Nej, jag vill inte aktivera produktens skyddsfunktion.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Ne, nechci používat funkci ochrany produktu.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Nem, nem kapcsolom be a termékvédelmi funkciót.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Nie, nie chcę korzystać z funkcji ochrony produktu.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>  لا، انا لا أرغب في استخدام وظيفة حماية المنتج. </Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Não, não desejo utilizar a função de proteção do produto.</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Não, não pretendo utilizar a função de protecção do produto.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>否，我不希望使用产品保护功能。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>否，我不想使用產品保護功能。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Όχι, δεν θα ήθελα να χρησιμοποιήσω τη λειτουργία προστασίας προϊόντος.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>  לא, אני לא מעוניין להשתמש בפונקציית ההגנה על המוצר.    </Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Нет, я не хочу использовать функцию защиты продукта.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Hayır, ürün koruma işlevini kullanmak istemiyorum.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>ProtectionOnDisagree</Id>
+		<Val>Ні, я не бажаю використовувати функцію захисту продукту.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(The printer will stop operating immediately.)</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(프린터 작동이 중지됨)</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(Printeren vil øjeblikkelig holde op med at fungere.)</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(De printer stopt direct.)</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(Tulostin lakkaa välittömästi toimimasta.)</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(L'imprimante va s'arrêter de fonctionner immédiatement.)</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(Der Drucker wird seinen Betrieb sofort einstellen.)</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(la stampante interromperà immediatamente il funzionamento)</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(Skriveren slutter å fungere omgående.)</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(La impresora dejará de imprimir inmediatamente).</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(Skrivaren kommer omedelbart att avsluta eventuell utskrift.)</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(Tiskárna okamžitě přestane pracovat.)</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(A nyomtató működése azonnal leáll.)</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(Drukarka niezwłocznie przerwie pracę).</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(سيتم إيقاف تشغيل الطابعة على الفور.)</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(A impressora irá parar de funcionar imediatamente.)</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(A impressora parará imediatamente de funcionar.)</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>（打印机将立即停止运行。）</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(印表機將立即停止操作。)</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(Ο εκτυπωτής θα σταματήσει αμέσως να λειτουργεί).</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(המדפסת תפסיק לפעול מיד).</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(принтер сразу прекратит работу.)</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(Yazıcı derhal çalışmayı durduracaktır.)</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>ProtectionAgreeExtra</Id>
+		<Val>(Принтер негайно зупинить роботу.)</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>I have read the above and agree to the collection of the information as described above.</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>상기 내용을 확인하였으며, 제품 보호를 위한 제품 정보 수집에 동의합니다.</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Jeg har læst ovenstående og accepterer, at der indsamles informationer, som beskrevet herover.</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Ik heb het bovenstaande gelezen en ga akkoord met de verzameling van informatie zoals hierboven is beschreven.</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Olen lukenut edelläolevan ja hyväksyn tietojen keräämisen edellä kuvatulla tavalla.</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>J'ai lu ce qui précède et accepte la collecte des informations telle que décrite ci-dessus.</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Ich habe die Bestimmungen oben gelesen und stimme der oben beschriebenen Sammlung von Informationen zu.</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Ho letto le informazioni riportate in precedenza e confermo la partecipazione alla raccolta delle informazioni descritte.</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Jeg har lest ovenstående og samtykker til innsamling av informasjon som beskrevet ovenfor.</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>He leído la información anterior y acepto la recopilación de la información anteriormente descrita.</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Jag har läst igenom villkoren och går med på datainsamlingen enligt vad som nämns ovan.</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Přečetl/a jsem si výše uvedené informace a souhlasím s výše popsaným shromažďováním informací.</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Elolvastam a fentieket, és beegyezem a felsorolt információk gyűjtésébe.</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Zapoznałem/-am się z powyższymi informacjami i zgadzam się na zebranie wyżej wymienionych danych.</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val> لقد قرأت الكتابة المدونة أعلاه وأوافق على جمع المعلومات كما هو مذكور أعلاه. </Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Eu li o exposto e concordo com a coleta das informações descritas acima.</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Li as informações acima e aceito a recolha das informações conforme descrito acima.</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>我已阅读上述内容并同意采集上述信息。</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>我已閱讀上述內容且同意如上所述的資訊收集。</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Έχω διαβάσει τα ανωτέρω και συμφωνώ με τη συλλογή πληροφοριών όπως περιγράφεται παραπάνω.</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>קראתי את המידע שלעיל ואני מסכים לאיסוף המידע כמתואר לעיל. </Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Я прочитал(-а) уведомление выше и согласен на сбор информации, как описано выше.</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Yukarıdaki bilgileri okudum ve bilgilerimin yukarıda açıklandığı şekilde toplanmasını kabul ediyorum.</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>PPAAgreement</Id>
+		<Val>Я прочитав(-ла) викладену вище інформацію та погоджуюсь на збирання зазначеної вище інформації.</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>( If you choose not to activate the product protection function, you will still receive notifications on a regular basis. Further, you may choose to provide Samsung with printer model name and information regarding the life cycle of the toner cartridge. This information will be used as data to help Samsung provide better user environment. Under no circumstances shall we collect any information other than the information listed above.)</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(제품보호기능을 사용하지 않으실 경우, 토너 카트리지 수명정보 등을 수집하여 초과 사용량을 주기적으로 알려드립니다. 수집된 정보는 제품의 안전한 사용 및 보다 나은 사용자 환경 제공을 위한 분석자료로 사용되며, 어떠한 경우도 고객의 개인 정보는 수집되지 않습니다.)</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Hvis du vælger ikke at aktivere produktbeskyttelsesfunktionen, vil du stadig regelmæssigt modtage meddelelser. Du kan desuden vælge at oplyse Samsung om printermodelnavn samt tonerpatronens levetid. Disse oplysninger vil blive brugt som data til at hjælpe Samsung med at kunne tilbyde et bedre brugermiljø. Vi vil under ingen omstændigheder indsamle oplysninger ud over de ovennævnte.)</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Als u de productbeschermingsfunctie niet activeert, ontvangt u nog steeds regelmatig meldingen. Daarnaast kunt u het printermodel en informatie over de levensduur van de tonercassette doorgeven aan Samsung. Met deze informatie kan Samsung de gebruikersomgeving verbeteren. In geen geval verzamelen we andere informatie dan de informatie die hierboven is aangegeven.)</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>( Jos päätät olla aktivoimatta tuotesuojaustoimintoa, saat silti ilmoituksia säännöllisesti. Lisäksi voit halutessasi antaa Samsungille tulostimen mallin nimen ja tietoa väriainekasetin kestoiästä. Näiden tietojen avulla Samsung pyrkii tarjoamaan paremman käyttäjäympäristön. Missään tapauksessa emme kerää muita tietoja kuin edellä mainittuja.)</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>( Si vous choisissez de ne pas activer la fonction de protection des produits, vous continuerez à recevoir régulièrement des notifications. En outre, vous pouvez choisir de fournir à Samsung le nom du modèle d'imprimante et des informations concernant le cycle de vie de la cartouche de toner. Ces informations seront utilisées comme données pouvant aider Samsung à donner aux utilisateurs un meilleur environnement. Nous ne recueillerons aucune information autre que celles indiquées ci-dessus.)</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Wenn Sie die Produktschutzfunktion nicht aktivieren, werden Sie dennoch regelmäßig benachrichtigt. Außerdem können Sie wählen, Samsung den Namen des Druckermodells und weitere Informationen in Bezug auf die Lebensdauer der Tonerkartusche mitzuteilen. Diese Informationen können Samsung dabei unterstützen, Geräte benutzerfreundlicher zu machen. Auf jeden Fall ist sichergestellt, dass die von uns erfassten Daten ausschließlich den oben angegebenen Zwecken dienen.)</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(se si sceglie di non attivare la funzione di protezione del prodotto, sarà comunque possibile continuare a ricevere notifiche regolarmente. Inoltre, è possibile fornire a Samsung il nome del modello della stampante e le informazioni sul ciclo di vita della cartuccia del toner. Queste informazioni saranno utilizzate come dati per aiutare Samsung a fornire un miglior servizio. In nessuna circostanza Samsung raccoglie informazioni diverse da quelle precedentemente elencate).</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Hvis du velger å ikke aktivere funksjonen for produktbeskyttelse vil du fortsatt motta meldinger på jevnlig basis. Videre kan du velge å gi Samsung informasjon som skriverens modellnavn og livssyklusen til tonerkassetten. Denne informasjonen brukes som data for å hjelpe Samsung å forbedre brukermiljøet. Vi vil under ingen omstendigheter samle informasjon på noen annen måte enn det som er angitt ovenfor.)</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Si opta por no activar la función de protección del producto, seguirá recibiendo notificaciones de forma periódica. Además, puede optar por facilitar a Samsung el nombre de modelo de la impresora e información relativa al ciclo de vida del cartucho de tóner. Esta información se utilizará como datos que ayudarán a Samsung a proporcionar un entorno de usuario mejor. No recopilaremos bajo ningún concepto información que no sea la indicada anteriormente).</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Om du väljer att inte aktivera skyddsfunktioner kommer du fortfarrande att få aviseringar med jämna mellanrum. Du har möjlighet att ta del av Samsungs program för insamling av skrivar- och livscykelstatistik. Informationen används i syfte att förbättra användarmiljön. Du kan vara trygg i förvissningen att ingen annan information än vad som anges ovan kommer att samlas.in.)</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Pokud se rozhodnete neaktivovat funkci ochrany produktu, budete přesto pravidelně dostávat upozornění. Dále se můžete rozhodnout, že společnosti Samsung poskytnete název modelu tiskárny a informace o životním cyklu kazety s tonerem. Tyto informace pomohou společnosti Samsung poskytovat lepší uživatelské prostředí. Za žádných okolností nebudeme shromažďovat jiné než výše uvedené informace.)</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Ha nem kapcsolja be a termékvédelmi funkciót, ettől függetlenül rendszeres értesítéseket fog kapni. Ezenkívül választhatja azt is, hogy elküldi a Samsungnak nyomtató típusát és a festékkazetta élettartamával kapcsolatos információkat. Ezeket az információkat a Samsung arra használja, hogy jobb felhasználói élményt nyújtson. Semmilyen körülmények között nem gyűjtünk semmilyen információt a fent felsoroltakon kívül.)</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Jeśli nie chcesz aktywować funkcji ochrony produktu, nadal będziesz otrzymywał(a) regularne powiadomienia. Co więcej, możesz podać firmie Samsung nazwę modelu drukarki oraz informacje dotyczące okresu eksploatacji kasety z tonerem. Dane te zostaną wykorzystane przez firmę Samsung w celu ulepszenia środowiska użytkownika. W żadnym wypadku nie gromadzimy informacji innych niż podane powyżej.)</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>إذا قمت باختيار عدم تفعيل وظيفة حماية المنتج، ستظل تتسلم التنويهات بانتظام. علاوة على ذلك، قد تقوم باختيار توفير اسم نموذج طابعة ومعلومات تتعلق بدورة حياة خرطوشة الحبر لـ Samsung. سيتم استخدام هذه المعلومة كبيانات لمساعدة Samsung على توفير بيئة أفضل للمستخدم. تحت أي ظرف من الظروف يجب علينا جمع أي معلومات غير المعلومات المذكورة أعلاه.)</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Se você escolher não ativar a função de proteção do produto, você ainda receberá notificações regularmente. Além disso, você pode optar por fornecer à Samsung o nome do modelo da impressora e as informações sobre o ciclo de vida do cartucho de toner. Essa informação será usada como dado para ajudar a Samsung a fornecer um melhor ambiente ao usuário. Em nenhuma circunstância coletaremos qualquer outra informação além das cintadas acima.)</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Se optar por não activar a função de protecção do produto, continuará a receber notificações regularmente. Além disso, poderá optar por fornecer à Samsung o nome do modelo da impressora e as informações sobre o ciclo de vida do cartucho de toner. Estas informações serão usadas para ajudar a Samsung a fornecer um ambiente de utilizador melhor. Em circunstância alguma iremos recolher informações diferentes das informações listadas acima.)</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>（如果选择不激活产品保护功能，您仍会定期收到通知。您还可以选择向 Samsung 提供打印机型号名称以及墨粉盒寿命的相关信息。这些信息将作为相关数据帮助 Samsung 提供更好的用户环境。我们绝不会采集上述信息以外的任何其他信息。）</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(若您選擇不啟用產品保護功能，您仍將定期收到通知。此外，您可以選擇提供 Samsung 印表機型號和碳粉匣使用期限相關資訊。此資訊將協助 Samsung 提供更好的使用者環境。無論任何情況下，我們都不會收集上述所列之資訊以外的資訊。)</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>( Αν επιλέξετε να μην ενεργοποιήσετε τη λειτουργία προστασίας του προϊόντος, θα συνεχίσετε να λαμβάνετε ειδοποιήσεις σε τακτική βάση. Επιπλέον, μπορείτε να επιλέξετε να παρέχετε στη Samsung το όνομα του μοντέλου του εκτυπωτή και πληροφορίες σχετικά με τη διάρκεια ζωής της κασέτας τόνερ. Αυτές οι πληροφορίες θα χρησιμοποιηθούν ως δεδομένα που θα βοηθήσουν την Samsung να παρέχει καλύτερο περιβάλλον χρήστη. Σε καμία περίπτωση δεν πρόκειται να συλλέξουμε πληροφορίες διαφορετικές από τις πληροφορίες που αναφέρονται παραπάνω.)</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(אם תבחר לא להפעיל את פונקציית ההגנה על המוצר, תמשיך לקבל הודעות באופן קבוע. יתר על כן, באפשרותך לבחור לספק ל-Samsung את שם הדגם של המדפסת ופרטים לגבי מחזור החיים של מחסנית הטונר. מידע זה ישמש כנתונים שיעזרו ל-Samsung לספק סביבת משתמש טובה יותר. בשום אופן לא נאסוף מידע אחרי פרט למידע המפורט לעיל).</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Если вы решите не включать функцию защиты устройства, вы все еще будете получать регулярные уведомления. Кроме того, вы можете сообщить компании Samsung модель принтера и информацию относительно срока службы картриджа. Эти данные помогу компании Samsung в борьбе за чистоту окружающей среды. Мы не будем собирать другую информацию кроме той, которая указана выше.)</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>( Ürün koruma işlevini aktif hale getirmeyi seçerseniz, düzenli olarak bildirim almaya devam edeceksiniz. Ayrıca, yazıcının model adı ve torner kartuşunun kullanım ömrü ile ilgili bilgileri Samsung'a göndermeyi tercih edebilirsiniz. Bu bilgiler Samsung'un daha iyi bir kullanıcı ortamı sağlamasında yardımcı veri olarak kullanılacaktır. Yukarıda belirtilen bilgiler dışında başka hiçbir şekilde bilgi toplanmamaktadır.)</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>DetailedContents_ko</Id>
+		<Val>(Якщо ви оберете не вмикати функцію захисту продукту, ви все одно будете отримувати регулярні повідомлення. Ви можете погодитись надіслати компанії Samsung моделі принтеру та інформацію про використання картриджу. Ця інформація буде використовуватись компанією Samsung для захисту навколишнього середовища. Ми не будемо збирати жодну іншу інформацію крім тієї, що вказано вище.)</Val>
+	</Msg>
+	<Msg LN="EN" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(If you choose not to activate the product protection function, you will still receive notifications on a regular basis. Further, you may choose to provide Samsung with device information and information regarding the life cycle of the toner cartridge (Printer model name, serial number, installation date, toner usage level and supplier ID). This information will be used as data to help Samsung provide better user environment. Under no circumstances shall we collect any information other than the information listed above.)</Val>
+	</Msg>
+	<Msg LN="KR" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(제품보호기능을 사용하지 않으실 경우, 토너 카트리지 수명정보 등(모델 이름, 시리얼 번호, 설치 일자, 토너 사용량, 공급자 번호)을 수집하여 초과 사용량을 주기적으로 알려드립니다. 수집된 정보는 제품의 안전한 사용 및 보다 나은 사용자 환경 제공을 위한 분석자료로 사용되며, 어떠한 경우도 고객의 개인 정보는 수집되지 않습니다.)</Val>
+	</Msg>
+	<Msg LN="DN" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Hvis du vælger ikke at aktivere produktbeskyttelsesfunktionen, vil du stadig regelmæssigt modtage meddelelser. Du kan desuden vælge at give Samsung oplysninger om enheden og oplysninger om tonerpatronens levetid (printermodelnavn, serienummer, installationsdato, tonerforbrug og forhandler-id). Disse oplysninger vil blive brugt som data til at hjælpe Samsung med at kunne tilbyde et bedre brugermiljø. Vi vil under ingen omstændigheder indsamle oplysninger ud over de ovennævnte.)</Val>
+	</Msg>
+	<Msg LN="DT" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Als u de productbeschermingsfunctie niet activeert, ontvangt u nog steeds regelmatig meldingen. Daarnaast kunt u apparaatgegevens en informatie over de levensduur van de tonercassette (printermodel, serienummer, installatiedatum, tonerverbruiksniveau en leveranciers-id) doorgeven aan Samsung. Met deze informatie kan Samsung de gebruikersomgeving verbeteren. In geen geval verzamelen we andere informatie dan de informatie die hierboven is aangegeven.)</Val>
+	</Msg>
+	<Msg LN="FI" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Jos päätät olla aktivoimatta tuotesuojaustoimintoa, saat silti ilmoituksia säännöllisesti. Lisäksi voit halutessasi antaa Samsungille laitteen tiedot ja tietoja väriainekasetin kestoiästä (tulostimen mallin nimi, sarjanumero, asennuspäivämäärä, väriainekasetin käyttömäärä ja toimittajan tunnus). Näiden tietojen avulla Samsung pyrkii tarjoamaan paremman käyttäjäympäristön. Missään tapauksessa emme kerää muita tietoja kuin edellä mainittuja.)</Val>
+	</Msg>
+	<Msg LN="FN" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>( Si vous choisissez de ne pas activer la fonction de protection des produits, vous continuerez à recevoir régulièrement des notifications. En outre, vous pouvez choisir de fournir à Samsung des informations sur l'appareil et des informations concernant le cycle de vie de la cartouche de toner (Nom du modèle, numéro de série, date d'installation, niveau d'utilisation et identité du fournisseur de l'imprimante). Ces informations seront utilisées comme données pouvant aider Samsung à donner aux utilisateurs un meilleur environnement. Nous ne recueillerons aucune information autre que celles indiquées ci-dessus.)</Val>
+	</Msg>
+	<Msg LN="GR" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Wenn Sie die Produktschutzfunktion nicht aktivieren, werden Sie dennoch regelmäßig benachrichtigt. Außerdem können Sie wählen, Samsung den Namen des Druckermodells und weitere Informationen in Bezug auf die Lebensdauer der Tonerkartusche mitzuteilen (Name des Druckermodells, Seriennummer, Installationsdatum, Tonerverbrauchstand und Lieferanten-ID). Diese Informationen können Samsung dabei unterstützen, Geräte benutzerfreundlicher zu machen. Auf jeden Fall ist sichergestellt, dass die von uns erfassten Daten ausschließlich den oben angegebenen Zwecken dienen.)</Val>
+	</Msg>
+	<Msg LN="IT" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(se si sceglie di non attivare la funzione di protezione del prodotto, sarà comunque possibile continuare a ricevere notifiche regolarmente. Inoltre, è possibile fornire a Samsung informazioni sul dispositivo e sul ciclo di vita della cartuccia del toner (nome del modello della stampante, numero seriale, data di installazione, livello di utilizzo del toner e ID fornitore) Queste informazioni saranno utilizzate come dati per aiutare Samsung a fornire un miglior servizio. In nessuna circostanza Samsung raccoglie informazioni diverse da quelle precedentemente elencate).</Val>
+	</Msg>
+	<Msg LN="NR" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Hvis du velger å ikke aktivere funksjonen for produktbeskyttelse vil du fortsatt motta meldinger på jevnlig basis. Videre kan du velge å gi Samsung informasjon som enheten og livssyklusen til tonerkassetten (Skriverens modellnavn, serienummer, dato for montering, nivå for tonerforbruk og leverandør-ID). Denne informasjonen brukes som data for å hjelpe Samsung å forbedre brukermiljøet. Vi vil under ingen omstendigheter samle informasjon på noen annen måte enn det som er angitt ovenfor.)</Val>
+	</Msg>
+	<Msg LN="SP" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Si opta por no activar la función de protección del producto, seguirá recibiendo notificaciones de forma periódica. Además, puede optar por facilitar a Samsung información del dispositivo e información relativa al ciclo de vida del cartucho de tóner (nombre del modelo de impresora, número de serie, fecha de instalación, nivel de uso del tóner e ID del proveedor). Esta información se utilizará como datos que ayudarán a Samsung a proporcionar un entorno de usuario mejor. No recopilaremos bajo ningún concepto información que no sea la indicada anteriormente).</Val>
+	</Msg>
+	<Msg LN="SW" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Om du väljer att inte aktivera skyddsfunktioner kommer du fortfarrande att få aviseringar med jämna mellanrum. Du har möjlighet att delta i Samsungs program för insamling av enhetsinformation och information om tonerns livscykel (skrivarmodeelnamn, serienummer, installationsdatum, toneranvändning och leverantörs-ID). Informationen används i syfte att förbättra användarmiljön. Du kan vara trygg i förvissningen att ingen annan information än vad som anges ovan kommer att samlas.in.)</Val>
+	</Msg>
+	<Msg LN="CZ" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Pokud se rozhodnete neaktivovat funkci ochrany produktu, budete přesto pravidelně dostávat upozornění. Dále se můžete rozhodnout, že společnosti Samsung poskytnete informace o zařízení a informace o životním cyklu kazety s tonerem (název modelu tiskárny, sériové číslo, datum instalace, úroveň používání toneru a ID dodavatele). Tyto informace pomohou společnosti Samsung poskytovat lepší uživatelské prostředí. Za žádných okolností nebudeme shromažďovat jiné než výše uvedené informace.)</Val>
+	</Msg>
+	<Msg LN="HU" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Ha nem kapcsolja be a termékvédelmi funkciót, ettől függetlenül rendszeres értesítéseket fog kapni. Ezenkívül választhatja azt is, hogy elküldi a Samsungnak nyomtatóval és a festékkazetta élettartamával kapcsolatos információkat (a nyomtató típusát, sorozatszámát, telepítésének dátumát, a festékkazetta festékszintjét és a gyártó azonosítóját). Ezeket az információkat a Samsung arra használja, hogy jobb felhasználói élményt nyújtson. Semmilyen körülmények között nem gyűjtünk semmilyen információt a fent felsoroltakon kívül.)</Val>
+	</Msg>
+	<Msg LN="PO" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Jeśli nie chcesz aktywować funkcji ochrony produktu, nadal będziesz otrzymywał(a) regularne powiadomienia. Co więcej, możesz podać firmie Samsung informacje o urządzeniu oraz informacje dotyczące okresu eksploatacji kasety z tonerem (nazwę modelu drukarki, numer serii, datę instalacji, poziom zużycia toneru oraz identyfikator dostawcy). Dane te zostaną wykorzystane przez firmę Samsung w celu ulepszenia środowiska użytkownika. W żadnym wypadku nie gromadzimy informacji innych niż podane powyżej.)</Val>
+	</Msg>
+	<Msg LN="AB" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>إذا قمت باختيار عدم تفعيل وظيفة حماية المنتج، ستظل تتسلم التنويهات بانتظام. علاوة على ذلك، قد تختار توفير Samsung مع معلومات الجهاز والمعلومات المتعلقة بدورة حياة خرطوشة الحبر (اسم طراز الطابعة والرقم المسلسل وتاريخ التثبيت ومستوى استخدام الحبر ومعرف المورد). سيتم استخدام هذه المعلومة كبيانات لمساعدة Samsung على توفير بيئة أفضل للمستخدم. تحت أي ظرف من الظروف يجب علينا جمع أي معلومات غير المعلومات المذكورة أعلاه.)
+
+</Val>
+	</Msg>
+	<Msg LN="BP" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Se você escolher não ativar a função de proteção do produto, você ainda receberá notificações regularmente. Além disso, você pode optar por fornecer à Samsung informações do dispositivo e informações sobre o ciclo de vida do cartucho de toner (nome do modelo da impressor,a número de série, data de instalação, nível de uso do toner e ID de fornecedor). Essa informação será usada como dado para ajudar a Samsung a fornecer um melhor ambiente ao usuário. Em nenhuma circunstância coletaremos qualquer outra informação além das cintadas acima.)</Val>
+	</Msg>
+	<Msg LN="PT" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Se optar por não activar a função de protecção do produto, continuará a receber notificações regularmente. Além disso, pode optar por fornecer à Samsung as informações do dispositivo e sobre o ciclo de vida do cartucho do toner (Nome do modelo da impressora, número de série, data de instalação, nível de utilização do toner e ID do fornecedor). Estas informações serão usadas para ajudar a Samsung a fornecer um ambiente de utilizador melhor. Em circunstância alguma iremos recolher informações diferentes das informações listadas acima.)</Val>
+	</Msg>
+	<Msg LN="CP" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>（如果选择不激活产品保护功能，您仍会定期收到通知。您还可以选择向 Samsung 提供设备信息以及墨粉盒寿命的相关信息（打印机型号名称、序列号、安装日期、墨粉用量和供应商 ID）。这些信息将作为相关数据帮助 Samsung 提供更好的用户环境。我们绝不会采集上述信息以外的任何其他信息。）</Val>
+	</Msg>
+	<Msg LN="CT" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(若您選擇不啟用產品保護功能，您仍將定期收到通知。此外，您可以選擇提供 Samsung 裝置資訊與碳粉匣使用期限相關資訊 (印表機型號、序號、安裝日期、碳粉匣用量與供應商 ID 等)。此資訊將協助 Samsung 提供更好的使用者環境。無論任何情況下，我們都不會收集上述所列之資訊以外的資訊。)</Val>
+	</Msg>
+	<Msg LN="EL" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Αν επιλέξετε να μην ενεργοποιήσετε τη λειτουργία προστασίας προϊόντος, θα συνεχίσετε να λαμβάνετε ειδοποιήσεις σε τακτική βάση. Επιπλέον, μπορείτε να επιλέξετε να παρέχετε στην Samsung πληροφορίες για τη συσκευή και πληροφορίες για τη διάρκεια ζωής της κασέτας τόνερ (Όνομα μοντέλου εκτυπωτή, σειριακός αριθμός, επίπεδο χρήσης τόνερ και αναγνωριστικό (ID) προμηθευτή). Αυτές οι πληροφορίες θα χρησιμοποιηθούν ως δεδομένα που θα βοηθήσουν την Samsung να παρέχει καλύτερο περιβάλλον χρήστη. Σε καμία περίπτωση δεν πρόκειται να συλλέξουμε πληροφορίες διαφορετικές από τις πληροφορίες που αναφέρονται παραπάνω.)</Val>
+	</Msg>
+	<Msg LN="HB" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(אם תבחר לא להפעיל את פונקציית ההגנה על המוצר, תמשיך לקבל הודעות באופן קבוע. יתר על כן, באפשרותך לבחור לספק ל-Samsung את פרטי ההתקן ומידע לגבי מחזור החיים של מחסנית הטונר (שם הדגם של המדפסת, המספר הסידורי, תאריך ההתקנה, רמת השימוש בטונר ומזהה הספק). מידע זה ישמש כנתונים שיעזרו ל-Samsung לספק סביבת משתמש טובה יותר. בשום אופן לא נאסוף מידע אחרי פרט למידע המפורט לעיל).</Val>
+	</Msg>
+	<Msg LN="RU" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Если вы решите не включать функцию защиты устройства, вы все еще будете получать регулярные уведомления. Кроме того, вы можете сообщить компании Samsung информацию об устройстве и данные относительно срока службы картриджа (модель принтера, серийный номер, дата установки, тонер, уровень использования идентификатор поставщика). Эти данные помогу компании Samsung в борьбе за чистоту окружающей среды. Мы не будем собирать другую информацию кроме той, которая указана выше.)</Val>
+	</Msg>
+	<Msg LN="TK" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>( Ürün koruma işlevini aktif hale getirmeyi seçerseniz, düzenli olarak bildirim almaya devam edeceksiniz. Ayrıca, cihaz bilgileri ve torner kartuşunun kullanım ömrü ile ilgili bilgileri Samsung'a göndermeyi tercih edebilirsiniz (Yazıcı model adı, seri numarası, kurulum tarihi, toner kullanım seviyesi ve tedairkçi kimliği). Bu bilgiler Samsung'un daha iyi bir kullanıcı ortamı sağlamasında yardımcı veri olarak kullanılacaktır. Yukarıda belirtilen bilgiler dışında başka hiçbir şekilde bilgi toplanmamaktadır.)</Val>
+	</Msg>
+	<Msg LN="UK" GR="UserAgreement">
+		<Id>DetailedContents_nonko</Id>
+		<Val>(Якщо ви оберете не вмикати функцію захисту продукту, ви все одно будете отримувати регулярні повідомлення. Ви можете погодитись надіслати компанії Samsung дані принтеру та інформацію про використання картриджу (модель, серійний номер, дата встановлення, використання тонеру, ідентифікатор постачальника). Ця інформація буде використовуватись компанією Samsung для захисту навколишнього середовища. Ми не будемо збирати жодну іншу інформацію крім тієї, що вказано вище.)</Val>
+	</Msg>
+</Translation>
