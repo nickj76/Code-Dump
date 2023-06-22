@@ -14,11 +14,13 @@
     FileName:       Reset-Appx.ps1
     Created:        12th June 2023
     Updated:        18th June 2023
-    Author:         Ben Whitmore @ PatchMyPC (Thanks to Bryan Dam @bdam555 for assisted research and blog at https://patchtuesday.com/blog/intune-microsoft-store-integration-app-migration-failure/)
-    Contact:        @byteben
     Manifest:       Company Portal manifest: https://storeedgefd.dsx.mp.microsoft.com/v9.0/packageManifests/9WZDNCRFJ3PZ
     
     Version History:
+
+    1.06.20.0 - Bug Fixes
+
+    -   Fixed an issue where winGetPath was not declared globally. Thanks https://github.com/Sn00zEZA for reporting
 
     1.06.18.0 - Bug Fixes and New Function
 
@@ -280,7 +282,7 @@ Process {
         Write-LogEntry -logEntry "Testing the WinGet package and other dependancies are installed" -logID $logID
 
         try {
-            $winGetPath = (Get-AppxPackage -AllUsers | Where-Object { $_.Name -eq $winGetPackageName }).InstallLocation | Sort-Object -Descending | Select-Object -First 1
+            $global:winGetPath = (Get-AppxPackage -AllUsers | Where-Object { $_.Name -eq $winGetPackageName }).InstallLocation | Sort-Object -Descending | Select-Object -First 1
         }
         catch {
             $testWinGetFail = $true
