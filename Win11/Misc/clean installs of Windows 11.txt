@@ -1,7 +1,0 @@
-We're doing clean installs of Windows 11 rather than upgrades. Pushing the script via InTune, it does the following:
-
-downloads the Windows 11 ISO from our Azure Blob storage (it's a customised ISO as we needed to package drivers)
-
-extracts the ISO to the local SSD
-
-runs setup with the following switches: setup.exe /auto clean /migratedrivers none /resizerecoverypartition enable /dynamicupdate disable /eula accept /quiet /noreboot /uninstall disable /compat ignorewarning /copylogs C:\Install\WinSetup.log
