@@ -1,0 +1,6 @@
+<Configuration>
+    <!--Uninstall complete Office 365-->
+    <Display Level="None" AcceptEULA="TRUE" />
+    <Logging Level="Standard" Path="%temp%" />
+    <Remove All="TRUE" />
+</Configuration>
